@@ -1,0 +1,404 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{comment}
+\usepackage{url}
+% Caption formatting - Figure and Table labels in bold
+\usepackage{caption}
+\captionsetup[figure]{name=Figure,labelfont=bf,labelsep=period}
+\captionsetup[table]{name=Table,labelfont=bf,labelsep=period}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Examining Changes in Good First Issue Practices \\and Newcomer Pull Request Characteristics \\in Popular OSS Projects
+\\
+%{\footnotesize \textsuperscript{*}Submission to SANER 2026 Short Paper Track}
+%}
+
+%\author{\IEEEauthorblockN{Anonymous Author(s)}
+%\IEEEauthorblockA{\textit{Anonymous for Review}}
+}
+
+\maketitle
+
+\begin{abstract}
+Open-source software (OSS) projects rely on effective newcomer onboarding to sustain their communities. Many projects use ``good first issue'' (GFI) labels to highlight beginner-friendly tasks.
+As development practices continue to evolve, understanding how these onboarding mechanisms change over time is important for both maintainers and researchers.
+This study analyzes 406,826 issues and 1,117 PRs addressing GFIs across 37 popular GitHub repositories (30 of which use GFI labels) over a four-year period from July 2021 to June 2025. Using time-series analysis with Mann-Kendall trend tests, we find that while the proportion of issues with GFI labels remained stable during the first three years, it declined sharply in the fourth year (Kendall's $\tau=-0.44$, $p<0.001$), with substantial variation across projects. This heterogeneity was not explained by repository age or primary programming language. Notably, newcomer engagement with GFI issues remains stable at approximately 27\% throughout the period, suggesting that GFI labels maintain consistent attractiveness for newcomers. A label-based task type analysis reveals that bug-fix GFIs have the highest merge rate (68.7\%), while the ``Other'' category shows a steep decline from 57.1\% to 28.6\%, partly driven by project-specific labeling practices. Initial PR characteristics such as description length and code size show no significant association with merge outcomes, suggesting that GFIs are appropriately scoped for newcomers. Our findings suggest that GFI trends are driven by project-specific strategic decisions rather than external factors. These results highlight that GFI trends are shaped by project-level decisions rather than ecosystem-wide factors, offering actionable insights for maintainers and newcomers.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Open source Software, Newcomer onboarding, Good first issue, GitHub
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\begin{comment}
+オープンソースソフトウェア（OSS）プロジェクトの持続的な発展には、新規貢献者の参入と定着が不可欠である。しかし、新規貢献者は初めての貢献を試みる際に、適切なタスクの発見、複雑なコードベースの理解、不慣れな開発プロセスへの適応など、技術的・社会的な多くの障壁に直面する。
+\end{comment}
+The sustained development of open-source software (OSS) projects depends critically on the influx and retention of new contributors~\cite{10.1145/2675133.2675215,sholler2019ten}. However, newcomers often face significant technical and social barriers when attempting to make their first contribution, including difficulty finding suitable tasks, understanding complex codebases, and navigating unfamiliar development processes~\cite{6943482,10.1145/2675133.2675215}.
+
+\begin{comment}
+これらの課題に対処するため、多くのOSSプロジェクトは「Good First Issue」（GFI）ラベルを用いて初心者に適したタスクを明示する慣行を採用してきた。先行研究では、GFIラベルの利用実態や自動推奨手法が検討されてきた。しかし、Tan et al.は多くのGFIが新規貢献者によって解決されないことを示しており、GFIラベルの有効性には課題が残されている。
+\end{comment}
+To address these challenges, many OSS projects have adopted the practice of labeling certain issues as ``good first issue'' (GFI) to identify tasks suitable for beginners. Prior research has examined the usage patterns of GFI labels and proposed automated recommendation methods~\cite{10.1145/3510003.3510196,10.1145/3475716.3475789}. However, Tan et al.~\cite{10.1145/3368089.3409746} showed that many GFIs are not resolved by newcomers, indicating that challenges remain regarding the effectiveness of GFI labeling practices.
+
+\begin{comment}
+近年、ソフトウェア開発を取り巻く環境は大きく変化している。リモートワークの普及やAI支援開発ツールの登場など、開発者の協働方法に影響を与える要因が増えている。このような環境変化の中で、GFI慣行や新規貢献者の行動がどのように推移しているかを理解することは重要である。
+\end{comment}
+In recent years, the software development landscape has undergone substantial changes, including the widespread adoption of remote work and the emergence of new development tools. Understanding how GFI practices and newcomer behavior have evolved over time is important for maintaining healthy OSS communities.
+
+\begin{comment}
+しかし、GFI慣行の経年変化と、GFI Issueに取り組む新規貢献者の行動の推移は明らかになっていない。先行研究は特定時点でのGFIの有効性や推奨手法を検討してきたが、GFI慣行が過去数年間でどのように進化してきたか、GFI対応PRの特性や成功率がどのように変化したかについての理解が不足している。
+\end{comment}
+However, \textbf{longitudinal trends in GFI practices and the behavior of newcomers who engage with GFI issues remain unclear}. While prior work has examined GFI effectiveness and recommendation methods at specific points in time, we lack understanding of how GFI practices have evolved over recent years and how the characteristics and success rates of GFI-related contributions have changed.
+
+\begin{comment}
+本研究では、30の人気OSSプロジェクトにおける4年間（2021年7月〜2025年6月）のGFI慣行を分析し、GFI慣行と新規貢献者の貢献がどのように進化してきたかを明らかにする。具体的には、以下の2つのリサーチクエスチョンに取り組む：
+
+RQ1: GFI慣行は4年間でどのように変化したか？
+GFI Issue数の推移と、全Issue数に対するGFI Issueの割合のトレンドを調査し、新規貢献者のGFIへのエンゲージメント率を分析する。
+
+RQ2: GFI Issueのタスクタイプラベルは新規貢献者PRのマージ結果とどのように関連するか？また、マージ成功に関連する要因は何か？
+GFI Issueをラベルに基づきタスクタイプ（Bug, Feature, Documentation, Other）に分類し、タスクタイプ別のマージ率の違いと時系列変化を分析する。また、PR特性とマージ成功の関連を検討する。
+\end{comment}
+In this study, we analyze four years (July 2021 to June 2025) of GFI practices across 37 popular OSS projects on GitHub. We address the following research questions:
+
+\textbf{RQ1: How have GFI practices and newcomer engagement changed over the four-year period?}
+
+We examine the trends in GFI issue proportion and newcomer engagement rates, investigating how these patterns have evolved over time.
+
+\textbf{RQ2: How do task type labels of GFI issues relate to newcomer PR merge outcomes, and what factors are associated with merge success?}
+
+We classify GFI issues into task types (Bug, Feature, Documentation, Other) based on their labels and analyze how merge rates differ by task type and over time. We also examine PR-level factors associated with merge success.
+
+\begin{comment}
+406,826件のissueから3,300件のGFI関連issueを特定し、1,117件のGFI PRを分析した結果、GFI比率はY1〜Y3で安定した後、Y4で急激に低下した（Kendall's τ=-0.44, p<0.001）。このトレンドはプロジェクト間で大きく異なることが明らかになった。一方、新規貢献者のGFIへのエンゲージメント率は約27\%で安定しており、73\%のGFIは新規貢献者のPRを受けていない。本研究の知見は、GFI慣行の進化に関する実証的エビデンスを提供し、OSSコミュニティに実践的な示唆を提供する。
+\end{comment}
+Through an analysis of 406,826 issues (identifying 3,300 GFI-labeled issues) and 1,117 GFI PRs, we find that the proportion of GFI issues remained stable for the first three years but declined sharply in the fourth year ($\tau=-0.44$, $p<0.001$), with substantial variation across projects. Notably, newcomer engagement with GFI issues remains stable at approximately 27\% throughout the four-year period, though 73\% of GFIs remain unaddressed by newcomers. Our findings provide empirical evidence on the evolution of GFI practices and offer practical insights for OSS communities seeking to improve newcomer onboarding.
+\section{Related Work}
+
+\begin{comment}
+\textbf{Newcomer Onboarding in OSS.} Steinmacher et al.~\cite{6943482,10.1145/2675133.2675215}は、新規貢献者がOSSプロジェクトに参入する際に直面する障壁を体系的に分類し、技術的障壁のみならず社会的障壁の重要性を示した。Subramanian et al.~\cite{9273270}は、新規貢献者の初回貢献の特性を分析し、約半数がバグ修正に取り組んでいることを明らかにした。Turzo et al.~\cite{10.1109/TSE.2025.3550881}は、オンボーディング推奨事項の有効性を評価し、プロジェクトによって有効な戦略が異なることを示した。Steinmacher et al.~\cite{10.1145/2884781.2884806}は、新規貢献者向けポータルFLOSScoachを提案し、オリエンテーション障壁の低減に有効であることを実証した。
+\end{comment}
+\textbf{Newcomer Onboarding in OSS.} Steinmacher et al.~\cite{6943482,10.1145/2675133.2675215} systematically classified the barriers that newcomers face when joining OSS projects, highlighting the importance of social as well as technical barriers. Subramanian et al.~\cite{9273270} analyzed the characteristics of newcomers' first contributions, revealing that approximately half of them address bug fixes. Turzo et al.~\cite{10.1109/TSE.2025.3550881} evaluated the effectiveness of onboarding recommendations and showed that effective strategies vary by project. Steinmacher et al.~\cite{10.1145/2884781.2884806} proposed FLOSScoach, a portal for newcomers, and demonstrated its effectiveness in reducing orientation barriers.
+
+\begin{comment}
+\textbf{Good First Issues and Task Recommendation.} Tan et al.~\cite{10.1145/3368089.3409746}は、GitHubのGood First Issue(GFI)ラベルの利用実態を体系的に分析し、多くのGFIが新規貢献者によって解決されないことを示した。Xiao et al.~\cite{10.1145/3510003.3510196}とHuang et al.~\cite{10.1145/3475716.3475789}は、機械学習を用いてGFIを自動推奨する手法を提案した。Santos et al.~\cite{10.1145/3544902.3546236}は、新規貢献者と既存開発者でタスク選択戦略に認識のずれがあることを明らかにした。Xiao et al.~\cite{10.1109/ASE56229.2023.00158}は、貢献者の背景に基づくパーソナライズドタスク推奨手法を提案した。
+\end{comment}
+\textbf{Good First Issues and Task Recommendation.} Tan et al.~\cite{10.1145/3368089.3409746} were the first to systematically analyze the use of the Good First Issue (GFI) label on GitHub, showing that many GFIs are not resolved by newcomers. Xiao et al.~\cite{10.1145/3510003.3510196} and Huang et al.~\cite{10.1145/3475716.3475789} proposed methods for automatically recommending GFIs using machine learning. Santos et al.~\cite{10.1145/3544902.3546236} revealed a mismatch in task selection strategies between newcomers and existing developers. Xiao et al.~\cite{10.1109/ASE56229.2023.00158} proposed a personalized task recommendation method based on contributor background.
+
+\begin{comment}
+\textbf{Mentoring and Community Support.} Steinmacher et al.~\cite{Steinmacher2021}とBalali et al.~\cite{10.1145/3412569.3412571}は、OSSメンターの視点からタスク推奨の課題と戦略を明らかにした。Cao et al.~\cite{10.1109/ICSE48619.2023.00064}は、GFIラベル付与だけでは不十分で、メンターによる直接的な支援が新規貢献者の成功に重要であることを示した。Guizani et al.~\cite{10.1145/3510458.3513020}は、メンテナ向けダッシュボードによる新規貢献者獲得支援を提案した。
+\end{comment}
+\textbf{Mentoring and Community Support.} Steinmacher et al.~\cite{Steinmacher2021} and Balali et al.~\cite{10.1145/3412569.3412571} identified the challenges and strategies of task recommendation from the perspective of OSS mentors. Cao et al.~\cite{10.1109/ICSE48619.2023.00064} showed that simply labeling GFIs is insufficient and that direct support from mentors is crucial for newcomer success. Guizani et al.~\cite{10.1145/3510458.3513020} proposed a maintainer dashboard to support the attraction of new contributors.
+
+\begin{comment}
+本研究は、これらの先行研究を踏まえ、GFI使用トレンドと新規貢献者のエンゲージメントの経年変化を実証的に分析する。先行研究が特定時点でのGFIの有効性を検討してきたのに対し、本研究は4年間の時系列データを用いてトレンドを分析する点で新規性がある。
+\end{comment}
+Building on this prior work, our study empirically analyzes longitudinal trends in GFI usage and newcomer engagement over a four-year period. While prior studies examined GFI effectiveness at specific points in time, our work contributes by analyzing temporal trends using time-series methods.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/method2.pdf}
+\caption{Overview of the study method.}
+\label{fig:overview}
+\end{figure*}
+
+\section{Methodology}
+
+\begin{comment}
+図~\ref{fig:overview}に本研究の手法概要を示す。GitHub上のスター数上位50件のリポジトリから対象プロジェクトを選定し、issueと新規貢献者PRを収集してGFIトレンドと新規貢献者エンゲージメント（RQ1）、およびPR特性とマージ成功要因（RQ2）を分析した。
+\end{comment}
+Figure~\ref{fig:overview} illustrates the overview of our research methodology. We selected our target projects from the top 50 most-starred repositories on GitHub, collected issues and newcomer pull requests, and analyzed GFI label trends and newcomer engagement (RQ1) and PR characteristics with merge success factors (RQ2).
+
+\subsection{Repository Selection}
+
+\begin{comment}
+活発な貢献活動が行われているプロジェクトに焦点を当てるため、年間50件以上のプルリクエストが提出されているリポジトリのみを選択した。さらに、非ソフトウェアプロジェクト（チュートリアルコレクション、学習リソース等）およびGitHub Issuesを無効化しているプロジェクト（django/django）を除外し、最終的に37のソフトウェアリポジトリを分析対象とした。このうち30リポジトリがGFIラベルを使用していた。
+\end{comment}
+To focus on projects with active contributions, we only selected repositories with 50 or more pull requests per year. Furthermore, we excluded non-software projects (e.g., tutorial collections, learning resources) and projects that have disabled GitHub Issues (e.g., django/django), resulting in a final set of 37 software repositories for analysis, of which 30 used GFI labels.
+
+\begin{comment}
+分析対象リポジトリは多様であり、主要プログラミング言語の分布は、TypeScript（9件、24.3\%）、C++（5件、13.5\%）、JavaScript（5件、13.5\%）、Python（5件、13.5\%）、Rust（3件、8.1\%）、その他（10件、27.0\%）となっている。
+\end{comment}
+The selected repositories are diverse, with the distribution of primary programming languages being TypeScript (9 projects, 24.3\%), C++ (5, 13.5\%), JavaScript (5, 13.5\%), Python (5, 13.5\%), Rust (3, 8.1\%), and others (10, 27.0\%).
+
+\subsection{Data Collection}
+
+\subsubsection{Issue Data Collection (RQ1)}
+
+\begin{comment}
+RQ1に答えるため、GitHub GraphQL APIを使用して、2021年7月から2025年6月におけるGFIを持つ全issueを収集した。GFI関連ラベルの特定には、Turzo et al.~\cite{10.1109/TSE.2025.3550881}が採用した手法に従い、Tan et al.~\cite{10.1145/3368089.3409746}が提示したラベルリストとnewcomer contribution guideline~\cite{gazanchyan2020awesome}を組み合わせ、各issueについて、作成日時、ラベル情報、クローズ状態を記録した。
+\end{comment}
+To answer RQ1, we used the GitHub GraphQL API to collect all GFI-labeled issues from July 2021 to June 2025. To identify GFIs, we followed the method adopted by Turzo et al.~\cite{10.1109/TSE.2025.3550881}, combining the label list presented by Tan et al.~\cite{10.1145/3368089.3409746} with newcomer contribution guidelines~\cite{gazanchyan2020awesome}. For each issue, we recorded its creation date, label information, and closed state.
+
+\begin{comment}
+GFIラベルの使用率を算出するため、406,826件の全issueを収集し、そのうち3,300件がGFI関連ラベルを持つことを特定した。さらに、新規貢献者のGFI対応状況を分析するため、これらのGFI issueに対応したプルリクエストを収集した。
+\end{comment}
+To calculate GFI label usage rates, we collected 406,826 total issues and identified 3,300 issues with GFI labels. Additionally, to analyze newcomer engagement with GFI tasks, we collected pull requests addressing these GFI issues.
+
+\subsubsection{Pull Request Data Collection (RQ2)}
+
+\begin{comment}
+本研究では RQ2 に答えるため、GitHub GraphQL API を用いて、GFI関連ラベルを持つ issue に取り組んだプルリクエスト（以下、GFI PR）を収集した。新規貢献者の同定はリポジトリ単位で行い、各ユーザーが当該リポジトリに初めて提出したプルリクエストを2021年7月から2025年6月の間で抽出した。各プルリクエストについては、PR番号、タイトル、説明文、作成日時、マージ日時、状態（MERGED、CLOSED、OPEN）、追加行数、削除行数、変更ファイル数、コミット数、レビューコメント数、ラベル情報を取得した。説明文については、PRテンプレートに含まれるHTMLコメントを除去した上で長さを計測した。データ品質の担保に向けては、GitHub APIのauthor\_typeフィールドを用いてBotや削除アカウントを除外し、分布が高度に歪んでいるinsertionsとdeletionsには対数変換を適用した。全データは2025年11月にGitHub APIを通じて収集した。これは分析期間終了（2025年6月）から約5ヶ月の観測猶予を提供し、マージされたPRの95パーセンタイル（約80日）を超えるため、分析期間終了近くに作成されたPRも十分なレビュー・解決の時間を持つ。マージ率の算出では、状態がOPENのPR（68件）も含め、MERGEDでないPRは全て未マージとして扱った。5ヶ月の猶予があるため、これらのOPEN PRは実質的に未解決のケースである。
+\end{comment}
+To answer RQ2, we collected pull requests that address issues with GFIs (hereafter referred to as GFI PRs) using the GitHub GraphQL API. Newcomers were identified on a per-repository basis: we extracted the first-ever pull request submitted by each user to a given repository between July 2021 and June 2025. For each pull request, we retrieved the PR number, title, body, creation date, merge date, state (MERGED, CLOSED, OPEN), lines added, lines deleted, number of changed files, commit count, review comment count, and label information. For the description, we measured the length of substantive user-written content after removing HTML comments from PR templates. To ensure data quality, we filtered out bots and deleted accounts using the author\textunderscore type field from the GitHub API, retaining only those where author\textunderscore type was `User'. All data was collected via the GitHub API in November 2025, approximately five months after the end of the study period. This observation buffer exceeds the 95th percentile of time-to-merge among merged PRs (approximately 80 days), ensuring that PRs created near the end of the analysis window had sufficient time to be reviewed and resolved. For merge rate calculations, we treated all non-MERGED PRs (including 68 still-open PRs) as not merged. For metrics with highly skewed distributions, we applied a log transformation to insertions and deletions.
+
+\begin{comment}
+時系列比較のため、4年間のデータを12ヶ月ごとの分析年度に分割した：Y1（2021年7月〜2022年6月）、Y2（2022年7月〜2023年6月）、Y3（2023年7月〜2024年6月）、Y4（2024年7月〜2025年6月）。これにより、各分析年度が均等な12ヶ月の期間をカバーする。さらに、GFI issueのラベルに基づき、PRをタスクタイプに分類した。単一タイプに一致したPRは自動分類し、複数タイプに一致した47件（4.2\%）は第一著者がラベルのタイプ・エリア区別を基に手動分類した。
+\end{comment}
+For time-series comparison, we divided the four-year period into 12-month analysis years: Y1 (Jul 2021--Jun 2022), Y2 (Jul 2022--Jun 2023), Y3 (Jul 2023--Jun 2024), and Y4 (Jul 2024--Jun 2025). We classified each PR into a task type based on the labels of its referenced GFI issue: Bug (label contains ``bug''), Feature (``feature'' or ``enhancement''), Documentation (``doc''), and Other (none of the above). Word-boundary matching for ``bug'' prevents false positives from area labels such as ``debug.'' Of the 1,117 PRs, 1,070 (95.8\%) matched exactly one task type and were classified automatically. The remaining 47 PRs (4.2\%) matched multiple types; the first author manually classified each case by distinguishing type labels (e.g., ``type: bug'', ``C-enhancement'', ``documentation'') from area/module labels (e.g., ``addon: docs'', ``A-docs'', ``module: docs''). For example, a PR with ``type: bug'' and ``docs'' (area) was classified as Bug, while a PR with both ``enhancement'' and ``documentation'' as type labels was classified as Documentation. The full list of 47 overlapping cases with their manual classifications is included in the replication package.
+
+\begin{comment}
+最終的なデータセットは、43,906件の新規貢献者初回プルリクエストと、1,117件のGFI PRから構成される。
+\end{comment}
+The final dataset consists of 43,906 first pull requests from newcomers and 1,117 GFI PRs.
+
+\section{Results}
+
+\subsection{RQ1: How have GFI practices and newcomer engagement changed over time?}
+
+\subsubsection{GFI Ratio Trend}
+
+\begin{comment}
+4年間（2021年7月〜2025年6月）の月別GFI比率を分析した。Mann-Kendallトレンド検定の結果、統計的に有意な減少傾向を示した（Kendall's τ=-0.44, p<0.001）。ただし、この減少は4年間を通じた一様な傾向ではない。年度別平均GFI比率はY1（0.92\%）からY3（0.88\%）までほぼ横ばいであり、Y4（0.57\%）で急激に低下した（図~\ref{fig:rq1_trends}(a)）。
+\end{comment}
+We analyzed the monthly GFI ratio over the four-year period (July 2021 to June 2025). A Mann-Kendall trend test indicated a statistically significant decreasing trend ($\tau=-0.44$, $p<0.001$). However, as shown in Figure~\ref{fig:rq1_trends}(a), this decline was not gradual: the yearly average GFI ratio remained stable from Y1 (0.92\%) through Y3 (0.88\%), then dropped sharply in Y4 (0.57\%).
+
+\subsubsection{Repository Heterogeneity in GFI Trends}
+
+\begin{comment}
+37リポジトリのうち7リポジトリ（18.9\%）は分析期間内にGFIラベルを一度も使用していなかった。30リポジトリを対象にMann-Kendallトレンド検定を実施した結果、GFI使用トレンドにおいて大きな異質性を示した：10リポジトリ（33.3\%）が減少傾向、17リポジトリ（56.7\%）が有意な傾向なし、3リポジトリ（10.0\%）が増加傾向を示した。この変動はリポジトリ年齢や主要プログラミング言語では説明できなかった（Spearmanのρ=-0.105, p=0.588）。
+\end{comment}
+Of the 37 repositories, 7 (18.9\%) never used GFI labels during the analysis period. We conducted Mann-Kendall trend tests on the remaining 30 repositories. These repositories showed substantial heterogeneity in GFI usage trends: 10 (33.3\%) showed a decreasing trend, 17 (56.7\%) showed no significant trend, and 3 (10.0\%) showed an increasing trend. This variation could not be explained by repository age (Spearman's $\rho=-0.105$, $p=0.588$) or primary programming language.
+
+\begin{comment}
+減少傾向、傾向なし、増加傾向のリポジトリ間で特性を比較した結果、スター数、リポジトリ年齢、総issue数、GFI数のいずれにおいても統計的有意差は認められなかった。主要プログラミング言語の分布にも有意差は認められなかった。これらの結果は、GFI使用トレンドがプロジェクト規模、成熟度、主要言語といった客観的特性では説明できず、プロジェクト固有の戦略的意思決定に大きく依存することを示唆している。
+\end{comment}
+Comparing characteristics across the three trend groups, no statistically significant differences were found in star count, repository age, total issue count, or GFI count (all $p>0.2$). These results suggest that GFI usage trends cannot be explained by objective characteristics such as project size, maturity, or primary language, but rather depend heavily on project-specific strategic decisions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/rq1_combined.pdf}
+\caption{RQ1 time-series trends. (a) Monthly GFI ratio shows a significant decreasing trend ($\tau=-0.44$, $p<0.001$). (b) Newcomer engagement rate remains stable at approximately 27\% ($\tau=0.06$, n.s.). Gray dots: monthly values; colored lines: 6-month moving averages; dashed vertical lines: analysis year boundaries.}
+\label{fig:rq1_trends}
+\end{figure}
+
+\subsubsection{Newcomer Engagement with GFIs}
+
+\begin{comment}
+GFI関連ラベル付きissueに対する新規貢献者の対応割合を分析した（図~\ref{fig:rq1_trends}(b)）。Issue-centric アプローチを採用し、各GFI issueが新規貢献者のPRによって対応されたかどうかを調査した。全体のエンゲージメント率は27.0\%（3,300件中891件）であり、分析年度別ではY1: 25.3\%、Y2: 29.2\%、Y3: 26.2\%、Y4: 27.5\%と25〜29\%の範囲で安定していた。Mann-Kendallトレンド検定でも有意な傾向は認められなかった（τ=0.06, p=0.52）。Y4でGFI比率が急激に低下したにもかかわらずエンゲージメント率が安定していることは、GFIラベルが新規貢献者にとって一貫した魅力を維持していることを示している。
+\end{comment}
+As shown in Figure~\ref{fig:rq1_trends}(b), the proportion of GFI issues addressed by newcomers remained stable throughout the period. The overall engagement rate was 27.0\% (891 out of 3,300 GFI issues), with per-year rates between 25\% and 29\%. A Mann-Kendall trend test confirmed no significant trend ($\tau=0.06$, $p=0.52$). Despite the sharp decline in GFI ratio observed in Y4 (Figure~\ref{fig:rq1_trends}(a)), the stable engagement rate (Figure~\ref{fig:rq1_trends}(b)) suggests that GFI labels maintain a consistent level of attractiveness for newcomers regardless of their prevalence.
+
+\subsection{RQ2: How do task type labels relate to merge outcomes, and what factors are associated with merge success?}
+
+\subsubsection{PR Metrics Trends and Task Type Analysis}
+
+\begin{comment}
+GFIラベル付きPR 1,117件（Bot除外後）を分析した。全体のマージ率は53.0\%であった。表~\ref{tab:trend_analysis}に主要指標のトレンドを示す。マージ率は統計的に有意な減少傾向（τ=-0.35, p<0.001）、説明文長は増加傾向（τ=0.35, p<0.001）を示した。タスクタイプ別のマージ率を年度別に分析した結果（表~\ref{tab:merge_by_type}）、Bug（68.7\%）が最も高く、次いでFeature（54.4\%）、Documentation（52.9\%）、Other（40.7\%）の順であった。BugタスクのマージはY2で83.5\%のピークを示した後Y4で45.9\%まで減少し、Otherカテゴリは57.1\%（Y1）から28.6\%（Y4）まで継続的に減少した。一方、Featureタスクのマージ率は約54\%で安定していた。
+\end{comment}
+We analyzed 1,117 GFI-labeled PRs (after excluding bots). The overall merge rate was 53.0\%. Table~\ref{tab:trend_analysis} summarizes the time-series trends for key metrics. The merge rate showed a statistically significant decreasing trend ($\tau=-0.35$, $p<0.001$), while description length showed an increasing trend ($\tau=0.35$, $p<0.001$).
+
+We analyzed merge rates by task type over four analysis years (Table~\ref{tab:merge_by_type}). Bug-fix tasks had the highest overall merge rate (68.7\%), peaking at 83.5\% in Y2 before declining to 45.9\% in Y4. Feature tasks remained stable at approximately 54\% with no significant trend. The ``Other'' category, which includes PRs whose GFI issues lack standard task-type labels (e.g., issues labeled only with module or area tags), showed the steepest decline from 57.1\% (Y1) to 28.6\% (Y4). This decline was partly driven by a single project (PyTorch) that contributed 188 PRs with 0\% merge rate due to its module-based labeling system.
+
+\begin{table}[t]
+\centering
+\caption{Time-series trend analysis of GFI metrics (Mann-Kendall test)}
+\label{tab:trend_analysis}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrcc}
+\toprule
+\textbf{Metric} & \textbf{Y1} & \textbf{Y4} & \textbf{Kendall $\tau$} & \textbf{Trend} \\
+\midrule
+GFI Ratio (\%)        & 0.92  & 0.57  & -0.44*** & Decreasing \\
+Newcomer Engagement (\%) & 25.1  & 27.7  & 0.06    & No trend \\
+Merge Rate (\%)       & 61.9  & 42.2  & -0.35*** & Decreasing \\
+Description Length    & 306   & 481   & 0.35*** & Increasing \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\footnotesize^
+Note: ***$p<0.001$. Monthly Mann-Kendall test over 48 months. Y1/Y4 are yearly averages of monthly values.
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Merge rate by task type and analysis year}
+\label{tab:merge_by_type}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrc}
+\toprule
+\textbf{Task Type} & \textbf{Y1} & \textbf{Y2} & \textbf{Y3} & \textbf{Y4} & \textbf{Total} & \textbf{Trend} \\
+\midrule
+Bug   & 64.5\% & 83.5\% & 71.9\% & 45.9\% & 68.7\% & Decr.** \\
+Feature & 53.7\% & 54.8\% & 53.3\% & 55.6\% & 54.4\% & None \\
+Docs  & 68.4\% & 65.2\% & 42.4\% & 47.7\% & 52.9\% & Decr.* \\
+Other & 57.1\% & 46.4\% & 33.3\% & 28.6\% & 40.7\% & Decr.* \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\footnotesize
+Note: Y1=Jul'21--Jun'22, Y2=Jul'22--Jun'23, Y3=Jul'23--Jun'24, Y4=Jul'24--Jun'25.\\
+*$p<0.05$, **$p<0.01$, ***$p<0.001$ (Mann-Kendall test).
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{GFI PR metrics by merge status}
+\label{tab:merge_factors}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrcc}
+\toprule
+\textbf{Metric} & \textbf{Merged} & \textbf{Not Merged} & \textbf{p-value} & \textbf{$|r|$} \\
+\midrule
+\multicolumn{5}{l}{\textit{Initial PR characteristics}} \\
+Insertions (log)    & 3.02  & 2.89  & 0.885   & -- \\
+Deletions (log)     & 1.10  & 1.39  & 0.994   & -- \\
+Changed Files       & 2.0   & 2.0   & 0.155   & -- \\
+Description Length  & 382.5 & 435.0 & 0.608   & -- \\
+\midrule
+\multicolumn{5}{l}{\textit{Process-level metrics\textsuperscript{\dag}}} \\
+Commits Count       & 3.0   & 2.0   & $<$0.001*** & 0.15 \\
+Review Count        & 2.0   & 1.0   & $<$0.001*** & 0.32 \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\footnotesize
+Note: ***$p<0.001$. Median values shown. Mann-Whitney U test. $|r|$: rank-biserial effect size.
+\textsuperscript{\dag}Process-level metrics accumulate during the review lifecycle and are subject to mechanical confounds (see text).
+\end{table}
+
+
+\subsubsection{Factors Associated with Merge Success}
+
+\begin{comment}
+表~\ref{tab:merge_factors}に、マージ成功と関連する要因の分析結果を示す。全GFI PRの53.0\%がマージされた。マージされたPRとマージされなかったPRを比較した結果、初期PR特性（コードの量的側面、変更ファイル数、説明文長）はいずれもマージ成功と有意な関連を示さなかった。これは、GFIが新規貢献者に適切なスコープで設計されており、提出時のコード量や説明の詳細さがマージ結果を左右しないことを示唆している。プロセスレベルの指標（レビュー数、コミット数）は有意な差を示したが、これらはレビューライフサイクルの中で蓄積される指標であり、機械的交絡がある。特にレビュー数については、多くのプロジェクトがbranch protectionルールによりマージ前にレビュー承認を必須としているため、マージされたPRは構造的にレビュー数が多くなる。
+\end{comment}
+Table~\ref{tab:merge_factors} compares merged and unmerged GFI PRs. Among initial PR characteristics---code size, number of changed files, and description length---none showed a statistically significant association with merge outcomes. This suggests that GFIs are appropriately scoped for newcomers, and that the scale of the contribution or detail of the description at submission time does not predict success.
+
+The two process-level metrics (commit count and review count) showed statistically significant differences. However, these metrics accumulate during the review lifecycle and are subject to confounds. In particular, many popular OSS projects enforce branch protection rules that require at least one approving review before a PR can be merged, creating a mechanical correlation between review count and merge status. Abandoned or closed PRs, by contrast, may never enter the review pipeline. We therefore interpret these process-level differences with caution, as they likely reflect the consequences of the merge process rather than predictive factors.
+
+\section{Discussion}
+
+\subsection{Interpretation of RQ1 Findings}
+
+\begin{comment}
+本研究の分析により、GFI比率はY1（0.92\%）〜Y3（0.88\%）でほぼ安定し、Y4で急激に低下（0.57\%）したことが明らかになった。Mann-Kendall検定では48ヶ月全体で有意な減少傾向を示す（τ=-0.44, p<0.001）が、この減少はY4に集中している。リポジトリ間では33.3\%が減少傾向、56.7\%が有意な傾向なし、10.0\%が増加傾向と大きな異質性がある。リポジトリの年齢や主要プログラミング言語では説明できなかった（Spearmanのρ=-0.105, p=0.588）。
+\end{comment}
+The GFI ratio remained stable from Y1 (0.92\%) through Y3 (0.88\%) before declining sharply in Y4 (0.57\%). While the Mann-Kendall test indicates a significant trend over the full 48-month period ($\tau=-0.44$, $p<0.001$), the decline is concentrated in the final year rather than representing a gradual four-year decrease. This trend also varied substantially across repositories: 33.3\% showed a decreasing trend, 56.7\% showed no significant trend, and 10.0\% showed an increasing trend. We found no statistically significant differences between these groups regarding repository age or primary programming language, and the change in GFI usage was uncorrelated with project maturity (Spearman's $\rho=-0.105$, $p=0.588$).
+
+\begin{comment}
+これらの結果は、GFI使用の変化が単一の外部要因によって統一的に引き起こされているのではなく、プロジェクト固有の戦略的意思決定に強く依存していることを示唆している。一部のプロジェクトでは、issue triageプロセスの変更、メンテナンスリソースの制約、またはコミュニティ成長戦略の転換により、GFIラベルの使用を減らしている可能性がある。逆に、積極的に新規貢献者を呼び込もうとするプロジェクトでは、GFI使用を増やしている。
+\end{comment}
+These results suggest that changes in GFI usage are not uniformly driven by a single external factor, but are strongly dependent on project-specific strategic decisions. Some projects may be reducing their use of GFI labels due to changes in their issue triage process, constraints on maintenance resources, or shifts in their community growth strategy. Conversely, projects actively seeking to attract new contributors may be increasing their use of GFIs.
+
+\begin{comment}
+興味深いことに、新規貢献者によるGFI対応割合は約27\%で4年間安定していた（有意な傾向なし、τ=0.06, p=0.52）。GFI比率が減少しているにもかかわらずエンゲージメント率が安定していることは、GFIラベルが新規貢献者を一定の割合で引き付け続けていることを示している。ただし、73\%のGFIは新規貢献者のPRを受けておらず、GFIラベルだけでは十分とは言えない。
+\end{comment}
+Notably, the proportion of GFIs addressed by newcomers remained stable at approximately 27\% throughout the four-year period (no significant trend, $\tau=0.06$, $p=0.52$). Despite the GFI ratio decline in Y4, this stable engagement rate suggests that GFI labels maintain a consistent level of attractiveness for newcomers. However, 73\% of GFIs did not receive a newcomer PR, consistent with Tan et al.~\cite{10.1145/3368089.3409746}'s finding that many GFIs remain unaddressed by newcomers.
+
+\subsection{Interpretation of RQ2 Findings}
+
+\begin{comment}
+RQ2の分析により、新規貢献者のGFI PRマージ率が減少傾向にあることが明らかになった。また、タスクタイプ別の分析では、Bug-fixタスクのマージ率が最も高く（68.7\%）、Documentationタスクは減少傾向を示した（68.4\%→47.7\%）。Otherカテゴリのマージ率低下（57.1\%→28.6\%）は特に顕著であったが、この傾向の一部はPyTorchの影響による。PyTorchはモジュールベースのラベリングシステムを採用しており（module: dynamo、module: inductor等）、188件のGFI PRがあるが0\%のマージ率を示した。PyTorchを除外した場合、Otherカテゴリのマージ率は64.4\%（Y1）→48.0\%（Y4）となり、依然として減少傾向は見られるものの、より緩やかである。
+\end{comment}
+The analysis for RQ2 revealed a decreasing trend in the merge rate for newcomer GFI PRs. Label-based task type analysis showed that bug-fix tasks had the highest merge rate (68.7\%), while documentation tasks showed a decreasing trend (68.4\% in Y1 to 47.7\% in Y4). The ``Other'' category exhibited the steepest decline (57.1\% to 28.6\%), which is partly explained by project-specific labeling practices. Notably, PyTorch uses a module-based labeling system (e.g., ``module: dynamo'', ``module: inductor'') rather than task-type labels, contributing 188 GFI PRs with a 0\% merge rate. Excluding PyTorch, the ``Other'' category merge rate was 64.4\% (Y1) to 48.0\% (Y4)---still declining but less dramatically. This highlights the importance of accounting for project heterogeneity in labeling practices when analyzing GFI effectiveness.
+
+\begin{comment}
+一方で、新規貢献者の説明文長が統計的に有意に増加した（+47.3\%）ことは興味深い。このトレンドは、プロジェクトの品質基準が高まった可能性、あるいは新規貢献者がより詳細な説明を提供するよう学習した可能性を示唆している。しかし、説明文長が長くなったにもかかわらずマージ率が低下しているという事実は、詳細な説明自体がマージ成功の決定的要因ではないことを示している。
+\end{comment}
+On the other hand, it is interesting that the description length of newcomer PRs increased significantly. This trend may suggest that project quality standards have risen, or that newcomers have learned to provide more detailed descriptions. However, the fact that the merge rate has decreased despite the increase in description length indicates that detailed descriptions alone are not a decisive factor for merge success.
+
+\begin{comment}
+マージ成功要因の分析において、最も注目すべき知見は、初期PR特性（コードサイズ、変更ファイル数、説明文長）がマージ成功と有意な関連を示さなかったことである。これはGFIが新規貢献者に適切なスコープで設計されていることを示唆する。プロセスレベルの指標（レビュー数、コミット数）は有意差を示したが、これらはマージプロセスの結果として蓄積される指標であり、独立した予測因子ではない。レビュー数については、branch protectionによる機械的相関と、メンテナが見込みのあるPRにレビューを集中させる逆因果の双方が影響している可能性がある。Cao et al.は、タスク推薦だけでは不十分でメンタリングが重要と結論しており、我々の知見（初期特性よりもプロセス中の関与が重要）はこの見解と整合的である。
+\end{comment}
+The most notable finding regarding merge success factors is that initial PR characteristics---code size, number of changed files, and description length---showed no significant association with merge outcomes. This suggests that GFIs are appropriately scoped, making the initial scale of the contribution less relevant to success.
+
+While review count and commit count showed statistically significant differences between merged and not-merged PRs, these are process-level metrics subject to important confounds. Many popular projects enforce branch protection rules requiring approving reviews before merge, which creates a mechanical correlation: merged PRs necessarily pass through the review pipeline, while abandoned PRs may not. Additionally, maintainers may allocate more review effort to PRs they consider viable (reverse causality). We therefore do not interpret review count as an independent predictor of merge success. Rather, our results highlight that \textit{what newcomers bring initially} (code volume, description detail) matters less than \textit{what happens during the review process}. This is consistent with Cao et al.~\cite{10.1109/ICSE48619.2023.00064}, who found that mentoring---rather than mere task recommendation---is crucial for newcomer success.
+
+\begin{comment}
+\subsection{Implications for Practice}
+
+\textbf{For Project Maintainers}: 本研究の結果は、GFIラベルが依然として新規貢献者を引き付ける有効な手段であることを示している（エンゲージメント率は4年間で約27\%を維持）。GFI比率が全体的に減少傾向にある中、積極的にGFIsを作成・ラベル付けすることは、新規貢献者獲得における競争優位性となり得る。また、Bug-fixタスクのマージ率が最も高い（68.7\%）ことから、新規貢献者向けには明確なスコープを持つバグ修正タスクを優先的にGFIとしてラベル付けすることが推奨される。
+
+\textbf{For Newcomers}: GFIsの割合は減少傾向にあるため、新規貢献者は複数のプロジェクトを横断的に探索する必要があるかもしれない。本研究の分析では、一部のプロジェクトでは依然として活発にGFIsを作成している。Bug-fixタスクのマージ率が高いことから、新規貢献者は最初の貢献としてバグ修正タスクを選択することで成功確率を高められる可能性がある。
+
+さらに、RQ2の知見から、レビュアーとの積極的な対話がマージ成功と関連していることが示唆された。説明文長はマージ成功と直接関連しないものの、レビューコメント数が多いPRはマージされやすい傾向にある。新規貢献者は、レビュー担当者との対話を通じて貢献を改善していく姿勢が重要である。
+
+\textbf{For Researchers}: 本研究は、OSSオンボーディング研究においてプロジェクト異質性を考慮することの重要性を強調している。集約された統計のみに基づく分析では、個々のプロジェクトが採用している多様な戦略を見落とす可能性がある。また、タスクタイプ別の分析により、より詳細な実践的示唆が得られることを示した。
+\end{comment}
+
+\subsection{Implications for Practice}
+
+\textbf{For Project Maintainers}: Our findings indicate that GFI labels continue to attract a stable proportion of newcomers (approximately 27\% engagement rate throughout the four-year period). As the overall GFI ratio shows a decreasing trend, actively creating and labeling GFIs can provide a competitive advantage in newcomer acquisition. Notably, bug-fix tasks have the highest merge rate (68.7\%), suggesting that maintainers should prioritize labeling well-scoped bug fixes as GFIs for newcomers.
+
+\textbf{For Newcomers}: As the proportion of GFIs is declining, newcomers may need to explore multiple projects. Our analysis shows that some projects continue to actively create GFIs. Given that bug-fix tasks have the highest merge rate, newcomers may increase their success probability by selecting bug fixes for their first contribution. We recommend using filtering mechanisms on GitHub Search and GFI aggregators~\cite{gazanchyan2020awesome} to efficiently find GFIs that match your skill level.
+
+Furthermore, RQ2 findings suggest that initial PR characteristics such as code size or description length do not predict merge outcomes, indicating that GFIs are appropriately scoped. For newcomers, the key implication is that the initial quality of the submission matters less than engaging with the review process: proactively seeking and responding to reviewer feedback is recommended, as prior work has shown that mentoring interactions are crucial for newcomer success~\cite{10.1109/ICSE48619.2023.00064}.
+
+\textbf{For Researchers}: This study emphasizes the importance of considering project heterogeneity in OSS onboarding research. Analyses based solely on aggregated statistics may overlook the diverse strategies adopted by individual projects. Additionally, our label-based task type analysis demonstrates that more granular categorization can yield actionable insights. However, researchers should be aware that labeling practices vary significantly across projects---some use task-type labels (bug, feature, documentation), while others use module-based or area-based labels that do not fit standard classification schemes. In our dataset, 4.2\% of PRs matched multiple task types, requiring manual classification by distinguishing type labels from area labels. This heterogeneity should be accounted for in cross-project studies.
+
+\subsection{Threats to Validity}
+
+\begin{comment}
+\textbf{Construct Validity}: 本研究では、Tan et al.~\cite{10.1145/3368089.3409746}およびTurzo et al.~\cite{10.1109/TSE.2025.3550881}が提示したGFI関連ラベルのリストを使用した。しかし、一部のプロジェクトでは独自のラベル命名規則を採用している可能性があり、全てのGFIsを捕捉できていない可能性がある。また、新規貢献者の定義として「リポジトリ内で初めてPRを提出した人」を採用したが、GitHub全体での経験を考慮していない。Bot検出については、GitHubのauthor\_typeフィールドに依存しているため、通常のUserアカウントとして振る舞うBotや、半自動化ツールを使用する人間の開発者による貢献を完全に排除できていない可能性がある。
+\end{comment}
+\textbf{Construct Validity}: In this study, we used the list of GFI labels presented by Tan et al.~\cite{10.1145/3368089.3409746} and Turzo et al.~\cite{10.1109/TSE.2025.3550881}. However, some projects may adopt their own label naming conventions, which means we may not have captured all GFIs. Our task type classification (Bug, Feature, Documentation, Other) is based on issue label keywords, with 47 overlapping cases (4.2\%) manually classified by the first author. Some projects use alternative labeling schemes (e.g., module-based labels) that do not map cleanly to these categories. Additionally, we defined newcomers as `individuals submitting their first PR to a repository,' which does not take into account their overall experience on GitHub. Our bot detection relies on GitHub's author\textunderscore type field, which may not capture all automated contributions (e.g., bots configured as regular users or semi-automated tools used by human developers).
+
+\begin{comment}
+\textbf{Internal Validity}: 本研究は時系列トレンドを観察しており、特定の因果関係を主張するものではない。観察された変化は、OSSエコシステム全体の変化、個々のプロジェクトの戦略的意思決定、開発ツールの進化など、複数の要因によって影響を受けている可能性がある。GFIラベルデータは2025年11月時点のスナップショットであるため、Y4のGFI比率の急激な低下がラベリングの遅延を反映している可能性が考えられる。しかし、Y4でGFI数が減少したリポジトリは通常通りのペース（例：月数百件）でissueを作成し続けており、7〜9ヶ月間にわたってGFIラベルを一切付与していないことを確認した。これはトリアージの遅延では説明できない期間であり、ラベリング慣行の実質的な変化を示している。
+\end{comment}
+\textbf{Internal Validity}: This study observes time-series trends and does not claim specific causal relationships. The observed changes may be influenced by multiple confounding factors, including overall changes in the OSS ecosystem, strategic decisions by individual projects, and the evolution of development tools. Because our GFI label data is a point-in-time snapshot collected in November 2025, one might suspect that the sharp Y4 decline in GFI ratio reflects labeling lag rather than a genuine trend. However, we confirmed that repositories with reduced GFI counts in Y4 continued to create issues at their usual volume (e.g., hundreds of issues per month) yet assigned zero GFI labels for periods of seven to nine months---well beyond plausible triage delays---indicating a real change in labeling practice rather than a data-collection artifact.
+
+\begin{comment}
+\textbf{External Validity}: 本研究はGitHub上の人気OSSプロジェクト（スター数上位）に限定されている。小規模プロジェクトや他のプラットフォーム（GitLab、Bitbucket）では異なる傾向が見られる可能性がある。また、分析対象はソフトウェアプロジェクトのみであり、ドキュメント、学習リソースなどは除外されている。
+\end{comment}
+\textbf{External Validity}: This study is limited to popular OSS projects (top-starred) on GitHub. Different trends may be observed in smaller projects or on other platforms (e.g., GitLab, Bitbucket). Furthermore, the analysis is confined to software projects, excluding non-software repositories such as documentation and learning resources.
+
+\section{Conclusion}
+
+\begin{comment}
+本研究では、GitHub上の37の人気OSSプロジェクトにおける406,826件のissue（うち3,300件がGFI関連）、43,906件の新規貢献者プルリクエストおよび1,117件のGFI PRを分析し、2021年7月から2025年6月までの4年間におけるGFI関連ラベルの使用率、新規貢献者のエンゲージメントパターン、およびGFI PRの特性の変化を調査した。
+\end{comment}
+We analyzed 406,826 issues (identifying 3,300 GFI-labeled issues), 43,906 newcomer pull requests, and 1,117 GFI PRs from 37 popular OSS projects on GitHub to investigate the usage rate of GFI labels, newcomer engagement patterns, and the changing characteristics of GFI PRs over a four-year period from July 2021 to June 2025.
+
+\begin{comment}
+ RQ1に関して、GFI関連ラベル付きissueの割合はY1〜Y3で安定した後、Y4で急激に低下した（τ=-0.44, p<0.001）。この傾向はリポジトリ間で大きく異なり、プロジェクト固有の戦略的意思決定に強く依存していることが示された。一方、新規貢献者によるGFI対応割合は約27\%で安定しており、GFIラベルが引き続き効果的なオンボーディングシグナルとして機能していることが確認された。
+\end{comment}
+Regarding RQ1, the proportion of GFIs remained stable for the first three years before declining sharply in the fourth year ($\tau=-0.44$, $p<0.001$), with this trend varying greatly among repositories and being strongly dependent on project-specific strategic decisions. Meanwhile, newcomer engagement with GFI issues remained stable at approximately 27\%, suggesting that GFI labels maintain a consistent level of attractiveness for newcomers.
+
+\begin{comment}
+RQ2に関して、GFI Issueのラベルに基づきタスクタイプ（Bug, Feature, Documentation, Other）に分類し分析した。Bug-fixタスクが最も高いマージ率（68.7\%）を示し、Y2で83.5\%のピーク後Y4で45.9\%に減少した。Featureタスクは約54\%で安定。Otherカテゴリの急激な減少（57.1\%→28.6\%）は一部PyTorchのモジュールベースラベリングの影響。マージ成功要因では、初期PR特性（コード量や説明文長）はマージ成功と有意な関連を示さず、GFIが新規貢献者に適切なスコープで設計されていることが示唆された。
+\end{comment}
+Regarding RQ2, the merge rate of newcomer GFI PRs showed a decreasing trend. Bug-fix tasks had the highest overall merge rate (68.7\%), peaking at 83.5\% in Y2 before declining to 45.9\% in Y4. Feature tasks remained stable at approximately 54\%. The steep decline in the ``Other'' category (57.1\% to 28.6\%) was partly attributable to project-specific labeling practices, highlighting the importance of accounting for heterogeneity in cross-project analyses. In the analysis of merge success factors, initial PR characteristics such as code size and description length showed no significant association with merge outcomes, suggesting that GFIs are appropriately scoped for newcomers.
+
+\begin{comment}
+本研究の知見は、プロジェクトメンテナーが新規貢献者獲得戦略を設計する上で実用的な示唆を提供する。GFIsの総数が減少している環境において、積極的にGFIsを作成・ラベル付けし、新規貢献者との建設的なレビュー対話を促進することは競争優位性となり得る。また、新規貢献者にとっては、複数のプロジェクトを横断的に探索し、レビューコメントに積極的に対応することが重要である。
+\end{comment}
+The findings of this study offer practical implications for project maintainers designing strategies for attracting new contributors. Given the decline in GFI prevalence observed in Y4, proactively creating and labeling GFIs can provide a competitive advantage for newcomer acquisition. For newcomers, it is important to explore multiple projects and engage with the review process.
+
+\begin{comment}
+今後の研究では、(1)なぜ一部のプロジェクトがGFI使用を増やし、他は減らしているのか、その意思決定プロセスの質的調査、(2)GFI PRマージ率低下の根本原因（issue品質、メンテナンスリソース、品質基準の変化）の特定、(3)タスクタイプ別の新規貢献者支援戦略の検討が有益である。これらの研究により、持続可能なOSSエコシステムにおける効果的な新規貢献者オンボーディング戦略の理解が深まることが期待される。
+\end{comment}
+Future research would benefit from (1) a qualitative investigation into the decision-making processes behind why some projects are increasing their use of GFIs while others are decreasing it; (2) identification of the root causes for the decline in GFI PR merge rates (e.g., issue quality, maintenance resources, changes in quality standards); and (3) examination of task-type-specific support strategies for newcomers. Such studies are expected to deepen our understanding of effective newcomer onboarding strategies in sustainable OSS ecosystems.
+
+\section*{Data Availability}
+The replication package for this study is available at \url{https://doi.org/10.5281/zenodo.17638558}.
+
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+
+\end{document}

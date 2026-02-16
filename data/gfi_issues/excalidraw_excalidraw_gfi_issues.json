@@ -1,0 +1,527 @@
+[
+  {
+    "number": 3783,
+    "created_at": "2021-07-03T16:08:42Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3957,
+    "created_at": "2021-09-03T05:38:57Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3971,
+    "created_at": "2021-09-06T11:53:07Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3989,
+    "created_at": "2021-09-21T15:05:44Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3991,
+    "created_at": "2021-09-21T15:08:12Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4057,
+    "created_at": "2021-10-14T18:56:15Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4324,
+    "created_at": "2021-11-26T16:37:58Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4344,
+    "created_at": "2021-12-01T07:57:15Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4833,
+    "created_at": "2022-02-22T07:55:30Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 5783,
+    "created_at": "2022-10-22T15:47:29Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5818,
+    "created_at": "2022-11-02T10:21:57Z",
+    "labels": [
+      "good first issue",
+      "a11y"
+    ]
+  },
+  {
+    "number": 5858,
+    "created_at": "2022-11-10T06:02:21Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "Text containers"
+    ]
+  },
+  {
+    "number": 5951,
+    "created_at": "2022-12-05T09:18:08Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 6221,
+    "created_at": "2023-02-11T17:05:04Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 6283,
+    "created_at": "2023-02-26T09:43:11Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6294,
+    "created_at": "2023-02-28T00:58:29Z",
+    "labels": [
+      "good first issue",
+      "meta"
+    ]
+  },
+  {
+    "number": 6340,
+    "created_at": "2023-03-09T13:01:01Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "Text containers"
+    ]
+  },
+  {
+    "number": 6418,
+    "created_at": "2023-04-04T21:24:38Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6434,
+    "created_at": "2023-04-08T22:31:21Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "Text containers"
+    ]
+  },
+  {
+    "number": 6435,
+    "created_at": "2023-04-08T22:36:27Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "Text containers"
+    ]
+  },
+  {
+    "number": 6459,
+    "created_at": "2023-04-15T08:14:19Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6476,
+    "created_at": "2023-04-17T22:11:53Z",
+    "labels": [
+      "good first issue",
+      "Text containers"
+    ]
+  },
+  {
+    "number": 6493,
+    "created_at": "2023-04-19T16:39:41Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6532,
+    "created_at": "2023-04-28T07:29:05Z",
+    "labels": [
+      "good first issue",
+      "build"
+    ]
+  },
+  {
+    "number": 6553,
+    "created_at": "2023-05-04T08:43:00Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6577,
+    "created_at": "2023-05-11T18:40:36Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "package:excalidraw"
+    ]
+  },
+  {
+    "number": 6608,
+    "created_at": "2023-05-22T10:53:27Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6688,
+    "created_at": "2023-06-16T14:59:19Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6738,
+    "created_at": "2023-07-05T02:24:44Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "package:excalidraw"
+    ]
+  },
+  {
+    "number": 6746,
+    "created_at": "2023-07-09T21:40:08Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6804,
+    "created_at": "2023-07-25T15:04:51Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6952,
+    "created_at": "2023-08-31T15:36:58Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7177,
+    "created_at": "2023-10-21T12:47:30Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 7807,
+    "created_at": "2024-03-23T21:23:44Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7900,
+    "created_at": "2024-04-16T17:47:42Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7948,
+    "created_at": "2024-04-24T21:11:32Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8107,
+    "created_at": "2024-06-08T09:40:48Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "package:excalidraw"
+    ]
+  },
+  {
+    "number": 8301,
+    "created_at": "2024-07-30T20:53:49Z",
+    "labels": [
+      "good first issue",
+      "export"
+    ]
+  },
+  {
+    "number": 8321,
+    "created_at": "2024-08-04T17:05:54Z",
+    "labels": [
+      "good first issue",
+      "high priority",
+      "history"
+    ]
+  },
+  {
+    "number": 8435,
+    "created_at": "2024-08-27T10:39:35Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8475,
+    "created_at": "2024-09-06T16:42:48Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8508,
+    "created_at": "2024-09-16T17:48:26Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8511,
+    "created_at": "2024-09-17T09:54:08Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "grouping"
+    ]
+  },
+  {
+    "number": 8518,
+    "created_at": "2024-09-18T07:29:06Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8575,
+    "created_at": "2024-10-01T14:54:34Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8586,
+    "created_at": "2024-10-03T08:35:39Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8657,
+    "created_at": "2024-10-17T08:52:52Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 8672,
+    "created_at": "2024-10-19T09:44:59Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8761,
+    "created_at": "2024-11-05T13:15:27Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8818,
+    "created_at": "2024-11-18T12:36:52Z",
+    "labels": [
+      "good first issue",
+      "font"
+    ]
+  },
+  {
+    "number": 8833,
+    "created_at": "2024-11-20T13:48:51Z",
+    "labels": [
+      "good first issue",
+      "Arrow Binding"
+    ]
+  },
+  {
+    "number": 9112,
+    "created_at": "2025-02-08T19:07:44Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9190,
+    "created_at": "2025-02-25T08:59:19Z",
+    "labels": [
+      "good first issue",
+      "history"
+    ]
+  },
+  {
+    "number": 9242,
+    "created_at": "2025-03-11T10:24:38Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9269,
+    "created_at": "2025-03-13T22:15:37Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9276,
+    "created_at": "2025-03-16T15:34:35Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 9281,
+    "created_at": "2025-03-18T20:28:50Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9296,
+    "created_at": "2025-03-24T14:02:17Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9297,
+    "created_at": "2025-03-24T14:10:41Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9334,
+    "created_at": "2025-04-03T10:07:39Z",
+    "labels": [
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 9463,
+    "created_at": "2025-04-30T17:17:27Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9467,
+    "created_at": "2025-05-01T11:04:35Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "collaboration"
+    ]
+  },
+  {
+    "number": 9503,
+    "created_at": "2025-05-10T10:59:42Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9527,
+    "created_at": "2025-05-14T23:39:53Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 9541,
+    "created_at": "2025-05-17T00:46:20Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "UX/UI"
+    ]
+  },
+  {
+    "number": 9656,
+    "created_at": "2025-06-15T06:20:15Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  }
+]

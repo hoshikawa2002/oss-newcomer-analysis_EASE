@@ -1,0 +1,2762 @@
+[
+  {
+    "pr_number": 11760,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11754,
+        "labels": [
+          "bug",
+          "good first issue",
+          "docs"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11760,
+      "title": "docs(lsp): Change deno/registryStatus -> deno/registryState",
+      "body": "Fixes #11754",
+      "body_length": 12,
+      "created_at": "2021-08-18T15:24:29Z",
+      "merged_at": "2021-08-18T16:17:52Z",
+      "merged": true,
+      "time_to_merge_hours": 0.8897222222222222,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "[Docs] Change deno/registryStatus -> deno/registryState"
+      ],
+      "avg_commit_msg_length": 55.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "cli/lsp/README.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #11754",
+      "body_cleaned_length": 12,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Patil2099"
+  },
+  {
+    "pr_number": 11830,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11747,
+        "labels": [
+          "bug",
+          "good first issue",
+          "web",
+          "ext/websocket"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11830,
+      "title": "fix(ext/http): websocket upgrade header check",
+      "body": "Fixes #11747 ",
+      "body_length": 13,
+      "created_at": "2021-08-24T14:32:08Z",
+      "merged_at": "2021-08-24T22:55:33Z",
+      "merged": true,
+      "time_to_merge_hours": 8.390277777777778,
+      "state": "MERGED",
+      "additions": 48,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 3,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(ext/http): websocket upgrade header check",
+        "using primordials lowercase function and add some tests"
+      ],
+      "avg_commit_msg_length": 50.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/unit/http_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #11747",
+      "body_cleaned_length": 12,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 7.6923076923076925,
+      "author_type": "User"
+    },
+    "username": "galiazzi"
+  },
+  {
+    "pr_number": 11841,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11785,
+        "labels": [
+          "good first issue",
+          "docs",
+          "suggestion"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11841,
+      "title": "docs(README): Change the logo to vector image",
+      "body": "close #11785\r\n\r\n<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n",
+      "body_length": 639,
+      "created_at": "2021-08-25T11:14:39Z",
+      "merged_at": "2021-08-25T13:27:18Z",
+      "merged": true,
+      "time_to_merge_hours": 2.2108333333333334,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 2,
+      "comment_count": 1,
+      "commit_messages": [
+        "docs(README): Change the logo to vector image\n\nclose #11785",
+        "docs(README): More complete logo alternative text\n\nCo-authored-by: Luca Casonato <lucacasonato@yahoo.com>"
+      ],
+      "avg_commit_msg_length": 82.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "README.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "close #11785",
+      "body_cleaned_length": 12,
+      "template_removed_length": 627,
+      "template_reduction_percentage": 98.12206572769952,
+      "author_type": "User"
+    },
+    "username": "kecrily"
+  },
+  {
+    "pr_number": 13031,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12224,
+        "labels": [
+          "bug",
+          "good first issue",
+          "help wanted"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13031,
+      "title": "fix(cli):  refrain from adding colours to the non-tty outputs",
+      "body": "fixes #12224 \r\n\r\n#### Before:\r\n<img width=\"550px\" height=\"250px\" alt=\"Before\" src=\"https://user-images.githubusercontent.com/45007338/145447261-d44817dd-704c-400b-8a4f-2f44d5d7d13c.png\">\r\n\r\n#### After\r\n<img width=\"550px\" height=\"250px\" alt=\"after\" src=\"https://user-images.githubusercontent.com/45007338/145447631-49863919-3711-4946-8d68-b5b5d94d27f6.png\">\r\n",
+      "body_length": 358,
+      "created_at": "2021-12-09T17:52:47Z",
+      "merged_at": "2021-12-10T14:05:40Z",
+      "merged": true,
+      "time_to_merge_hours": 20.21472222222222,
+      "state": "MERGED",
+      "additions": 4,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 4,
+      "comment_count": 5,
+      "commit_messages": [
+        "fix #12224 add step to use color to output only in tty\n\nSigned-off-by: VishnuJin <vishnujin@outlook.com>",
+        "reset CI",
+        "reset CI"
+      ],
+      "avg_commit_msg_length": 40.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #12224 \r\n\r\n#### Before:\r\n<img width=\"550px\" height=\"250px\" alt=\"Before\" src=\"https://user-images.githubusercontent.com/45007338/145447261-d44817dd-704c-400b-8a4f-2f44d5d7d13c.png\">\r\n\r\n#### After\r\n<img width=\"550px\" height=\"250px\" alt=\"after\" src=\"https://user-images.githubusercontent.com/45007338/145447631-49863919-3711-4946-8d68-b5b5d94d27f6.png\">",
+      "body_cleaned_length": 356,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5586592178770949,
+      "author_type": "User"
+    },
+    "username": "VishnuJin"
+  },
+  {
+    "pr_number": 13293,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13245,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13293,
+      "title": "fix: export \"Deno.memoryUsage()\" in worker context",
+      "body": "closes #13245\r\n",
+      "body_length": 15,
+      "created_at": "2022-01-05T23:20:29Z",
+      "merged_at": "2022-01-09T22:42:15Z",
+      "merged": true,
+      "time_to_merge_hours": 95.36277777777778,
+      "state": "MERGED",
+      "additions": 30,
+      "deletions": 1,
+      "files_changed": 3,
+      "commits_count": 6,
+      "review_count": 3,
+      "comment_count": 3,
+      "commit_messages": [
+        "memoryUsage fix",
+        "Merge branch 'denoland:main' into main",
+        "Added worker for memoryUsage",
+        "ree",
+        "format",
+        "replace console.log with assert"
+      ],
+      "avg_commit_msg_length": 20.166666666666668,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/testdata/workers/test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "js": 2
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "closes #13245",
+      "body_cleaned_length": 13,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 13.333333333333334,
+      "author_type": "User"
+    },
+    "username": "R0dn3yS"
+  },
+  {
+    "pr_number": 13610,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13311,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13610,
+      "title": "refactor: use `Arc` instead of making copies of `Flags` struct",
+      "body": "ProcState.Flags: Flags -> Arc<Flags>\r\nusing Arc instead of cloning\r\n\r\ncloses #13311\r\n",
+      "body_length": 85,
+      "created_at": "2022-02-06T20:17:08Z",
+      "merged_at": "2022-02-11T19:04:31Z",
+      "merged": true,
+      "time_to_merge_hours": 118.78972222222222,
+      "state": "MERGED",
+      "additions": 81,
+      "deletions": 83,
+      "files_changed": 11,
+      "commits_count": 4,
+      "review_count": 17,
+      "comment_count": 3,
+      "commit_messages": [
+        "closes #13311\nProcState.Flags: Flags -> Arc<Flags>\nusing Arc instead of cloning",
+        "Merge branch 'main' into feat/13311/use_arc_instead_of_copying_flags_struct",
+        "Format.",
+        "Reduce cloning in some other areas."
+      ],
+      "avg_commit_msg_length": 49.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tools/test.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 11
+      },
+      "review_states": {
+        "COMMENTED": 16,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "ProcState.Flags: Flags -> Arc<Flags>\r\nusing Arc instead of cloning\r\n\r\ncloses #13311",
+      "body_cleaned_length": 83,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 2.3529411764705883,
+      "author_type": "User"
+    },
+    "username": "biryukovmaxim"
+  },
+  {
+    "pr_number": 13726,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13723,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13726,
+      "title": "fix: move the permission check at the beginning of the upgrade process",
+      "body": "Fix #13723\r\n\r\n",
+      "body_length": 14,
+      "created_at": "2022-02-20T14:58:32Z",
+      "merged_at": "2022-02-23T21:11:46Z",
+      "merged": true,
+      "time_to_merge_hours": 78.22055555555555,
+      "state": "MERGED",
+      "additions": 7,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 9,
+      "commit_messages": [
+        "fix: move the permission check at the beginning of the upgrade process\n\nFix #13723",
+        "chore(formatting): formated cli/tools/upgrade.rs\n\nProperly formated cli/tools/upgrade.rs using project's script"
+      ],
+      "avg_commit_msg_length": 96.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix #13723",
+      "body_cleaned_length": 10,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 28.57142857142857,
+      "author_type": "User"
+    },
+    "username": "mlemesle"
+  },
+  {
+    "pr_number": 13782,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12224,
+        "labels": [
+          "bug",
+          "good first issue",
+          "help wanted"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13782,
+      "title": "fix(cli/tools): colors do not properly detect not tty",
+      "body": "I don't test this for now, because I don't know where to put these kinds of tests.\r\n\r\nfix #12224 \r\n",
+      "body_length": 99,
+      "created_at": "2022-02-27T07:57:44Z",
+      "merged_at": "2022-03-01T03:37:50Z",
+      "merged": true,
+      "time_to_merge_hours": 43.66833333333334,
+      "state": "MERGED",
+      "additions": 32,
+      "deletions": 2,
+      "files_changed": 8,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 8,
+      "commit_messages": [
+        "fix(runtime): colors do not properly detect not tty"
+      ],
+      "avg_commit_msg_length": 51.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/unit/tty_color_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 6,
+        "ts": 1,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "I don't test this for now, because I don't know where to put these kinds of tests.\r\n\r\nfix #12224",
+      "body_cleaned_length": 96,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 3.0303030303030303,
+      "author_type": "User"
+    },
+    "username": "antoniomuso"
+  },
+  {
+    "pr_number": 13944,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13937,
+        "labels": [
+          "bug",
+          "good first issue",
+          "compile"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13944,
+      "title": "fix(cli): improve `deno compile` error messages",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n\r\ncloses #13937 ",
+      "body_length": 639,
+      "created_at": "2022-03-14T05:04:15Z",
+      "merged_at": "2022-03-18T23:18:50Z",
+      "merged": true,
+      "time_to_merge_hours": 114.24305555555556,
+      "state": "MERGED",
+      "additions": 48,
+      "deletions": 9,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "chore(cli): add a hint to the error message",
+        "Improve all the compile related error messages.",
+        "Remove comma."
+      ],
+      "avg_commit_msg_length": 34.333333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.3333333333333333,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/compile_tests.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 2
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "closes #13937",
+      "body_cleaned_length": 13,
+      "template_removed_length": 626,
+      "template_reduction_percentage": 97.96557120500783,
+      "author_type": "User"
+    },
+    "username": "TrickyPi"
+  },
+  {
+    "pr_number": 14372,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 14355,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 14372,
+      "title": "feat(ext/net): add `NS` DNS record support",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\nAdding `NS` DNS record using `Name` struct. For resolving name server record to delegates a DNS zone to use the given with [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035#page-12).\r\nCloses #14355 \r\n",
+      "body_length": 830,
+      "created_at": "2022-04-23T08:18:10Z",
+      "merged_at": "2022-05-03T18:04:20Z",
+      "merged": true,
+      "time_to_merge_hours": 249.76944444444445,
+      "state": "MERGED",
+      "additions": 94,
+      "deletions": 52,
+      "files_changed": 8,
+      "commits_count": 7,
+      "review_count": 6,
+      "comment_count": 2,
+      "commit_messages": [
+        "feat(ext/net): add `NS` DNS record support",
+        "fix(ext/net): enum type should be in PascalCase",
+        "feat(ext/net): add `NS` support or `test_resolve_dns` integration tests",
+        "feat(ext/net): add `NS` resolveDns option for lib.deno",
+        "chore(trust-dns): upgrade to version 0.21.2",
+        "fix(ext/net): fix RwLock after upgraded",
+        "reset CI"
+      ],
+      "avg_commit_msg_length": 43.42857142857143,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.8571428571428571,
+      "commit_types": [
+        "feat",
+        "chore",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/mod.rs",
+        "cli/tests/testdata/resolve_dns.ts",
+        "cli/tests/testdata/resolve_dns.ts.out"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "lock": 1,
+        "toml": 2,
+        "ts": 2,
+        "rs": 2,
+        "out": 1
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Adding `NS` DNS record using `Name` struct. For resolving name server record to delegates a DNS zone to use the given with [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035#page-12).\r\nCloses #14355",
+      "body_cleaned_length": 204,
+      "template_removed_length": 626,
+      "template_reduction_percentage": 75.42168674698794,
+      "author_type": "User"
+    },
+    "username": "PatrickChoDev"
+  },
+  {
+    "pr_number": 14505,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 14250,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 14505,
+      "title": "feat(cli): add deno version to manual links",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n\r\nAdds current `deno` version to all manual links in CLI.\r\n\r\nCloses #14250.\r\n",
+      "body_length": 700,
+      "created_at": "2022-05-05T20:16:20Z",
+      "merged_at": "2022-05-09T18:16:34Z",
+      "merged": true,
+      "time_to_merge_hours": 94.0038888888889,
+      "state": "MERGED",
+      "additions": 60,
+      "deletions": 24,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 4,
+      "comment_count": 2,
+      "commit_messages": [
+        "feat: add deno version to manual links",
+        "fix: handle canary version",
+        "Merge branch 'main' into feature/cli-manual-links-with-version"
+      ],
+      "avg_commit_msg_length": 42.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "feat",
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Adds current `deno` version to all manual links in CLI.\r\n\r\nCloses #14250.",
+      "body_cleaned_length": 73,
+      "template_removed_length": 627,
+      "template_reduction_percentage": 89.57142857142857,
+      "author_type": "User"
+    },
+    "username": "mrkldshv"
+  },
+  {
+    "pr_number": 15171,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15160,
+        "labels": [
+          "good first issue",
+          "repl",
+          "suggestion"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15171,
+      "title": "feat(cli/lsp): Sort repl completions",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n\r\nfixes #15160 ",
+      "body_length": 638,
+      "created_at": "2022-07-12T20:29:47Z",
+      "merged_at": "2022-07-13T02:21:56Z",
+      "merged": true,
+      "time_to_merge_hours": 5.869166666666667,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 3,
+      "comment_count": 1,
+      "commit_messages": [
+        "feat(cli/lsp): Sort repl completions",
+        "refactor(cli/lsp): Remove unnecessary properties and dependencies"
+      ],
+      "avg_commit_msg_length": 50.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat",
+        "refactor"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #15160",
+      "body_cleaned_length": 12,
+      "template_removed_length": 626,
+      "template_reduction_percentage": 98.11912225705329,
+      "author_type": "User"
+    },
+    "username": "yoseio"
+  },
+  {
+    "pr_number": 15364,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15359,
+        "labels": [
+          "bug",
+          "good first issue",
+          "lsp"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15364,
+      "title": "fix(cli/lsp): remove excessive line breaks",
+      "body": "Fixes #15359",
+      "body_length": 12,
+      "created_at": "2022-08-01T00:35:45Z",
+      "merged_at": "2022-08-01T22:29:05Z",
+      "merged": true,
+      "time_to_merge_hours": 21.88888888888889,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix(cli/lsp): remove excessive line breaks",
+        "Merge branch 'main' into patch-1"
+      ],
+      "avg_commit_msg_length": 37.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #15359",
+      "body_cleaned_length": 12,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "outloudvi"
+  },
+  {
+    "pr_number": 15853,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15702,
+        "labels": [
+          "bug",
+          "good first issue",
+          "webgpu"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15853,
+      "title": "fix(ext/webgpu): GPUDevice.features should be SetLike.",
+      "body": "Fixes #15702.",
+      "body_length": 13,
+      "created_at": "2022-09-10T18:06:19Z",
+      "merged_at": "2022-09-20T01:43:33Z",
+      "merged": true,
+      "time_to_merge_hours": 223.62055555555557,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 9,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 3,
+      "comment_count": 6,
+      "commit_messages": [
+        "fix(ext/webgpu): GPUDevice.features should be SetLike.",
+        "chore(lint): no-unused-vars",
+        "fix(cli): types for webgpu features"
+      ],
+      "avg_commit_msg_length": 38.666666666666664,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #15702.",
+      "body_cleaned_length": 13,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "vicary"
+  },
+  {
+    "pr_number": 16234,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 16193,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 16234,
+      "title": "fix(core): Allow importMap to be an absolute URL within the deno config file",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n\r\nWhen the config is a local file, added a check for whether the importMap is an absolute URL, and just use that if so, before falling back to the existing behaviour of resolving as a file path.\r\n\r\nAdded test for an absolute importMap URL in a local config.\r\n\r\nFixes #16193",
+      "body_length": 896,
+      "created_at": "2022-10-10T12:31:10Z",
+      "merged_at": "2022-10-13T09:01:12Z",
+      "merged": true,
+      "time_to_merge_hours": 68.50055555555555,
+      "state": "MERGED",
+      "additions": 23,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "Added failing test for remote import map in local config file",
+        "Allow importMap to be an absolute URL within the config.",
+        "Format"
+      ],
+      "avg_commit_msg_length": 41.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "When the config is a local file, added a check for whether the importMap is an absolute URL, and just use that if so, before falling back to the existing behaviour of resolving as a file path.\r\n\r\nAdded test for an absolute importMap URL in a local config.\r\n\r\nFixes #16193",
+      "body_cleaned_length": 271,
+      "template_removed_length": 625,
+      "template_reduction_percentage": 69.75446428571429,
+      "author_type": "User"
+    },
+    "username": "jollytoad"
+  },
+  {
+    "pr_number": 16382,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 16221,
+        "labels": [
+          "good first issue",
+          "cli"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 16382,
+      "title": "fix(upgrade): Added error message when using canary option with M1",
+      "body": "fix #16221 \r\n\r\nbefore\r\n```\r\nLooking up latest version\r\nFound latest version 8c9e6c5565c1c00437d083de76cdd944e44b1d99\r\nChecking https://dl.deno.land/canary/8c9e6c5565c1c00437d083de76cdd944e44b1d99/deno-aarch64-apple-darwin.zip\r\nDownload could not be found, aborting\r\n```\r\n\r\nafter\r\n```\r\nLooking up latest canary version\r\nFound latest version 8c9e6c5565c1c00437d083de76cdd944e44b1d99\r\nerror: Canary builds are not available for M1\r\n```",
+      "body_length": 432,
+      "created_at": "2022-10-21T16:12:19Z",
+      "merged_at": "2022-10-26T13:51:22Z",
+      "merged": true,
+      "time_to_merge_hours": 117.65083333333334,
+      "state": "MERGED",
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 5,
+      "review_count": 3,
+      "comment_count": 1,
+      "commit_messages": [
+        "[add]error message that cannot be upgraded canary for M1",
+        "Merge branch 'main' into add-error-M1-install-canary",
+        "move into conditional",
+        "fmt",
+        "Merge branch 'main' into add-error-M1-install-canary"
+      ],
+      "avg_commit_msg_length": 36.8,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "DISMISSED": 1,
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #16221 \r\n\r\nbefore\r\n```\r\nLooking up latest version\r\nFound latest version 8c9e6c5565c1c00437d083de76cdd944e44b1d99\r\nChecking https://dl.deno.land/canary/8c9e6c5565c1c00437d083de76cdd944e44b1d99/deno-aarch64-apple-darwin.zip\r\nDownload could not be found, aborting\r\n```\r\n\r\nafter\r\n```\r\nLooking up latest canary version\r\nFound latest version 8c9e6c5565c1c00437d083de76cdd944e44b1d99\r\nerror: Canary builds are not available for M1\r\n```",
+      "body_cleaned_length": 432,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ydoi"
+  },
+  {
+    "pr_number": 16482,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 16305,
+        "labels": [
+          "good first issue",
+          "tests"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 16482,
+      "title": "fix(test): add slice method to filename",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\nFixes #16305 \r\n\r\nI referred to [event_listener_error_handled](https://github.com/denoland/deno/blob/main/cli/tests/testdata/run/event_listener_error_handled.ts) and [set_timeout_error_handled](https://github.com/denoland/deno/blob/main/cli/tests/testdata/run/set_timeout_error_handled.ts)",
+      "body_length": 911,
+      "created_at": "2022-10-30T06:54:06Z",
+      "merged_at": "2022-10-31T03:47:00Z",
+      "merged": true,
+      "time_to_merge_hours": 20.881666666666668,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Add slice to filename",
+        "Merge branch 'main' into add-slice-to-filename"
+      ],
+      "avg_commit_msg_length": 33.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/testdata/run/queue_microtask_error_handled.ts",
+        "cli/tests/testdata/run/report_error_handled.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #16305 \r\n\r\nI referred to [event_listener_error_handled](https://github.com/denoland/deno/blob/main/cli/tests/testdata/run/event_listener_error_handled.ts) and [set_timeout_error_handled](https://github.com/denoland/deno/blob/main/cli/tests/testdata/run/set_timeout_error_handled.ts)",
+      "body_cleaned_length": 288,
+      "template_removed_length": 623,
+      "template_reduction_percentage": 68.38638858397366,
+      "author_type": "User"
+    },
+    "username": "shogohida"
+  },
+  {
+    "pr_number": 18097,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 18078,
+        "labels": [
+          "good first issue",
+          "node compat"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 18097,
+      "title": "fix(ext/node): implement \"ascii\" encoding for node:fs writeFile()",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\n\r\nCloses #18078\r\n",
+      "body_length": 870,
+      "created_at": "2023-03-09T16:56:45Z",
+      "merged_at": "2023-03-16T03:16:03Z",
+      "merged": true,
+      "time_to_merge_hours": 154.32166666666666,
+      "state": "MERGED",
+      "additions": 50,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 4,
+      "review_count": 2,
+      "comment_count": 4,
+      "commit_messages": [
+        "fix(ext/node): implement \"ascii\" encoding for node:fs writeFile()",
+        "test(ext/node): add fs_test",
+        "chore(ext/node): run code format",
+        "Merge branch 'main' into fix-ascii-encoding"
+      ],
+      "avg_commit_msg_length": 41.75,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.75,
+      "commit_types": [
+        "fix",
+        "test",
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/unit_node/fs_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #18078",
+      "body_cleaned_length": 13,
+      "template_removed_length": 857,
+      "template_reduction_percentage": 98.50574712643679,
+      "author_type": "User"
+    },
+    "username": "Farsen976"
+  },
+  {
+    "pr_number": 18461,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 18266,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 18461,
+      "title": "chore: add test for Linux shared libraries",
+      "body": "Closes #18266\r\n\r\n<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\n",
+      "body_length": 870,
+      "created_at": "2023-03-27T15:51:59Z",
+      "merged_at": "2023-03-28T09:00:19Z",
+      "merged": true,
+      "time_to_merge_hours": 17.13888888888889,
+      "state": "MERGED",
+      "additions": 37,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "chore: add test for Linux shared libraries\n\nCloses #18266",
+        "Merge branch 'main' into issue-18266"
+      ],
+      "avg_commit_msg_length": 46.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/linux_tests.rs",
+        "cli/tests/integration/mod.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 2
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #18266",
+      "body_cleaned_length": 13,
+      "template_removed_length": 857,
+      "template_reduction_percentage": 98.50574712643679,
+      "author_type": "User"
+    },
+    "username": "andrewnester"
+  },
+  {
+    "pr_number": 20174,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20156,
+        "labels": [
+          "good first issue",
+          "feat",
+          "help wanted",
+          "testing"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20174,
+      "title": "fix(test): JUnit reporter includes file, line and column attributes",
+      "body": "Closes #20156\r\n",
+      "body_length": 15,
+      "created_at": "2023-08-16T01:02:11Z",
+      "merged_at": "2023-08-17T21:41:29Z",
+      "merged": true,
+      "time_to_merge_hours": 44.655,
+      "state": "MERGED",
+      "additions": 60,
+      "deletions": 6,
+      "files_changed": 3,
+      "commits_count": 11,
+      "review_count": 6,
+      "comment_count": 7,
+      "commit_messages": [
+        "Feat: JUnit XML Includes Test Name, Line, & Column",
+        "fix(runtime): use host header for inspector websocket URL (#20171)\n\nIf a `host` header is specified, use that for the generated websocket\r\nURLs.\r\n\r\nFixes #20087",
+        "Merge branch 'main' into feat/junit-testcase-attribute",
+        "Trigger CI",
+        "Unit test",
+        "Use extra instead of properties",
+        "Merge branch 'main' into feat/junit-testcase-attribute",
+        "Strip file prefix",
+        "Merge branch 'main' into feat/junit-testcase-attribute",
+        "Format",
+        "Merge branch 'main' into feat/junit-testcase-attribute"
+      ],
+      "avg_commit_msg_length": 45.36363636363637,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.18181818181818182,
+      "commit_types": [
+        "feat",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/test_tests.rs",
+        "cli/tests/testdata/test/pass.junit.out",
+        "cli/tools/test/reporters/junit.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 2,
+        "out": 1
+      },
+      "review_states": {
+        "COMMENTED": 5,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #20156",
+      "body_cleaned_length": 13,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 13.333333333333334,
+      "author_type": "User"
+    },
+    "username": "armichaud"
+  },
+  {
+    "pr_number": 20460,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20351,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20460,
+      "title": "fix: `Deno.Command` - improve error message when `cwd` is not a directory",
+      "body": "<!--\r\nBefore submitting a PR, please read https://deno.com/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\n\r\nFixes #20351 with checks for the path and its type.\r\n\r\nRaises a `AnyError` if either the path doesn't exist OR if the path is NOT a directory\r\n\r\n![image](https://github.com/denoland/deno/assets/94926409/37eb0402-ec18-4c69-bb9c-bce9bc5f837b)\r\n",
+      "body_length": 1097,
+      "created_at": "2023-09-11T21:19:44Z",
+      "merged_at": "2023-09-18T17:48:55Z",
+      "merged": true,
+      "time_to_merge_hours": 164.48638888888888,
+      "state": "MERGED",
+      "additions": 75,
+      "deletions": 9,
+      "files_changed": 2,
+      "commits_count": 12,
+      "review_count": 15,
+      "comment_count": 8,
+      "commit_messages": [
+        "Ensure `cwd` is a directory in `Deno.Command`\n\nSigned-off-by: Shreyas <shreyass.ranganatha@gmail.com>",
+        "Lazily check for cwd path upon error + add tests\n\nSigned-off-by: Shreyas <shreyass.ranganatha@gmail.com>",
+        "Change exec bins in test to `.execPath()`\n\nSigned-off-by: Shreyas <shreyass.ranganatha@gmail.com>",
+        "Fix format errors\n\nSigned-off-by: Shreyas <shreyass.ranganatha@gmail.com>",
+        "Merge branch 'main' into issue#20351",
+        "Apply suggestions from code review",
+        "Update cli/tests/unit/command_test.ts",
+        "Fix linting errors",
+        "Fix.",
+        "Fix NotFound checks",
+        "Standardize all failed to spawn errors",
+        "Merge branch 'main' into issue#20351"
+      ],
+      "avg_commit_msg_length": 49.75,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/unit/command_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "COMMENTED": 14,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #20351 with checks for the path and its type.\r\n\r\nRaises a `AnyError` if either the path doesn't exist OR if the path is NOT a directory\r\n\r\n![image](https://github.com/denoland/deno/assets/94926409/37eb0402-ec18-4c69-bb9c-bce9bc5f837b)",
+      "body_cleaned_length": 240,
+      "template_removed_length": 857,
+      "template_reduction_percentage": 78.12215132178669,
+      "author_type": "User"
+    },
+    "username": "shreyass-ranganatha"
+  },
+  {
+    "pr_number": 20588,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20558,
+        "labels": [
+          "bug",
+          "good first issue",
+          "cli"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20588,
+      "title": "fix(node/package_json): Avoid panic when \"exports\" field is null",
+      "body": "Fixes #20558\r\n\r\nImplementation: when package.json `exports` field is `null`, treat it as if it was not set",
+      "body_length": 106,
+      "created_at": "2023-09-20T20:15:30Z",
+      "merged_at": "2023-09-22T09:21:39Z",
+      "merged": true,
+      "time_to_merge_hours": 37.1025,
+      "state": "MERGED",
+      "additions": 20,
+      "deletions": 4,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 3,
+      "comment_count": 2,
+      "commit_messages": [
+        "added test",
+        "removed .unwrap() call"
+      ],
+      "avg_commit_msg_length": 16.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 2
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #20558\r\n\r\nImplementation: when package.json `exports` field is `null`, treat it as if it was not set",
+      "body_cleaned_length": 106,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ascandone"
+  },
+  {
+    "pr_number": 20705,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20563,
+        "labels": [
+          "bug",
+          "good first issue",
+          "node compat"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20705,
+      "title": "fix(ext/node): fix TypeError in Buffer.from with base64url encoding.",
+      "body": "For the following example, if I set the encoding to `base64url`, it'll throw an unexpected TypeError:\r\n\r\n```ts\r\nimport { Buffer } from \"node:buffer\";\r\n\r\nBuffer.from(\"IntcImhlbGxvXCI6XCJoZGQvZStpXCJ9Ig\", \"base64url\").toString();\r\n\r\n// error: Uncaught TypeError: src.subarray is not a function\r\n// const buf = Buffer.from(\r\n//                    ^\r\n//     at blitBuffer (ext:deno_node/internal/buffer.mjs:1779:15)\r\n//     at Uint8Array.base64urlWrite (ext:deno_node/internal/buffer.mjs:691:10)\r\n//     at Object.write (ext:deno_node/internal/buffer.mjs:2195:11)\r\n//     at Uint8Array.write (ext:deno_node/internal/buffer.mjs:794:14)\r\n//     at fromString (ext:deno_node/internal/buffer.mjs:214:22)\r\n//     at _from (ext:deno_node/internal/buffer.mjs:119:12)\r\n//     at Function.from (ext:deno_node/internal/buffer.mjs:157:10)\r\n//     at file:///Users/foodieats/temp/buffer1.ts:3:20\r\n```\r\n\r\nThe error caused by `base64urlWrite` function, it should call `forgivingBase64UrlDecode` not `forgivingBase64UrlEncode`\r\n\r\nAlso fixed #20563 .",
+      "body_length": 1030,
+      "created_at": "2023-09-27T05:25:47Z",
+      "merged_at": "2023-09-27T13:54:19Z",
+      "merged": true,
+      "time_to_merge_hours": 8.475555555555555,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(ext/node): fix TypeError in Buffer.from with base64url encoding.",
+        "Merge branch 'main' into fix-buffer-base64url"
+      ],
+      "avg_commit_msg_length": 56.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "For the following example, if I set the encoding to `base64url`, it'll throw an unexpected TypeError:\r\n\r\n```ts\r\nimport { Buffer } from \"node:buffer\";\r\n\r\nBuffer.from(\"IntcImhlbGxvXCI6XCJoZGQvZStpXCJ9Ig\", \"base64url\").toString();\r\n\r\n// error: Uncaught TypeError: src.subarray is not a function\r\n// const buf = Buffer.from(\r\n//                    ^\r\n//     at blitBuffer (ext:deno_node/internal/buffer.mjs:1779:15)\r\n//     at Uint8Array.base64urlWrite (ext:deno_node/internal/buffer.mjs:691:10)\r\n//     at Object.write (ext:deno_node/internal/buffer.mjs:2195:11)\r\n//     at Uint8Array.write (ext:deno_node/internal/buffer.mjs:794:14)\r\n//     at fromString (ext:deno_node/internal/buffer.mjs:214:22)\r\n//     at _from (ext:deno_node/internal/buffer.mjs:119:12)\r\n//     at Function.from (ext:deno_node/internal/buffer.mjs:157:10)\r\n//     at file:///Users/foodieats/temp/buffer1.ts:3:20\r\n```\r\n\r\nThe error caused by `base64urlWrite` function, it should call `forgivingBase64UrlDecode` not `forgivingBase64UrlEncode`\r\n\r\nAlso fixed #20563 .",
+      "body_cleaned_length": 1030,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ghosind"
+  },
+  {
+    "pr_number": 21953,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 21943,
+        "labels": [
+          "good first issue",
+          "docs",
+          "suggestion"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 21953,
+      "title": "docs(ns): add a notice on file order returned by readDir",
+      "body": "fix #21943",
+      "body_length": 10,
+      "created_at": "2024-01-16T00:05:33Z",
+      "merged_at": "2024-01-16T04:57:07Z",
+      "merged": true,
+      "time_to_merge_hours": 4.859444444444445,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "docs: add a notice on file order returned by readDir",
+        "Merge branch 'main' into add-read-dir-note"
+      ],
+      "avg_commit_msg_length": 47.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #21943",
+      "body_cleaned_length": 10,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "king8fisher"
+  },
+  {
+    "pr_number": 22260,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 22221,
+        "labels": [
+          "good first issue",
+          "cli",
+          "permissions"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 22260,
+      "title": "fix: enable \"--allow-sys=cpus\" for \"deno run\"",
+      "body": "Fixes #22221 with the suggested fix, and added \"cpus\" to the existing tests.",
+      "body_length": 76,
+      "created_at": "2024-02-04T17:09:39Z",
+      "merged_at": "2024-02-07T06:38:41Z",
+      "merged": true,
+      "time_to_merge_hours": 61.48388888888889,
+      "state": "MERGED",
+      "additions": 5,
+      "deletions": 2,
+      "files_changed": 3,
+      "commits_count": 5,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "add --allow-sys=cpus",
+        "add type/test for \"cpus\" sys validity",
+        "Merge branch 'main' into issue-22221/cpu-allow",
+        "Merge branch 'main' into issue-22221/cpu-allow",
+        "Merge branch 'main' into issue-22221/cpu-allow"
+      ],
+      "avg_commit_msg_length": 39.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/unit/permissions_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2,
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #22221 with the suggested fix, and added \"cpus\" to the existing tests.",
+      "body_cleaned_length": 76,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "restlessronin"
+  },
+  {
+    "pr_number": 24242,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 24241,
+        "labels": [
+          "bug",
+          "good first issue",
+          "permissions"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 24242,
+      "title": "fix: Add sys permission kinds for node compat",
+      "body": "Fixes #24241\r\n\r\n* Support \"statfs\", \"username\", \"getPriority\" and \"setPriority\" kinds for `--allow-sys`.\r\n* Check individual permissions in `node:os.userInfo()` instead of a single \"userInfo\" permission.\r\n* Check for \"uid\" permission in `node:process.geteuid()` instead of \"geteuid\".\r\n* Add missing \"homedir\" to `SysPermissionDescriptor.kind` union",
+      "body_length": 348,
+      "created_at": "2024-06-18T11:36:49Z",
+      "merged_at": "2024-07-10T13:15:44Z",
+      "merged": true,
+      "time_to_merge_hours": 529.6486111111111,
+      "state": "MERGED",
+      "additions": 10,
+      "deletions": 6,
+      "files_changed": 3,
+      "commits_count": 3,
+      "review_count": 4,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix: Add sys permission kinds for node compat\n\n* Support \"statfs\", \"username\", \"getPriority\" and \"setPriority\".\n* Check username permission in node:os.userInfo() instead of unknown \"userInfo\" permission.\n* Check for \"uid\" permission in node:process.geteuid() instead of \"geteuid\".\n* Add missing \"homedir\" to SysPermissionDescriptor.kind union",
+        "Merge branch 'main' into sys-kinds-for-node",
+        "Merge branch 'main' into sys-kinds-for-node"
+      ],
+      "avg_commit_msg_length": 142.66666666666666,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.3333333333333333,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "rs": 2
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #24241\r\n\r\n* Support \"statfs\", \"username\", \"getPriority\" and \"setPriority\" kinds for `--allow-sys`.\r\n* Check individual permissions in `node:os.userInfo()` instead of a single \"userInfo\" permission.\r\n* Check for \"uid\" permission in `node:process.geteuid()` instead of \"geteuid\".\r\n* Add missing \"homedir\" to `SysPermissionDescriptor.kind` union",
+      "body_cleaned_length": 348,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "adamgreg"
+  },
+  {
+    "pr_number": 25318,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25305,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 25318,
+      "title": "fix(cli/tools): correct `deno init --serve` template behavior",
+      "body": "<!--\r\nBefore submitting a PR, please read https://docs.deno.com/runtime/manual/references/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\n\r\nfix #25305\r\n\r\n- adds static folder and asset\r\n- makes the static server test in the template more meaningful\r\n- reorders args in help message\r\n- fixes output to conform to default `deno fmt`\r\n",
+      "body_length": 1071,
+      "created_at": "2024-08-30T22:02:33Z",
+      "merged_at": "2024-09-02T23:01:37Z",
+      "merged": true,
+      "time_to_merge_hours": 72.98444444444445,
+      "state": "MERGED",
+      "additions": 16,
+      "deletions": 7,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 4,
+      "comment_count": 2,
+      "commit_messages": [
+        "Update deno init --serve template",
+        "tweak"
+      ],
+      "avg_commit_msg_length": 19.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/integration/init_tests.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 2
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #25305\r\n\r\n- adds static folder and asset\r\n- makes the static server test in the template more meaningful\r\n- reorders args in help message\r\n- fixes output to conform to default `deno fmt`",
+      "body_cleaned_length": 190,
+      "template_removed_length": 881,
+      "template_reduction_percentage": 82.2595704948646,
+      "author_type": "User"
+    },
+    "username": "cotyhamilton"
+  },
+  {
+    "pr_number": 26037,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25921,
+        "labels": [
+          "bug",
+          "good first issue",
+          "node compat"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 26037,
+      "title": "fix(ext/node): add the missing path information when the file is not found in `fs.stat` and `fs.statSync`",
+      "body": "<!--\r\nBefore submitting a PR, please read https://docs.deno.com/runtime/manual/references/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\nFix #25921.\r\nSee more details in #25921.\r\n",
+      "body_length": 919,
+      "created_at": "2024-10-05T05:31:29Z",
+      "merged_at": "2024-10-27T03:04:35Z",
+      "merged": true,
+      "time_to_merge_hours": 525.5516666666666,
+      "state": "MERGED",
+      "additions": 55,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 7,
+      "review_count": 1,
+      "comment_count": 4,
+      "commit_messages": [
+        "add the missing path information\n\nSigned-off-by: familyboat <84062528+familyboat@users.noreply.github.com>",
+        "fix error\n\nSigned-off-by: familyboat <84062528+familyboat@users.noreply.github.com>",
+        "fmt",
+        "add test",
+        "merge denoland/deno main branch",
+        "lint",
+        "test for fs/promises/stat not fs/stat"
+      ],
+      "avg_commit_msg_length": 38.857142857142854,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix #25921.\r\nSee more details in #25921.",
+      "body_cleaned_length": 40,
+      "template_removed_length": 879,
+      "template_reduction_percentage": 95.6474428726877,
+      "author_type": "User"
+    },
+    "username": "familyboat"
+  },
+  {
+    "pr_number": 26527,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26425,
+        "labels": [
+          "good first issue",
+          "feat",
+          "cli"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 26527,
+      "title": "feat(cli): support multiple env file argument",
+      "body": "## Related Issue\r\n\r\nFixes #26425 \r\n\r\n## Overview\r\n\r\nThis PR adds support for specifying multiple environment files as arguments when using the Deno CLI. Subsequent files override pre-existing variables defined in previous files.\r\n\r\nIf the same variable is defined in the environment and in the file, the value from the environment takes precedence.\r\n\r\n## Example Usage\r\n```bash\r\ndeno run --allow-env --env-file --env-file=\".env.one\" --env-file=\".env.two\" script.ts\r\n```\r\n",
+      "body_length": 471,
+      "created_at": "2024-10-24T20:08:19Z",
+      "merged_at": "2024-11-17T22:49:35Z",
+      "merged": true,
+      "time_to_merge_hours": 578.6877777777778,
+      "state": "MERGED",
+      "additions": 93,
+      "deletions": 44,
+      "files_changed": 18,
+      "commits_count": 11,
+      "review_count": 14,
+      "comment_count": 6,
+      "commit_messages": [
+        "feat(cli): support multiple --env-file arg",
+        "chore: code linting",
+        "test: add integration test for multiple --env-file args\n\nrunning 3 tests\ntest run::env_file ... ok\ntest run::env_file_missing ... ok\ntest run::env_file_multiple ... ok\n\ntest result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 1102 filtered out; finished in 0.78s",
+        "chore: added more descriptive help text for --env-file argument and increased a number to lint as all env_file test would be in the same place",
+        "chore: resolve conflicts",
+        "chore: move env_file test from itest to tests/specs/run",
+        "chore: update lint.js according to the error",
+        "Merge branch 'main' into support-multiple-env-file-26425",
+        "simplify tests",
+        "fix a test",
+        "Merge branch 'main' into support-multiple-env-file-26425"
+      ],
+      "avg_commit_msg_length": 66.0909090909091,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6363636363636364,
+      "commit_types": [
+        "feat",
+        "test",
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/integration/run_tests.rs",
+        "tests/specs/run/env_unparsable_file/main.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 4,
+        "jsonc": 2,
+        "out": 5,
+        "ts": 1,
+        "js": 2
+      },
+      "review_states": {
+        "COMMENTED": 13,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## Related Issue\r\n\r\nFixes #26425 \r\n\r\n## Overview\r\n\r\nThis PR adds support for specifying multiple environment files as arguments when using the Deno CLI. Subsequent files override pre-existing variables defined in previous files.\r\n\r\nIf the same variable is defined in the environment and in the file, the value from the environment takes precedence.\r\n\r\n## Example Usage\r\n```bash\r\ndeno run --allow-env --env-file --env-file=\".env.one\" --env-file=\".env.two\" script.ts\r\n```",
+      "body_cleaned_length": 469,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.42462845010615713,
+      "author_type": "User"
+    },
+    "username": "bp7968h"
+  },
+  {
+    "pr_number": 26629,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26545,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 26629,
+      "title": "fix(cli): add prefix hint when installing a package globally",
+      "body": "closes #26545\r\n\r\nShows a hint when a package is installed globally, otherwise fallbacks to the existing implementation.",
+      "body_length": 119,
+      "created_at": "2024-10-29T22:09:58Z",
+      "merged_at": "2024-11-16T13:57:15Z",
+      "merged": true,
+      "time_to_merge_hours": 423.78805555555556,
+      "state": "MERGED",
+      "additions": 103,
+      "deletions": 2,
+      "files_changed": 4,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 4,
+      "commit_messages": [
+        "fix(cli): add prefix hint when installing a package globally"
+      ],
+      "avg_commit_msg_length": 60.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/integration/install_tests.rs"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 4
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "closes #26545\r\n\r\nShows a hint when a package is installed globally, otherwise fallbacks to the existing implementation.",
+      "body_cleaned_length": 119,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "mbrdg"
+  },
+  {
+    "pr_number": 24357,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 24071,
+        "labels": [
+          "good first issue",
+          "cli",
+          "suggestion",
+          "testing"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 24357,
+      "title": "feat(cli/test): improve test output readability",
+      "body": "Indent last line of tests that contain multiple steps.\r\n\r\nCloses #24071\r\n",
+      "body_length": 68,
+      "created_at": "2024-06-27T13:49:49Z",
+      "updated_at": "2025-05-08T21:12:14Z",
+      "closed_at": "2025-05-08T21:12:14Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 73,
+      "deletions": 59,
+      "files_changed": 12,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 10,
+      "pr_size": 132,
+      "avg_commit_msg_length": 112.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tools/test/reporters/pretty.rs",
+        "tests/testdata/test/load_unload.out",
+        "tests/testdata/test/meta.out",
+        "tests/testdata/test/pass.out",
+        "tests/testdata/test/replace_timers.js.out",
+        "tests/testdata/test/steps/failing_steps.out",
+        "tests/testdata/test/steps/ignored_steps.out",
+        "tests/testdata/test/steps/invalid_usage.out",
+        "tests/testdata/test/steps/output_within.out",
+        "tests/testdata/test/steps/passing_steps.out"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1,
+        "out": 11
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 2
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Indent last line of tests that contain multiple steps.\r\n\r\nCloses #24071",
+      "body_cleaned_length": 71,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 2.73972602739726,
+      "author_type": "User"
+    },
+    "username": "nkaradzhov"
+  },
+  {
+    "pr_number": 28171,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 27722,
+        "labels": [
+          "bug",
+          "good first issue",
+          "serve"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28171,
+      "title": "feat(ext/http): Show that is also listening on localhost",
+      "body": "Closes #27722\r\n\r\nThis will show `Listening on http://0.0.0.0:8000 (accessible via http://localhost:8000)`  ",
+      "body_length": 107,
+      "created_at": "2025-02-18T16:21:30Z",
+      "merged_at": "2025-04-25T08:36:21Z",
+      "merged": true,
+      "time_to_merge_hours": 1576.2475,
+      "state": "MERGED",
+      "additions": 9,
+      "deletions": 4,
+      "files_changed": 3,
+      "commits_count": 11,
+      "review_count": 4,
+      "comment_count": 6,
+      "commit_messages": [
+        "feat(ext/http): Show localhost instead of 0.0.0.0",
+        "feat(ext/http): display only",
+        "feat(ext/http): helper text aside",
+        "lint",
+        "typo",
+        "Revert \"typo\"\n\nThis reverts commit d4a8d33f7e6633d85f215ce500e89aa7a6bd3b9f.",
+        "lint",
+        "Merge branch 'main' into show_localhost",
+        "tiny adjustments",
+        "fix output, update tests",
+        "Merge branch 'main' into show_localhost"
+      ],
+      "avg_commit_msg_length": 28.727272727272727,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.2727272727272727,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "out": 2
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 2
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #27722\r\n\r\nThis will show `Listening on http://0.0.0.0:8000 (accessible via http://localhost:8000)`",
+      "body_cleaned_length": 105,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 1.8691588785046727,
+      "author_type": "User"
+    },
+    "username": "WasixXD"
+  },
+  {
+    "pr_number": 28568,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 28557,
+        "labels": [
+          "good first issue",
+          "embedder"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28568,
+      "title": "fix(ext/os): explicitly enable `sysinfoapi` feature on `winapi` dependency",
+      "body": "This pr explicitly enables the `sysinfoapi` feature flag on `winapi` in `deno_os`, so that `deno_os` and other deno crates that rely on it can be built independently outside of the workspace on Windows. (Closes #28557)",
+      "body_length": 218,
+      "created_at": "2025-03-21T00:21:46Z",
+      "merged_at": "2025-03-21T03:04:45Z",
+      "merged": true,
+      "time_to_merge_hours": 2.716388888888889,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(ext/os): explicitly enable `sysinfoapi` feature on `winapi` crate (#28557)"
+      ],
+      "avg_commit_msg_length": 78.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "toml": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This pr explicitly enables the `sysinfoapi` feature flag on `winapi` in `deno_os`, so that `deno_os` and other deno crates that rely on it can be built independently outside of the workspace on Windows. (Closes #28557)",
+      "body_cleaned_length": 218,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "adakite1"
+  },
+  {
+    "pr_number": 28868,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 28828,
+        "labels": [
+          "good first issue",
+          "runtime"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28868,
+      "title": "fix: Remove unnecessary whitespace in prompt function",
+      "body": "## Description\r\nFixes #28828\r\n\r\nThis PR addresses the issue where unnecessary whitespace is added between the label and input message in the `prompt()` function.\r\n\r\n## Changes\r\n- Modified the `prompt()` function to only add a space after the message if the message is non-empty\r\n- This ensures no extra whitespace appears when using an empty label\r\n\r\n## Before\r\n- With label: `Statement:  Example statement` (extra space)\r\n- With empty label: ` Example statement` (leading space)\r\n\r\n## After\r\n- With label: `Statement: Example statement` (single space)\r\n- With empty label: `Example statement` (no extra space)\r\n\r\n## Testing\r\nManually verified the behavior works correctly for both cases.",
+      "body_length": 688,
+      "created_at": "2025-04-12T17:37:17Z",
+      "merged_at": "2025-04-16T17:49:07Z",
+      "merged": true,
+      "time_to_merge_hours": 96.19722222222222,
+      "state": "MERGED",
+      "additions": 4,
+      "deletions": 9,
+      "files_changed": 1,
+      "commits_count": 5,
+      "review_count": 2,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix: Remove unnecessary whitespace in prompt function",
+        "Merge branch 'main' into fix-prompt-whitespace",
+        "Merge branch 'main' into fix-prompt-whitespace",
+        "Merge branch 'main' into fix-prompt-whitespace",
+        "Update runtime/js/41_prompt.js\n\nSigned-off-by: David Sherret <dsherret@users.noreply.github.com>"
+      ],
+      "avg_commit_msg_length": 57.4,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.2,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## Description\r\nFixes #28828\r\n\r\nThis PR addresses the issue where unnecessary whitespace is added between the label and input message in the `prompt()` function.\r\n\r\n## Changes\r\n- Modified the `prompt()` function to only add a space after the message if the message is non-empty\r\n- This ensures no extra whitespace appears when using an empty label\r\n\r\n## Before\r\n- With label: `Statement:  Example statement` (extra space)\r\n- With empty label: ` Example statement` (leading space)\r\n\r\n## After\r\n- With label: `Statement: Example statement` (single space)\r\n- With empty label: `Example statement` (no extra space)\r\n\r\n## Testing\r\nManually verified the behavior works correctly for both cases.",
+      "body_cleaned_length": 688,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "manishsahanidev"
+  },
+  {
+    "pr_number": 13140,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13001,
+        "labels": [
+          "good first issue",
+          "refactor",
+          "help wanted"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13140,
+      "title": "feat(cli): Add eye-catchers module",
+      "body": "Fixes #13001. \r\n\r\nIf there is anything needs to be changed, please let me know. :D",
+      "body_length": 78,
+      "created_at": "2021-12-19T04:08:51Z",
+      "updated_at": "2022-04-25T15:36:27Z",
+      "closed_at": "2022-04-25T15:36:27Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 41,
+      "deletions": 30,
+      "files_changed": 4,
+      "commits_count": 2,
+      "review_count": 3,
+      "comment_count": 4,
+      "pr_size": 71,
+      "avg_commit_msg_length": 52.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 4
+      },
+      "review_states": {
+        "COMMENTED": 3
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "stale",
+          "color": "ffffff",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #13001. \r\n\r\nIf there is anything needs to be changed, please let me know. :D",
+      "body_cleaned_length": 82,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "dzvon"
+  },
+  {
+    "pr_number": 14170,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 14145,
+        "labels": [
+          "good first issue",
+          "feat"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 14170,
+      "title": "feat(cli): Make help clearer about log level and hide it from help",
+      "body": "Fix #14145 \r\nRelated discussion: #14143 \r\n\r\n<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n-->\r\n",
+      "body_length": 37,
+      "created_at": "2022-04-01T02:57:40Z",
+      "updated_at": "2022-04-13T00:32:26Z",
+      "closed_at": "2022-04-13T00:32:25Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 2,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 3,
+      "avg_commit_msg_length": 41.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix #14145 \r\nRelated discussion: #14143",
+      "body_cleaned_length": 39,
+      "template_removed_length": 628,
+      "template_reduction_percentage": 94.15292353823088,
+      "author_type": "User"
+    },
+    "username": "kxxt"
+  },
+  {
+    "pr_number": 18402,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15996,
+        "labels": [
+          "good first issue",
+          "feat",
+          "compile"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 18402,
+      "title": "feat: Add Deno.standalone API (#15996)",
+      "body": "<!--\r\nBefore submitting a PR, please read http://deno.land/manual/contributing\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(std/http): Fix race condition in server\r\n    - docs(console): Update docstrings\r\n    - feat(doc): Handle nested reexports\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. Ensure there is a related issue and it is referenced in the PR text.\r\n3. Ensure there are tests that cover the changes.\r\n4. Ensure `cargo test` passes.\r\n5. Ensure `./tools/format.js` passes without changing files.\r\n6. Ensure `./tools/lint.js` passes.\r\n7. Open as a draft PR if your work is still in progress. The CI won't run\r\n   all steps, but you can add '[ci]' to a commit message to force it to.\r\n8. If you would like to run the benchmarks on the CI, add the 'ci-bench' label.\r\n-->\r\n\r\nThis PR fixes #15996 by _attempting_ to add a new runtime API (`Deno.standalone`) to check whether the current code is running inside a self-contained executable.\r\n\r\n---\r\n\r\n#15996 was my issue from half a year ago and since it got a few thumbs up and I stumbled upon a similar issue just a few days ago and therefore needed such an API for the second time now, I just thought _\"well, why not implement it myself and see what happens\"_. It would be absolutely understandable if this API were rejected due to lack of demand.\r\n\r\n\r\nI apologize in advance, for code that is not in the right spot. This is just my first time contributing to Deno and the project is veeeeery huge. 😂 Just let me know what to change 🙃 \r\n\r\n\r\n",
+      "body_length": 689,
+      "created_at": "2023-03-23T21:58:10Z",
+      "updated_at": "2025-04-09T16:11:40Z",
+      "closed_at": "2024-10-18T08:22:08Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 80,
+      "deletions": 4,
+      "files_changed": 10,
+      "commits_count": 2,
+      "review_count": 2,
+      "comment_count": 7,
+      "pr_size": 84,
+      "avg_commit_msg_length": 32.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "test",
+        "feat"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/compile_tests.rs",
+        "cli/tests/testdata/compile/standalone_api.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 7,
+        "ts": 2,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 2
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR fixes #15996 by _attempting_ to add a new runtime API (`Deno.standalone`) to check whether the current code is running inside a self-contained executable.\r\n\r\n---\r\n\r\n#15996 was my issue from half a year ago and since it got a few thumbs up and I stumbled upon a similar issue just a few days ago and therefore needed such an API for the second time now, I just thought _\"well, why not implement it myself and see what happens\"_. It would be absolutely understandable if this API were rejected due to lack of demand.\r\n\r\n\r\nI apologize in advance, for code that is not in the right spot. This is just my first time contributing to Deno and the project is veeeeery huge. 😂 Just let me know what to change 🙃",
+      "body_cleaned_length": 709,
+      "template_removed_length": 862,
+      "template_reduction_percentage": 54.869509866327185,
+      "author_type": "User"
+    },
+    "username": "DerZade"
+  },
+  {
+    "pr_number": 21442,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 21427,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 21442,
+      "title": "fix(ext/console): log format specifiers parsing",
+      "body": " These changes attempt to fix #21427 and #21428.\r\n\r\nI didn't find unit tests for this code. \r\nPlease point it out if I wrote tests in a wrong way.\r\n\r\nAnd I have segfault when running `cargo test`, not sure what's going on.\r\nSee #21439\r\n\r\n - [ ] Ensure there are tests that cover the changes.\r\n - [ ] Ensure `cargo test` passes.\r\n - [x] Ensure `./tools/format.js` passes without changing files.\r\n - [x] Ensure `./tools/lint.js` passes.\r\n",
+      "body_length": 387,
+      "created_at": "2023-12-03T06:43:03Z",
+      "updated_at": "2024-10-14T22:05:13Z",
+      "closed_at": "2024-10-14T22:05:12Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 40,
+      "deletions": 12,
+      "files_changed": 5,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 52,
+      "avg_commit_msg_length": 32.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "cli/tests/integration/repl_tests.rs",
+        "cli/tests/testdata/run/093_console_log_format.js",
+        "cli/tests/testdata/run/093_console_log_format.js.out",
+        "cli/tests/unit/console_test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1,
+        "js": 2,
+        "out": 1,
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "These changes attempt to fix #21427 and #21428.\r\n\r\nI didn't find unit tests for this code. \r\nPlease point it out if I wrote tests in a wrong way.\r\n\r\nAnd I have segfault when running `cargo test`, not sure what's going on.\r\nSee #21439\r\n\r\n - [ ] Ensure there are tests that cover the changes.\r\n - [ ] Ensure `cargo test` passes.\r\n - [x] Ensure `./tools/format.js` passes without changing files.\r\n - [x] Ensure `./tools/lint.js` passes.",
+      "body_cleaned_length": 433,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.6880733944954129,
+      "author_type": "User"
+    },
+    "username": "tannal"
+  },
+  {
+    "pr_number": 25565,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 22674,
+        "labels": [
+          "bug",
+          "good first issue",
+          "ext/kv",
+          "types"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 25565,
+      "title": "fix(cli): Fix `KvKeyPart` type",
+      "body": "Removed `symbol` type for `KvKeyPart`\r\nFixes #22674 \r\n\r\nNo idea about the tests, though, that's beyond me.\r\nTherefore will open this as a draft.",
+      "body_length": 134,
+      "created_at": "2024-09-10T21:32:19Z",
+      "updated_at": "2024-09-19T09:28:39Z",
+      "closed_at": "2024-09-19T09:28:39Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "pr_size": 3,
+      "avg_commit_msg_length": 82.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Removed `symbol` type for `KvKeyPart`\r\nFixes #22674 \r\n\r\nNo idea about the tests, though, that's beyond me.\r\nTherefore will open this as a draft.",
+      "body_cleaned_length": 144,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "notroid5"
+  },
+  {
+    "pr_number": 27459,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26442,
+        "labels": [
+          "bug",
+          "good first issue",
+          "install"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 27459,
+      "title": "fix(cli): do not create `bin` folder within `DENO_INSTALL_ROOT`",
+      "body": "As can be seen in the documentation, `DENO_INSTALL_ROOT` is meant to be the folder wherein Deno will install executables, with the default being `$HOME/.deno/bin`.\r\n\r\nHowever, the current behaviour of the `install` and `uninstall` commands, if `DENO_INSTALL_ROOT` is set, is to still append \"bin\" to the path. This leads to executables being installed in a folder like `$HOME/.deno/bin/bin`, which is obviously not the intended behaviour.\r\n\r\nThis commit removes this appending. Do note that this is a breaking change in the behaviour of the `--root` flag, as previously it referred to a folder wherein the `bin` folder was located, but now it refers to the `bin` folder itself. For example: `deno install --root /foo/bar test.ts` would previously install the executable in `/foo/bar/bin/test`, but now it will install it in `/foo/bar/test`.\r\n\r\nThis would also most certainly break many third-party tools that expect the current behaviour. See for example:\r\n- https://github.com/jdx/mise/blob/0cea93b27bc46ba9219557532d6d1d061d05f81d/src/plugins/core/deno.rs#L144\r\n- https://github.com/asdf-community/asdf-deno/blob/13f7f08c93989fdc0b372e78df226e511fc13fa9/bin/exec-env#L7\r\n\r\nCloses #26442 \r\n\r\nPlease do note that, as I am currently on a family visit out of the country, I currently only have my poor little laptop. As such, I do not have the storage capacity to build the project or run the test suite, so **THIS CODE IS UNTESTED**. If someone else could test it for me, that'd be grand, and otherwise I'll do it when I'm back home in a couple of weeks.",
+      "body_length": 1505,
+      "created_at": "2024-12-24T02:10:51Z",
+      "updated_at": "2025-04-28T18:55:20Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 36,
+      "deletions": 35,
+      "files_changed": 5,
+      "commits_count": 4,
+      "review_count": 2,
+      "comment_count": 4,
+      "pr_size": 71,
+      "avg_commit_msg_length": 247.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.25,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/integration/install_tests.rs",
+        "tests/specs/install/future_install_global/assert.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "rs": 3,
+        "jsonc": 1,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 2
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "As can be seen in the documentation, `DENO_INSTALL_ROOT` is meant to be the folder wherein Deno will install executables, with the default being `$HOME/.deno/bin`.\r\n\r\nHowever, the current behaviour of the `install` and `uninstall` commands, if `DENO_INSTALL_ROOT` is set, is to still append \"bin\" to the path. This leads to executables being installed in a folder like `$HOME/.deno/bin/bin`, which is obviously not the intended behaviour.\r\n\r\nThis commit removes this appending. Do note that this is a breaking change in the behaviour of the `--root` flag, as previously it referred to a folder wherein the `bin` folder was located, but now it refers to the `bin` folder itself. For example: `deno install --root /foo/bar test.ts` would previously install the executable in `/foo/bar/bin/test`, but now it will install it in `/foo/bar/test`.\r\n\r\nThis would also most certainly break many third-party tools that expect the current behaviour. See for example:\r\n- https://github.com/jdx/mise/blob/0cea93b27bc46ba9219557532d6d1d061d05f81d/src/plugins/core/deno.rs#L144\r\n- https://github.com/asdf-community/asdf-deno/blob/13f7f08c93989fdc0b372e78df226e511fc13fa9/bin/exec-env#L7\r\n\r\nCloses #26442 \r\n\r\nPlease do note that, as I am currently on a family visit out of the country, I currently only have my poor little laptop. As such, I do not have the storage capacity to build the project or run the test suite, so **THIS CODE IS UNTESTED**. If someone else could test it for me, that'd be grand, and otherwise I'll do it when I'm back home in a couple of weeks.",
+      "body_cleaned_length": 1553,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "mahtaran"
+  }
+]

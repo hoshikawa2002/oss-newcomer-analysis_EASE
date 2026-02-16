@@ -1,0 +1,3836 @@
+[
+  {
+    "number": 86961,
+    "created_at": "2021-07-07T22:48:35Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 87008,
+    "created_at": "2021-07-09T17:14:48Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-bug",
+      "requires-nightly",
+      "A-layout",
+      "A-rustdoc-type-layout"
+    ]
+  },
+  {
+    "number": 87169,
+    "created_at": "2021-07-15T21:03:19Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "A-intra-doc-links"
+    ]
+  },
+  {
+    "number": 87181,
+    "created_at": "2021-07-16T05:02:20Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 87197,
+    "created_at": "2021-07-16T16:43:18Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-parser",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 87293,
+    "created_at": "2021-07-19T19:51:33Z",
+    "labels": [
+      "E-easy"
+    ]
+  },
+  {
+    "number": 87707,
+    "created_at": "2021-08-02T17:26:26Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "I-needs-decision",
+      "E-help-wanted",
+      "F-track_caller",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 87752,
+    "created_at": "2021-08-04T08:05:23Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc"
+    ]
+  },
+  {
+    "number": 87844,
+    "created_at": "2021-08-07T11:54:45Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "C-enhancement",
+      "E-mentor",
+      "A-docs",
+      "T-infra"
+    ]
+  },
+  {
+    "number": 87891,
+    "created_at": "2021-08-09T17:05:09Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "T-libs",
+      "A-slice",
+      "A-raw-pointers"
+    ]
+  },
+  {
+    "number": 88020,
+    "created_at": "2021-08-14T05:17:14Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-enhancement",
+      "E-help-wanted",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 88038,
+    "created_at": "2021-08-14T23:48:04Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "A-macros",
+      "C-bug",
+      "A-doctests"
+    ]
+  },
+  {
+    "number": 88620,
+    "created_at": "2021-09-03T15:54:17Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "requires-nightly",
+      "A-rustdoc-json"
+    ]
+  },
+  {
+    "number": 88756,
+    "created_at": "2021-09-08T19:23:23Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 88762,
+    "created_at": "2021-09-08T21:04:06Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "C-bug",
+      "A-iterators",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 89118,
+    "created_at": "2021-09-20T14:26:42Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 89206,
+    "created_at": "2021-09-23T18:01:10Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "E-mentor",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 89220,
+    "created_at": "2021-09-24T12:27:00Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 89384,
+    "created_at": "2021-09-30T02:07:05Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-enhancement",
+      "E-help-wanted",
+      "A-rustdoc-search"
+    ]
+  },
+  {
+    "number": 89663,
+    "created_at": "2021-10-08T08:22:48Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "regression-from-stable-to-nightly",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 89673,
+    "created_at": "2021-10-08T17:05:21Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc"
+    ]
+  },
+  {
+    "number": 89742,
+    "created_at": "2021-10-10T18:45:43Z",
+    "labels": [
+      "E-easy",
+      "A-LLVM",
+      "P-low",
+      "T-compiler",
+      "E-help-wanted",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 89806,
+    "created_at": "2021-10-12T09:57:19Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-invalid-suggestion",
+      "D-verbose"
+    ]
+  },
+  {
+    "number": 90063,
+    "created_at": "2021-10-19T17:52:20Z",
+    "labels": [
+      "E-easy",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 90107,
+    "created_at": "2021-10-20T17:50:06Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 90187,
+    "created_at": "2021-10-22T23:59:56Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 90309,
+    "created_at": "2021-10-26T16:12:14Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-help-wanted",
+      "A-docs",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 90323,
+    "created_at": "2021-10-26T19:37:44Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc"
+    ]
+  },
+  {
+    "number": 90669,
+    "created_at": "2021-11-07T11:09:51Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "O-windows",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 90679,
+    "created_at": "2021-11-08T02:27:49Z",
+    "labels": [
+      "E-easy",
+      "A-LLVM",
+      "C-enhancement",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 90698,
+    "created_at": "2021-11-08T15:02:52Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 90703,
+    "created_at": "2021-11-08T17:22:38Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "C-bug",
+      "A-intra-doc-links"
+    ]
+  },
+  {
+    "number": 90815,
+    "created_at": "2021-11-12T00:06:09Z",
+    "labels": [
+      "E-easy",
+      "A-LLVM",
+      "E-needs-test",
+      "A-inline-assembly",
+      "T-compiler",
+      "C-bug",
+      "F-asm"
+    ]
+  },
+  {
+    "number": 90864,
+    "created_at": "2021-11-13T12:52:51Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 90979,
+    "created_at": "2021-11-17T11:26:26Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 91260,
+    "created_at": "2021-11-26T19:29:11Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "disposition-merge",
+      "finished-final-comment-period",
+      "needs-fcp"
+    ]
+  },
+  {
+    "number": 91309,
+    "created_at": "2021-11-28T05:55:44Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-help-wanted",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 91520,
+    "created_at": "2021-12-04T11:14:34Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 91713,
+    "created_at": "2021-12-09T16:23:16Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 91714,
+    "created_at": "2021-12-09T16:31:14Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "disposition-merge",
+      "finished-final-comment-period",
+      "needs-fcp"
+    ]
+  },
+  {
+    "number": 91831,
+    "created_at": "2021-12-12T15:29:58Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-lifetimes",
+      "T-compiler",
+      "D-confusing",
+      "D-newcomer-roadblock",
+      "D-terse",
+      "A-variance"
+    ]
+  },
+  {
+    "number": 91960,
+    "created_at": "2021-12-15T08:04:46Z",
+    "labels": [
+      "E-easy",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 91997,
+    "created_at": "2021-12-16T09:23:11Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-invalid-suggestion",
+      "A-dyn-trait"
+    ]
+  },
+  {
+    "number": 92276,
+    "created_at": "2021-12-25T15:23:26Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 92292,
+    "created_at": "2021-12-26T14:17:58Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "regression-from-stable-to-nightly",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 92345,
+    "created_at": "2021-12-28T08:13:01Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 92368,
+    "created_at": "2021-12-28T19:22:48Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 92563,
+    "created_at": "2022-01-04T22:43:10Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "I-compiletime",
+      "I-compilemem"
+    ]
+  },
+  {
+    "number": 92741,
+    "created_at": "2022-01-10T19:53:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "C-bug",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 92941,
+    "created_at": "2022-01-15T19:10:08Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "E-help-wanted",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 92957,
+    "created_at": "2022-01-16T02:13:45Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 93088,
+    "created_at": "2022-01-19T18:59:34Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 93143,
+    "created_at": "2022-01-21T01:20:47Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "C-enhancement",
+      "E-needs-test",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 93344,
+    "created_at": "2022-01-26T20:30:45Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 93345,
+    "created_at": "2022-01-26T20:45:28Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 93448,
+    "created_at": "2022-01-29T01:48:12Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-libs-api",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 93454,
+    "created_at": "2022-01-29T10:57:35Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-cargo",
+      "A-libtest",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 93601,
+    "created_at": "2022-02-02T21:09:54Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "D-verbose"
+    ]
+  },
+  {
+    "number": 93609,
+    "created_at": "2022-02-03T07:59:49Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-lang",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 93725,
+    "created_at": "2022-02-07T03:31:39Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 93792,
+    "created_at": "2022-02-09T02:31:29Z",
+    "labels": [
+      "E-easy",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 93844,
+    "created_at": "2022-02-10T03:15:30Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 93894,
+    "created_at": "2022-02-11T08:07:37Z",
+    "labels": [
+      "E-easy"
+    ]
+  },
+  {
+    "number": 93904,
+    "created_at": "2022-02-11T12:39:13Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "C-bug",
+      "T-libs",
+      "Libs-Small"
+    ]
+  },
+  {
+    "number": 93942,
+    "created_at": "2022-02-12T14:11:41Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 94025,
+    "created_at": "2022-02-15T17:44:10Z",
+    "labels": [
+      "E-easy",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 94187,
+    "created_at": "2022-02-20T14:58:38Z",
+    "labels": [
+      "E-easy",
+      "E-medium",
+      "C-bug",
+      "A-const-eval",
+      "A-const-generics"
+    ]
+  },
+  {
+    "number": 94217,
+    "created_at": "2022-02-21T15:01:41Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 94307,
+    "created_at": "2022-02-23T21:55:00Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "C-bug",
+      "F-generic_associated_types",
+      "GATs-triaged",
+      "L-single_use_lifetimes",
+      "A-GATs"
+    ]
+  },
+  {
+    "number": 94310,
+    "created_at": "2022-02-24T05:10:19Z",
+    "labels": [
+      "E-easy",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 94454,
+    "created_at": "2022-02-28T19:57:41Z",
+    "labels": [
+      "E-easy",
+      "O-windows",
+      "E-help-wanted",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 94755,
+    "created_at": "2022-03-08T23:17:58Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 94905,
+    "created_at": "2022-03-13T10:28:01Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 94941,
+    "created_at": "2022-03-14T20:01:27Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 95014,
+    "created_at": "2022-03-16T16:12:12Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-newcomer-roadblock",
+      "D-invalid-suggestion",
+      "D-verbose",
+      "F-type_ascription"
+    ]
+  },
+  {
+    "number": 95099,
+    "created_at": "2022-03-19T00:50:09Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "P-low",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-papercut",
+      "D-terse"
+    ]
+  },
+  {
+    "number": 95204,
+    "created_at": "2022-03-22T13:51:22Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 95283,
+    "created_at": "2022-03-24T19:25:17Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-confusing",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 95400,
+    "created_at": "2022-03-28T12:03:03Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-docs",
+      "T-libs",
+      "A-process"
+    ]
+  },
+  {
+    "number": 95444,
+    "created_at": "2022-03-29T19:30:26Z",
+    "labels": [
+      "E-easy",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 95622,
+    "created_at": "2022-04-03T20:10:22Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "A-io"
+    ]
+  },
+  {
+    "number": 95665,
+    "created_at": "2022-04-05T03:42:08Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "E-help-wanted",
+      "C-bug",
+      "glacier"
+    ]
+  },
+  {
+    "number": 95795,
+    "created_at": "2022-04-08T06:04:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 95872,
+    "created_at": "2022-04-10T03:08:30Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 95898,
+    "created_at": "2022-04-10T21:11:05Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-invalid-suggestion"
+    ]
+  },
+  {
+    "number": 95937,
+    "created_at": "2022-04-11T13:39:19Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 95992,
+    "created_at": "2022-04-12T22:49:50Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 96011,
+    "created_at": "2022-04-13T14:15:25Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 96049,
+    "created_at": "2022-04-14T13:28:19Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 96076,
+    "created_at": "2022-04-15T12:14:21Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 96223,
+    "created_at": "2022-04-19T20:39:28Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "C-bug",
+      "glacier"
+    ]
+  },
+  {
+    "number": 96335,
+    "created_at": "2022-04-23T10:45:36Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "P-low",
+      "T-compiler",
+      "C-bug",
+      "glacier"
+    ]
+  },
+  {
+    "number": 96341,
+    "created_at": "2022-04-23T15:45:35Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 96506,
+    "created_at": "2022-04-28T07:37:05Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "T-bootstrap",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 96621,
+    "created_at": "2022-05-02T01:12:05Z",
+    "labels": [
+      "E-easy",
+      "P-low",
+      "T-libs-api",
+      "regression-from-stable-to-stable",
+      "E-help-wanted",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 96644,
+    "created_at": "2022-05-02T18:09:33Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-HIR",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 96688,
+    "created_at": "2022-05-04T02:19:12Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 96699,
+    "created_at": "2022-05-04T10:54:43Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug",
+      "A-const-generics",
+      "F-generic_const_exprs",
+      "requires-incomplete-features"
+    ]
+  },
+  {
+    "number": 96712,
+    "created_at": "2022-05-04T15:44:15Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 96873,
+    "created_at": "2022-05-09T16:10:17Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 96928,
+    "created_at": "2022-05-10T23:06:56Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-mentor",
+      "A-save-analysis"
+    ]
+  },
+  {
+    "number": 96956,
+    "created_at": "2022-05-11T21:06:28Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "P-medium",
+      "E-mentor",
+      "T-compiler",
+      "E-help-wanted",
+      "regression-untriaged"
+    ]
+  },
+  {
+    "number": 97082,
+    "created_at": "2022-05-16T14:39:52Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 97263,
+    "created_at": "2022-05-22T02:28:11Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 97422,
+    "created_at": "2022-05-26T10:37:51Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-incr-comp"
+    ]
+  },
+  {
+    "number": 97503,
+    "created_at": "2022-05-29T02:29:00Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 97945,
+    "created_at": "2022-06-10T13:26:09Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-libs-api",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 97946,
+    "created_at": "2022-06-10T14:16:00Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "E-help-wanted",
+      "C-bug",
+      "glacier"
+    ]
+  },
+  {
+    "number": 97954,
+    "created_at": "2022-06-10T17:20:42Z",
+    "labels": [
+      "E-easy",
+      "T-compiler",
+      "A-technical-debt"
+    ]
+  },
+  {
+    "number": 97981,
+    "created_at": "2022-06-11T06:58:00Z",
+    "labels": [
+      "E-easy"
+    ]
+  },
+  {
+    "number": 98122,
+    "created_at": "2022-06-15T02:53:23Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 98227,
+    "created_at": "2022-06-18T11:12:43Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 98436,
+    "created_at": "2022-06-23T21:11:36Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite"
+    ]
+  },
+  {
+    "number": 98565,
+    "created_at": "2022-06-27T05:03:27Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 98601,
+    "created_at": "2022-06-28T02:58:47Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-parser",
+      "E-needs-test",
+      "T-compiler",
+      "E-help-wanted",
+      "S-has-mcve"
+    ]
+  },
+  {
+    "number": 98720,
+    "created_at": "2022-06-30T15:55:55Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 98722,
+    "created_at": "2022-06-30T16:09:33Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-meta"
+    ]
+  },
+  {
+    "number": 98728,
+    "created_at": "2022-06-30T17:39:48Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 98830,
+    "created_at": "2022-07-03T00:42:38Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 98861,
+    "created_at": "2022-07-03T20:01:09Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 98974,
+    "created_at": "2022-07-06T12:41:03Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-newcomer-roadblock"
+    ]
+  },
+  {
+    "number": 99083,
+    "created_at": "2022-07-09T11:54:18Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 99135,
+    "created_at": "2022-07-10T22:56:51Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "T-infra"
+    ]
+  },
+  {
+    "number": 99144,
+    "created_at": "2022-07-11T04:20:51Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-mentor",
+      "T-compiler",
+      "T-infra"
+    ]
+  },
+  {
+    "number": 99170,
+    "created_at": "2022-07-12T08:17:09Z",
+    "labels": [
+      "E-easy"
+    ]
+  },
+  {
+    "number": 99417,
+    "created_at": "2022-07-18T12:36:07Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "C-enhancement",
+      "T-libs",
+      "A-contributor-roadblock",
+      "E-needs-investigation"
+    ]
+  },
+  {
+    "number": 99625,
+    "created_at": "2022-07-22T22:16:11Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 99648,
+    "created_at": "2022-07-23T18:02:27Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 99654,
+    "created_at": "2022-07-23T20:22:06Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "C-bug",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 99751,
+    "created_at": "2022-07-26T08:04:51Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 99869,
+    "created_at": "2022-07-28T19:23:30Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 99875,
+    "created_at": "2022-07-28T21:38:41Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 100009,
+    "created_at": "2022-08-01T01:26:45Z",
+    "labels": [
+      "E-easy",
+      "A-attributes",
+      "E-help-wanted",
+      "C-bug",
+      "F-raw_dylib"
+    ]
+  },
+  {
+    "number": 100109,
+    "created_at": "2022-08-03T15:50:31Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 100258,
+    "created_at": "2022-08-08T05:58:56Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "T-infra",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 100321,
+    "created_at": "2022-08-09T13:29:56Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 100410,
+    "created_at": "2022-08-11T14:21:43Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 100427,
+    "created_at": "2022-08-11T20:53:57Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-HIR",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 100459,
+    "created_at": "2022-08-12T17:31:28Z",
+    "labels": [
+      "E-easy",
+      "P-low",
+      "regression-from-stable-to-stable",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 100615,
+    "created_at": "2022-08-16T08:24:04Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-lifetimes",
+      "E-mentor",
+      "P-high",
+      "T-compiler",
+      "regression-from-stable-to-stable",
+      "E-help-wanted",
+      "D-terse"
+    ]
+  },
+  {
+    "number": 101070,
+    "created_at": "2022-08-27T02:01:18Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 101210,
+    "created_at": "2022-08-30T17:18:46Z",
+    "labels": [
+      "E-easy",
+      "A-LLVM",
+      "I-slow",
+      "E-needs-test",
+      "T-compiler",
+      "C-optimization"
+    ]
+  },
+  {
+    "number": 101211,
+    "created_at": "2022-08-30T17:52:51Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "A-macros",
+      "regression-from-stable-to-stable",
+      "C-bug",
+      "A-proc-macros"
+    ]
+  },
+  {
+    "number": 101306,
+    "created_at": "2022-09-02T02:43:48Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 101444,
+    "created_at": "2022-09-05T10:45:02Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "A-async-await"
+    ]
+  },
+  {
+    "number": 101650,
+    "created_at": "2022-09-10T12:37:10Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "C-bug",
+      "T-libs",
+      "A-fmt"
+    ]
+  },
+  {
+    "number": 102002,
+    "created_at": "2022-09-19T01:31:55Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "A-download-rustc"
+    ]
+  },
+  {
+    "number": 102156,
+    "created_at": "2022-09-22T21:20:25Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 102522,
+    "created_at": "2022-09-30T17:27:08Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-compiler",
+      "A-HIR",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 102605,
+    "created_at": "2022-10-02T23:27:48Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 102796,
+    "created_at": "2022-10-07T21:27:06Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 102902,
+    "created_at": "2022-10-10T21:54:44Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 103269,
+    "created_at": "2022-10-19T21:19:58Z",
+    "labels": [
+      "E-easy",
+      "A-parser",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 103358,
+    "created_at": "2022-10-21T15:46:26Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "P-low",
+      "T-compiler",
+      "D-papercut",
+      "D-terse"
+    ]
+  },
+  {
+    "number": 103551,
+    "created_at": "2022-10-25T22:46:47Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 103557,
+    "created_at": "2022-10-26T01:17:04Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 103630,
+    "created_at": "2022-10-27T14:25:12Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "O-solaris"
+    ]
+  },
+  {
+    "number": 103697,
+    "created_at": "2022-10-28T17:19:13Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 103791,
+    "created_at": "2022-10-31T05:57:40Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-parser",
+      "T-compiler",
+      "D-confusing",
+      "F-let_else"
+    ]
+  },
+  {
+    "number": 103816,
+    "created_at": "2022-10-31T19:38:59Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 103974,
+    "created_at": "2022-11-04T17:00:43Z",
+    "labels": [
+      "E-easy",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 104287,
+    "created_at": "2022-11-11T15:03:05Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 104390,
+    "created_at": "2022-11-14T05:37:45Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 104510,
+    "created_at": "2022-11-16T23:36:26Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "A-inline-assembly",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 104526,
+    "created_at": "2022-11-17T10:41:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "E-help-wanted",
+      "D-confusing"
+    ]
+  },
+  {
+    "number": 104609,
+    "created_at": "2022-11-19T19:34:15Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 104723,
+    "created_at": "2022-11-22T16:37:39Z",
+    "labels": [
+      "E-easy",
+      "O-macos",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug",
+      "O-AArch64"
+    ]
+  },
+  {
+    "number": 104960,
+    "created_at": "2022-11-26T22:21:24Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 105107,
+    "created_at": "2022-11-30T21:50:42Z",
+    "labels": [
+      "E-easy",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 105138,
+    "created_at": "2022-12-01T16:18:52Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 105150,
+    "created_at": "2022-12-01T19:33:37Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "D-invalid-suggestion"
+    ]
+  },
+  {
+    "number": 105168,
+    "created_at": "2022-12-02T12:07:11Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-query-system"
+    ]
+  },
+  {
+    "number": 105225,
+    "created_at": "2022-12-03T20:01:53Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "P-low",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "D-terse"
+    ]
+  },
+  {
+    "number": 105226,
+    "created_at": "2022-12-03T20:21:18Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-parser",
+      "P-low",
+      "T-compiler",
+      "D-verbose"
+    ]
+  },
+  {
+    "number": 106041,
+    "created_at": "2022-12-22T13:12:08Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 106086,
+    "created_at": "2022-12-23T16:57:06Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-mentor",
+      "T-compiler",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 106104,
+    "created_at": "2022-12-23T23:32:14Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-mentor"
+    ]
+  },
+  {
+    "number": 106219,
+    "created_at": "2022-12-28T16:19:58Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 106261,
+    "created_at": "2022-12-29T15:00:37Z",
+    "labels": [
+      "E-easy",
+      "P-high",
+      "T-bootstrap",
+      "C-bug",
+      "regression-untriaged"
+    ]
+  },
+  {
+    "number": 106724,
+    "created_at": "2023-01-11T14:58:25Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 106746,
+    "created_at": "2023-01-11T21:06:21Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 106920,
+    "created_at": "2023-01-15T21:39:36Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 107049,
+    "created_at": "2023-01-18T21:43:17Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 107050,
+    "created_at": "2023-01-18T21:46:16Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 107094,
+    "created_at": "2023-01-19T23:33:57Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "E-mentor",
+      "regression-from-stable-to-stable",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 107230,
+    "created_at": "2023-01-23T17:19:14Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "D-inconsistent"
+    ]
+  },
+  {
+    "number": 107295,
+    "created_at": "2023-01-25T14:07:45Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 107370,
+    "created_at": "2023-01-27T14:41:13Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "regression-from-stable-to-stable",
+      "C-bug",
+      "A-translation"
+    ]
+  },
+  {
+    "number": 107380,
+    "created_at": "2023-01-27T17:49:47Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-types",
+      "WG-trait-system-refactor"
+    ]
+  },
+  {
+    "number": 107622,
+    "created_at": "2023-02-03T03:02:29Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 107722,
+    "created_at": "2023-02-06T12:21:44Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 107832,
+    "created_at": "2023-02-09T05:41:38Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 107957,
+    "created_at": "2023-02-12T16:16:06Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 108051,
+    "created_at": "2023-02-14T17:00:18Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 108131,
+    "created_at": "2023-02-16T18:15:53Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 108240,
+    "created_at": "2023-02-19T15:07:44Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-help-wanted",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 108267,
+    "created_at": "2023-02-20T13:11:20Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup"
+    ]
+  },
+  {
+    "number": 108429,
+    "created_at": "2023-02-24T16:39:06Z",
+    "labels": [
+      "E-easy",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 108472,
+    "created_at": "2023-02-25T23:00:20Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 108614,
+    "created_at": "2023-03-01T16:55:27Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 108621,
+    "created_at": "2023-03-01T18:12:15Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 108622,
+    "created_at": "2023-03-01T18:13:45Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-mentor",
+      "T-bootstrap",
+      "S-blocked"
+    ]
+  },
+  {
+    "number": 108680,
+    "created_at": "2023-03-02T22:36:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "F-target_feature_11",
+      "A-target-feature"
+    ]
+  },
+  {
+    "number": 108766,
+    "created_at": "2023-03-05T10:09:07Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 108768,
+    "created_at": "2023-03-05T10:40:51Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug",
+      "A-download-rustc"
+    ]
+  },
+  {
+    "number": 108804,
+    "created_at": "2023-03-06T10:04:19Z",
+    "labels": [
+      "E-easy"
+    ]
+  },
+  {
+    "number": 108987,
+    "created_at": "2023-03-10T15:21:11Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc"
+    ]
+  },
+  {
+    "number": 109103,
+    "created_at": "2023-03-13T21:57:07Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "regression-from-stable-to-stable",
+      "T-bootstrap",
+      "C-bug",
+      "requires-custom-config"
+    ]
+  },
+  {
+    "number": 109334,
+    "created_at": "2023-03-19T01:00:14Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 109372,
+    "created_at": "2023-03-20T02:12:21Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup"
+    ]
+  },
+  {
+    "number": 109391,
+    "created_at": "2023-03-20T14:11:50Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-help-wanted",
+      "requires-nightly"
+    ]
+  },
+  {
+    "number": 109407,
+    "created_at": "2023-03-20T18:14:52Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-help-wanted",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 109586,
+    "created_at": "2023-03-25T08:54:02Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-diagnostics",
+      "T-compiler",
+      "D-newcomer-roadblock"
+    ]
+  },
+  {
+    "number": 109589,
+    "created_at": "2023-03-25T11:15:57Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 109610,
+    "created_at": "2023-03-25T21:19:04Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 109728,
+    "created_at": "2023-03-29T15:34:38Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 109829,
+    "created_at": "2023-04-01T07:42:00Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "C-discussion"
+    ]
+  },
+  {
+    "number": 109878,
+    "created_at": "2023-04-03T00:53:21Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-testsuite",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 109964,
+    "created_at": "2023-04-05T11:15:34Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 109965,
+    "created_at": "2023-04-05T11:22:32Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 109978,
+    "created_at": "2023-04-05T17:55:46Z",
+    "labels": [
+      "E-easy",
+      "T-lang",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 110109,
+    "created_at": "2023-04-09T13:33:00Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 110163,
+    "created_at": "2023-04-10T23:04:45Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-bootstrap",
+      "requires-custom-config"
+    ]
+  },
+  {
+    "number": 110178,
+    "created_at": "2023-04-11T06:21:46Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "regression-from-stable-to-stable",
+      "T-bootstrap",
+      "A-spurious",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 110199,
+    "created_at": "2023-04-11T18:58:28Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 110711,
+    "created_at": "2023-04-22T17:01:26Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 110758,
+    "created_at": "2023-04-24T10:16:09Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 110863,
+    "created_at": "2023-04-26T19:31:55Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "A-docs",
+      "S-blocked"
+    ]
+  },
+  {
+    "number": 110934,
+    "created_at": "2023-04-28T08:08:47Z",
+    "labels": [
+      "E-easy",
+      "A-resolve",
+      "A-lifetimes",
+      "E-needs-test",
+      "F-inline_const"
+    ]
+  },
+  {
+    "number": 110995,
+    "created_at": "2023-04-29T16:32:18Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 111176,
+    "created_at": "2023-05-04T06:21:00Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug",
+      "glacier"
+    ]
+  },
+  {
+    "number": 111458,
+    "created_at": "2023-05-11T07:31:38Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "T-compiler",
+      "C-bug",
+      "A-async-await",
+      "AsyncAwait-Polish",
+      "AsyncAwait-Triaged"
+    ]
+  },
+  {
+    "number": 111655,
+    "created_at": "2023-05-16T20:26:15Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 111894,
+    "created_at": "2023-05-24T02:48:25Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 111943,
+    "created_at": "2023-05-25T11:39:16Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 111967,
+    "created_at": "2023-05-25T22:36:34Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 112074,
+    "created_at": "2023-05-29T16:28:54Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 112082,
+    "created_at": "2023-05-29T20:13:12Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "A-docs",
+      "C-bug",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 112287,
+    "created_at": "2023-06-04T19:46:59Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 112405,
+    "created_at": "2023-06-07T22:21:53Z",
+    "labels": [
+      "E-easy",
+      "O-windows",
+      "E-help-wanted",
+      "C-bug",
+      "T-libs",
+      "A-io"
+    ]
+  },
+  {
+    "number": 112438,
+    "created_at": "2023-06-08T22:54:21Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug",
+      "requires-nightly",
+      "requires-incomplete-features",
+      "F-inline_const_pat"
+    ]
+  },
+  {
+    "number": 112440,
+    "created_at": "2023-06-08T23:28:25Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "regression-from-stable-to-nightly",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 112445,
+    "created_at": "2023-06-09T02:47:43Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 112678,
+    "created_at": "2023-06-15T19:48:14Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-feature-request"
+    ]
+  },
+  {
+    "number": 112737,
+    "created_at": "2023-06-17T09:56:49Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 113131,
+    "created_at": "2023-06-28T17:48:53Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 113135,
+    "created_at": "2023-06-28T18:41:21Z",
+    "labels": [
+      "E-easy",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 113184,
+    "created_at": "2023-06-30T03:42:57Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-compiler",
+      "A-contributor-roadblock",
+      "A-query-system"
+    ]
+  },
+  {
+    "number": 113203,
+    "created_at": "2023-06-30T14:27:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "I-ICE",
+      "A-parser",
+      "T-compiler",
+      "C-bug",
+      "requires-debug-assertions"
+    ]
+  },
+  {
+    "number": 113627,
+    "created_at": "2023-07-12T18:05:28Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted",
+      "A-docs",
+      "C-bug",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 113788,
+    "created_at": "2023-07-17T13:03:32Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 114423,
+    "created_at": "2023-08-03T15:22:31Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 114435,
+    "created_at": "2023-08-03T21:08:28Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 114683,
+    "created_at": "2023-08-10T04:08:33Z",
+    "labels": [
+      "E-easy",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 114912,
+    "created_at": "2023-08-16T21:24:50Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "P-low",
+      "T-compiler",
+      "E-help-wanted",
+      "C-bug",
+      "A-async-await",
+      "AsyncAwait-Triaged",
+      "requires-debug-assertions"
+    ]
+  },
+  {
+    "number": 115038,
+    "created_at": "2023-08-21T00:10:51Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 115302,
+    "created_at": "2023-08-28T03:45:55Z",
+    "labels": [
+      "E-easy",
+      "A-closures",
+      "C-bug",
+      "F-track_caller",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 115533,
+    "created_at": "2023-09-04T15:36:34Z",
+    "labels": [
+      "E-easy",
+      "A-metadata",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug",
+      "F-const_trait_impl",
+      "S-has-mcve",
+      "F-effects"
+    ]
+  },
+  {
+    "number": 115784,
+    "created_at": "2023-09-12T14:38:21Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 116064,
+    "created_at": "2023-09-22T15:02:43Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 116121,
+    "created_at": "2023-09-24T12:39:42Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-compiler",
+      "C-bug",
+      "F-auto_traits",
+      "A-auto-traits"
+    ]
+  },
+  {
+    "number": 116572,
+    "created_at": "2023-10-09T16:23:31Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-diagnostics",
+      "T-lang",
+      "E-help-wanted",
+      "D-papercut",
+      "A-patterns"
+    ]
+  },
+  {
+    "number": 116616,
+    "created_at": "2023-10-10T21:46:41Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-papercut",
+      "D-verbose"
+    ]
+  },
+  {
+    "number": 116766,
+    "created_at": "2023-10-15T16:59:47Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 116971,
+    "created_at": "2023-10-20T11:33:30Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "E-needs-test",
+      "T-compiler",
+      "E-help-wanted",
+      "A-mir-opt",
+      "E-tedious"
+    ]
+  },
+  {
+    "number": 116977,
+    "created_at": "2023-10-20T14:48:48Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "A-docs",
+      "C-bug",
+      "A-rustdoc-themes"
+    ]
+  },
+  {
+    "number": 117186,
+    "created_at": "2023-10-25T21:00:55Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "D-verbose",
+      "A-dyn-trait"
+    ]
+  },
+  {
+    "number": 117201,
+    "created_at": "2023-10-26T04:10:29Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "I-ICE",
+      "E-mentor",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 117318,
+    "created_at": "2023-10-28T14:38:21Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 117437,
+    "created_at": "2023-10-31T09:31:34Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 117720,
+    "created_at": "2023-11-08T18:45:06Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-parser",
+      "T-compiler",
+      "D-papercut",
+      "F-let_chains"
+    ]
+  },
+  {
+    "number": 118148,
+    "created_at": "2023-11-21T20:58:04Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-bug",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 118180,
+    "created_at": "2023-11-22T19:25:51Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-bug",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 118627,
+    "created_at": "2023-12-05T00:53:51Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 118752,
+    "created_at": "2023-12-08T17:45:03Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 118859,
+    "created_at": "2023-12-12T07:56:32Z",
+    "labels": [
+      "E-easy",
+      "A-parser",
+      "T-compiler",
+      "C-bug",
+      "requires-nightly",
+      "F-inline_const",
+      "F-let_else"
+    ]
+  },
+  {
+    "number": 119130,
+    "created_at": "2023-12-19T18:51:54Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-papercut"
+    ]
+  },
+  {
+    "number": 119217,
+    "created_at": "2023-12-22T14:17:40Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-compiler",
+      "A-strict-provenance"
+    ]
+  },
+  {
+    "number": 120133,
+    "created_at": "2024-01-19T15:30:35Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 121009,
+    "created_at": "2024-02-13T08:35:16Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-confusing"
+    ]
+  },
+  {
+    "number": 121126,
+    "created_at": "2024-02-15T05:30:40Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "P-medium",
+      "T-compiler",
+      "regression-from-stable-to-beta",
+      "C-bug",
+      "S-bug-has-test"
+    ]
+  },
+  {
+    "number": 121502,
+    "created_at": "2024-02-23T12:37:45Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "A-diagnostics",
+      "T-compiler",
+      "D-confusing"
+    ]
+  },
+  {
+    "number": 121649,
+    "created_at": "2024-02-26T19:59:28Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug",
+      "S-has-mcve",
+      "WG-trait-system-refactor"
+    ]
+  },
+  {
+    "number": 121774,
+    "created_at": "2024-02-29T03:22:55Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "I-ICE",
+      "P-medium",
+      "T-compiler",
+      "regression-from-stable-to-stable",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 122122,
+    "created_at": "2024-03-07T00:53:21Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 122128,
+    "created_at": "2024-03-07T07:35:31Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 122234,
+    "created_at": "2024-03-09T12:25:08Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 122638,
+    "created_at": "2024-03-17T13:16:26Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "T-compiler",
+      "C-bug",
+      "S-has-mcve"
+    ]
+  },
+  {
+    "number": 122716,
+    "created_at": "2024-03-18T23:48:25Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 123227,
+    "created_at": "2024-03-30T08:52:54Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 123529,
+    "created_at": "2024-04-06T02:05:21Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-mentor",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 124028,
+    "created_at": "2024-04-16T16:10:56Z",
+    "labels": [
+      "E-easy",
+      "T-compiler",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 125364,
+    "created_at": "2024-05-21T14:26:10Z",
+    "labels": [
+      "E-easy",
+      "E-needs-test",
+      "E-mentor",
+      "T-lang",
+      "T-compiler",
+      "C-bug",
+      "F-never_type",
+      "F-try_blocks",
+      "S-has-mcve"
+    ]
+  },
+  {
+    "number": 125670,
+    "created_at": "2024-05-28T16:49:30Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "E-needs-test",
+      "P-high",
+      "T-compiler",
+      "C-bug",
+      "F-inline_const",
+      "S-has-mcve"
+    ]
+  },
+  {
+    "number": 125814,
+    "created_at": "2024-05-31T12:12:48Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "E-needs-test",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 125901,
+    "created_at": "2024-06-02T19:44:13Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-enhancement",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 125984,
+    "created_at": "2024-06-04T16:42:23Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "P-low",
+      "T-compiler",
+      "D-terse"
+    ]
+  },
+  {
+    "number": 126333,
+    "created_at": "2024-06-12T14:09:12Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "O-windows",
+      "E-mentor",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 126875,
+    "created_at": "2024-06-23T19:52:46Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 126931,
+    "created_at": "2024-06-25T06:00:03Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-bootstrap",
+      "A-contributor-roadblock"
+    ]
+  },
+  {
+    "number": 127507,
+    "created_at": "2024-07-09T06:58:13Z",
+    "labels": [
+      "E-easy",
+      "T-compiler",
+      "C-bug",
+      "A-CLI"
+    ]
+  },
+  {
+    "number": 127576,
+    "created_at": "2024-07-10T14:45:39Z",
+    "labels": [
+      "E-easy",
+      "C-bug",
+      "T-libs",
+      "O-unix",
+      "A-filesystem"
+    ]
+  },
+  {
+    "number": 127688,
+    "created_at": "2024-07-13T17:14:04Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 128012,
+    "created_at": "2024-07-20T17:35:25Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 128260,
+    "created_at": "2024-07-27T04:41:31Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "A-rustdoc-ui"
+    ]
+  },
+  {
+    "number": 128429,
+    "created_at": "2024-07-31T04:06:37Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "C-bug",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 128442,
+    "created_at": "2024-07-31T16:32:20Z",
+    "labels": [
+      "E-easy",
+      "I-ICE",
+      "A-parser",
+      "P-low",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 128485,
+    "created_at": "2024-08-01T10:39:52Z",
+    "labels": [
+      "E-easy",
+      "A-attributes",
+      "T-compiler",
+      "C-bug",
+      "F-derive_coerce_pointee"
+    ]
+  },
+  {
+    "number": 128486,
+    "created_at": "2024-08-01T10:42:57Z",
+    "labels": [
+      "E-easy",
+      "A-attributes",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 128487,
+    "created_at": "2024-08-01T10:44:38Z",
+    "labels": [
+      "E-easy",
+      "A-attributes",
+      "T-compiler",
+      "A-sanitizers",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 128855,
+    "created_at": "2024-08-09T00:01:21Z",
+    "labels": [
+      "E-easy",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 128964,
+    "created_at": "2024-08-11T10:13:18Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug",
+      "A-compiletest"
+    ]
+  },
+  {
+    "number": 129077,
+    "created_at": "2024-08-14T06:11:34Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "A-macros",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 129146,
+    "created_at": "2024-08-16T04:07:44Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 129163,
+    "created_at": "2024-08-16T18:03:09Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "C-enhancement",
+      "F-f16_and_f128"
+    ]
+  },
+  {
+    "number": 129274,
+    "created_at": "2024-08-19T17:32:09Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "D-verbose"
+    ]
+  },
+  {
+    "number": 129438,
+    "created_at": "2024-08-23T03:10:24Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-testsuite",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 129599,
+    "created_at": "2024-08-26T05:38:17Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 129903,
+    "created_at": "2024-09-02T17:06:52Z",
+    "labels": [
+      "E-easy",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 129966,
+    "created_at": "2024-09-04T20:45:45Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 130039,
+    "created_at": "2024-09-06T18:54:04Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "E-help-wanted",
+      "T-bootstrap",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 130600,
+    "created_at": "2024-09-20T06:51:56Z",
+    "labels": [
+      "E-easy",
+      "O-windows",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 130711,
+    "created_at": "2024-09-22T17:36:11Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "C-tracking-issue"
+    ]
+  },
+  {
+    "number": 131087,
+    "created_at": "2024-10-01T10:00:57Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 131974,
+    "created_at": "2024-10-20T16:34:31Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-enhancement",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 132008,
+    "created_at": "2024-10-21T17:02:35Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 132281,
+    "created_at": "2024-10-28T18:01:59Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-lints",
+      "E-mentor",
+      "T-compiler",
+      "L-dangling_pointers_from_temporaries"
+    ]
+  },
+  {
+    "number": 132283,
+    "created_at": "2024-10-28T18:32:54Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "E-mentor",
+      "T-compiler",
+      "A-suggestion-diagnostics",
+      "L-dangling_pointers_from_temporaries"
+    ]
+  },
+  {
+    "number": 132305,
+    "created_at": "2024-10-29T04:31:04Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "T-bootstrap",
+      "A-compiletest"
+    ]
+  },
+  {
+    "number": 132324,
+    "created_at": "2024-10-29T15:20:20Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-suggestion-diagnostics"
+    ]
+  },
+  {
+    "number": 132348,
+    "created_at": "2024-10-30T05:19:07Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "E-mentor",
+      "T-bootstrap",
+      "A-compiletest"
+    ]
+  },
+  {
+    "number": 132735,
+    "created_at": "2024-11-07T16:46:32Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-compiler",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 133018,
+    "created_at": "2024-11-14T00:28:45Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 133024,
+    "created_at": "2024-11-14T04:46:05Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs",
+      "Libs-Small"
+    ]
+  },
+  {
+    "number": 133031,
+    "created_at": "2024-11-14T09:36:11Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-diagnostics",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 133062,
+    "created_at": "2024-11-15T08:03:19Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 133342,
+    "created_at": "2024-11-22T13:15:00Z",
+    "labels": [
+      "E-easy",
+      "E-help-wanted",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 133528,
+    "created_at": "2024-11-27T07:52:52Z",
+    "labels": [
+      "E-easy",
+      "A-LLVM",
+      "E-needs-test",
+      "T-compiler",
+      "C-optimization"
+    ]
+  },
+  {
+    "number": 133985,
+    "created_at": "2024-12-06T22:59:48Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 134646,
+    "created_at": "2024-12-22T05:31:44Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted",
+      "C-tracking-issue"
+    ]
+  },
+  {
+    "number": 135298,
+    "created_at": "2025-01-09T18:40:48Z",
+    "labels": [
+      "E-easy",
+      "A-lints",
+      "T-compiler",
+      "A-docs",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 135343,
+    "created_at": "2025-01-10T20:00:41Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-libs",
+      "A-strict-provenance",
+      "E-tedious"
+    ]
+  },
+  {
+    "number": 135358,
+    "created_at": "2025-01-11T08:29:39Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 135392,
+    "created_at": "2025-01-12T03:54:00Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug",
+      "A-compiletest"
+    ]
+  },
+  {
+    "number": 135629,
+    "created_at": "2025-01-17T14:31:25Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics"
+    ]
+  },
+  {
+    "number": 136275,
+    "created_at": "2025-01-30T04:33:05Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "C-bug",
+      "T-libs",
+      "A-floating-point"
+    ]
+  },
+  {
+    "number": 136716,
+    "created_at": "2025-02-07T21:08:45Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted",
+      "C-tracking-issue"
+    ]
+  },
+  {
+    "number": 136827,
+    "created_at": "2025-02-10T17:47:36Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 137566,
+    "created_at": "2025-02-24T20:50:44Z",
+    "labels": [
+      "E-easy",
+      "A-collections",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 137815,
+    "created_at": "2025-02-28T18:27:01Z",
+    "labels": [
+      "E-easy",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 137853,
+    "created_at": "2025-03-01T13:48:28Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "C-bug",
+      "A-CLI"
+    ]
+  },
+  {
+    "number": 137983,
+    "created_at": "2025-03-04T05:49:37Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "C-enhancement",
+      "A-meta"
+    ]
+  },
+  {
+    "number": 138159,
+    "created_at": "2025-03-07T13:00:19Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 138196,
+    "created_at": "2025-03-08T01:50:19Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 138215,
+    "created_at": "2025-03-08T09:20:22Z",
+    "labels": [
+      "E-easy",
+      "T-libs-api",
+      "E-help-wanted",
+      "C-tracking-issue"
+    ]
+  },
+  {
+    "number": 138567,
+    "created_at": "2025-03-16T18:35:56Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-rustdoc"
+    ]
+  },
+  {
+    "number": 138920,
+    "created_at": "2025-03-25T04:28:34Z",
+    "labels": [
+      "E-easy",
+      "F-autodiff"
+    ]
+  },
+  {
+    "number": 139296,
+    "created_at": "2025-04-03T03:12:55Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 139557,
+    "created_at": "2025-04-08T21:41:28Z",
+    "labels": [
+      "E-easy",
+      "C-bug",
+      "F-autodiff"
+    ]
+  },
+  {
+    "number": 139704,
+    "created_at": "2025-04-12T07:27:35Z",
+    "labels": [
+      "E-easy",
+      "C-bug",
+      "F-autodiff"
+    ]
+  },
+  {
+    "number": 139803,
+    "created_at": "2025-04-14T13:33:36Z",
+    "labels": [
+      "E-easy",
+      "C-bug",
+      "A-error-handling",
+      "T-libs",
+      "A-io",
+      "O-unix"
+    ]
+  },
+  {
+    "number": 139805,
+    "created_at": "2025-04-14T13:48:07Z",
+    "labels": [
+      "E-easy",
+      "C-enhancement",
+      "A-diagnostics",
+      "T-compiler",
+      "A-CLI"
+    ]
+  },
+  {
+    "number": 139918,
+    "created_at": "2025-04-16T13:15:51Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-testsuite",
+      "T-compiler",
+      "A-lang-item",
+      "A-test-infra-minicore"
+    ]
+  },
+  {
+    "number": 140137,
+    "created_at": "2025-04-22T00:22:56Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug",
+      "A-CI",
+      "O-apple",
+      "F-autodiff"
+    ]
+  },
+  {
+    "number": 140928,
+    "created_at": "2025-05-11T20:13:14Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap"
+    ]
+  },
+  {
+    "number": 141528,
+    "created_at": "2025-05-25T00:37:00Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "T-compiler",
+      "E-help-wanted",
+      "A-docs"
+    ]
+  },
+  {
+    "number": 141531,
+    "created_at": "2025-05-25T05:25:49Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "T-compiler",
+      "E-help-wanted",
+      "C-bug",
+      "A-compiletest"
+    ]
+  },
+  {
+    "number": 141579,
+    "created_at": "2025-05-26T10:17:10Z",
+    "labels": [
+      "E-easy",
+      "A-testsuite",
+      "T-compiler",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 141619,
+    "created_at": "2025-05-26T21:58:34Z",
+    "labels": [
+      "E-easy",
+      "A-diagnostics",
+      "T-compiler",
+      "E-help-wanted"
+    ]
+  },
+  {
+    "number": 141726,
+    "created_at": "2025-05-29T08:46:12Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "A-testsuite",
+      "E-mentor",
+      "T-libs",
+      "A-floating-point"
+    ]
+  },
+  {
+    "number": 141849,
+    "created_at": "2025-06-01T11:04:33Z",
+    "labels": [
+      "E-easy",
+      "C-cleanup",
+      "T-compiler"
+    ]
+  },
+  {
+    "number": 142734,
+    "created_at": "2025-06-19T17:51:56Z",
+    "labels": [
+      "E-easy",
+      "E-mentor",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 142745,
+    "created_at": "2025-06-19T20:55:07Z",
+    "labels": [
+      "E-easy",
+      "T-bootstrap",
+      "C-bug"
+    ]
+  },
+  {
+    "number": 142796,
+    "created_at": "2025-06-20T18:07:37Z",
+    "labels": [
+      "E-easy",
+      "C-bug",
+      "F-autodiff"
+    ]
+  },
+  {
+    "number": 143049,
+    "created_at": "2025-06-26T09:18:35Z",
+    "labels": [
+      "E-easy",
+      "A-docs",
+      "T-libs"
+    ]
+  },
+  {
+    "number": 143154,
+    "created_at": "2025-06-28T18:34:40Z",
+    "labels": [
+      "E-easy",
+      "T-rustdoc",
+      "A-docs"
+    ]
+  }
+]

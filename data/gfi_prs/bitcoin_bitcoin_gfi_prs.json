@@ -1,0 +1,909 @@
+[
+  {
+    "pr_number": 23543,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 19815,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 23543,
+      "title": "test: Prevent non-compatible sed binary for scripted-diffs",
+      "body": "This Pull request improve scripted diff by checking for non-compatible sed binary. Fixes #19815\r\n",
+      "body_length": 97,
+      "created_at": "2021-11-18T13:50:57Z",
+      "merged_at": "2022-01-24T11:23:34Z",
+      "merged": true,
+      "time_to_merge_hours": 1605.5436111111112,
+      "state": "MERGED",
+      "additions": 5,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 13,
+      "comment_count": 11,
+      "commit_messages": [
+        "script: preventing non-compatible sed binary.",
+        "script: redirecting stderr to stdout before pipelining into grep\n\nCo-authored-by: Sebastian Falbesoner <sebastian.falbesoner@gmail.com>"
+      ],
+      "avg_commit_msg_length": 90.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "sh": 1
+      },
+      "review_states": {
+        "COMMENTED": 9,
+        "APPROVED": 4
+      },
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This Pull request improve scripted diff by checking for non-compatible sed binary. Fixes #19815",
+      "body_cleaned_length": 95,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 2.0618556701030926,
+      "author_type": "User"
+    },
+    "username": "anouarkappitou"
+  },
+  {
+    "pr_number": 24201,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 24188,
+        "labels": [
+          "P2P",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 24201,
+      "title": "p2p: Avoid InitError when downgrading peers.dat",
+      "body": "fixes #24188 (also see https://github.com/bitcoin/bitcoin/pull/22762#issuecomment-951063826)\r\nWhen downgrading, a peers.dat with a future version that has a minimum\r\nrequired version larger than the downgraded Bitcoin Core version would cause an InitError.\r\n\r\nThis commit changes this behavior to overwrite the existing peers.dat with\r\na new empty one.",
+      "body_length": 352,
+      "created_at": "2022-01-29T13:04:55Z",
+      "merged_at": "2022-02-25T07:47:27Z",
+      "merged": true,
+      "time_to_merge_hours": 642.7088888888889,
+      "state": "MERGED",
+      "additions": 24,
+      "deletions": 10,
+      "files_changed": 4,
+      "commits_count": 1,
+      "review_count": 19,
+      "comment_count": 13,
+      "commit_messages": [
+        "p2p: Avoid InitError when downgrading peers.dat\n\nfixes #24188\nWhen downgrading, a peers.dat with a future version that has a minimum\nrequired version larger than the downgraded version would cause an InitError.\n\nThis commit changes this behavior to overwrite the existing peers.dat with\na new empty one, while creating a backup in peers.dat.bak."
+      ],
+      "avg_commit_msg_length": 345.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/feature_addrman.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "cpp": 2,
+        "h": 1,
+        "py": 1
+      },
+      "review_states": {
+        "COMMENTED": 15,
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "P2P",
+          "color": "006b75",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #24188 (also see https://github.com/bitcoin/bitcoin/pull/22762#issuecomment-951063826)\r\nWhen downgrading, a peers.dat with a future version that has a minimum\r\nrequired version larger than the downgraded Bitcoin Core version would cause an InitError.\r\n\r\nThis commit changes this behavior to overwrite the existing peers.dat with\r\na new empty one.",
+      "body_cleaned_length": 352,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "junderw"
+  },
+  {
+    "pr_number": 24793,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 24791,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 24793,
+      "title": "test: Change color of skipped functional tests",
+      "body": "changes the color of skipped functional tests (currently grey and can be hard to read/invisible on dark backgrounds) to yellow.\r\n\r\nresolves #24791",
+      "body_length": 146,
+      "created_at": "2022-04-06T22:02:10Z",
+      "merged_at": "2022-05-10T11:13:19Z",
+      "merged": true,
+      "time_to_merge_hours": 805.1858333333333,
+      "state": "MERGED",
+      "additions": 5,
+      "deletions": 5,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 4,
+      "comment_count": 8,
+      "commit_messages": [
+        "changes color of skipped functional tests\n\nChanges the color of skipped functional tests to the default text color of the terminal. This will make skipped tests easy to read on the majority of background colors rather than the original grey color (hard to read on dark backgrounds) and the proposed yellow change (hard to read on white backgrounds)"
+      ],
+      "avg_commit_msg_length": 348.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/test_runner.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "py": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "changes the color of skipped functional tests (currently grey and can be hard to read/invisible on dark backgrounds) to yellow.\r\n\r\nresolves #24791",
+      "body_cleaned_length": 146,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "jacobpfickes"
+  },
+  {
+    "pr_number": 25161,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 24695,
+        "labels": [
+          "RPC/REST/ZMQ",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 25161,
+      "title": "rpc: Put undocumented JSON failure mode behind a runtime flag",
+      "body": "Fixes #24695 (Put undocumented JSON failure mode behind a runtime flag)",
+      "body_length": 71,
+      "created_at": "2022-05-17T21:49:13Z",
+      "merged_at": "2022-05-19T04:47:06Z",
+      "merged": true,
+      "time_to_merge_hours": 30.96472222222222,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 1,
+      "files_changed": 4,
+      "commits_count": 1,
+      "review_count": 15,
+      "comment_count": 5,
+      "commit_messages": [
+        "rpc: Put undocumented JSON failure mode behind a runtime flag\n\nrpc: Put undocumented JSON failure mode behind a runtime flag"
+      ],
+      "avg_commit_msg_length": 124.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/test_framework/util.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "cpp": 2,
+        "h": 1,
+        "py": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 2,
+        "COMMENTED": 10,
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "RPC/REST/ZMQ",
+          "color": "0052cc",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #24695 (Put undocumented JSON failure mode behind a runtime flag)",
+      "body_cleaned_length": 71,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "suhailsaqan"
+  },
+  {
+    "pr_number": 25943,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25899,
+        "labels": [
+          "RPC/REST/ZMQ",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 25943,
+      "title": "rpc: Add a parameter to sendrawtransaction which sets a maximum value for unspendable outputs.",
+      "body": "This PR adds a user configurable, zero by default parameter — `maxburnamount` — to `sendrawtransaction`. This PR makes bitcoin core reject transactions that contain unspendable outputs which exceed `maxburnamount`.  closes #25899.\r\n\r\nAs a result of this PR, `sendrawtransaction` will by default block 3 kinds of transactions:\r\n\r\n1. Those that begin with `OP_RETURN` - (datacarriers)\r\n2. Those whose lengths exceed the script limit.\r\n3. Those that contain invalid opcodes.\r\n\r\nThe user is able to configure a `maxburnamount` that will override this check and allow a user to send a potentially unspendable output into the mempool.\r\n\r\nI see two legitimate use cases for this override:\r\n1. Users that deliberately use `OP_RETURN` for datacarrier transactions that embed data into the blockchain.\r\n2.  Users that refuse to update, or are unable to update their bitcoin core client would be able to make use of new opcodes that their client doesn't know about. \r\n",
+      "body_length": 957,
+      "created_at": "2022-08-27T21:49:56Z",
+      "merged_at": "2023-02-23T18:58:14Z",
+      "merged": true,
+      "time_to_merge_hours": 4317.138333333333,
+      "state": "MERGED",
+      "additions": 85,
+      "deletions": 3,
+      "files_changed": 7,
+      "commits_count": 2,
+      "review_count": 19,
+      "comment_count": 24,
+      "commit_messages": [
+        "Add test for unspendable transactions and parameter 'maxburnamount' to sendrawtransaction.\n\n'maxburnamount' sets a maximum value for outputs heuristically deemed unspendable including datacarrier scripts that begin with `OP_RETURN`.",
+        "Add release note for PR#25943\n\nCo-authored-by: glozow <gloriajzhao@gmail.com>"
+      ],
+      "avg_commit_msg_length": 154.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "test/functional/feature_coinstatsindex.py",
+        "test/functional/rpc_rawtransaction.py"
+      ],
+      "doc_files": [
+        "doc/release-notes-25943.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "cpp": 3,
+        "h": 1,
+        "py": 2
+      },
+      "review_states": {
+        "COMMENTED": 16,
+        "APPROVED": 2,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "RPC/REST/ZMQ",
+          "color": "0052cc",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR adds a user configurable, zero by default parameter — `maxburnamount` — to `sendrawtransaction`. This PR makes bitcoin core reject transactions that contain unspendable outputs which exceed `maxburnamount`.  closes #25899.\r\n\r\nAs a result of this PR, `sendrawtransaction` will by default block 3 kinds of transactions:\r\n\r\n1. Those that begin with `OP_RETURN` - (datacarriers)\r\n2. Those whose lengths exceed the script limit.\r\n3. Those that contain invalid opcodes.\r\n\r\nThe user is able to configure a `maxburnamount` that will override this check and allow a user to send a potentially unspendable output into the mempool.\r\n\r\nI see two legitimate use cases for this override:\r\n1. Users that deliberately use `OP_RETURN` for datacarrier transactions that embed data into the blockchain.\r\n2.  Users that refuse to update, or are unable to update their bitcoin core client would be able to make use of new opcodes that their client doesn't know about.",
+      "body_cleaned_length": 954,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.3134796238244514,
+      "author_type": "User"
+    },
+    "username": "davidgumberg"
+  },
+  {
+    "pr_number": 25946,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25921,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 25946,
+      "title": "Update chainparams for 24.0 release",
+      "body": "Update chain parameters for upcoming major release. \r\nSee [doc/release-process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/release-process.md) and #24418 for review instructions.\r\n\r\nfixes #25921",
+      "body_length": 205,
+      "created_at": "2022-08-28T17:34:14Z",
+      "merged_at": "2022-09-06T15:48:44Z",
+      "merged": true,
+      "time_to_merge_hours": 214.24166666666667,
+      "state": "MERGED",
+      "additions": 20,
+      "deletions": 20,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 5,
+      "comment_count": 3,
+      "commit_messages": [
+        "Update chainparams for 24.0 release"
+      ],
+      "avg_commit_msg_length": 35.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "cpp": 1
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Update chain parameters for upcoming major release. \r\nSee [doc/release-process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/release-process.md) and #24418 for review instructions.\r\n\r\nfixes #25921",
+      "body_cleaned_length": 205,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ux3257"
+  },
+  {
+    "pr_number": 26637,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26548,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 26637,
+      "title": "ci: Use pyenv for the lint task",
+      "body": "Closes #26548.\r\n\r\n1. upgrade Ubuntu Bionic to Jammy\r\n2. use Pyenv to install Python 3.6.5 (The Python version is determined by the [.python-version](https://github.com/bitcoin/bitcoin/blob/master/.python-version) file in the project root)\r\n3. cache `PYENV_ROOT` to skip compiling Python source code after the first run.",
+      "body_length": 238,
+      "created_at": "2022-12-05T06:32:11Z",
+      "updated_at": "2023-12-14T12:22:07Z",
+      "closed_at": "2022-12-05T07:51:19Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 20,
+      "deletions": 11,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 5,
+      "pr_size": 31,
+      "avg_commit_msg_length": 31.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "ci"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "yml": 1,
+        "sh": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #26548.\r\n\r\n1. upgrade Ubuntu Bionic to Jammy\r\n2. use Pyenv to install Python 3.6.5 (The Python version is determined by the [.python-version](https://github.com/bitcoin/bitcoin/blob/master/.python-version) file in the project root)\r\n3. cache `PYENV_ROOT` to skip compiling Python source code after the first run.",
+      "body_cleaned_length": 319,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "miles170"
+  },
+  {
+    "pr_number": 27333,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 27321,
+        "labels": [
+          "Tests",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 27333,
+      "title": "ci: cleanup of CI_EXEC & CI_EXEC_ROOT",
+      "body": "Basically it removes the above-mentioned env-vars as per MarcoFalke's instructions. The only deviation from the plan laid out there was that I double-quoted the last instance of $ANDROID_HOME for the sake of consistency and future-proofing and the rest of the non-quoted vars due to lint failing the build.\r\n\r\nFixes #27321.",
+      "body_length": 323,
+      "created_at": "2023-03-26T12:38:31Z",
+      "merged_at": "2023-03-30T17:55:37Z",
+      "merged": true,
+      "time_to_merge_hours": 101.285,
+      "state": "MERGED",
+      "additions": 25,
+      "deletions": 32,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 10,
+      "comment_count": 7,
+      "commit_messages": [
+        "ci: cleanup of CI_EXEC & CI_EXEC_ROOT (refs #27321)"
+      ],
+      "avg_commit_msg_length": 51.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "ci"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "ci/test/01_base_install.sh"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "sh": 1
+      },
+      "review_states": {
+        "COMMENTED": 7,
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Basically it removes the above-mentioned env-vars as per MarcoFalke's instructions. The only deviation from the plan laid out there was that I double-quoted the last instance of $ANDROID_HOME for the sake of consistency and future-proofing and the rest of the non-quoted vars due to lint failing the build.\r\n\r\nFixes #27321.",
+      "body_cleaned_length": 323,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "vstoyanov"
+  },
+  {
+    "pr_number": 28612,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 28603,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28612,
+      "title": "Test: followups to #27823",
+      "body": "Fixes #28603\r\n\r\nAdded suggested simplifications and implemented randomization\r\n",
+      "body_length": 79,
+      "created_at": "2023-10-08T15:41:32Z",
+      "merged_at": "2023-11-06T21:57:52Z",
+      "merged": true,
+      "time_to_merge_hours": 702.2722222222222,
+      "state": "MERGED",
+      "additions": 4,
+      "deletions": 6,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 4,
+      "comment_count": 5,
+      "commit_messages": [
+        "test: simplify feature_init",
+        "test: randomized perturbing in feature_init"
+      ],
+      "avg_commit_msg_length": 35.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "test"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/feature_init.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "py": 1
+      },
+      "review_states": {
+        "COMMENTED": 4
+      },
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #28603\r\n\r\nAdded suggested simplifications and implemented randomization",
+      "body_cleaned_length": 77,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 2.5316455696202533,
+      "author_type": "User"
+    },
+    "username": "L0laL33tz"
+  },
+  {
+    "pr_number": 28212,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 28179,
+        "labels": [
+          "Tests",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28212,
+      "title": "test: verify spend from 999-of-999 taproot multisig wallet",
+      "body": "Verify that a 999-of-999 taproot multisig wallet is possible and can spend from it, and that neither a 1-of-0 nor 1-of-1000 is allowed.\r\n\r\nThe tests will require some time to run. On my Mac M1 the new tests run in about 40 seconds.\r\n\r\nHad to bump fee rate to resolve assertions in sendtoaddress and psbt methods:\r\n- code -5: assert rpc_online.gettransaction(txid)[\"confirmations\"] > 0\r\n- code -26: min relay fee not met\r\n\r\nFixes #28179 ",
+      "body_length": 422,
+      "created_at": "2023-08-03T16:26:06Z",
+      "updated_at": "2025-01-23T06:00:34Z",
+      "closed_at": "2024-04-09T15:05:16Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 28,
+      "deletions": 3,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 34,
+      "comment_count": 5,
+      "pr_size": 31,
+      "avg_commit_msg_length": 140.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "test"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/wallet_taproot.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "py": 1
+      },
+      "review_states": {
+        "COMMENTED": 33,
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        },
+        {
+          "name": "CI failed",
+          "color": "cccccc",
+          "description": ""
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Verify that a 999-of-999 taproot multisig wallet is possible and can spend from it, and that neither a 1-of-0 nor 1-of-1000 is allowed.\r\n\r\nThe tests will require some time to run. On my Mac M1 the new tests run in about 40 seconds.\r\n\r\nHad to bump fee rate to resolve assertions in sendtoaddress and psbt methods:\r\n- code -5: assert rpc_online.gettransaction(txid)[\"confirmations\"] > 0\r\n- code -26: min relay fee not met\r\n\r\nFixes #28179",
+      "body_cleaned_length": 435,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.22935779816513763,
+      "author_type": "User"
+    },
+    "username": "eriknylund"
+  },
+  {
+    "pr_number": 31298,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25980,
+        "labels": [
+          "Bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 31298,
+      "title": "rpc: combinerawtransaction now rejects unmergeable transactions",
+      "body": "Previously, combinerawtransaction would silently return the first tx when asked to combine unrelated txs. Now, it will check tx mergeability and throws a descriptive error if tx cannot be merged.\r\n\r\nfixes  #25980",
+      "body_length": 209,
+      "created_at": "2024-11-15T21:24:12Z",
+      "updated_at": "2025-07-31T19:15:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 35,
+      "deletions": 4,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 17,
+      "comment_count": 7,
+      "pr_size": 39,
+      "avg_commit_msg_length": 260.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/rpc_createmultisig.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "cpp": 1,
+        "py": 1
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "COMMENTED": 15
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [
+        {
+          "name": "RPC/REST/ZMQ",
+          "color": "0052cc",
+          "description": null
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Previously, combinerawtransaction would silently return the first tx when asked to combine unrelated txs. Now, it will check tx mergeability and throws a descriptive error if tx cannot be merged.\r\n\r\nfixes  #25980",
+      "body_cleaned_length": 212,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "adamandrews1"
+  },
+  {
+    "pr_number": 31420,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 31345,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 31420,
+      "title": "test: implements helper functions for unit conversion",
+      "body": "Add `sat_to_btc`, `btc_to_sat` utility functions to test framework and refactors all manual conversion on tests to use it;\r\n\r\nCloses #31345 ",
+      "body_length": 132,
+      "created_at": "2024-12-04T16:55:29Z",
+      "updated_at": "2024-12-13T13:41:35Z",
+      "closed_at": "2024-12-13T13:41:35Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 241,
+      "deletions": 223,
+      "files_changed": 44,
+      "commits_count": 3,
+      "review_count": 3,
+      "comment_count": 3,
+      "pr_size": 464,
+      "avg_commit_msg_length": 34.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "test"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/functional/feature_bip68_sequence.py",
+        "test/functional/feature_block.py",
+        "test/functional/feature_coinstatsindex.py",
+        "test/functional/feature_dbcrash.py",
+        "test/functional/feature_fee_estimation.py",
+        "test/functional/feature_rbf.py",
+        "test/functional/feature_segwit.py",
+        "test/functional/interface_rest.py",
+        "test/functional/interface_usdt_mempool.py",
+        "test/functional/interface_usdt_utxocache.py",
+        "test/functional/mempool_accept.py",
+        "test/functional/mempool_accept_wtxid.py",
+        "test/functional/mempool_dust.py",
+        "test/functional/mempool_ephemeral_dust.py",
+        "test/functional/mempool_expiry.py",
+        "test/functional/mempool_limit.py",
+        "test/functional/mempool_package_rbf.py",
+        "test/functional/mempool_persist.py",
+        "test/functional/mempool_truc.py",
+        "test/functional/mining_basic.py",
+        "test/functional/mining_prioritisetransaction.py",
+        "test/functional/p2p_filter.py",
+        "test/functional/p2p_ibd_txrelay.py",
+        "test/functional/p2p_invalid_block.py",
+        "test/functional/p2p_invalid_tx.py",
+        "test/functional/rpc_blockchain.py",
+        "test/functional/rpc_createmultisig.py",
+        "test/functional/rpc_getdescriptoractivity.py",
+        "test/functional/rpc_packages.py",
+        "test/functional/rpc_rawtransaction.py",
+        "test/functional/rpc_scanblocks.py",
+        "test/functional/rpc_scantxoutset.py",
+        "test/functional/rpc_signrawtransactionwithkey.py",
+        "test/functional/test_framework/blocktools.py",
+        "test/functional/test_framework/messages.py",
+        "test/functional/test_framework/util.py",
+        "test/functional/test_framework/wallet.py",
+        "test/functional/wallet_assumeutxo.py",
+        "test/functional/wallet_basic.py",
+        "test/functional/wallet_fundrawtransaction.py",
+        "test/functional/wallet_import_rescan.py",
+        "test/functional/wallet_listtransactions.py",
+        "test/functional/wallet_migration.py",
+        "test/functional/wallet_txn_clone.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "py": 44
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 2
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "Tests",
+          "color": "d4c5f9",
+          "description": null
+        },
+        {
+          "name": "Needs rebase",
+          "color": "cccccc",
+          "description": ""
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Add `sat_to_btc`, `btc_to_sat` utility functions to test framework and refactors all manual conversion on tests to use it;\r\n\r\nCloses #31345",
+      "body_cleaned_length": 139,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.7142857142857143,
+      "author_type": "User"
+    },
+    "username": "wfzyx"
+  }
+]

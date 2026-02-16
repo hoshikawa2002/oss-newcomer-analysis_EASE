@@ -1,0 +1,1132 @@
+[
+  {
+    "pr_number": 2203,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 1934,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 2203,
+      "title": "Angular create tauri app [#1934]",
+      "body": "<!--\r\nPlease make sure to read the Pull Request Guidelines:\r\nhttps://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n<!-- PULL REQUEST TEMPLATE -->\r\n<!-- (Update \"[ ]\" to \"[x]\" to check a box) -->\r\n\r\n**What kind of change does this PR introduce?** (check at least one)\r\n<!--\r\nIf you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers.\r\n-->\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding Issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n**Does this PR introduce a breaking change?** (check one)\r\n<!--\r\nIf yes, please describe the impact and migration path for existing applications in an attached issue. Filing a PR with breaking changes that has not been discussed and approved by the maintainers in an issue will be immediately closed.\r\n-->\r\n\r\n- [ ] Yes. Issue #___\r\n- [x] No\r\n\r\n\r\n**The PR fulfills these requirements:**\r\n\r\n- [x] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix: #xxx[,#xxx]`, where \"xxx\" is the issue number)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n\r\nIf adding a **new feature**, the PR's description includes:\r\n- [ ] A convincing reason for adding this feature (to avoid wasting your time, it's best to open a suggestion issue first and wait for approval before working on it)\r\n\r\n**Other information:**\r\ncloses #1934",
+      "body_length": 1632,
+      "created_at": "2021-07-12T15:57:46Z",
+      "merged_at": "2021-07-14T20:36:47Z",
+      "merged": true,
+      "time_to_merge_hours": 52.65027777777778,
+      "state": "MERGED",
+      "additions": 125,
+      "deletions": 3,
+      "files_changed": 5,
+      "commits_count": 5,
+      "review_count": 3,
+      "comment_count": 9,
+      "commit_messages": [
+        "added nglic recipe",
+        "fixed some errors; cleaned up code; moved additional package installation to preInit",
+        "added change file",
+        "added recipe to tests and workflow",
+        "Merge branch 'dev' into angular-create-tauri-app"
+      ],
+      "avg_commit_msg_length": 40.2,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tooling/create-tauri-app/test/index.spec.ts"
+      ],
+      "doc_files": [
+        ".changes/cta-added-angular-cli.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "yml": 1,
+        "ts": 3
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**What kind of change does this PR introduce?** (check at least one)\r\n\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding Issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n**Does this PR introduce a breaking change?** (check one)\r\n\r\n\r\n- [ ] Yes. Issue #___\r\n- [x] No\r\n\r\n\r\n**The PR fulfills these requirements:**\r\n\r\n- [x] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix: #xxx[,#xxx]`, where \"xxx\" is the issue number)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n\r\nIf adding a **new feature**, the PR's description includes:\r\n- [ ] A convincing reason for adding this feature (to avoid wasting your time, it's best to open a suggestion issue first and wait for approval before working on it)\r\n\r\n**Other information:**\r\ncloses #1934",
+      "body_cleaned_length": 984,
+      "template_removed_length": 648,
+      "template_reduction_percentage": 39.705882352941174,
+      "author_type": "User"
+    },
+    "username": "Epsilon02"
+  },
+  {
+    "pr_number": 2621,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 2599,
+        "labels": [
+          "type: bug",
+          "good first issue",
+          "scope: api.js",
+          "priority: 1 high"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 2621,
+      "title": "Fix(api): Window size and position returning wrong class (fix: #2599)",
+      "body": "fix #2599\r\n\r\n**What kind of change does this PR introduce?** (check at least one)\r\n- [X] Bugfix\r\n- [ ] Feature\r\n- [ ] Docs\r\n- [ ] New Binding Issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n**Does this PR introduce a breaking change?** (check one)\r\n- [ ] Yes. Issue #___\r\n- [X] No\r\n\r\n\r\n**The PR fulfills these requirements:**\r\n\r\n- [X] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix: #xxx[,#xxx]`, where \"xxx\" is the issue number)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n\r\nIf adding a **new feature**, the PR's description includes:\r\n- [ ] A convincing reason for adding this feature (to avoid wasting your time, it's best to open a suggestion issue first and wait for approval before working on it)\r\n\r\n**Other information:**\r\n\r\nAdded the changed apis to Examples/api so that it can be used to test it in the future.\r\nIt looks like this:\r\n![Screen Shot 2021-09-21 at 15 39 58](https://user-images.githubusercontent.com/2331645/134184112-4b0a9573-5852-4bff-8963-6a607afac7f0.png)\r\n\r\nCurious fact is that, for me innerSize always return the same value for a given monitor. Is that a know bug?\r\nAlso I noticed the transparent checkbox does not work, and resizable only works after changing it at least once.\r\n",
+      "body_length": 1456,
+      "created_at": "2021-09-21T14:00:33Z",
+      "merged_at": "2021-09-22T21:57:23Z",
+      "merged": true,
+      "time_to_merge_hours": 31.947222222222223,
+      "state": "MERGED",
+      "additions": 132,
+      "deletions": 13,
+      "files_changed": 6,
+      "commits_count": 4,
+      "review_count": 1,
+      "comment_count": 6,
+      "commit_messages": [
+        "Fix(api): Window size and position properties not returning PhysicalSize and PhysiscalPosition fix #2599",
+        "Add changes file",
+        "fix return type",
+        "Merge remote-tracking branch 'origin/next' into fix/2599-window-api-not-returning-correct-size-and-positoin-class"
+      ],
+      "avg_commit_msg_length": 62.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.25,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/api-window-type-for-size-and-position.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "js": 2,
+        "map": 1,
+        "svelte": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #2599\r\n\r\n**What kind of change does this PR introduce?** (check at least one)\r\n- [X] Bugfix\r\n- [ ] Feature\r\n- [ ] Docs\r\n- [ ] New Binding Issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n**Does this PR introduce a breaking change?** (check one)\r\n- [ ] Yes. Issue #___\r\n- [X] No\r\n\r\n\r\n**The PR fulfills these requirements:**\r\n\r\n- [X] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix: #xxx[,#xxx]`, where \"xxx\" is the issue number)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n\r\nIf adding a **new feature**, the PR's description includes:\r\n- [ ] A convincing reason for adding this feature (to avoid wasting your time, it's best to open a suggestion issue first and wait for approval before working on it)\r\n\r\n**Other information:**\r\n\r\nAdded the changed apis to Examples/api so that it can be used to test it in the future.\r\nIt looks like this:\r\n![Screen Shot 2021-09-21 at 15 39 58](https://user-images.githubusercontent.com/2331645/134184112-4b0a9573-5852-4bff-8963-6a607afac7f0.png)\r\n\r\nCurious fact is that, for me innerSize always return the same value for a given monitor. Is that a know bug?\r\nAlso I noticed the transparent checkbox does not work, and resizable only works after changing it at least once.",
+      "body_cleaned_length": 1454,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.13736263736263737,
+      "author_type": "User"
+    },
+    "username": "sirgallifrey"
+  },
+  {
+    "pr_number": 5268,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5267,
+        "labels": [
+          "type: documentation",
+          "good first issue",
+          "scope: api.js",
+          "scope: core"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5268,
+      "title": "docs: correct path for desktop_dir, closes #5267",
+      "body": "<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [x] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\ncloses #5267",
+      "body_length": 609,
+      "created_at": "2022-09-22T23:36:15Z",
+      "updated_at": "2022-09-28T14:41:15Z",
+      "closed_at": "2022-09-28T14:36:16Z",
+      "merged_at": "2022-09-28T14:36:15Z",
+      "merged": true,
+      "state": "MERGED",
+      "time_to_merge_hours": 135.0,
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 0,
+      "pr_size": 4,
+      "avg_commit_msg_length": 34.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 2
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [x] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\ncloses #5267",
+      "body_cleaned_length": 782,
+      "template_removed_length": 486,
+      "template_reduction_percentage": 38.32807570977918,
+      "author_type": "User"
+    },
+    "username": "caesar"
+  },
+  {
+    "pr_number": 5562,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5496,
+        "labels": [
+          "good first issue",
+          "type: feature request",
+          "status: backlog"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5562,
+      "title": "expose set_device_event_filter in tauri",
+      "body": "Closes #5496\r\n\r\n<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [ ] Docs\r\n- [x] New Binding issue #5496\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\n",
+      "body_length": 1273,
+      "created_at": "2022-11-06T20:53:30Z",
+      "merged_at": "2022-12-13T16:57:32Z",
+      "merged": true,
+      "time_to_merge_hours": 884.0672222222222,
+      "state": "MERGED",
+      "additions": 125,
+      "deletions": 11,
+      "files_changed": 6,
+      "commits_count": 9,
+      "review_count": 1,
+      "comment_count": 0,
+      "commit_messages": [
+        "expose set_device_event_filter in tauri",
+        "bump package versions",
+        "fmt",
+        "Merge remote-tracking branch 'origin/dev' into cymruu/expose-set_device_event_filter-in-tauri",
+        "expose API on tauri crate & api",
+        "move api to Builder and App",
+        "adjust change file",
+        "Merge branch 'dev' into cymruu/expose-set_device_event_filter-in-tauri",
+        "fix definition [skip ci]"
+      ],
+      "avg_commit_msg_length": 36.22222222222222,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "core/tauri/src/test/mock_runtime.rs"
+      ],
+      "doc_files": [
+        ".changes/expose-set_device_event_filter-in-tauri-api.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 5
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #5496\r\n\r\n\r\n\r\n### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [ ] Docs\r\n- [x] New Binding issue #5496\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information",
+      "body_cleaned_length": 789,
+      "template_removed_length": 484,
+      "template_reduction_percentage": 38.02042419481539,
+      "author_type": "User"
+    },
+    "username": "cymruu"
+  },
+  {
+    "pr_number": 6025,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5913,
+        "labels": [
+          "good first issue",
+          "type: feature request",
+          "platform: Linux"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6025,
+      "title": "feature: disable mouse event when building windows on Linux, closes #5913",
+      "body": "Signed-off-by: Shogo Hida <shogo.hida@gmail.com>\r\n\r\nFixes #5913 \r\n\r\n<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\n",
+      "body_length": 1324,
+      "created_at": "2023-01-10T12:00:41Z",
+      "merged_at": "2023-01-16T13:33:07Z",
+      "merged": true,
+      "time_to_merge_hours": 145.54055555555556,
+      "state": "MERGED",
+      "additions": 11,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 10,
+      "review_count": 7,
+      "comment_count": 1,
+      "commit_messages": [
+        "Add disable_mouse_event\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Add disable_mouse_event to config.rs\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Fix typo\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Fix method\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Delete disable_mouse_event from config.rs\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Recover disable_mouse_event method\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "Add disable_mouse_event to webview.rs\n\nSigned-off-by: Shogo Hida <shogo.hida@gmail.com>",
+        "On Linux, disable mouse event when creating windows",
+        "Add method to mock",
+        "do not expose mouse_event method"
+      ],
+      "avg_commit_msg_length": 64.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/linux-mouse.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "DISMISSED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Signed-off-by: Shogo Hida <shogo.hida@gmail.com>\r\n\r\nFixes #5913 \r\n\r\n\r\n\r\n### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information",
+      "body_cleaned_length": 840,
+      "template_removed_length": 484,
+      "template_reduction_percentage": 36.5558912386707,
+      "author_type": "User"
+    },
+    "username": "shogohida"
+  },
+  {
+    "pr_number": 7933,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 7847,
+        "labels": [
+          "good first issue",
+          "type: feature request"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 7933,
+      "title": "feat(core): expose `always_on_bottom`, closes #7847",
+      "body": "<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [x] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\nCloses #7847.",
+      "body_length": 1269,
+      "created_at": "2023-10-02T00:34:40Z",
+      "merged_at": "2023-10-18T12:47:25Z",
+      "merged": true,
+      "time_to_merge_hours": 396.2125,
+      "state": "MERGED",
+      "additions": 154,
+      "deletions": 41,
+      "files_changed": 17,
+      "commits_count": 4,
+      "review_count": 1,
+      "comment_count": 0,
+      "commit_messages": [
+        "feat(core): expose `always_on_bottom`",
+        "chore: run cargo fmt",
+        "Merge remote-tracking branch 'origin/dev' into feat/expose-always-on-bottom",
+        "add JS API"
+      ],
+      "avg_commit_msg_length": 35.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "feat",
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "core/tauri/src/test/mock_runtime.rs"
+      ],
+      "doc_files": [
+        ".changes/always-on-bottom-api.md",
+        ".changes/always-on-bottom-config.md",
+        ".changes/always-on-bottom.md",
+        "tooling/api/docs/js-api.json"
+      ],
+      "file_types": {
+        "md": 3,
+        "json": 3,
+        "rs": 7,
+        "js": 2,
+        "svelte": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [x] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [x] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\nCloses #7847.",
+      "body_cleaned_length": 783,
+      "template_removed_length": 486,
+      "template_reduction_percentage": 38.297872340425535,
+      "author_type": "User"
+    },
+    "username": "aelew"
+  },
+  {
+    "pr_number": 11727,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11725,
+        "labels": [
+          "help wanted",
+          "good first issue",
+          "type: feature request"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11727,
+      "title": "fix(windows): add Portuguese language in nsis bundle (fix #11725)",
+      "body": "<!--\r\nBefore submitting a PR, please read https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(windows): fix race condition in event loop\r\n    - docs: update example for `App::show`\r\n    - feat: add `Window::set_fullscreen`\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. If there is a related issue, reference it in the PR text, e.g. closes #123.\r\n3. If this change requires a new version, then add a change file in `.changes` directory with the appropriate bump, see https://github.com/tauri-apps/tauri/blob/dev/.changes/README.md\r\n4. Ensure that all your commits are signed https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits\r\n5. Ensure `cargo test` and `cargo clippy` passes.\r\n6. Propose your changes as a draft PR if your work is still in progress.\r\n-->\r\nCloses #11725\r\n\r\nUsing ChatGPT to translate using English and PortugueseBR as a reference. Let me know if the translations are wrong.",
+      "body_length": 1095,
+      "created_at": "2024-11-18T18:42:09Z",
+      "merged_at": "2024-11-18T22:11:16Z",
+      "merged": true,
+      "time_to_merge_hours": 3.4852777777777777,
+      "state": "MERGED",
+      "additions": 36,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 0,
+      "commit_messages": [
+        "fix: add Portuguese language in nsis bundle",
+        "change file",
+        "include in Rust"
+      ],
+      "avg_commit_msg_length": 23.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.3333333333333333,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/bundler-nsis-portuguese.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "nsh": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #11725\r\n\r\nUsing ChatGPT to translate using English and PortugueseBR as a reference. Let me know if the translations are wrong.",
+      "body_cleaned_length": 133,
+      "template_removed_length": 962,
+      "template_reduction_percentage": 87.85388127853881,
+      "author_type": "User"
+    },
+    "username": "Kiyozz"
+  },
+  {
+    "pr_number": 12204,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12156,
+        "labels": [
+          "good first issue",
+          "scope: cli.rs",
+          "type: feature request"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 12204,
+      "title": "feat(cli): Add 64x64 png to default `tauri icon` command",
+      "body": "Closes: #12156\r\n\r\nMarked as a minor change as it made the most sense to me, feel free to let me know if this is incorrect.",
+      "body_length": 122,
+      "created_at": "2025-01-04T17:32:44Z",
+      "merged_at": "2025-01-04T22:26:18Z",
+      "merged": true,
+      "time_to_merge_hours": 4.892777777777778,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Generate 64x64 png on default `tauri icon` command",
+        "Mark change as patch (instead of minor)"
+      ],
+      "avg_commit_msg_length": 44.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/cli-generate-64x64-icon.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes: #12156\r\n\r\nMarked as a minor change as it made the most sense to me, feel free to let me know if this is incorrect.",
+      "body_cleaned_length": 122,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "pjf-dev"
+  },
+  {
+    "pr_number": 5498,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5497,
+        "labels": [
+          "good first issue",
+          "scope: core",
+          "type: feature request",
+          "status: backlog"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5498,
+      "title": "Adds a `new` method to `InvokeError` (fix #5497)",
+      "body": "Adds a `new` method to `InvokeError` to allow for manual initialization of the struct, as described in Issue #5497 (fix #5497).\r\n\r\n<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [x] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\n",
+      "body_length": 721,
+      "created_at": "2022-10-27T19:53:20Z",
+      "updated_at": "2022-10-27T22:10:06Z",
+      "closed_at": "2022-10-27T22:10:06Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 6,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 0,
+      "pr_size": 6,
+      "avg_commit_msg_length": 127.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Adds a `new` method to `InvokeError` to allow for manual initialization of the struct, as described in Issue #5497 (fix #5497).\r\n\r\n\r\n\r\n### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [x] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information",
+      "body_cleaned_length": 903,
+      "template_removed_length": 484,
+      "template_reduction_percentage": 34.89545782263879,
+      "author_type": "User"
+    },
+    "username": "bicarlsen"
+  },
+  {
+    "pr_number": 12837,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12753,
+        "labels": [
+          "good first issue",
+          "type: feature request"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 12837,
+      "title": "feat(api): implement `getIdentifier()` to access `tauri.conf.json` identifier",
+      "body": "# Description\r\n\r\nThis PR adds a new `getIdentifier()` API function to access the application's bundle identifier from the frontend. This allows developers to access the identifier configured in `tauri.conf.json` without having to maintain a separate constant or parse the config file.\r\n\r\nCloses #12753\r\n\r\n## Changes\r\n- Added `getIdentifier()` function to the app API\r\n- Added the command to the core:app plugin with default permissions\r\n- Updated API example to demonstrate usage\r\n\r\n## Testing\r\n- [x] Added the function to the API example app\r\n- [x] Verified the returned identifier matches tauri.conf.json\r\n- [x] Cargo test passes\r\n- [x] Cargo clippy passes\r\n- [x] All commits are signed\r\n\r\n## API Example\r\n```typescript\r\nimport { getIdentifier } from '@tauri-apps/api/app';\r\nconst identifier = await getIdentifier(); // returns \"com.tauri.api\"\r\n",
+      "body_length": 847,
+      "created_at": "2025-02-27T12:11:12Z",
+      "merged_at": "2025-03-02T18:12:34Z",
+      "merged": true,
+      "time_to_merge_hours": 78.02277777777778,
+      "state": "MERGED",
+      "additions": 58,
+      "deletions": 1,
+      "files_changed": 6,
+      "commits_count": 7,
+      "review_count": 2,
+      "comment_count": 7,
+      "commit_messages": [
+        "feat(api): implement getIdentifier() to access tauri.conf.json identifier",
+        "updated",
+        "chore(api): update change file and rebuild bundle",
+        "Update to @since 2.4.0",
+        "added tag",
+        "Merge branch 'get-identifier#12753' of https://github.com/niladrix719/tauri into get-identifier#12753",
+        "Update .changes/get-identifier.md\n\nCo-authored-by: Fabian-Lars <github@fabianlars.de>"
+      ],
+      "avg_commit_msg_length": 49.42857142857143,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.2857142857142857,
+      "commit_types": [
+        "feat",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/get-identifier.md",
+        "crates/tauri/permissions/app/autogenerated/reference.md"
+      ],
+      "file_types": {
+        "md": 2,
+        "rs": 2,
+        "js": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "# Description\r\n\r\nThis PR adds a new `getIdentifier()` API function to access the application's bundle identifier from the frontend. This allows developers to access the identifier configured in `tauri.conf.json` without having to maintain a separate constant or parse the config file.\r\n\r\nCloses #12753\r\n\r\n## Changes\r\n- Added `getIdentifier()` function to the app API\r\n- Added the command to the core:app plugin with default permissions\r\n- Updated API example to demonstrate usage\r\n\r\n## Testing\r\n- [x] Added the function to the API example app\r\n- [x] Verified the returned identifier matches tauri.conf.json\r\n- [x] Cargo test passes\r\n- [x] Cargo clippy passes\r\n- [x] All commits are signed\r\n\r\n## API Example\r\n```typescript\r\nimport { getIdentifier } from '@tauri-apps/api/app';\r\nconst identifier = await getIdentifier(); // returns \"com.tauri.api\"",
+      "body_cleaned_length": 845,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.23612750885478156,
+      "author_type": "User"
+    },
+    "username": "niladrix719"
+  },
+  {
+    "pr_number": 12998,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12914,
+        "labels": [
+          "good first issue",
+          "type: feature request"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 12998,
+      "title": "fix: use bun.lock to identify bun's lockfile (fix #12914)",
+      "body": "fix #12914",
+      "body_length": 10,
+      "created_at": "2025-03-16T13:30:18Z",
+      "merged_at": "2025-03-16T17:00:04Z",
+      "merged": true,
+      "time_to_merge_hours": 3.496111111111111,
+      "state": "MERGED",
+      "additions": 22,
+      "deletions": 18,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix: use bun.lock to identify bun's lockfile",
+        "fix: also check bun.lockb",
+        "doc: add changes doc"
+      ],
+      "avg_commit_msg_length": 29.666666666666668,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/fix-bun-lockfile.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #12914",
+      "body_cleaned_length": 10,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "jason89521"
+  },
+  {
+    "pr_number": 13043,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 7555,
+        "labels": [
+          "type: documentation",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13043,
+      "title": "docs: Improve BaseDirectory documentation",
+      "body": "Improves the docs so that you can see where folders point on different operating systems easily.\r\n\r\nfixes #7555",
+      "body_length": 111,
+      "created_at": "2025-03-21T11:12:43Z",
+      "merged_at": "2025-03-21T11:57:35Z",
+      "merged": true,
+      "time_to_merge_hours": 0.7477777777777778,
+      "state": "MERGED",
+      "additions": 88,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "add notes",
+        "Add links",
+        "fix fmt"
+      ],
+      "avg_commit_msg_length": 8.333333333333334,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Improves the docs so that you can see where folders point on different operating systems easily.\r\n\r\nfixes #7555",
+      "body_cleaned_length": 111,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Levminer"
+  },
+  {
+    "pr_number": 13236,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13159,
+        "labels": [
+          "type: bug",
+          "good first issue",
+          "platform: macOS",
+          "status: needs triage"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13236,
+      "title": "fix: fileAssociations missing LSHandlerRank on macOS (#13159)",
+      "body": "<!--\r\nBefore submitting a PR, please read https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(windows): fix race condition in event loop\r\n    - docs: update example for `App::show`\r\n    - feat: add `Window::set_fullscreen`\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. If there is a related issue, reference it in the PR text, e.g. closes #123.\r\n3. If this change requires a new version, then add a change file in `.changes` directory with the appropriate bump, see https://github.com/tauri-apps/tauri/blob/dev/.changes/README.md\r\n4. Ensure that all your commits are signed https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits\r\n5. Ensure `cargo test` and `cargo clippy` passes.\r\n6. Propose your changes as a draft PR if your work is still in progress.\r\n-->\r\nfix #13159  missing the LSHandlerRank and Apple warns after uploading to App Store Connect:\r\n\r\n\r\n",
+      "body_length": 1059,
+      "created_at": "2025-04-15T06:13:59Z",
+      "merged_at": "2025-04-15T16:45:46Z",
+      "merged": true,
+      "time_to_merge_hours": 10.529722222222222,
+      "state": "MERGED",
+      "additions": 215,
+      "deletions": 4,
+      "files_changed": 9,
+      "commits_count": 1,
+      "review_count": 3,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix: fileAssociations missing LSHandlerRank on macOS (#13159)"
+      ],
+      "avg_commit_msg_length": 61.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/fix-fileassociations-missing-lshandlerrank-on-macos.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 2,
+        "json": 6
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix #13159  missing the LSHandlerRank and Apple warns after uploading to App Store Connect:",
+      "body_cleaned_length": 91,
+      "template_removed_length": 968,
+      "template_reduction_percentage": 91.40698772426818,
+      "author_type": "User"
+    },
+    "username": "kingsword09"
+  },
+  {
+    "pr_number": 13618,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12674,
+        "labels": [
+          "type: bug",
+          "good first issue",
+          "status: needs triage"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13618,
+      "title": "fix(cli): prevent .app identifier (fix #12674)",
+      "body": "<!--\r\nBefore submitting a PR, please read https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n\r\n1. Give the PR a descriptive title.\r\n\r\n  Examples of good title:\r\n    - fix(windows): fix race condition in event loop\r\n    - docs: update example for `App::show`\r\n    - feat: add `Window::set_fullscreen`\r\n\r\n  Examples of bad title:\r\n    - fix #7123\r\n    - update docs\r\n    - fix bugs\r\n\r\n2. If there is a related issue, reference it in the PR text, e.g. closes #123.\r\n3. If this change requires a new version, then add a change file in `.changes` directory with the appropriate bump, see https://github.com/tauri-apps/tauri/blob/dev/.changes/README.md\r\n4. Ensure that all your commits are signed https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits\r\n5. Ensure `cargo test` and `cargo clippy` passes.\r\n6. Propose your changes as a draft PR if your work is still in progress.\r\n-->\r\ncloses #12674 ",
+      "body_length": 976,
+      "created_at": "2025-06-15T19:20:32Z",
+      "merged_at": "2025-06-16T15:48:54Z",
+      "merged": true,
+      "time_to_merge_hours": 20.47277777777778,
+      "state": "MERGED",
+      "additions": 23,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 6,
+      "comment_count": 12,
+      "commit_messages": [
+        "fix(cli): prevent .app identifier",
+        "chore(cli): changed warn log of non macOS",
+        "Add change file"
+      ],
+      "avg_commit_msg_length": 29.666666666666668,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".changes/warn-dot-app-id.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 1
+      },
+      "review_states": {
+        "APPROVED": 3,
+        "COMMENTED": 3
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "closes #12674",
+      "body_cleaned_length": 13,
+      "template_removed_length": 963,
+      "template_reduction_percentage": 98.66803278688525,
+      "author_type": "User"
+    },
+    "username": "Sky-walkerX"
+  },
+  {
+    "pr_number": 5269,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5267,
+        "labels": [
+          "type: documentation",
+          "good first issue",
+          "scope: api.js",
+          "scope: core"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5269,
+      "title": "fix: incorrect macOS path listed for `desktopDir`",
+      "body": "fixes #5267\r\n\r\n<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [x] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\n",
+      "body_length": 609,
+      "created_at": "2022-09-22T23:37:08Z",
+      "updated_at": "2022-09-22T23:40:12Z",
+      "closed_at": "2022-09-22T23:40:12Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 2,
+      "avg_commit_msg_length": 38.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "rs": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #5267\r\n\r\n\r\n\r\n### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [ ] Feature\r\n- [x] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information",
+      "body_cleaned_length": 787,
+      "template_removed_length": 484,
+      "template_reduction_percentage": 38.080251770259636,
+      "author_type": "User"
+    },
+    "username": "tomheaton"
+  },
+  {
+    "pr_number": 5381,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5228,
+        "labels": [
+          "good first issue",
+          "scope: core",
+          "type: feature request",
+          "status: backlog"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5381,
+      "title": "feat: allow setting window  size and position using physical units close #5228",
+      "body": "Close #5228\r\n<!--\r\nUpdate \"[ ]\" to \"[x]\" to check a box\r\n\r\nPlease make sure to read the Pull Request Guidelines: https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines\r\n-->\r\n\r\n### What kind of change does this PR introduce?\r\n<!-- Check at least one. If you are introducing a new binding, you must reference an issue where this binding has been proposed, discussed and approved by the maintainers. -->\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n<!-- If yes, please describe the impact and migration path for existing applications in an attached issue. -->\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information\r\n",
+      "body_length": 609,
+      "created_at": "2022-10-10T09:54:13Z",
+      "updated_at": "2023-05-09T17:13:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 161,
+      "deletions": 13,
+      "files_changed": 8,
+      "commits_count": 6,
+      "review_count": 3,
+      "comment_count": 8,
+      "pr_size": 174,
+      "avg_commit_msg_length": 40.333333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "style",
+        "feat"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "core/tauri/src/test/mock_runtime.rs"
+      ],
+      "doc_files": [
+        ".changes/window-size-position-unit-config.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "rs": 5,
+        "ts": 1,
+        "json": 1
+      },
+      "review_states": {
+        "COMMENTED": 3
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Close #5228\r\n\r\n\r\n### What kind of change does this PR introduce?\r\n\r\n\r\n- [ ] Bugfix\r\n- [x] Feature\r\n- [ ] Docs\r\n- [ ] New Binding issue #___\r\n- [ ] Code style update\r\n- [ ] Refactor\r\n- [ ] Build-related changes\r\n- [ ] Other, please describe:\r\n\r\n### Does this PR introduce a breaking change?\r\n\r\n\r\n- [ ] Yes, and the changes were approved in issue #___\r\n- [x] No\r\n\r\n### Checklist\r\n- [x] When resolving issues, they are referenced in the PR's title (e.g `fix: remove a typo, closes #___, #___`)\r\n- [ ] A change file is added if any packages will require a version bump due to this PR per [the instructions in the readme](https://github.com/tauri-apps/tauri/blob/dev/.changes/readme.md).\r\n- [ ] I have added a convincing reason for adding this feature, if necessary\r\n\r\n### Other information",
+      "body_cleaned_length": 785,
+      "template_removed_length": 484,
+      "template_reduction_percentage": 38.14026792750197,
+      "author_type": "User"
+    },
+    "username": "ysinsane"
+  }
+]

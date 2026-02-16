@@ -1,0 +1,1332 @@
+[
+  {
+    "number": 749,
+    "created_at": "2021-08-21T20:47:01Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 811,
+    "created_at": "2021-08-29T03:25:24Z",
+    "labels": [
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 838,
+    "created_at": "2021-08-31T00:50:11Z",
+    "labels": [
+      "help-wanted",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 859,
+    "created_at": "2021-09-02T02:39:42Z",
+    "labels": [
+      "help-wanted",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 887,
+    "created_at": "2021-09-03T12:34:22Z",
+    "labels": [
+      "bug",
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 993,
+    "created_at": "2021-09-16T14:50:10Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 996,
+    "created_at": "2021-09-16T18:07:25Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "geo-blocked",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 1014,
+    "created_at": "2021-09-17T22:29:11Z",
+    "labels": [
+      "help-wanted",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 1026,
+    "created_at": "2021-09-19T06:00:33Z",
+    "labels": [
+      "enhancement",
+      "help-wanted",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1033,
+    "created_at": "2021-09-19T18:49:12Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 1243,
+    "created_at": "2021-10-11T23:45:16Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1359,
+    "created_at": "2021-10-20T21:23:52Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1508,
+    "created_at": "2021-11-01T15:01:52Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1509,
+    "created_at": "2021-11-01T15:15:05Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1635,
+    "created_at": "2021-11-11T18:42:11Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1653,
+    "created_at": "2021-11-13T17:09:42Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1679,
+    "created_at": "2021-11-15T17:52:56Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 1831,
+    "created_at": "2021-11-29T12:31:32Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 1863,
+    "created_at": "2021-12-01T19:05:48Z",
+    "labels": [
+      "bug",
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 1917,
+    "created_at": "2021-12-07T15:22:13Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "core:downloader"
+    ]
+  },
+  {
+    "number": 2001,
+    "created_at": "2021-12-15T05:54:21Z",
+    "labels": [
+      "bug",
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 2151,
+    "created_at": "2021-12-28T18:32:46Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 2218,
+    "created_at": "2022-01-03T23:11:28Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2225,
+    "created_at": "2022-01-04T11:58:15Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 2339,
+    "created_at": "2022-01-14T17:28:06Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 2415,
+    "created_at": "2022-01-21T02:40:20Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 2508,
+    "created_at": "2022-01-27T12:27:31Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 2555,
+    "created_at": "2022-01-31T11:08:08Z",
+    "labels": [
+      "help-wanted",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 2635,
+    "created_at": "2022-02-04T09:26:51Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 2638,
+    "created_at": "2022-02-04T17:34:54Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 2690,
+    "created_at": "2022-02-08T14:57:49Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 2702,
+    "created_at": "2022-02-09T16:59:07Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2710,
+    "created_at": "2022-02-10T08:49:33Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2762,
+    "created_at": "2022-02-13T18:07:08Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "site-bug",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 2764,
+    "created_at": "2022-02-13T20:32:24Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2779,
+    "created_at": "2022-02-14T18:55:31Z",
+    "labels": [
+      "good first issue",
+      "geo-blocked",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2866,
+    "created_at": "2022-02-23T18:10:54Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 2980,
+    "created_at": "2022-03-07T18:39:57Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3053,
+    "created_at": "2022-03-12T20:07:24Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 3139,
+    "created_at": "2022-03-21T03:48:14Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3209,
+    "created_at": "2022-03-26T16:28:03Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3289,
+    "created_at": "2022-04-02T22:46:34Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 3318,
+    "created_at": "2022-04-06T01:32:15Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 3390,
+    "created_at": "2022-04-11T05:07:27Z",
+    "labels": [
+      "bug",
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 3391,
+    "created_at": "2022-04-11T11:05:48Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3420,
+    "created_at": "2022-04-13T11:17:21Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "incomplete"
+    ]
+  },
+  {
+    "number": 3496,
+    "created_at": "2022-04-20T13:02:59Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 3567,
+    "created_at": "2022-04-27T11:54:18Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3579,
+    "created_at": "2022-04-28T12:10:48Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available",
+      "regression"
+    ]
+  },
+  {
+    "number": 3603,
+    "created_at": "2022-04-30T21:04:45Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 3635,
+    "created_at": "2022-05-04T05:49:15Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3661,
+    "created_at": "2022-05-06T19:38:12Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 3670,
+    "created_at": "2022-05-07T16:46:46Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3752,
+    "created_at": "2022-05-16T04:49:02Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3756,
+    "created_at": "2022-05-16T11:13:03Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3841,
+    "created_at": "2022-05-22T19:08:16Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 3920,
+    "created_at": "2022-05-31T10:37:26Z",
+    "labels": [
+      "good first issue",
+      "PR-needed",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 3937,
+    "created_at": "2022-06-01T14:13:46Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 3985,
+    "created_at": "2022-06-06T12:12:48Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 4014,
+    "created_at": "2022-06-08T02:58:21Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4019,
+    "created_at": "2022-06-08T08:34:15Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4039,
+    "created_at": "2022-06-10T02:54:15Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "account-needed",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 4066,
+    "created_at": "2022-06-13T16:37:14Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 4076,
+    "created_at": "2022-06-15T19:32:56Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4077,
+    "created_at": "2022-06-15T19:58:10Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4100,
+    "created_at": "2022-06-18T08:11:06Z",
+    "labels": [
+      "duplicate",
+      "help-wanted",
+      "cant-reproduce",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 4110,
+    "created_at": "2022-06-19T09:29:39Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 4120,
+    "created_at": "2022-06-20T04:06:11Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4172,
+    "created_at": "2022-06-25T01:35:13Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 4247,
+    "created_at": "2022-07-02T08:00:43Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4348,
+    "created_at": "2022-07-13T19:33:44Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4431,
+    "created_at": "2022-07-24T19:27:37Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4450,
+    "created_at": "2022-07-26T14:53:55Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4518,
+    "created_at": "2022-08-01T02:38:59Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4523,
+    "created_at": "2022-08-01T11:24:29Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4566,
+    "created_at": "2022-08-05T13:14:36Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 4573,
+    "created_at": "2022-08-06T03:01:59Z",
+    "labels": [
+      "bug",
+      "help-wanted"
+    ]
+  },
+  {
+    "number": 4578,
+    "created_at": "2022-08-06T08:03:20Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 4587,
+    "created_at": "2022-08-07T02:17:37Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 4653,
+    "created_at": "2022-08-14T06:26:34Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4716,
+    "created_at": "2022-08-20T13:27:48Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "cant-reproduce",
+      "site:youtube"
+    ]
+  },
+  {
+    "number": 4903,
+    "created_at": "2022-09-12T15:48:20Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 4913,
+    "created_at": "2022-09-14T03:54:54Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4973,
+    "created_at": "2022-09-20T06:06:12Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5019,
+    "created_at": "2022-09-24T13:48:44Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5031,
+    "created_at": "2022-09-25T13:05:29Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "account-needed",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 5065,
+    "created_at": "2022-09-28T11:37:35Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5075,
+    "created_at": "2022-09-29T12:58:00Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 5133,
+    "created_at": "2022-10-04T02:57:43Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5225,
+    "created_at": "2022-10-12T23:03:50Z",
+    "labels": [
+      "good first issue",
+      "site-request",
+      "geo-blocked",
+      "patch-available",
+      "needs-testing"
+    ]
+  },
+  {
+    "number": 5351,
+    "created_at": "2022-10-25T04:08:01Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5467,
+    "created_at": "2022-11-07T02:07:42Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5516,
+    "created_at": "2022-11-12T17:09:21Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 5518,
+    "created_at": "2022-11-12T22:11:12Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5531,
+    "created_at": "2022-11-14T11:26:01Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5551,
+    "created_at": "2022-11-15T19:30:55Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5570,
+    "created_at": "2022-11-17T09:24:00Z",
+    "labels": [
+      "help-wanted",
+      "DRM",
+      "geo-blocked",
+      "site-bug",
+      "solved-upstream"
+    ]
+  },
+  {
+    "number": 5632,
+    "created_at": "2022-11-24T03:48:47Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "regression"
+    ]
+  },
+  {
+    "number": 5665,
+    "created_at": "2022-11-28T22:16:30Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5684,
+    "created_at": "2022-12-01T11:35:57Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5760,
+    "created_at": "2022-12-09T23:23:25Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5849,
+    "created_at": "2022-12-22T12:55:54Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 5900,
+    "created_at": "2022-12-30T07:16:55Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 5906,
+    "created_at": "2022-12-31T03:17:07Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "site:youtube"
+    ]
+  },
+  {
+    "number": 5907,
+    "created_at": "2022-12-31T08:30:46Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 5926,
+    "created_at": "2023-01-02T16:46:55Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "core:downloader"
+    ]
+  },
+  {
+    "number": 5968,
+    "created_at": "2023-01-06T01:41:29Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6021,
+    "created_at": "2023-01-12T15:00:08Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 6059,
+    "created_at": "2023-01-19T22:33:48Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 6066,
+    "created_at": "2023-01-20T20:03:15Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 6119,
+    "created_at": "2023-01-30T15:46:05Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 6164,
+    "created_at": "2023-02-05T15:39:40Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 6191,
+    "created_at": "2023-02-08T21:23:20Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement"
+    ]
+  },
+  {
+    "number": 6202,
+    "created_at": "2023-02-10T10:01:33Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 6271,
+    "created_at": "2023-02-17T20:06:56Z",
+    "labels": [
+      "bug",
+      "docs/meta/cleanup",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6356,
+    "created_at": "2023-02-26T03:16:59Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "site-enhancement",
+      "patch-available",
+      "needs-testing"
+    ]
+  },
+  {
+    "number": 6430,
+    "created_at": "2023-03-05T03:37:08Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 6551,
+    "created_at": "2023-03-17T08:42:44Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 6608,
+    "created_at": "2023-03-23T06:46:30Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 6640,
+    "created_at": "2023-03-26T07:28:20Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 6665,
+    "created_at": "2023-03-28T18:57:08Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 6689,
+    "created_at": "2023-03-31T16:13:28Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 6720,
+    "created_at": "2023-04-06T03:07:14Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6946,
+    "created_at": "2023-04-29T13:22:10Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 7384,
+    "created_at": "2023-06-22T13:15:32Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 7392,
+    "created_at": "2023-06-23T02:41:25Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "external issue",
+      "core:cookies"
+    ]
+  },
+  {
+    "number": 7419,
+    "created_at": "2023-06-25T16:00:06Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 7480,
+    "created_at": "2023-07-01T13:22:32Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 7575,
+    "created_at": "2023-07-13T03:25:17Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 7601,
+    "created_at": "2023-07-15T20:27:45Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement",
+      "triage"
+    ]
+  },
+  {
+    "number": 7620,
+    "created_at": "2023-07-17T11:30:08Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 7680,
+    "created_at": "2023-07-23T13:26:23Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "site-bug",
+      "patch-available",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 7703,
+    "created_at": "2023-07-27T06:18:59Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "site-bug",
+      "site:youtube"
+    ]
+  },
+  {
+    "number": 7754,
+    "created_at": "2023-08-02T14:23:54Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 7805,
+    "created_at": "2023-08-11T00:12:46Z",
+    "labels": [
+      "bug",
+      "help-wanted",
+      "core:cookies"
+    ]
+  },
+  {
+    "number": 7860,
+    "created_at": "2023-08-16T08:16:11Z",
+    "labels": [
+      "help-wanted",
+      "cant-reproduce",
+      "external issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 7895,
+    "created_at": "2023-08-18T13:18:09Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 8138,
+    "created_at": "2023-09-17T11:47:28Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 8155,
+    "created_at": "2023-09-19T11:24:41Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 8540,
+    "created_at": "2023-11-07T13:24:57Z",
+    "labels": [
+      "good first issue",
+      "account-needed",
+      "site-bug",
+      "patch-available",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 8703,
+    "created_at": "2023-12-03T01:42:06Z",
+    "labels": [
+      "good first issue",
+      "site-enhancement",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 8766,
+    "created_at": "2023-12-12T21:53:48Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 8830,
+    "created_at": "2023-12-22T10:24:30Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 8898,
+    "created_at": "2023-12-31T19:53:24Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "core:cookies"
+    ]
+  },
+  {
+    "number": 9156,
+    "created_at": "2024-02-06T21:00:16Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 9180,
+    "created_at": "2024-02-10T15:24:14Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 9458,
+    "created_at": "2024-03-15T11:48:22Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 9717,
+    "created_at": "2024-04-18T13:20:29Z",
+    "labels": [
+      "good first issue",
+      "NSFW",
+      "account-needed",
+      "site-bug",
+      "patch-available",
+      "can-share-account"
+    ]
+  },
+  {
+    "number": 9755,
+    "created_at": "2024-04-21T17:08:50Z",
+    "labels": [
+      "good first issue",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 9760,
+    "created_at": "2024-04-22T10:49:40Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9825,
+    "created_at": "2024-04-30T05:30:47Z",
+    "labels": [
+      "good first issue",
+      "site-bug",
+      "patch-available"
+    ]
+  },
+  {
+    "number": 10046,
+    "created_at": "2024-05-27T23:08:55Z",
+    "labels": [
+      "help-wanted",
+      "account-needed",
+      "site-bug"
+    ]
+  },
+  {
+    "number": 10446,
+    "created_at": "2024-07-12T22:08:03Z",
+    "labels": [
+      "good first issue",
+      "site-request"
+    ]
+  },
+  {
+    "number": 12826,
+    "created_at": "2025-04-03T09:59:11Z",
+    "labels": [
+      "good first issue",
+      "PR-needed",
+      "site-enhancement",
+      "site:youtube"
+    ]
+  },
+  {
+    "number": 13134,
+    "created_at": "2025-05-08T14:42:15Z",
+    "labels": [
+      "help-wanted",
+      "site-bug"
+    ]
+  }
+]

@@ -1,0 +1,2444 @@
+[
+  {
+    "number": 2214,
+    "created_at": "2021-07-04T09:18:47Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 2943,
+    "created_at": "2021-08-24T18:44:06Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3018,
+    "created_at": "2021-08-31T02:56:56Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3068,
+    "created_at": "2021-09-03T18:07:40Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3089,
+    "created_at": "2021-09-05T12:43:36Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6435,
+    "created_at": "2021-09-20T10:56:54Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 3512,
+    "created_at": "2021-10-13T17:12:04Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3828,
+    "created_at": "2021-11-08T07:47:54Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3835,
+    "created_at": "2021-11-08T18:16:51Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3849,
+    "created_at": "2021-11-10T04:59:44Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3857,
+    "created_at": "2021-11-10T17:55:18Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 3902,
+    "created_at": "2021-11-15T11:56:43Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "self-hosted"
+    ]
+  },
+  {
+    "number": 3924,
+    "created_at": "2021-11-17T01:04:24Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3935,
+    "created_at": "2021-11-18T04:24:58Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 3985,
+    "created_at": "2021-11-21T18:13:24Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4090,
+    "created_at": "2021-11-26T16:17:37Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4195,
+    "created_at": "2021-12-01T08:41:07Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4274,
+    "created_at": "2021-12-03T22:23:17Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4328,
+    "created_at": "2021-12-06T07:16:17Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 4329,
+    "created_at": "2021-12-06T07:19:01Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 4330,
+    "created_at": "2021-12-06T07:20:38Z",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 4517,
+    "created_at": "2021-12-17T02:32:13Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4612,
+    "created_at": "2021-12-21T19:24:13Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4702,
+    "created_at": "2021-12-28T10:19:17Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4739,
+    "created_at": "2021-12-30T02:59:37Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4780,
+    "created_at": "2022-01-03T19:46:26Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4829,
+    "created_at": "2022-01-06T12:20:57Z",
+    "labels": [
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 4910,
+    "created_at": "2022-01-10T11:59:50Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 4968,
+    "created_at": "2022-01-13T12:16:14Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5025,
+    "created_at": "2022-01-17T09:26:46Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5148,
+    "created_at": "2022-01-25T03:41:28Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5160,
+    "created_at": "2022-01-25T22:59:39Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5297,
+    "created_at": "2022-02-03T02:33:34Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5440,
+    "created_at": "2022-02-13T09:23:45Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5712,
+    "created_at": "2022-02-28T09:45:09Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5753,
+    "created_at": "2022-03-02T06:11:54Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 5763,
+    "created_at": "2022-03-02T15:49:40Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 5769,
+    "created_at": "2022-03-02T18:48:20Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5808,
+    "created_at": "2022-03-05T04:42:59Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5812,
+    "created_at": "2022-03-05T13:45:32Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 5837,
+    "created_at": "2022-03-07T08:44:12Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "p3"
+    ]
+  },
+  {
+    "number": 5931,
+    "created_at": "2022-03-15T21:21:18Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 5950,
+    "created_at": "2022-03-18T04:13:33Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6102,
+    "created_at": "2022-03-27T16:12:59Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "p4"
+    ]
+  },
+  {
+    "number": 6133,
+    "created_at": "2022-03-29T03:57:55Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6157,
+    "created_at": "2022-03-30T03:06:46Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 6230,
+    "created_at": "2022-03-31T21:53:50Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "edge functions"
+    ]
+  },
+  {
+    "number": 6236,
+    "created_at": "2022-03-31T23:57:02Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6296,
+    "created_at": "2022-04-05T00:43:09Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "p3"
+    ]
+  },
+  {
+    "number": 6396,
+    "created_at": "2022-04-11T09:53:12Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6495,
+    "created_at": "2022-04-18T23:03:26Z",
+    "labels": [
+      "bug",
+      "duplicate",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6606,
+    "created_at": "2022-04-29T01:42:57Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6638,
+    "created_at": "2022-05-01T07:06:50Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 6699,
+    "created_at": "2022-05-05T05:21:59Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 6926,
+    "created_at": "2022-05-23T03:54:38Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 6977,
+    "created_at": "2022-05-25T00:37:57Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7381,
+    "created_at": "2022-06-22T19:08:14Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 7441,
+    "created_at": "2022-06-26T13:58:11Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7480,
+    "created_at": "2022-06-29T00:19:18Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7508,
+    "created_at": "2022-06-30T09:52:54Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 7530,
+    "created_at": "2022-07-02T10:01:41Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7593,
+    "created_at": "2022-07-06T09:38:48Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 7599,
+    "created_at": "2022-07-06T19:43:55Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 7658,
+    "created_at": "2022-07-12T08:25:49Z",
+    "labels": [
+      "bug",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 7810,
+    "created_at": "2022-07-20T12:01:02Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "p4",
+      "auth"
+    ]
+  },
+  {
+    "number": 7961,
+    "created_at": "2022-07-30T20:09:37Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "p4"
+    ]
+  },
+  {
+    "number": 7971,
+    "created_at": "2022-07-31T14:22:02Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 8122,
+    "created_at": "2022-08-06T00:41:32Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 8127,
+    "created_at": "2022-08-06T11:34:55Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 8399,
+    "created_at": "2022-08-16T19:12:46Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "p2"
+    ]
+  },
+  {
+    "number": 8489,
+    "created_at": "2022-08-18T16:30:39Z",
+    "labels": [
+      "bug",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 8635,
+    "created_at": "2022-08-24T19:23:44Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 8636,
+    "created_at": "2022-08-25T00:30:24Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 8685,
+    "created_at": "2022-08-28T12:15:30Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9159,
+    "created_at": "2022-09-26T08:45:58Z",
+    "labels": [
+      "documentation",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 9604,
+    "created_at": "2022-09-29T17:54:13Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9301,
+    "created_at": "2022-10-03T14:59:29Z",
+    "labels": [
+      "enhancement",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 9302,
+    "created_at": "2022-10-03T15:09:27Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 9968,
+    "created_at": "2022-10-19T21:11:26Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 9718,
+    "created_at": "2022-10-20T22:50:34Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 10334,
+    "created_at": "2022-11-15T08:28:50Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 11317,
+    "created_at": "2022-12-28T10:14:27Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 11320,
+    "created_at": "2022-12-28T15:55:31Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 11641,
+    "created_at": "2023-01-13T14:18:57Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 11647,
+    "created_at": "2023-01-13T16:02:18Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 11757,
+    "created_at": "2023-01-19T08:27:03Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 11761,
+    "created_at": "2023-01-19T09:31:22Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 11937,
+    "created_at": "2023-01-26T08:00:49Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 11983,
+    "created_at": "2023-01-27T18:13:35Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12181,
+    "created_at": "2023-02-05T09:20:04Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12182,
+    "created_at": "2023-02-05T11:01:32Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12234,
+    "created_at": "2023-02-07T18:35:11Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12294,
+    "created_at": "2023-02-09T16:23:54Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12321,
+    "created_at": "2023-02-10T12:17:26Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12417,
+    "created_at": "2023-02-14T17:10:20Z",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12460,
+    "created_at": "2023-02-16T04:25:51Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12461,
+    "created_at": "2023-02-16T04:28:22Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12466,
+    "created_at": "2023-02-16T06:52:24Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12507,
+    "created_at": "2023-02-17T07:32:47Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12642,
+    "created_at": "2023-02-24T06:16:10Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12818,
+    "created_at": "2023-03-06T00:09:14Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 12870,
+    "created_at": "2023-03-07T23:18:23Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13308,
+    "created_at": "2023-03-30T03:34:25Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13328,
+    "created_at": "2023-03-31T00:56:23Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13381,
+    "created_at": "2023-04-03T02:24:08Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13414,
+    "created_at": "2023-04-04T05:43:50Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13421,
+    "created_at": "2023-04-04T09:51:27Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13487,
+    "created_at": "2023-04-06T09:02:18Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13493,
+    "created_at": "2023-04-06T14:10:32Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13530,
+    "created_at": "2023-04-08T11:39:46Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13857,
+    "created_at": "2023-04-20T15:44:26Z",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13873,
+    "created_at": "2023-04-20T23:56:57Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 13998,
+    "created_at": "2023-04-27T12:51:47Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14057,
+    "created_at": "2023-05-01T12:41:56Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 14130,
+    "created_at": "2023-05-04T14:59:30Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 14229,
+    "created_at": "2023-05-09T13:23:32Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14310,
+    "created_at": "2023-05-12T14:41:52Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14323,
+    "created_at": "2023-05-12T19:55:32Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14533,
+    "created_at": "2023-05-23T10:08:50Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 14766,
+    "created_at": "2023-06-02T19:00:40Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 14850,
+    "created_at": "2023-06-06T21:07:51Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14939,
+    "created_at": "2023-06-09T14:25:53Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14990,
+    "created_at": "2023-06-12T21:39:52Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 14992,
+    "created_at": "2023-06-12T22:05:23Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15053,
+    "created_at": "2023-06-14T17:11:35Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15119,
+    "created_at": "2023-06-16T14:55:51Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15145,
+    "created_at": "2023-06-17T17:25:15Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15282,
+    "created_at": "2023-06-22T17:13:01Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15284,
+    "created_at": "2023-06-22T17:19:38Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15316,
+    "created_at": "2023-06-23T18:52:28Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue",
+      "realtime"
+    ]
+  },
+  {
+    "number": 15319,
+    "created_at": "2023-06-23T19:21:54Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15411,
+    "created_at": "2023-06-28T12:54:56Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15415,
+    "created_at": "2023-06-28T14:13:35Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15416,
+    "created_at": "2023-06-28T14:17:13Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15420,
+    "created_at": "2023-06-28T14:58:15Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15425,
+    "created_at": "2023-06-28T16:43:07Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15459,
+    "created_at": "2023-06-29T17:45:30Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15475,
+    "created_at": "2023-06-30T07:27:40Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15483,
+    "created_at": "2023-06-30T15:30:15Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15484,
+    "created_at": "2023-06-30T15:51:07Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "supabase.com"
+    ]
+  },
+  {
+    "number": 15540,
+    "created_at": "2023-07-03T19:56:50Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 15776,
+    "created_at": "2023-07-14T04:41:28Z",
+    "labels": [
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 15881,
+    "created_at": "2023-07-18T21:09:11Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 16437,
+    "created_at": "2023-08-11T08:20:21Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 17413,
+    "created_at": "2023-08-11T09:44:57Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "migrations"
+    ]
+  },
+  {
+    "number": 16444,
+    "created_at": "2023-08-11T12:18:52Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 16454,
+    "created_at": "2023-08-11T15:28:01Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 16499,
+    "created_at": "2023-08-13T16:46:22Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 16509,
+    "created_at": "2023-08-14T13:27:39Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 16536,
+    "created_at": "2023-08-15T11:38:40Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 16749,
+    "created_at": "2023-08-23T18:27:41Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 16806,
+    "created_at": "2023-08-25T07:09:27Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 17008,
+    "created_at": "2023-08-30T06:20:19Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "hacktoberfest",
+      "frontend",
+      "p4"
+    ]
+  },
+  {
+    "number": 17021,
+    "created_at": "2023-08-30T12:04:46Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 17022,
+    "created_at": "2023-08-30T12:13:42Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 17024,
+    "created_at": "2023-08-30T12:14:27Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 17025,
+    "created_at": "2023-08-30T12:16:18Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 17028,
+    "created_at": "2023-08-30T12:25:44Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 17437,
+    "created_at": "2023-09-14T15:38:52Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 17446,
+    "created_at": "2023-09-14T21:21:13Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "hacktoberfest",
+      "frontend"
+    ]
+  },
+  {
+    "number": 17860,
+    "created_at": "2023-10-02T20:42:17Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18036,
+    "created_at": "2023-10-09T13:28:37Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "postgREST"
+    ]
+  },
+  {
+    "number": 18115,
+    "created_at": "2023-10-11T17:30:19Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 18180,
+    "created_at": "2023-10-13T16:56:50Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 18184,
+    "created_at": "2023-10-13T18:49:30Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 18277,
+    "created_at": "2023-10-17T17:53:09Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18285,
+    "created_at": "2023-10-18T02:47:40Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 18304,
+    "created_at": "2023-10-18T13:32:11Z",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "hacktoberfest",
+      "frontend",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 18309,
+    "created_at": "2023-10-18T14:38:19Z",
+    "labels": [
+      "good first issue",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 18317,
+    "created_at": "2023-10-18T19:02:33Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18800,
+    "created_at": "2023-11-07T19:49:30Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "storage"
+    ]
+  },
+  {
+    "number": 18826,
+    "created_at": "2023-11-08T17:36:02Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18873,
+    "created_at": "2023-11-10T15:55:39Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 18882,
+    "created_at": "2023-11-11T12:33:06Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "supabase.com"
+    ]
+  },
+  {
+    "number": 18891,
+    "created_at": "2023-11-12T00:39:18Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "self-hosted"
+    ]
+  },
+  {
+    "number": 18954,
+    "created_at": "2023-11-14T14:38:52Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 18955,
+    "created_at": "2023-11-14T14:53:05Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18962,
+    "created_at": "2023-11-14T18:10:09Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 18970,
+    "created_at": "2023-11-15T02:07:39Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 19057,
+    "created_at": "2023-11-17T20:31:20Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "storage"
+    ]
+  },
+  {
+    "number": 19223,
+    "created_at": "2023-11-25T18:53:17Z",
+    "labels": [
+      "bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19230,
+    "created_at": "2023-11-26T09:25:40Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19342,
+    "created_at": "2023-11-30T20:45:46Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "cli"
+    ]
+  },
+  {
+    "number": 19377,
+    "created_at": "2023-12-01T19:18:21Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19396,
+    "created_at": "2023-12-03T21:18:25Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19444,
+    "created_at": "2023-12-05T19:54:13Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19654,
+    "created_at": "2023-12-13T07:33:14Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 19825,
+    "created_at": "2023-12-18T05:17:18Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 20158,
+    "created_at": "2024-01-04T13:53:10Z",
+    "labels": [
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 20228,
+    "created_at": "2024-01-08T04:54:49Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 20301,
+    "created_at": "2024-01-10T10:22:27Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 20693,
+    "created_at": "2024-01-24T07:59:29Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 20810,
+    "created_at": "2024-01-28T22:20:29Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 20852,
+    "created_at": "2024-01-30T01:54:42Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 20879,
+    "created_at": "2024-01-30T17:48:33Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 20883,
+    "created_at": "2024-01-30T20:34:45Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 20902,
+    "created_at": "2024-01-31T15:56:25Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 20966,
+    "created_at": "2024-02-03T00:42:55Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21089,
+    "created_at": "2024-02-07T18:03:26Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21156,
+    "created_at": "2024-02-09T16:23:51Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "edge functions"
+    ]
+  },
+  {
+    "number": 21193,
+    "created_at": "2024-02-12T11:10:06Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 21207,
+    "created_at": "2024-02-13T05:58:46Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21391,
+    "created_at": "2024-02-20T11:43:06Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "auth",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 21517,
+    "created_at": "2024-02-24T23:55:00Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21518,
+    "created_at": "2024-02-24T23:59:06Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21519,
+    "created_at": "2024-02-25T00:31:43Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21545,
+    "created_at": "2024-02-26T04:48:04Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 21645,
+    "created_at": "2024-02-28T21:31:14Z",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "self-hosted",
+      "pr-opened",
+      "awaiting-details"
+    ]
+  },
+  {
+    "number": 21660,
+    "created_at": "2024-02-29T09:34:39Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21740,
+    "created_at": "2024-03-04T14:11:13Z",
+    "labels": [
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 21851,
+    "created_at": "2024-03-07T17:49:51Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "example",
+      "auth-helpers"
+    ]
+  },
+  {
+    "number": 21977,
+    "created_at": "2024-03-12T17:42:46Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 21980,
+    "created_at": "2024-03-12T22:58:46Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 22027,
+    "created_at": "2024-03-14T16:07:11Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 22036,
+    "created_at": "2024-03-15T05:58:06Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "auth"
+    ]
+  },
+  {
+    "number": 22301,
+    "created_at": "2024-03-27T21:37:30Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 22407,
+    "created_at": "2024-04-02T14:26:12Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "integrations"
+    ]
+  },
+  {
+    "number": 22496,
+    "created_at": "2024-04-04T23:13:55Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 22605,
+    "created_at": "2024-04-09T18:59:31Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "good first issue",
+      "self-hosted"
+    ]
+  },
+  {
+    "number": 22799,
+    "created_at": "2024-04-16T15:46:22Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 22867,
+    "created_at": "2024-04-18T12:32:40Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 22868,
+    "created_at": "2024-04-18T12:38:12Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 23245,
+    "created_at": "2024-04-24T21:07:09Z",
+    "labels": [
+      "bug",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "pr-opened",
+      "a11y"
+    ]
+  },
+  {
+    "number": 23399,
+    "created_at": "2024-04-29T09:40:03Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue",
+      "self-hosted"
+    ]
+  },
+  {
+    "number": 23618,
+    "created_at": "2024-05-02T05:45:38Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 25361,
+    "created_at": "2024-05-06T06:46:29Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 26280,
+    "created_at": "2024-05-14T01:55:33Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 26392,
+    "created_at": "2024-05-16T16:10:19Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 26564,
+    "created_at": "2024-05-19T15:02:12Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 26578,
+    "created_at": "2024-05-20T11:35:33Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "self-hosted"
+    ]
+  },
+  {
+    "number": 26720,
+    "created_at": "2024-05-23T18:48:13Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "auth",
+      "awaiting-details"
+    ]
+  },
+  {
+    "number": 26773,
+    "created_at": "2024-05-26T19:29:01Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "storage"
+    ]
+  },
+  {
+    "number": 26802,
+    "created_at": "2024-05-27T16:17:45Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 26882,
+    "created_at": "2024-05-30T10:05:57Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 26910,
+    "created_at": "2024-05-31T05:21:03Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 26947,
+    "created_at": "2024-06-02T11:16:38Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 26953,
+    "created_at": "2024-06-02T17:28:36Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "migrations"
+    ]
+  },
+  {
+    "number": 26956,
+    "created_at": "2024-06-02T23:01:01Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 26999,
+    "created_at": "2024-06-04T14:21:12Z",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 27015,
+    "created_at": "2024-06-04T22:35:33Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "GraphQL"
+    ]
+  },
+  {
+    "number": 27062,
+    "created_at": "2024-06-06T12:25:17Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "awaiting-details"
+    ]
+  },
+  {
+    "number": 27119,
+    "created_at": "2024-06-09T08:54:12Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "example",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 27277,
+    "created_at": "2024-06-14T18:57:37Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "pr-opened"
+    ]
+  },
+  {
+    "number": 27305,
+    "created_at": "2024-06-16T18:13:10Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 27438,
+    "created_at": "2024-06-21T09:51:39Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 27475,
+    "created_at": "2024-06-23T18:06:53Z",
+    "labels": [
+      "good first issue",
+      "frontend"
+    ]
+  },
+  {
+    "number": 27538,
+    "created_at": "2024-06-25T15:56:05Z",
+    "labels": [
+      "good first issue",
+      "frontend",
+      "pr-opened",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 27614,
+    "created_at": "2024-06-28T09:42:19Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "example",
+      "auth",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 27791,
+    "created_at": "2024-07-04T06:55:15Z",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "pr-opened",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 27914,
+    "created_at": "2024-07-11T03:32:15Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "frontend",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 27921,
+    "created_at": "2024-07-11T08:37:01Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28200,
+    "created_at": "2024-07-26T00:26:01Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28559,
+    "created_at": "2024-08-12T15:15:02Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28590,
+    "created_at": "2024-08-13T10:57:51Z",
+    "labels": [
+      "bug",
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "pr-opened",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28648,
+    "created_at": "2024-08-14T19:57:57Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "database",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28685,
+    "created_at": "2024-08-16T03:51:18Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "pr-opened",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28707,
+    "created_at": "2024-08-16T18:01:45Z",
+    "labels": [
+      "documentation",
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "storage",
+      "javascript",
+      "awaiting-details",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28803,
+    "created_at": "2024-08-22T01:28:51Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "auth",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28844,
+    "created_at": "2024-08-23T14:44:08Z",
+    "labels": [
+      "bug",
+      "help wanted",
+      "good first issue",
+      "frontend",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28943,
+    "created_at": "2024-08-28T12:42:49Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 28974,
+    "created_at": "2024-08-29T15:30:27Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "external-issue"
+    ]
+  },
+  {
+    "number": 29576,
+    "created_at": "2024-09-29T13:18:11Z",
+    "labels": [
+      "good first issue",
+      "supabase.com"
+    ]
+  },
+  {
+    "number": 35078,
+    "created_at": "2025-04-16T18:18:52Z",
+    "labels": [
+      "documentation",
+      "help wanted",
+      "good first issue",
+      "p3",
+      "pr-opened",
+      "external-issue"
+    ]
+  }
+]

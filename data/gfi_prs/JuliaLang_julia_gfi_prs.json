@@ -1,0 +1,1658 @@
+[
+  {
+    "pr_number": 41634,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25516,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 41634,
+      "title": "Changed isone type to AbstractMatrix + added test",
+      "body": "This is my first contribution! I've made an effort to follow the instructions given in CONTRIBUTING.md. I added a test to show what was breaking before this fix.\r\n\r\nFixes #25516.",
+      "body_length": 178,
+      "created_at": "2021-07-18T23:54:51Z",
+      "merged_at": "2021-07-30T13:38:17Z",
+      "merged": true,
+      "time_to_merge_hours": 277.7238888888889,
+      "state": "MERGED",
+      "additions": 7,
+      "deletions": 3,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 5,
+      "commit_messages": [
+        "Changed isone type to AbstractMatrix + added test",
+        "add positive tet for non-strided array",
+        "assert no allocated memory for isone"
+      ],
+      "avg_commit_msg_length": 41.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "labels": [
+        {
+          "name": "linear algebra",
+          "color": "f2b3db",
+          "description": "Linear algebra"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This is my first contribution! I've made an effort to follow the instructions given in CONTRIBUTING.md. I added a test to show what was breaking before this fix.\r\n\r\nFixes #25516.",
+      "body_cleaned_length": 178,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ThatcherT"
+  },
+  {
+    "pr_number": 41751,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 40188,
+        "labels": [
+          "good first issue",
+          "display and printing"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 41751,
+      "title": "generalize `show()` to be for all subtypes of `AbstractSet`",
+      "body": "Resolves #40188.\r\n\r\nUpdate the error message displayed when something similar to `Code` is run.\r\n\r\nCode -\r\n```julia\r\nusing Test\r\nd = Dict(\"hello\" => \"world\")\r\n@test keys(d) == [\"hello\"]\r\n```\r\n\r\nOld Output -\r\n```julia\r\n  Expression: keys(d) == [\"hello\"]\r\n   Evaluated: [\"hello\"] == [\"hello\"]\r\n```\r\n\r\nNew Output -\r\n```julia\r\n  Expression: keys(d) == [\"hello\"]\r\n   Evaluated: Base.KeySet{String, Dict{String, String}}(Dict(\"hello\" => \"world\")) == [\"hello\"]\r\n```\r\n\r\nSigned-off-by: Anant Thazhemadam <anant.thazhemadam@gmail.com>",
+      "body_length": 453,
+      "created_at": "2021-08-02T00:13:28Z",
+      "updated_at": "2021-08-26T02:19:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 8,
+      "pr_size": 2,
+      "avg_commit_msg_length": 243.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "DISMISSED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Resolves #40188.\r\n\r\nUpdate the error message displayed when something similar to `Code` is run.\r\n\r\nCode -\r\n```julia\r\nusing Test\r\nd = Dict(\"hello\" => \"world\")\r\n@test keys(d) == [\"hello\"]\r\n```\r\n\r\nOld Output -\r\n```julia\r\n  Expression: keys(d) == [\"hello\"]\r\n   Evaluated: [\"hello\"] == [\"hello\"]\r\n```\r\n\r\nNew Output -\r\n```julia\r\n  Expression: keys(d) == [\"hello\"]\r\n   Evaluated: Base.KeySet{String, Dict{String, String}}(Dict(\"hello\" => \"world\")) == [\"hello\"]\r\n```\r\n\r\nSigned-off-by: Anant Thazhemadam <anant.thazhemadam@gmail.com>",
+      "body_cleaned_length": 524,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "thazhemadam"
+  },
+  {
+    "pr_number": 42666,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 30824,
+        "labels": [
+          "docs",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 42666,
+      "title": "Document effect of type aliases on global level",
+      "body": "Closes #30824\r\nAdds the sentence @JeffBezanson proposed to the documentation in #30824.",
+      "body_length": 87,
+      "created_at": "2021-10-15T20:18:57Z",
+      "merged_at": "2021-10-19T17:45:29Z",
+      "merged": true,
+      "time_to_merge_hours": 93.44222222222223,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 0,
+      "commit_messages": [
+        "Document effect of type aliases on global level\n\nAdds the sentence @JeffBezanson proposed to the documentation and solves #30824."
+      ],
+      "avg_commit_msg_length": 129.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "doc/src/manual/performance-tips.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "docs",
+          "color": "02d7e1",
+          "description": "This change adds or pertains to documentation"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #30824\r\nAdds the sentence @JeffBezanson proposed to the documentation in #30824.",
+      "body_cleaned_length": 87,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "tomtuamnuq"
+  },
+  {
+    "pr_number": 43427,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 43369,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 43427,
+      "title": "Add method to rationalize `Rational`",
+      "body": "Closes #43369.",
+      "body_length": 14,
+      "created_at": "2021-12-15T09:29:46Z",
+      "merged_at": "2023-06-14T00:31:55Z",
+      "merged": true,
+      "time_to_merge_hours": 13095.035833333333,
+      "state": "MERGED",
+      "additions": 28,
+      "deletions": 5,
+      "files_changed": 2,
+      "commits_count": 17,
+      "review_count": 9,
+      "comment_count": 6,
+      "commit_messages": [
+        "Add Method to Rationalize Rational",
+        "Merge branch 'master' of https://github.com/tantheta01/julia\nmerged upstream commits",
+        "Merge branch 'JuliaLang:master' into master",
+        "Update base/rational.jl\n\nCo-authored-by: Jeff Bezanson <jeff.bezanson@gmail.com>",
+        "Update base/rational.jl\n\nCo-authored-by: Jeff Bezanson <jeff.bezanson@gmail.com>",
+        "Update base/rational.jl\n\nCo-authored-by: Jeff Bezanson <jeff.bezanson@gmail.com>",
+        "Merge branch 'JuliaLang:master' into master",
+        "Rationalize rational, ignore tolerance",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "more tests",
+        "fix overflow and unbound type param.",
+        "fix tests",
+        "typo",
+        "fix test",
+        "Update rational.jl",
+        "Merge branch 'master' into master"
+      ],
+      "avg_commit_msg_length": 39.1764705882353,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 9
+      },
+      "labels": [
+        {
+          "name": "rationals",
+          "color": "fbca04",
+          "description": "The Rational type and values thereof"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #43369.",
+      "body_cleaned_length": 14,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "tantheta01"
+  },
+  {
+    "pr_number": 44752,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 44748,
+        "labels": [
+          "good first issue",
+          "feature"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 44752,
+      "title": "predicate function negation with ComposedFunction",
+      "body": "Closes #44748 , this small PR does the following\r\n* redefines predicate function negation `!(f::Function) = (!) ∘ f`\r\n* updates the `show` method for `ComposedFunction` to print operators in parentheses\r\n* adds a method for `!(f::ComposedFunction{typeof(!)})` that allows `!!f === f`\r\n* adds a test for `!!f === f` and a few tests for showing composed functions\r\n\r\nthanks for the tutelage @stevengj ! ",
+      "body_length": 401,
+      "created_at": "2022-03-25T21:55:01Z",
+      "merged_at": "2022-04-12T02:02:18Z",
+      "merged": true,
+      "time_to_merge_hours": 412.1213888888889,
+      "state": "MERGED",
+      "additions": 44,
+      "deletions": 5,
+      "files_changed": 4,
+      "commits_count": 7,
+      "review_count": 19,
+      "comment_count": 3,
+      "commit_messages": [
+        "define predicate function negation with ! in terms of ComposedFunction, update show for ComposedFunction",
+        "revise show methods for ComposedFunction",
+        "tweak show() for ComposedFunction",
+        "move fallback show_function back to show.jl (from operators.jl)",
+        "include another test for showing chained function compositions",
+        "news and docs",
+        "Update base/operators.jl\n\nCo-authored-by: Mosè Giordano <giordano@users.noreply.github.com>"
+      ],
+      "avg_commit_msg_length": 58.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "NEWS.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "jl": 3
+      },
+      "review_states": {
+        "COMMENTED": 16,
+        "APPROVED": 2,
+        "DISMISSED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #44748 , this small PR does the following\r\n* redefines predicate function negation `!(f::Function) = (!) ∘ f`\r\n* updates the `show` method for `ComposedFunction` to print operators in parentheses\r\n* adds a method for `!(f::ComposedFunction{typeof(!)})` that allows `!!f === f`\r\n* adds a test for `!!f === f` and a few tests for showing composed functions\r\n\r\nthanks for the tutelage @stevengj !",
+      "body_cleaned_length": 400,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.24937655860349126,
+      "author_type": "User"
+    },
+    "username": "markmbaum"
+  },
+  {
+    "pr_number": 45598,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45588,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 45598,
+      "title": "Support rounding `Irrational`s",
+      "body": "Fixes #45588.",
+      "body_length": 13,
+      "created_at": "2022-06-07T08:56:03Z",
+      "merged_at": "2023-08-03T15:50:41Z",
+      "merged": true,
+      "time_to_merge_hours": 10134.910555555556,
+      "state": "MERGED",
+      "additions": 21,
+      "deletions": 9,
+      "files_changed": 5,
+      "commits_count": 1,
+      "review_count": 6,
+      "comment_count": 16,
+      "commit_messages": [
+        "Add `floor`, `ceil` and `round` methods `(::Type, ::Real)`"
+      ],
+      "avg_commit_msg_length": 58.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 5
+      },
+      "review_states": {
+        "APPROVED": 1,
+        "COMMENTED": 5
+      },
+      "labels": [
+        {
+          "name": "maths",
+          "color": "93755D",
+          "description": "Mathematical functions"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #45588.",
+      "body_cleaned_length": 13,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "theabhirath"
+  },
+  {
+    "pr_number": 48242,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48209,
+        "labels": [
+          "good first issue",
+          "dates"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 48242,
+      "title": "Fix inexistent method `OverflowError()` in `Dates.Base.steprange_last`",
+      "body": "Fixes #48209 and adds a test for  the error path",
+      "body_length": 48,
+      "created_at": "2023-01-11T22:40:35Z",
+      "merged_at": "2023-01-22T05:13:31Z",
+      "merged": true,
+      "time_to_merge_hours": 246.54888888888888,
+      "state": "MERGED",
+      "additions": 9,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 0,
+      "commit_messages": [
+        "Fix inexistent method OverflowError() in steprange_last"
+      ],
+      "avg_commit_msg_length": 55.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "stdlib/Dates/test/ranges.jl"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {},
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #48209 and adds a test for  the error path",
+      "body_cleaned_length": 48,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "jpselva"
+  },
+  {
+    "pr_number": 49112,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 49021,
+        "labels": [
+          "performance",
+          "arrays",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49112,
+      "title": "Optimize reverse(::CartesianIndices, dims=...)",
+      "body": "Multidimensional.jl didn't have support for reverse(::CartesianIndices, dims=...) therefore previously this would happen:\r\n```\r\njulia> I = CartesianIndices((3,4))\r\nCartesianIndices((3, 4))\r\n\r\njulia> reverse(I) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n\r\njulia> reverse(I, dims=1) # bad!\r\n3×4 Matrix{CartesianIndex{2}}:\r\n CartesianIndex(3, 1)  CartesianIndex(3, 2)  …  CartesianIndex(3, 4)\r\n CartesianIndex(2, 1)  CartesianIndex(2, 2)     CartesianIndex(2, 4)\r\n CartesianIndex(1, 1)  CartesianIndex(1, 2)     CartesianIndex(1, 4)\r\n```\r\nAnd now:\r\n```\r\njulia> I = CartesianIndices((3,4))\r\nCartesianIndices((3, 4))\r\n\r\njulia> reverse(I) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n\r\njulia> reverse(I, dims=1) # good!\r\nCartesianIndices((3:-1:1, 4))\r\n\r\njulia> reverse(I, dims=(1,2)) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n```\r\n\r\nFixes: #49021 ",
+      "body_length": 846,
+      "created_at": "2023-03-23T01:30:30Z",
+      "merged_at": "2023-03-29T01:09:27Z",
+      "merged": true,
+      "time_to_merge_hours": 143.64916666666667,
+      "state": "MERGED",
+      "additions": 56,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 4,
+      "review_count": 8,
+      "comment_count": 0,
+      "commit_messages": [
+        "Optimize reverse(::CartesianIndices, dims=...)\n\nOptimize reverse(::CartesianIndices, dims=...)\n\nCorrect tests and add stability test\n\nRemove whitespaces in reversed CartesianIndices\n\nMake funcs constpropagable and refactor\n\nAdd tests for reverse(CartesianIndices; dims=:)",
+        "Typo",
+        "fix ambiguity and const-propagation",
+        "Fix empty `dims`"
+      ],
+      "avg_commit_msg_length": 81.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 6,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "arrays",
+          "color": "006b75",
+          "description": "[a, r, r, a, y, s]"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Multidimensional.jl didn't have support for reverse(::CartesianIndices, dims=...) therefore previously this would happen:\r\n```\r\njulia> I = CartesianIndices((3,4))\r\nCartesianIndices((3, 4))\r\n\r\njulia> reverse(I) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n\r\njulia> reverse(I, dims=1) # bad!\r\n3×4 Matrix{CartesianIndex{2}}:\r\n CartesianIndex(3, 1)  CartesianIndex(3, 2)  …  CartesianIndex(3, 4)\r\n CartesianIndex(2, 1)  CartesianIndex(2, 2)     CartesianIndex(2, 4)\r\n CartesianIndex(1, 1)  CartesianIndex(1, 2)     CartesianIndex(1, 4)\r\n```\r\nAnd now:\r\n```\r\njulia> I = CartesianIndices((3,4))\r\nCartesianIndices((3, 4))\r\n\r\njulia> reverse(I) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n\r\njulia> reverse(I, dims=1) # good!\r\nCartesianIndices((3:-1:1, 4))\r\n\r\njulia> reverse(I, dims=(1,2)) # good!\r\nCartesianIndices((3:-1:1, 4:-1:1))\r\n```\r\n\r\nFixes: #49021",
+      "body_cleaned_length": 845,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.1182033096926714,
+      "author_type": "User"
+    },
+    "username": "DavidAfonsoValente"
+  },
+  {
+    "pr_number": 50124,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 44201,
+        "labels": [
+          "docs",
+          "multithreading",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 50124,
+      "title": "Add section about multithreaded linear algebra to performance tips",
+      "body": "Fix #44201 \r\n\r\nI drew from the explanation by @carstenbauer but I didn't mention MKL since it is not built in.\r\n\r\nI'm also wondering whether we should add a line or two about this to the LinearAlgebra page. Sofar the only mention of OpenBLAS threads was in the FAQ.\r\n",
+      "body_length": 267,
+      "created_at": "2023-06-10T14:24:06Z",
+      "merged_at": "2023-06-27T20:41:56Z",
+      "merged": true,
+      "time_to_merge_hours": 414.2972222222222,
+      "state": "MERGED",
+      "additions": 29,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 8,
+      "review_count": 7,
+      "comment_count": 12,
+      "commit_messages": [
+        "Add section about multithreaded linear algebra to performance tips\n\nFix #44201",
+        "Be more generic on default OpenBLAS threads, add mention of MKL and Octavian",
+        "Add trailing newline",
+        "Mention linear algebra backends",
+        "Remove Octavian",
+        "Merge branch 'master' into patch-1",
+        "Formulation tweak",
+        "Merge branch 'master' into patch-1"
+      ],
+      "avg_commit_msg_length": 38.125,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "doc/src/manual/performance-tips.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "COMMENTED": 6,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "docs",
+          "color": "02d7e1",
+          "description": "This change adds or pertains to documentation"
+        },
+        {
+          "name": "linear algebra",
+          "color": "f2b3db",
+          "description": "Linear algebra"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix #44201 \r\n\r\nI drew from the explanation by @carstenbauer but I didn't mention MKL since it is not built in.\r\n\r\nI'm also wondering whether we should add a line or two about this to the LinearAlgebra page. Sofar the only mention of OpenBLAS threads was in the FAQ.",
+      "body_cleaned_length": 265,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.7490636704119851,
+      "author_type": "User"
+    },
+    "username": "gdalle"
+  },
+  {
+    "pr_number": 51608,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 51605,
+        "labels": [
+          "performance",
+          "randomness",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 51608,
+      "title": "Create rand function for Base.KeySet and Base.ValueIterator{Dict}",
+      "body": "Fixes #51605 . \r\n\r\nI also created a version of rand for `Base.ValueIterator{Dict}` which currently throws an error.",
+      "body_length": 115,
+      "created_at": "2023-10-05T20:59:44Z",
+      "merged_at": "2023-10-09T10:06:59Z",
+      "merged": true,
+      "time_to_merge_hours": 85.12083333333334,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 5,
+      "review_count": 1,
+      "comment_count": 3,
+      "commit_messages": [
+        "create rand function for Base.KeySet and Base.ValueIterator{Dict}",
+        "better dispatch",
+        "formatting",
+        "add tests",
+        "commit suggestion\n\nCo-authored-by: Rafael Fourquet <fourquet.rafael@gmail.com>"
+      ],
+      "avg_commit_msg_length": 35.4,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "stdlib/Random/test/runtests.jl"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "labels": [
+        {
+          "name": "performance",
+          "color": "d7e102",
+          "description": "Must go faster"
+        },
+        {
+          "name": "randomness",
+          "color": "f7c6c7",
+          "description": "Random number generation and the Random stdlib"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #51605 . \r\n\r\nI also created a version of rand for `Base.ValueIterator{Dict}` which currently throws an error.",
+      "body_cleaned_length": 115,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Tortar"
+  },
+  {
+    "pr_number": 56753,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 53000,
+        "labels": [
+          "REPL",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 56753,
+      "title": "Group import hints",
+      "body": "This is my attempt to resolve #53000.\r\n\r\n```\r\njulia> solve\r\nERROR: UndefVarError: `solve` not defined in `Main`\r\nSuggestion: check for spelling errors or missing imports.\r\nHint: a global variable of this name also exists in CommonSolve.\r\n    - Also exported by SciMLBase.\r\n    - Also exported by DiffEqBase.\r\n    - Also exported by JumpProcesses.\r\n    - Also exported by LinearSolve.\r\n    - Also exported by BracketingNonlinearSolve (loaded but not imported in Main).\r\n    - Also exported by SimpleNonlinearSolve.\r\n    - Also exported by NonlinearSolve.\r\n    - Also exported by OrdinaryDiffEqLowStorageRK (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqSSPRK (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqVerner (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqBDF (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqTsit5 (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqRosenbrock (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqDefault (loaded but not imported in Main).\r\n    - Also exported by Sundials.\r\n```\r\n\r\nI would have beefed up the test case, but can't follow how it works.",
+      "body_length": 1230,
+      "created_at": "2024-12-04T21:09:43Z",
+      "merged_at": "2025-02-28T07:24:08Z",
+      "merged": true,
+      "time_to_merge_hours": 2050.240277777778,
+      "state": "MERGED",
+      "additions": 86,
+      "deletions": 28,
+      "files_changed": 2,
+      "commits_count": 14,
+      "review_count": 7,
+      "comment_count": 10,
+      "commit_messages": [
+        "group UndefVarError hints by parent module",
+        "also filter on isbindingresolved",
+        "use binding_module; remove whitespace",
+        "use nameof to get module name, not Symbol",
+        "new test for grouped import hints",
+        "Update stdlib/REPL/src/REPL.jl\n\nCo-authored-by: Alex Arslan <ararslan@comcast.net>",
+        "remove unnecessary if",
+        "name modules in test with issue number to avoid conflicts",
+        "oops, re-correct language for public",
+        "correct test for new wording",
+        "handle case where active module has binding with same name as module",
+        "things can be defined without being (yet) resolved",
+        "Merge branch 'master' into group_import_hints",
+        "Merge branch 'master' into group_import_hints"
+      ],
+      "avg_commit_msg_length": 44.07142857142857,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "stdlib/REPL/test/repl.jl"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 7
+      },
+      "labels": [
+        {
+          "name": "REPL",
+          "color": "c7def8",
+          "description": "Julia's REPL (Read Eval Print Loop)"
+        },
+        {
+          "name": "error messages",
+          "color": "f0f725",
+          "description": "Better, more actionable error messages"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This is my attempt to resolve #53000.\r\n\r\n```\r\njulia> solve\r\nERROR: UndefVarError: `solve` not defined in `Main`\r\nSuggestion: check for spelling errors or missing imports.\r\nHint: a global variable of this name also exists in CommonSolve.\r\n    - Also exported by SciMLBase.\r\n    - Also exported by DiffEqBase.\r\n    - Also exported by JumpProcesses.\r\n    - Also exported by LinearSolve.\r\n    - Also exported by BracketingNonlinearSolve (loaded but not imported in Main).\r\n    - Also exported by SimpleNonlinearSolve.\r\n    - Also exported by NonlinearSolve.\r\n    - Also exported by OrdinaryDiffEqLowStorageRK (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqSSPRK (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqVerner (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqBDF (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqTsit5 (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqRosenbrock (loaded but not imported in Main).\r\n    - Also exported by OrdinaryDiffEqDefault (loaded but not imported in Main).\r\n    - Also exported by Sundials.\r\n```\r\n\r\nI would have beefed up the test case, but can't follow how it works.",
+      "body_cleaned_length": 1230,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ajwheeler"
+  },
+  {
+    "pr_number": 57268,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 56936,
+        "labels": [
+          "help wanted",
+          "good first issue",
+          "display and printing"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 57268,
+      "title": "Fix printing of `var\"keyword\"` identifiers (issue #56936)",
+      "body": "Fixes #56936.\r\n\r\nOne quirk this change would introduce is that `:((1:10)[end])` will be shown as `:((1:10)[var\"end\"])`, which is not ideal, but still correct.  It would make sense to fix this at the same time we fix `(let var\"end\" = 1; (1:10)[var\"end\"]; end) == 10` being true.  I'll open a separate issue for this.\r\n",
+      "body_length": 317,
+      "created_at": "2025-02-05T00:21:49Z",
+      "merged_at": "2025-02-05T05:39:06Z",
+      "merged": true,
+      "time_to_merge_hours": 5.288055555555555,
+      "state": "MERGED",
+      "additions": 16,
+      "deletions": 4,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 4,
+      "commit_messages": [
+        "Fix printing of `var\"keyword\"` identifiers (issue #56936)"
+      ],
+      "avg_commit_msg_length": 57.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "display and printing",
+          "color": "e5ff9e",
+          "description": "Aesthetics and correctness of printed representations of objects."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #56936.\r\n\r\nOne quirk this change would introduce is that `:((1:10)[end])` will be shown as `:((1:10)[var\"end\"])`, which is not ideal, but still correct.  It would make sense to fix this at the same time we fix `(let var\"end\" = 1; (1:10)[var\"end\"]; end) == 10` being true.  I'll open a separate issue for this.",
+      "body_cleaned_length": 315,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.6309148264984227,
+      "author_type": "User"
+    },
+    "username": "mlechu"
+  },
+  {
+    "pr_number": 58181,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 58158,
+        "labels": [
+          "help wanted",
+          "good first issue",
+          "display and printing",
+          "feature",
+          "😃🍕 and other emoji"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 58181,
+      "title": "REPL: Show input alias (e.g., \\\\:cat:) for Char display",
+      "body": "This PR enhances the REPL display for Char types.\r\n\r\nIt adds the LaTeX/emoji input alias after the standard Unicode information, making it consistent with the help?> mode behavior.\r\n\r\nFor example, `'😼'` will now display as:\r\n`'😼': Unicode U+1F63C (category So: Symbol, other), input as \\:smirk_cat:`\r\n\r\n**(Self-contained paragraph explaining the choice):**\r\nConsidered modifying `Base.show` directly, but opted for adding a `REPL.show_repl` method instead to avoid introducing a dependency from `Base` on the `REPL` module's symbol mapping (`symbol_latex`). This approach keeps the REPL-specific display logic contained within the REPL module.\r\n\r\nCloses #58158 ",
+      "body_length": 661,
+      "created_at": "2025-04-21T14:29:42Z",
+      "merged_at": "2025-05-21T11:38:48Z",
+      "merged": true,
+      "time_to_merge_hours": 717.1516666666666,
+      "state": "MERGED",
+      "additions": 41,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 5,
+      "review_count": 5,
+      "comment_count": 8,
+      "commit_messages": [
+        "feat(REPL): Show input alias (e.g., \\\\:cat:) for Char display",
+        "Feat: Display input alias for Char in REPL (#58158)\n\n    - Adds the LaTeX/emoji input alias to the REPL display for Char.\n    - Addresses feedback from PR review (include <tab>, remove comment).\n    - Includes tests covering chars with/without aliases and color output.",
+        "Refactor(REPL): Simplify Char display tests using sprint\n\nThis change addresses reviewer feedback on PR #58158.\n\nThe test cases for `REPL.show_repl` with `AbstractChar` in\n`stdlib/REPL/test/repl.jl` have been updated to use `sprint`\nfor capturing output. This makes the tests more concise and\nidiomatic by replacing the previous `IOBuffer` and `IOContext`\nsetup.",
+        "    Docs: Add NEWS.md entry for Char display enhancement\n\n    Documents the new feature where the REPL display of AbstractChar\n    now includes LaTeX/emoji input aliases, as per reviewer suggestion\n    on PR #58181.",
+        "Merge branch 'master' into feat/repl-emoji-alias"
+      ],
+      "avg_commit_msg_length": 191.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6,
+      "commit_types": [
+        "refactor",
+        "feat"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "stdlib/REPL/test/repl.jl"
+      ],
+      "doc_files": [
+        "NEWS.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 5
+      },
+      "labels": [
+        {
+          "name": "REPL",
+          "color": "c7def8",
+          "description": "Julia's REPL (Read Eval Print Loop)"
+        },
+        {
+          "name": "unicode",
+          "color": "5f4a60",
+          "description": "Related to unicode characters and encodings"
+        },
+        {
+          "name": "display and printing",
+          "color": "e5ff9e",
+          "description": "Aesthetics and correctness of printed representations of objects."
+        },
+        {
+          "name": "feature",
+          "color": "5664ff",
+          "description": "Indicates new feature / enhancement requests"
+        },
+        {
+          "name": "😃🍕 and other emoji",
+          "color": "9F9D72",
+          "description": ""
+        }
+      ],
+      "label_categories": [
+        "feature"
+      ],
+      "is_bug_fix": false,
+      "is_feature": true,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR enhances the REPL display for Char types.\r\n\r\nIt adds the LaTeX/emoji input alias after the standard Unicode information, making it consistent with the help?> mode behavior.\r\n\r\nFor example, `'😼'` will now display as:\r\n`'😼': Unicode U+1F63C (category So: Symbol, other), input as \\:smirk_cat:`\r\n\r\n**(Self-contained paragraph explaining the choice):**\r\nConsidered modifying `Base.show` directly, but opted for adding a `REPL.show_repl` method instead to avoid introducing a dependency from `Base` on the `REPL` module's symbol mapping (`symbol_latex`). This approach keeps the REPL-specific display logic contained within the REPL module.\r\n\r\nCloses #58158",
+      "body_cleaned_length": 660,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.15128593040847202,
+      "author_type": "User"
+    },
+    "username": "ShahabSL"
+  },
+  {
+    "pr_number": 44910,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5690,
+        "labels": [
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 44910,
+      "title": "base: fix parsing Float32 literals with f/F in place of e/E.",
+      "body": "# Description\r\n```julia\r\njulia> float32(\"1f0\")\r\nERROR: ArgumentError(\"float32(String): invalid number format\")\r\n in float32 at string.jl:1567\r\n```\r\n\r\nThis PR should fix #5690.\r\n\r\n# Discussion\r\nIn the previous PR, there was a comment by @StefanKarpinski in https://github.com/JuliaLang/julia/pull/37961#issuecomment-736039398:\r\n> Since we already ship [an implementation of `strtod`](https://github.com/JuliaLang/julia/blob/master/src/support/strtod.c#L208) it seems like we could just unconditionally use that (instead of only using it on platforms that don't have a native implementation) and then modify this one line to accept `f` and `F` as well as `e` and `E`:\r\n> \r\n> https://github.com/JuliaLang/julia/blob/c31d126ac7ee425f3e121c16016844fb64a0c950/src/support/strtod.c#L208\r\n> \r\n> That would have the further benefit of making us less dependent on different behaviors on different systems.\r\n\r\nHowever we are still [dependent on](https://github.com/JuliaLang/julia/blob/master/src/support/strtod.c#L222-L260) the native implementation for `strtod`, which doesn't recognize `f/F` for the exponent.\r\n\r\nhttps://github.com/JuliaLang/julia/blob/6d78404695d3eba55a26694e1bed0492f36a6905/src/support/strtod.c#L222-L260\r\n\r\nAn alternate option is to change the API from\r\n\r\nhttps://github.com/JuliaLang/julia/blob/6d78404695d3eba55a26694e1bed0492f36a6905/src/support/strtod.h#L10-L11\r\n\r\nto \r\n\r\n```c\r\nJL_DLLEXPORT double jl_strtod_c(char *nptr, char **endptr);\r\nJL_DLLEXPORT float jl_strtof_c(char *nptr, char **endptr);\r\n```\r\nThen we can modify the first instance of `f/F` to `e` there.\r\n\r\n# References \r\n- https://github.com/JuliaLang/julia/pull/37961",
+      "body_length": 4441,
+      "created_at": "2022-04-08T11:14:03Z",
+      "updated_at": "2024-09-04T12:57:56Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 72,
+      "deletions": 21,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 8,
+      "pr_size": 93,
+      "avg_commit_msg_length": 60.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "c": 1,
+        "jl": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "strings",
+          "color": "006b75",
+          "description": "\"Strings!\""
+        },
+        {
+          "name": "feature",
+          "color": "5664ff",
+          "description": "Indicates new feature / enhancement requests"
+        }
+      ],
+      "label_categories": [
+        "feature"
+      ],
+      "is_bug_fix": false,
+      "is_feature": true,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "# Description\r\n```julia\r\njulia> float32(\"1f0\")\r\nERROR: ArgumentError(\"float32(String): invalid number format\")\r\n in float32 at string.jl:1567\r\n```\r\n\r\nThis PR should fix #5690.\r\n\r\n# Discussion\r\nIn the previous PR, there was a comment by @StefanKarpinski in https://github.com/JuliaLang/julia/pull/37961#issuecomment-736039398:\r\n> Since we already ship [an implementation of `strtod`](https://github.com/JuliaLang/julia/blob/master/src/support/strtod.c#L208) it seems like we could just unconditionally use that (instead of only using it on platforms that don't have a native implementation) and then modify this one line to accept `f` and `F` as well as `e` and `E`:\r\n> \r\n> https://github.com/JuliaLang/julia/blob/c31d126ac7ee425f3e121c16016844fb64a0c950/src/support/strtod.c#L208\r\n> \r\n> That would have the further benefit of making us less dependent on different behaviors on different systems.\r\n\r\nHowever we are still [dependent on](https://github.com/JuliaLang/julia/blob/master/src/support/strtod.c#L222-L260) the native implementation for `strtod`, which doesn't recognize `f/F` for the exponent.\r\n\r\nhttps://github.com/JuliaLang/julia/blob/6d78404695d3eba55a26694e1bed0492f36a6905/src/support/strtod.c#L222-L260\r\n\r\nAn alternate option is to change the API from\r\n\r\nhttps://github.com/JuliaLang/julia/blob/6d78404695d3eba55a26694e1bed0492f36a6905/src/support/strtod.h#L10-L11\r\n\r\nto \r\n\r\n```c\r\nJL_DLLEXPORT double jl_strtod_c(char *nptr, char **endptr);\r\nJL_DLLEXPORT float jl_strtof_c(char *nptr, char **endptr);\r\n```\r\nThen we can modify the first instance of `f/F` to `e` there.\r\n\r\n# References \r\n- https://github.com/JuliaLang/julia/pull/37961",
+      "body_cleaned_length": 1647,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "thinking-tower"
+  },
+  {
+    "pr_number": 47843,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 47786,
+        "labels": [
+          "help wanted",
+          "good first issue",
+          "dates"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47843,
+      "title": "Fixed the order of arguments in Dates (ceil, round, floor)",
+      "body": " Resolves #47786",
+      "body_length": 15,
+      "created_at": "2022-12-09T02:12:41Z",
+      "updated_at": "2024-12-28T02:10:17Z",
+      "closed_at": "2024-12-28T02:10:17Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 479,
+      "deletions": 226,
+      "files_changed": 6,
+      "commits_count": 30,
+      "review_count": 23,
+      "comment_count": 24,
+      "pr_size": 705,
+      "avg_commit_msg_length": 31.166666666666668,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "stdlib/Dates/test/rounding.jl",
+        "stdlib/Dates/test/rounding_dep.jl",
+        "stdlib/Dates/test/testgroups"
+      ],
+      "doc_files": [
+        "stdlib/Dates/docs/src/index.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "jl": 4
+      },
+      "review_states": {
+        "COMMENTED": 23
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "dates",
+          "color": "bfd4f2",
+          "description": "Dates, times, and the Dates stdlib module"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Resolves #47786",
+      "body_cleaned_length": 15,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 6.25,
+      "author_type": "User"
+    },
+    "username": "x0samnan"
+  },
+  {
+    "pr_number": 49562,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 49466,
+        "labels": [
+          "REPL",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49562,
+      "title": "Fix REPL.fuzzyscore() function using Levenshtein distance and converting to a range from 0 to 1",
+      "body": "Closes #49466\r\n\r\n - Implements `fuzzyscore()` using `levenshtein()`, and calculates the score by limiting it to a range from 0 to 1.\r\n - Works similar to `stringsimilarity()` as described [here](https://github.com/JuliaLang/julia/issues/49466#issuecomment-1525785061).\r\n \r\nHere's a few examples:\r\n\r\n    julia> REPL.fuzzyscore(\"abc\", \"xyz\")\r\n    0.0\r\n\r\n    julia> REPL.fuzzyscore(\"abc\", \"abc\")\r\n    1.0\r\n\r\n    julia> REPL.fuzzyscore(\"bupercalifragilisticexpialidocious\", \"supercalifragilisticexpialidocious\")\r\n    0.9705882352941176\r\n\r\n    julia> REPL.fuzzyscore(\"IJilia\", \"MotionCaptureJointCalibration\")\r\n    0.1724137931034483",
+      "body_length": 490,
+      "created_at": "2023-04-29T00:23:55Z",
+      "updated_at": "2023-07-07T11:18:18Z",
+      "closed_at": "2023-07-07T11:18:17Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 8,
+      "deletions": 13,
+      "files_changed": 2,
+      "commits_count": 4,
+      "review_count": 1,
+      "comment_count": 5,
+      "pr_size": 21,
+      "avg_commit_msg_length": 89.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "stdlib/REPL/test/docview.jl"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "jl": 2
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #49466\r\n\r\n - Implements `fuzzyscore()` using `levenshtein()`, and calculates the score by limiting it to a range from 0 to 1.\r\n - Works similar to `stringsimilarity()` as described [here](https://github.com/JuliaLang/julia/issues/49466#issuecomment-1525785061).\r\n \r\nHere's a few examples:\r\n\r\n    julia> REPL.fuzzyscore(\"abc\", \"xyz\")\r\n    0.0\r\n\r\n    julia> REPL.fuzzyscore(\"abc\", \"abc\")\r\n    1.0\r\n\r\n    julia> REPL.fuzzyscore(\"bupercalifragilisticexpialidocious\", \"supercalifragilisticexpialidocious\")\r\n    0.9705882352941176\r\n\r\n    julia> REPL.fuzzyscore(\"IJilia\", \"MotionCaptureJointCalibration\")\r\n    0.1724137931034483",
+      "body_cleaned_length": 628,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "PhoenixFlame101"
+  },
+  {
+    "pr_number": 52105,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 52063,
+        "labels": [
+          "packages",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 52105,
+      "title": "Raise an error when using include_dependency with non-existent file",
+      "body": "Since depending on a non-existent file or directory is strange, raise an error instead of silently triggering precompilation.\r\n\r\nFixes #52063",
+      "body_length": 138,
+      "created_at": "2023-11-09T15:31:22Z",
+      "updated_at": "2024-04-16T20:37:20Z",
+      "closed_at": "2024-04-16T20:37:20Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 5,
+      "comment_count": 2,
+      "pr_size": 1,
+      "avg_commit_msg_length": 127.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 1
+      },
+      "review_states": {
+        "COMMENTED": 5
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "needs tests",
+          "color": "5319e7",
+          "description": "Unit tests are required for this change"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Since depending on a non-existent file or directory is strange, raise an error instead of silently triggering precompilation.\r\n\r\nFixes #52063",
+      "body_cleaned_length": 141,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "longqian95"
+  },
+  {
+    "pr_number": 52317,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 51087,
+        "labels": [
+          "good first issue",
+          "error messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 52317,
+      "title": "Fix: bug displaying Inf16 instead of Inf",
+      "body": "fix: #51087 \r\nI have fixed the  bug in the error display functionality, found in the **base/errorshow.jl** file. Now the function **errorshow** correctly take into account the difference between **inf** and **inf16** \r\n\r\n\r\nI also executed the tests in test/errorshow with success\r\n\r\n![Screenshot 2023-11-27 191039](https://github.com/JuliaLang/julia/assets/51833287/c6e9452d-9211-4f16-ac63-6679c42bf3b5)\r\n\r\n",
+      "body_length": 255,
+      "created_at": "2023-11-27T18:16:15Z",
+      "updated_at": "2023-11-28T15:50:08Z",
+      "closed_at": "2023-11-28T15:09:51Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 74,
+      "deletions": 6,
+      "files_changed": 4,
+      "commits_count": 5,
+      "review_count": 1,
+      "comment_count": 5,
+      "pr_size": 80,
+      "avg_commit_msg_length": 294.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "jl": 4
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "needs tests",
+          "color": "5319e7",
+          "description": "Unit tests are required for this change"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix: #51087 \r\nI have fixed the  bug in the error display functionality, found in the **base/errorshow.jl** file. Now the function **errorshow** correctly take into account the difference between **inf** and **inf16** \r\n\r\n\r\nI also executed the tests in test/errorshow with success\r\n\r\n![Screenshot 2023-11-27 191039](https://github.com/JuliaLang/julia/assets/51833287/c6e9452d-9211-4f16-ac63-6679c42bf3b5)",
+      "body_cleaned_length": 403,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 0.9828009828009828,
+      "author_type": "User"
+    },
+    "username": "Pietro-D"
+  },
+  {
+    "pr_number": 53374,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 53348,
+        "labels": [
+          "docs",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 53374,
+      "title": "Fix broken links to Pkg.jl documentation",
+      "body": "Some dead links in the documentation for v1.10, this points to the most up to date version of the `Pkg.jl` docs\r\n\r\nFixes #53348 \r\n\r\nHopefully I'm requesting to merge to the correct branch, please let me know if I need to change anything!",
+      "body_length": 228,
+      "created_at": "2024-02-17T21:05:53Z",
+      "updated_at": "2024-02-27T09:25:51Z",
+      "closed_at": "2024-02-27T09:19:59Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 138,
+      "deletions": 47,
+      "files_changed": 17,
+      "commits_count": 10,
+      "review_count": 0,
+      "comment_count": 10,
+      "pr_size": 185,
+      "avg_commit_msg_length": 199.1,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "stdlib/Test/docs/src/index.md"
+      ],
+      "doc_files": [
+        "doc/src/manual/command-line-interface.md",
+        "stdlib/Test/docs/src/index.md"
+      ],
+      "file_types": {
+        "jl": 8,
+        "gz/md5": 2,
+        "gz/sha512": 2,
+        "md": 2,
+        "scm": 1,
+        "version": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "docs",
+          "color": "02d7e1",
+          "description": "This change adds or pertains to documentation"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Some dead links in the documentation for v1.10, this points to the most up to date version of the `Pkg.jl` docs\r\n\r\nFixes #53348 \r\n\r\nHopefully I'm requesting to merge to the correct branch, please let me know if I need to change anything!",
+      "body_cleaned_length": 237,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "burtonjosh"
+  },
+  {
+    "pr_number": 56900,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 56752,
+        "labels": [
+          "docs",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 56900,
+      "title": " Add \"See also\" sections to regex function docstrings",
+      "body": "**Description:**\r\nThis PR adds \"See also\" sections to the docstrings of various regex functions to improve documentation navigation. The goal is to help users easily find related functions when working with regular expressions in Julia.\r\n\r\nFixes #56752\r\n\r\n**Changes:**\r\n\r\n- Added See also references in the docstrings of the following functions:\r\n  -   startswith\r\n  -   endswith\r\n  -   match\r\n  -   eachmatch\r\n  -   findall\r\n  -   count\r\n\r\nThese references link related functions such as occursin, replace, findfirst, and findnext to provide a more cohesive understanding of how to work with regex operations in Julia.",
+      "body_length": 559,
+      "created_at": "2024-12-24T09:37:27Z",
+      "updated_at": "2024-12-24T14:35:03Z",
+      "closed_at": "2024-12-24T13:15:32Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 19,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 20,
+      "avg_commit_msg_length": 42.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "doc/src/manual/performance-tips.md"
+      ],
+      "file_types": {
+        "jl": 1,
+        "md": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "docs",
+          "color": "02d7e1",
+          "description": "This change adds or pertains to documentation"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**Description:**\r\nThis PR adds \"See also\" sections to the docstrings of various regex functions to improve documentation navigation. The goal is to help users easily find related functions when working with regular expressions in Julia.\r\n\r\nFixes #56752\r\n\r\n**Changes:**\r\n\r\n- Added See also references in the docstrings of the following functions:\r\n  -   startswith\r\n  -   endswith\r\n  -   match\r\n  -   eachmatch\r\n  -   findall\r\n  -   count\r\n\r\nThese references link related functions such as occursin, replace, findfirst, and findnext to provide a more cohesive understanding of how to work with regex operations in Julia.",
+      "body_cleaned_length": 619,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "AnkitaVekariya"
+  },
+  {
+    "pr_number": 57430,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 57287,
+        "labels": [
+          "good first issue",
+          "testsystem"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 57430,
+      "title": "Fix pretty printing of symbols by Test.jl",
+      "body": "Fixes #57287\r\nWhen we perform a Test : \r\n```\r\njulia> x = 1; y = :sym; @test x == y\r\nTest Failed at REPL[48]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == sym\r\n```\r\nBut ideally the test should print `Evaluated 1 == :sym`\r\n\r\nI have changed the parsing of the arguments :\r\n---\r\n\r\nUpdated Test.jl and added some if else conditions : \r\n\r\nnow the tests mentioned in the issue yields these results : \r\n\r\n```\r\njulia> x = 1; y = :sym; @test x == y\r\nTest Failed at REPL[2]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == :sym\r\n\r\n```\r\n\r\n```\r\njulia> x = 1; y = :(1+1); @test x == y\r\nTest Failed at REPL[2]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == :(1 + 1)\r\n\r\n```",
+      "body_length": 579,
+      "created_at": "2025-02-16T18:22:54Z",
+      "updated_at": "2025-03-16T17:49:14Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 8,
+      "review_count": 3,
+      "comment_count": 7,
+      "pr_size": 4,
+      "avg_commit_msg_length": 43.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "stdlib/Test/src/Test.jl"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "jl": 1
+      },
+      "review_states": {
+        "COMMENTED": 3
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "needs tests",
+          "color": "5319e7",
+          "description": "Unit tests are required for this change"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #57287\r\nWhen we perform a Test : \r\n```\r\njulia> x = 1; y = :sym; @test x == y\r\nTest Failed at REPL[48]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == sym\r\n```\r\nBut ideally the test should print `Evaluated 1 == :sym`\r\n\r\nI have changed the parsing of the arguments :\r\n---\r\n\r\nUpdated Test.jl and added some if else conditions : \r\n\r\nnow the tests mentioned in the issue yields these results : \r\n\r\n```\r\njulia> x = 1; y = :sym; @test x == y\r\nTest Failed at REPL[2]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == :sym\r\n\r\n```\r\n\r\n```\r\njulia> x = 1; y = :(1+1); @test x == y\r\nTest Failed at REPL[2]:1\r\n  Expression: x == y\r\n   Evaluated: 1 == :(1 + 1)\r\n\r\n```",
+      "body_cleaned_length": 647,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "nerdberg792"
+  },
+  {
+    "pr_number": 57595,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 56921,
+        "labels": [
+          "docs",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 57595,
+      "title": "Update the documentation to use jldoctest",
+      "body": "Marked C:/julia as a safe Git directory to resolve ownership conflict. Fixes #56921.",
+      "body_length": 84,
+      "created_at": "2025-03-01T10:36:58Z",
+      "updated_at": "2025-03-02T03:43:25Z",
+      "closed_at": "2025-03-02T03:43:25Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 180,
+      "deletions": 179,
+      "files_changed": 32,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 359,
+      "avg_commit_msg_length": 47.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "doc/src/base/collections.md",
+        "doc/src/base/scopedvalues.md",
+        "doc/src/devdocs/backtraces.md",
+        "doc/src/devdocs/boundscheck.md",
+        "doc/src/devdocs/meta.md",
+        "doc/src/devdocs/offset-arrays.md",
+        "doc/src/devdocs/precompile_hang.md",
+        "doc/src/devdocs/require.md",
+        "doc/src/devdocs/types.md",
+        "doc/src/manual/arrays.md",
+        "doc/src/manual/asynchronous-programming.md",
+        "doc/src/manual/calling-c-and-fortran-code.md",
+        "doc/src/manual/constructors.md",
+        "doc/src/manual/distributed-computing.md",
+        "doc/src/manual/documentation.md",
+        "doc/src/manual/faq.md",
+        "doc/src/manual/functions.md",
+        "doc/src/manual/integers-and-floating-point-numbers.md",
+        "doc/src/manual/metaprogramming.md",
+        "doc/src/manual/methods.md",
+        "doc/src/manual/modules.md",
+        "doc/src/manual/multi-threading.md",
+        "doc/src/manual/networking-and-streams.md",
+        "doc/src/manual/performance-tips.md",
+        "doc/src/manual/profile.md",
+        "doc/src/manual/running-external-programs.md",
+        "doc/src/manual/stacktraces.md",
+        "doc/src/manual/strings.md",
+        "doc/src/manual/types.md",
+        "doc/src/manual/variables-and-scoping.md",
+        "doc/src/manual/variables.md",
+        "doc/src/manual/workflow-tips.md"
+      ],
+      "file_types": {
+        "md": 32
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Marked C:/julia as a safe Git directory to resolve ownership conflict. Fixes #56921.",
+      "body_cleaned_length": 84,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "vivekTiw120303"
+  }
+]

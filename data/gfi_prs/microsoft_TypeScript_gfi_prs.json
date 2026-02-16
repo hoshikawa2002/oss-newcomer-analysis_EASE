@@ -1,0 +1,3661 @@
+[
+  {
+    "pr_number": 44892,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 44765,
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages",
+          "Experience Enhancement"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 44892,
+      "title": "Improve error message TS1210",
+      "body": "Changes error message `TS1210` from:\r\n```\r\nInvalid use of '{0}'. Class definitions are automatically in strict mode.\r\n```\r\nto\r\n```\r\nCode contained in a class is evaluated in JavaScript's strict mode which does not allow this use of '{0}'. For more information, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode.\r\n```\r\nas [suggested](https://github.com/microsoft/TypeScript/issues/44765#issuecomment-870842520).\r\n\r\nFixes #44765\r\n",
+      "body_length": 460,
+      "created_at": "2021-07-04T16:01:01Z",
+      "merged_at": "2021-08-06T22:00:26Z",
+      "merged": true,
+      "time_to_merge_hours": 797.9902777777778,
+      "state": "MERGED",
+      "additions": 110,
+      "deletions": 110,
+      "files_changed": 10,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Improve error message TS1210"
+      ],
+      "avg_commit_msg_length": 28.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/classStaticBlock6.errors.txt",
+        "tests/baselines/reference/collisionArgumentsClassConstructor.errors.txt",
+        "tests/baselines/reference/collisionArgumentsClassMethod.errors.txt",
+        "tests/baselines/reference/emitArrowFunctionWhenUsingArguments12.errors.txt",
+        "tests/baselines/reference/emitArrowFunctionWhenUsingArguments12_ES6.errors.txt",
+        "tests/baselines/reference/jsFileCompilationBindStrictModeErrors.errors.txt",
+        "tests/baselines/reference/parseClassDeclarationInStrictModeByDefaultInES6.errors.txt",
+        "tests/baselines/reference/parserRealSource11.errors.txt"
+      ],
+      "file_types": {
+        "ts": 1,
+        "json": 1,
+        "txt": 8
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Changes error message `TS1210` from:\r\n```\r\nInvalid use of '{0}'. Class definitions are automatically in strict mode.\r\n```\r\nto\r\n```\r\nCode contained in a class is evaluated in JavaScript's strict mode which does not allow this use of '{0}'. For more information, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode.\r\n```\r\nas [suggested](https://github.com/microsoft/TypeScript/issues/44765#issuecomment-870842520).\r\n\r\nFixes #44765",
+      "body_cleaned_length": 458,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.43478260869565216,
+      "author_type": "User"
+    },
+    "username": "henriqueinonhe"
+  },
+  {
+    "pr_number": 45742,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45713,
+        "labels": [
+          "Help Wanted",
+          "Good First Issue",
+          "Experience Enhancement",
+          "Effort: Casual"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 45742,
+      "title": "fix(45713) Improve error report summaries",
+      "body": "This PR intends to improve the error report summaries that get generated from diagnostics. Cases where there are multiple errors:  \"4 errors in 2 files\" as well as single errors, \"1 error in testA.ts:4\" are accounted for as stated in the issue.\r\n\r\nFixes #45713 \r\n",
+      "body_length": 263,
+      "created_at": "2021-09-06T11:11:00Z",
+      "merged_at": "2021-12-07T10:50:44Z",
+      "merged": true,
+      "time_to_merge_hours": 2207.662222222222,
+      "state": "MERGED",
+      "additions": 602,
+      "deletions": 125,
+      "files_changed": 57,
+      "commits_count": 6,
+      "review_count": 11,
+      "comment_count": 14,
+      "commit_messages": [
+        "Improve error report summaries (#45713)",
+        "fixup! Improve error report summaries (#45713)",
+        "fixup! fixup! Improve error report summaries (#45713)",
+        "Adds support for handling localization renaming the 'files' header due to localization",
+        "Merge branch 'main' into improved_error_summary",
+        "fixup! Adds support for handling localization renaming the 'files' header due to localization\n\n - Fixed baseline error\n - Fixed linter error"
+      ],
+      "avg_commit_msg_length": 68.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/manyCompilerErrorsInTheTwoFiles.js",
+        "tests/baselines/reference/tsc/composite/initial-build/when-setting-composite-false-on-command-line-but-has-tsbuild-info-in-config.js",
+        "tests/baselines/reference/tsc/declarationEmit/when-pkg-references-sibling-package-through-indirect-symlink-moduleCaseChange.js",
+        "tests/baselines/reference/tsc/declarationEmit/when-pkg-references-sibling-package-through-indirect-symlink.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-composite.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-incremental-declaration.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-incremental.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-with-initial-noEmit-composite.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-with-initial-noEmit-incremental-declaration.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/noEmit-changes-with-initial-noEmit-incremental.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/when-global-file-is-added,-the-signatures-are-updated.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/with-noEmitOnError-semantic-errors.js",
+        "tests/baselines/reference/tsc/incremental/initial-build/with-noEmitOnError-syntax-errors.js",
+        "tests/baselines/reference/tsc/projectReferences/initial-build/when-project-contains-invalid-project-reference.js",
+        "tests/baselines/reference/tsc/projectReferences/initial-build/when-project-references-composite-project-with-noEmit.js",
+        "tests/baselines/reference/tsc/react-jsx-emit-mode/initial-build/with-no-backing-types-found-doesn't-crash-under---strict.js",
+        "tests/baselines/reference/tscWatch/incremental/editing-module-augmentation-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/importHelpers-backing-types-removed-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/jsxImportSource-backing-types-added-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/jsxImportSource-backing-types-removed-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/jsxImportSource-option-changed-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/module-compilation/own-file-emit-with-errors-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/own-file-emit-with-errors-incremental.js",
+        "tests/baselines/reference/tscWatch/incremental/when-file-with-ambient-global-declaration-file-is-deleted-incremental.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/deeplyNestedAssignabilityIssue.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans1.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans2.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans3.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans4.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans5.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans6.errors.txt",
+        "tests/baselines/reference/duplicateIdentifierRelatedSpans7.errors.txt",
+        "tests/baselines/reference/esModuleInteropPrettyErrorRelatedInformation.errors.txt",
+        "tests/baselines/reference/manyCompilerErrorsInTheTwoFiles.errors.txt",
+        "tests/baselines/reference/multiLineContextDiagnosticWithPretty.errors.txt",
+        "tests/baselines/reference/multipleClassPropertyModifiersErrors.errors.txt",
+        "tests/baselines/reference/parserIndexMemberDeclaration10.errors.txt",
+        "tests/baselines/reference/parserMemberAccessorDeclaration8.errors.txt",
+        "tests/baselines/reference/parserMemberFunctionDeclaration2.errors.txt",
+        "tests/baselines/reference/parserMemberVariableDeclaration2.errors.txt",
+        "tests/baselines/reference/prettyContextNotDebugAssertion.errors.txt",
+        "tests/baselines/reference/prettyFileWithErrorsAndTabs.errors.txt",
+        "tests/baselines/reference/staticAsIdentifier.errors.txt",
+        "tests/baselines/reference/staticModifierAlreadySeen.errors.txt",
+        "tests/baselines/reference/typedefCrossModule5.errors.txt"
+      ],
+      "file_types": {
+        "json": 1,
+        "ts": 9,
+        "txt": 21,
+        "js": 24,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 10,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR intends to improve the error report summaries that get generated from diagnostics. Cases where there are multiple errors:  \"4 errors in 2 files\" as well as single errors, \"1 error in testA.ts:4\" are accounted for as stated in the issue.\r\n\r\nFixes #45713",
+      "body_cleaned_length": 260,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 1.1406844106463878,
+      "author_type": "User"
+    },
+    "username": "rbargholz"
+  },
+  {
+    "pr_number": 45930,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45714,
+        "labels": [
+          "Help Wanted",
+          "Good First Issue",
+          "Experience Enhancement",
+          "Effort: Casual"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 45930,
+      "title": "feat: display the tsconfig generated when running tsc --init",
+      "body": "this PR improves the output of tsc --init\r\n\r\nTODO: Diagnostics text\r\n\r\n<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #45714\r\n",
+      "body_length": 525,
+      "created_at": "2021-09-17T10:15:51Z",
+      "merged_at": "2021-10-01T13:08:06Z",
+      "merged": true,
+      "time_to_merge_hours": 338.87083333333334,
+      "state": "MERGED",
+      "additions": 75,
+      "deletions": 30,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 6,
+      "commit_messages": [
+        "feat: display the tsconfig generated when running tsc --init",
+        "fix: fix lint issues",
+        "refactor: minor changes"
+      ],
+      "avg_commit_msg_length": 34.333333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat",
+        "refactor",
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {},
+      "labels": [
+        {
+          "name": "For Uncommitted Bug",
+          "color": "ededed",
+          "description": "PR for untriaged, rejected, closed or missing bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "this PR improves the output of tsc --init\r\n\r\nTODO: Diagnostics text\r\n\r\n\r\n\r\nFixes #45714",
+      "body_cleaned_length": 87,
+      "template_removed_length": 438,
+      "template_reduction_percentage": 83.42857142857143,
+      "author_type": "User"
+    },
+    "username": "AlexMunoz"
+  },
+  {
+    "pr_number": 46357,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46246,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46357,
+      "title": "Fix46246",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [X] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X] You've successfully run `gulp runtests` locally\r\n* [X] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #46246 \r\n\r\nThe new error message is : `An interface cannot extend a primitive type like '{0}'; an interface can only extend named types and classes`\r\n\r\nwhere {0} has the primitive type name e.g. any, number, string etc.\r\n\r\nPlease give feedback as this is my first PR on this repo.\r\n",
+      "body_length": 728,
+      "created_at": "2021-10-14T07:03:23Z",
+      "merged_at": "2022-05-31T23:47:07Z",
+      "merged": true,
+      "time_to_merge_hours": 5512.728888888889,
+      "state": "MERGED",
+      "additions": 74,
+      "deletions": 7,
+      "files_changed": 8,
+      "commits_count": 4,
+      "review_count": 4,
+      "comment_count": 5,
+      "commit_messages": [
+        "changed error message for interface extending primitive type",
+        "moved interface check to different function",
+        "changed part of interface declaration to is extended by interface",
+        "Merge branch 'main' into fix46246"
+      ],
+      "avg_commit_msg_length": 50.25,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/interfacedeclWithIndexerErrors.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/errorLocationForInterfaceExtension.errors.txt",
+        "tests/baselines/reference/interfacedeclWithIndexerErrors.errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "json": 1,
+        "txt": 2,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #46246 \r\n\r\nThe new error message is : `An interface cannot extend a primitive type like '{0}'; an interface can only extend named types and classes`\r\n\r\nwhere {0} has the primitive type name e.g. any, number, string etc.\r\n\r\nPlease give feedback as this is my first PR on this repo.",
+      "body_cleaned_length": 286,
+      "template_removed_length": 442,
+      "template_reduction_percentage": 60.71428571428571,
+      "author_type": "User"
+    },
+    "username": "HarsheetKakar"
+  },
+  {
+    "pr_number": 46740,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46712,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: lib.d.ts",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46740,
+      "title": "fix(46712): Add \"exceptZero\" for \"signDisplay\" option of Intl.NumberF…",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #46712 \r\n\r\nThe \"exceptZero\" type was missing on the \"signDisplay\" option as it was mentioned in the issue. This PR adds it. I'm not sure whether do I have to write any test case for it. Please guide me if I have to write any.",
+      "body_length": 670,
+      "created_at": "2021-11-09T03:16:16Z",
+      "merged_at": "2021-11-12T11:12:21Z",
+      "merged": true,
+      "time_to_merge_hours": 79.93472222222222,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(46712): Add \"exceptZero\" for \"signDisplay\" option of Intl.NumberFormat()"
+      ],
+      "avg_commit_msg_length": 76.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #46712 \r\n\r\nThe \"exceptZero\" type was missing on the \"signDisplay\" option as it was mentioned in the issue. This PR adds it. I'm not sure whether do I have to write any test case for it. Please guide me if I have to write any.",
+      "body_cleaned_length": 231,
+      "template_removed_length": 439,
+      "template_reduction_percentage": 65.5223880597015,
+      "author_type": "User"
+    },
+    "username": "iAziz786"
+  },
+  {
+    "pr_number": 46823,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46810,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46823,
+      "title": "Fix strict/es5+ octal literal 2x error #46810",
+      "body": "Signed-off-by: Jay Clark <jay@jayeclark.dev>\r\n\r\nPartially fixes #46810 \r\n\r\nFixes the conditional in the binder to only issue an error for octal literals in strict mode if the target is before es5. (If es5 or after, this error becomes redundant.) Also fixes the same issue in tsserver.js\r\n\r\nPlease verify that:\r\n* [X] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X] You've successfully run `gulp runtests` locally\r\n* [X] There are new or updated unit tests validating the change",
+      "body_length": 556,
+      "created_at": "2021-11-16T16:40:13Z",
+      "merged_at": "2021-12-06T20:46:08Z",
+      "merged": true,
+      "time_to_merge_hours": 484.0986111111111,
+      "state": "MERGED",
+      "additions": 62,
+      "deletions": 9,
+      "files_changed": 8,
+      "commits_count": 6,
+      "review_count": 4,
+      "comment_count": 10,
+      "commit_messages": [
+        "Fix strict/es5+ octal literal 2x error #46810\n\nSigned-off-by: Jay Clark <jay@jayeclark.dev>",
+        "Merge branch 'microsoft:main' into fix-duplicate-octal-literal-errors",
+        "Merge branch 'microsoft:main' into fix-duplicate-octal-literal-errors",
+        "Accept baseline test changes\n\nSigned-off-by: Jay Clark <jay@jayeclark.dev>",
+        "Merge branch 'microsoft:main' into fix-duplicate-octal-literal-errors",
+        "Add test case"
+      ],
+      "avg_commit_msg_length": 64.16666666666667,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/strictModeOctalLiterals.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/jsFileCompilationBindStrictModeErrors.errors.txt",
+        "tests/baselines/reference/plainJSBinderErrors.errors.txt",
+        "tests/baselines/reference/strictModeOctalLiterals.errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "txt": 3,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "lib update",
+          "color": "561584",
+          "description": "PR modifies files in the `lib` folder"
+        },
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Signed-off-by: Jay Clark <jay@jayeclark.dev>\r\n\r\nPartially fixes #46810 \r\n\r\nFixes the conditional in the binder to only issue an error for octal literals in strict mode if the target is before es5. (If es5 or after, this error becomes redundant.) Also fixes the same issue in tsserver.js\r\n\r\nPlease verify that:\r\n* [X] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X] You've successfully run `gulp runtests` locally\r\n* [X] There are new or updated unit tests validating the change",
+      "body_cleaned_length": 556,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "jayeclark"
+  },
+  {
+    "pr_number": 46929,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46815,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46929,
+      "title": "\"No repeated property names\" error in object literals is duplicated in strict mode",
+      "body": "improved the error messages when object property name is duplicated.\r\nsmaple\r\n```typescript\r\n// @strict: false\r\nconst first = { a: 1, a: 2 }\r\nclass C {\r\n    m() {\r\n        const second = { a: 1, a: 2 }\r\n        return second.a\r\n    }\r\n}\r\n````\r\nbefore\r\n\r\n```\r\ntest.ts:3:23 - error TS2300: Duplicate identifier 'a'.\r\n\r\n3 const first = { a: 1, a: 2 };\r\n                        ~\r\n\r\ntest.ts:6:32 - error TS1117: An object literal cannot have multiple properties with the same name in strict mode.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n                                 ~\r\n\r\ntest.ts:6:32 - error TS2300: Duplicate identifier 'a'.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n                                 ~\r\n\r\n[12:48:19 PM] Found 3 errors. Watching for file changes\r\n```\r\nnow\r\n```\r\ntest.ts:3:23 - error TS1117: An object literal cannot have multiple properties with the same name.\r\n\r\n3 const first = { a: 1, a: 2 };\r\n                        ~\r\n\r\ntest.ts:6:32 - error TS1117: An object literal cannot have multiple properties with the same name.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n```\r\n\r\nthis is my first pr to this project.\r\nLet me know if there is anything I am missing 😄 \r\n<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #46815 \r\n",
+      "body_length": 1644,
+      "created_at": "2021-11-27T03:48:58Z",
+      "merged_at": "2021-12-06T18:22:28Z",
+      "merged": true,
+      "time_to_merge_hours": 230.55833333333334,
+      "state": "MERGED",
+      "additions": 197,
+      "deletions": 100,
+      "files_changed": 20,
+      "commits_count": 2,
+      "review_count": 2,
+      "comment_count": 2,
+      "commit_messages": [
+        "\"No repeated property names\" error in object literals is duplicated in strict mode",
+        "fix indent"
+      ],
+      "avg_commit_msg_length": 46.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/noRepeatedPropertyNames.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/duplicateIdentifierDifferentSpelling.errors.txt",
+        "tests/baselines/reference/duplicateObjectLiteralProperty.errors.txt",
+        "tests/baselines/reference/duplicateObjectLiteralProperty_computedName.errors.txt",
+        "tests/baselines/reference/duplicatePropertiesInStrictMode.errors.txt",
+        "tests/baselines/reference/duplicatePropertyNames.errors.txt",
+        "tests/baselines/reference/jsFileCompilationBindStrictModeErrors.errors.txt",
+        "tests/baselines/reference/lastPropertyInLiteralWins.errors.txt",
+        "tests/baselines/reference/memberOverride.errors.txt",
+        "tests/baselines/reference/noRepeatedPropertyNames.errors.txt",
+        "tests/baselines/reference/numericStringNamedPropertyEquivalence.errors.txt",
+        "tests/baselines/reference/objectLiteralErrors.errors.txt",
+        "tests/baselines/reference/objectSpreadNegative.errors.txt",
+        "tests/baselines/reference/objectTypeWithDuplicateNumericProperty.errors.txt"
+      ],
+      "file_types": {
+        "ts": 3,
+        "json": 1,
+        "txt": 13,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "improved the error messages when object property name is duplicated.\r\nsmaple\r\n```typescript\r\n// @strict: false\r\nconst first = { a: 1, a: 2 }\r\nclass C {\r\n    m() {\r\n        const second = { a: 1, a: 2 }\r\n        return second.a\r\n    }\r\n}\r\n````\r\nbefore\r\n\r\n```\r\ntest.ts:3:23 - error TS2300: Duplicate identifier 'a'.\r\n\r\n3 const first = { a: 1, a: 2 };\r\n                        ~\r\n\r\ntest.ts:6:32 - error TS1117: An object literal cannot have multiple properties with the same name in strict mode.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n                                 ~\r\n\r\ntest.ts:6:32 - error TS2300: Duplicate identifier 'a'.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n                                 ~\r\n\r\n[12:48:19 PM] Found 3 errors. Watching for file changes\r\n```\r\nnow\r\n```\r\ntest.ts:3:23 - error TS1117: An object literal cannot have multiple properties with the same name.\r\n\r\n3 const first = { a: 1, a: 2 };\r\n                        ~\r\n\r\ntest.ts:6:32 - error TS1117: An object literal cannot have multiple properties with the same name.\r\n\r\n6         const second = { a: 1, a: 2 };\r\n```\r\n\r\nthis is my first pr to this project.\r\nLet me know if there is anything I am missing 😄 \r\n\r\n\r\nFixes #46815",
+      "body_cleaned_length": 1205,
+      "template_removed_length": 439,
+      "template_reduction_percentage": 26.703163017031628,
+      "author_type": "User"
+    },
+    "username": "Yuuki77"
+  },
+  {
+    "pr_number": 47087,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 47076,
+        "labels": [
+          "Bug",
+          "Fixed",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47087,
+      "title": "fix(47076):Fix error term of declaration in modules",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #47076\r\n\r\nI fix error term of declaration in modules.\r\n- \"An import declaration can only be used in a namespace or module.\" →\r\n  - When the node is in JS file, \"An import declaration can only be used at the top level of a module.\"\r\n  - Otherwise, \"An import declaration can only be used at the top level of a namespace or module.\"\r\n\r\n- \"An export declaration can only be used in a module.\" →\r\n  - \"An export declaration can only be used at the top level of a module.\"\r\n\r\n- \"A namespace declaration is only allowed in a namespace or module.\" →\r\n  - \"A namespace declaration is only allowed at the top level of a module.\"",
+      "body_length": 1065,
+      "created_at": "2021-12-09T17:01:44Z",
+      "merged_at": "2022-02-09T21:19:30Z",
+      "merged": true,
+      "time_to_merge_hours": 1492.296111111111,
+      "state": "MERGED",
+      "additions": 135,
+      "deletions": 98,
+      "files_changed": 14,
+      "commits_count": 7,
+      "review_count": 3,
+      "comment_count": 3,
+      "commit_messages": [
+        "Fix error term of declaration in modules",
+        "fix test",
+        "change error code of \"An import declaration can only be used at the top level of a module.\"",
+        "Separate js and ts files for export errors in module.",
+        "Change non-top-level error in namespace",
+        "format",
+        "Merge branch 'main' into import-grammar-error"
+      ],
+      "avg_commit_msg_length": 40.285714285714285,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/importDeclarationInModuleDeclaration2.errors.txt",
+        "tests/baselines/reference/labeledStatementWithLabel.errors.txt",
+        "tests/baselines/reference/labeledStatementWithLabel_es2015.errors.txt",
+        "tests/baselines/reference/labeledStatementWithLabel_strict.errors.txt",
+        "tests/baselines/reference/moduleElementsInWrongContext.errors.txt",
+        "tests/baselines/reference/moduleElementsInWrongContext2.errors.txt",
+        "tests/baselines/reference/moduleElementsInWrongContext3.errors.txt",
+        "tests/baselines/reference/plainJSGrammarErrors.errors.txt"
+      ],
+      "file_types": {
+        "ts": 3,
+        "json": 1,
+        "txt": 8,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #47076\r\n\r\nI fix error term of declaration in modules.\r\n- \"An import declaration can only be used in a namespace or module.\" →\r\n  - When the node is in JS file, \"An import declaration can only be used at the top level of a module.\"\r\n  - Otherwise, \"An import declaration can only be used at the top level of a namespace or module.\"\r\n\r\n- \"An export declaration can only be used in a module.\" →\r\n  - \"An export declaration can only be used at the top level of a module.\"\r\n\r\n- \"A namespace declaration is only allowed in a namespace or module.\" →\r\n  - \"A namespace declaration is only allowed at the top level of a module.\"",
+      "body_cleaned_length": 625,
+      "template_removed_length": 440,
+      "template_reduction_percentage": 41.31455399061033,
+      "author_type": "User"
+    },
+    "username": "islandryu"
+  },
+  {
+    "pr_number": 47116,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46824,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47116,
+      "title": "fix(46824): remove duplicate private identifier errors",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #46824 \r\n\r\n## Description\r\n\r\nBase on the suggestions in #46824, these two errors should not be reported if the private identifier is used inside a `for...in`\r\n\r\n> \"error TS2304: Cannot find name '#fiel'.\"\r\n\r\n> \"error TS1451: Private identifiers are only allowed in class bodies and may only be used as part of a class member declaration, property access, or on the left-hand-side of an 'in' expression\"\r\n\r\nFor TS2304, an additional check is it also should not be reported if the private identifier is used with `in` operator.\r\n\r\nIn the issue, @sandersn suggests \r\n\r\n> Cannot find name '#fiel'.\r\n\r\nshould only check for `in` operator and `getSymbolForPrivateIdentifierExpression`. But if I don't check for the `for...in` as well, it will show like this\r\n```bash\r\nfor (#field in v) { /**/ } // Bad - 'in' not allowed\r\n\r\nerror TS2304: Cannot find name '#field'.\r\nerror TS2406: The left-hand side of a 'for...in' statement must be a variable or a property access.\r\n```\r\n## Tests\r\nFailling tests: \r\n-  tests/cases/conformance/classes/members/privateNames/privateNameInInExpression.ts\r\n\r\n",
+      "body_length": 1528,
+      "created_at": "2021-12-12T07:25:33Z",
+      "merged_at": "2021-12-16T20:07:12Z",
+      "merged": true,
+      "time_to_merge_hours": 108.69416666666666,
+      "state": "MERGED",
+      "additions": 12,
+      "deletions": 12,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 4,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix(46824): remove duplicate private identifier errors"
+      ],
+      "avg_commit_msg_length": 54.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/privateNameInInExpression.errors.txt"
+      ],
+      "file_types": {
+        "ts": 1,
+        "txt": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #46824 \r\n\r\n## Description\r\n\r\nBase on the suggestions in #46824, these two errors should not be reported if the private identifier is used inside a `for...in`\r\n\r\n> \"error TS2304: Cannot find name '#fiel'.\"\r\n\r\n> \"error TS1451: Private identifiers are only allowed in class bodies and may only be used as part of a class member declaration, property access, or on the left-hand-side of an 'in' expression\"\r\n\r\nFor TS2304, an additional check is it also should not be reported if the private identifier is used with `in` operator.\r\n\r\nIn the issue, @sandersn suggests \r\n\r\n> Cannot find name '#fiel'.\r\n\r\nshould only check for `in` operator and `getSymbolForPrivateIdentifierExpression`. But if I don't check for the `for...in` as well, it will show like this\r\n```bash\r\nfor (#field in v) { /**/ } // Bad - 'in' not allowed\r\n\r\nerror TS2304: Cannot find name '#field'.\r\nerror TS2406: The left-hand side of a 'for...in' statement must be a variable or a property access.\r\n```\r\n## Tests\r\nFailling tests: \r\n-  tests/cases/conformance/classes/members/privateNames/privateNameInInExpression.ts",
+      "body_cleaned_length": 1084,
+      "template_removed_length": 444,
+      "template_reduction_percentage": 29.05759162303665,
+      "author_type": "User"
+    },
+    "username": "Andrewnt219"
+  },
+  {
+    "pr_number": 47504,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 47492,
+        "labels": [
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages",
+          "Experience Enhancement"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47504,
+      "title": "fix(47492): more detailed parseTryStatement error message",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #47492\r\n\r\nDid not add or modify tests, as this simply updates the error message thrown in the invalidTryStatements.ts test\r\n",
+      "body_length": 923,
+      "created_at": "2022-01-19T07:50:14Z",
+      "merged_at": "2022-01-19T23:32:47Z",
+      "merged": true,
+      "time_to_merge_hours": 15.709166666666667,
+      "state": "MERGED",
+      "additions": 7,
+      "deletions": 3,
+      "files_changed": 3,
+      "commits_count": 5,
+      "review_count": 5,
+      "comment_count": 3,
+      "commit_messages": [
+        "more detailed parseTryStatement error message",
+        "Merge pull request #1 from microsoft/main\n\nmerge MSFT head",
+        "move custom error to diagnosticMessages.json",
+        "Merge branch 'main' of https://github.com/mickey-stringer/TypeScript",
+        "update error code"
+      ],
+      "avg_commit_msg_length": 46.4,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/invalidTryStatements.errors.txt"
+      ],
+      "file_types": {
+        "json": 1,
+        "ts": 1,
+        "txt": 1
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "For Uncommitted Bug",
+          "color": "ededed",
+          "description": "PR for untriaged, rejected, closed or missing bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #47492\r\n\r\nDid not add or modify tests, as this simply updates the error message thrown in the invalidTryStatements.ts test",
+      "body_cleaned_length": 128,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 86.13217768147345,
+      "author_type": "User"
+    },
+    "username": "mickey-stringer"
+  },
+  {
+    "pr_number": 48072,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48053,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 48072,
+      "title": "fix(48053) Description of tsBuildInfoFile is misleading in generated tsconfig.json",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #48053\r\n",
+      "body_length": 807,
+      "created_at": "2022-03-01T16:04:42Z",
+      "merged_at": "2022-03-22T17:35:47Z",
+      "merged": true,
+      "time_to_merge_hours": 505.5180555555556,
+      "state": "MERGED",
+      "additions": 19,
+      "deletions": 18,
+      "files_changed": 17,
+      "commits_count": 5,
+      "review_count": 7,
+      "comment_count": 7,
+      "commit_messages": [
+        "add check for path default value",
+        "fix wrong tsBuildInfoFile description",
+        "Merge branch 'main' of https://github.com/microsoft/TypeScript into fix#48053",
+        "Merge branch 'main' of https://github.com/microsoft/TypeScript into fix#48053",
+        "updated files to file"
+      ],
+      "avg_commit_msg_length": 48.8,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/declarationDir-is-specified.js",
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/when-outDir-and-declarationDir-is-specified.js",
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/when-outDir-is-specified.js",
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/with-outFile.js",
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/without-outDir-or-outFile-is-specified-with-declaration-enabled.js",
+        "tests/baselines/reference/tscWatch/programUpdates/should-not-trigger-recompilation-because-of-program-emit/without-outDir-or-outFile-is-specified.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "json": 10,
+        "js": 6
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 2,
+        "COMMENTED": 4
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #48053",
+      "body_cleaned_length": 12,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 98.51301115241635,
+      "author_type": "User"
+    },
+    "username": "Blopaa"
+  },
+  {
+    "pr_number": 48299,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48191,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: LS: Quick Fixes"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 48299,
+      "title": "fix(48191): Duplicates comments on \"Add definite assignment assertion to property\"",
+      "body": "Fixes #48191\r\n\r\nWhen fixing #48191, I found the similar issue happen for `Add initializer to property` which is fixed in this.\r\n\r\nReproduce link: https://www.typescriptlang.org/play?#code/MYGwhgzhAECC0G8BQ1oHo3QBYFMQgHsVoAPALmgCYkBfJIA",
+      "body_length": 235,
+      "created_at": "2022-03-16T23:37:54Z",
+      "merged_at": "2022-03-17T16:57:10Z",
+      "merged": true,
+      "time_to_merge_hours": 17.32111111111111,
+      "state": "MERGED",
+      "additions": 66,
+      "deletions": 0,
+      "files_changed": 5,
+      "commits_count": 3,
+      "review_count": 2,
+      "comment_count": 4,
+      "commit_messages": [
+        "Suppress leading and trailing comments for adding missing definite assignment assertion action",
+        "Suppress leading and trailing comments for adding missing initalizer action",
+        "Test for initializer property action"
+      ],
+      "avg_commit_msg_length": 68.33333333333333,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 5
+      },
+      "review_states": {
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #48191\r\n\r\nWhen fixing #48191, I found the similar issue happen for `Add initializer to property` which is fixed in this.\r\n\r\nReproduce link: https://www.typescriptlang.org/play?#code/MYGwhgzhAECC0G8BQ1oHo3QBYFMQgHsVoAPALmgCYkBfJIA",
+      "body_cleaned_length": 235,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "MQuy"
+  },
+  {
+    "pr_number": 49008,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48630,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49008,
+      "title": "fixes #48630 array binding pattern with only OmittedExpressions does not check RHS of for-of loop",
+      "body": "fixes #48630\r\n\r\n<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #\r\n",
+      "body_length": 818,
+      "created_at": "2022-05-07T05:53:43Z",
+      "merged_at": "2022-05-31T18:06:19Z",
+      "merged": true,
+      "time_to_merge_hours": 588.21,
+      "state": "MERGED",
+      "additions": 109,
+      "deletions": 1,
+      "files_changed": 8,
+      "commits_count": 7,
+      "review_count": 7,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix RHS of for..of loop not evaluated when LHS is array binding element with OmittedExpression",
+        "Merge branch 'microsoft:main' into for-of-loop-rhs-not-checked",
+        "Merge branch 'microsoft:main' into for-of-loop-rhs-not-checked",
+        "expand widened type check",
+        "add more test cases",
+        "update code with suggestions",
+        "Make test target es2015"
+      ],
+      "avg_commit_msg_length": 44.714285714285715,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "test.js",
+        "tests/baselines/reference/omittedExpressionForOfLoop.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/omittedExpressionForOfLoop.errors.txt"
+      ],
+      "file_types": {
+        "ts": 3,
+        "js": 2,
+        "txt": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "CHANGES_REQUESTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #48630\r\n\r\n\r\n\r\nFixes #",
+      "body_cleaned_length": 27,
+      "template_removed_length": 791,
+      "template_reduction_percentage": 96.69926650366747,
+      "author_type": "User"
+    },
+    "username": "bentongxyz"
+  },
+  {
+    "pr_number": 49042,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48912,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Fix Available",
+          "lib update"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49042,
+      "title": "fix(48912): fractionalSecondDigits is 1, 2 or 3.",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #48912\r\n",
+      "body_length": 807,
+      "created_at": "2022-05-10T01:45:44Z",
+      "merged_at": "2022-05-10T16:22:50Z",
+      "merged": true,
+      "time_to_merge_hours": 14.618333333333334,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix(48912): fractionalSecondDigits is 1, 2 or 3."
+      ],
+      "avg_commit_msg_length": 48.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {},
+      "labels": [
+        {
+          "name": "For Milestone Bug",
+          "color": "001f77",
+          "description": "PRs that fix a bug with a specific milestone"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #48912",
+      "body_cleaned_length": 12,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 98.51301115241635,
+      "author_type": "User"
+    },
+    "username": "mstssk"
+  },
+  {
+    "pr_number": 48945,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48882,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: lib.d.ts",
+          "Good First Issue",
+          "Fix Available"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 48945,
+      "title": "Add `fractionalSecond` part type to DateTimeFormat().formatToParts",
+      "body": "This change adds the `fractionalSecond` part type as a valid part\r\nto be returned from Intl.DateTimeFormat().formatToParts().\r\n\r\nFixes #48882\r\n\r\n<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n   No but it is `Help Wanted\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->",
+      "body_length": 135,
+      "created_at": "2022-05-03T23:21:09Z",
+      "updated_at": "2022-06-15T22:24:42Z",
+      "closed_at": "2022-06-15T22:24:42Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 6351157,
+      "deletions": 0,
+      "files_changed": 63071,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 3,
+      "pr_size": 6351157,
+      "avg_commit_msg_length": 206.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        ".github/ISSUE_TEMPLATE/Bug_report.md",
+        ".github/ISSUE_TEMPLATE/Feature_request.md",
+        ".github/ISSUE_TEMPLATE/lib_change.md",
+        ".github/ISSUE_TEMPLATE/types-not-correct-in-with-callback.md",
+        ".github/pr_owners.txt",
+        ".github/pull_request_template.md",
+        "AUTHORS.md",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "CopyrightNotice.txt",
+        "LICENSE.txt",
+        "README.md",
+        "SECURITY.md",
+        "ThirdPartyNoticeText.txt",
+        "doc/README.md",
+        "doc/TypeScript Language Specification (Change Markup) - ARCHIVED.docx",
+        "doc/TypeScript Language Specification (Change Markup) - ARCHIVED.pdf",
+        "doc/TypeScript Language Specification - ARCHIVED.docx",
+        "doc/TypeScript Language Specification - ARCHIVED.pdf",
+        "doc/handbook/README.md",
+        "doc/images/image1.png",
+        "doc/images/image2.png",
+        "doc/images/image3.png",
+        "doc/images/image4.png",
+        "doc/logo.svg",
+        "doc/spec-ARCHIVED.md",
+        "doc/wiki/README.md",
+        "lib/README.md"
+      ],
+      "file_types": {
+        "devcontainer/dockerfile": 1,
+        "json": 15,
+        "dockerignore": 1,
+        "editorconfig": 1,
+        "eslintignore": 1,
+        "gitattributes": 2,
+        "md": 15,
+        "yml": 8,
+        "txt": 4,
+        "yaml": 8,
+        "gitignore": 1,
+        "mailmap": 1,
+        "npmignore": 1,
+        "yarnrc": 1,
+        "js": 2,
+        "docx": 2,
+        "pdf": 2,
+        "png": 4,
+        "svg": 1,
+        "ts": 26
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Milestone Bug",
+          "color": "001f77",
+          "description": "PRs that fix a bug with a specific milestone"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This change adds the `fractionalSecond` part type as a valid part\r\nto be returned from Intl.DateTimeFormat().formatToParts().\r\n\r\nFixes #48882",
+      "body_cleaned_length": 141,
+      "template_removed_length": 823,
+      "template_reduction_percentage": 85.37344398340248,
+      "author_type": "User"
+    },
+    "username": "jordanmbell"
+  },
+  {
+    "pr_number": 49675,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 35867,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Infrastructure",
+          "Has Repro"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49675,
+      "title": "Add case to capture enum subtype reduction (addresses #35867)",
+      "body": "### Describe your changes\r\n\r\nI've added a few tests to address the behavior described in #35867. The issue itself is fixed, but these tests will help catch regressions. Once this is merged the bug should be able to be closed.\r\n\r\n### Testing performed\r\n\r\nI added cases for lots of permutations of this subtype reduction and checked the output to ensure the correct types were being returned. Everything looked good, including Typescript cleverly narrowing to unions of enums when values are falsy and the || operator would filter them out.\r\n\r\nThanks to @acutmore and @mkubilayk for the reviews and help on this!\r\n\r\nFixes #35867\r\n",
+      "body_length": 628,
+      "created_at": "2022-06-24T18:43:05Z",
+      "merged_at": "2022-06-24T20:04:44Z",
+      "merged": true,
+      "time_to_merge_hours": 1.3608333333333333,
+      "state": "MERGED",
+      "additions": 361,
+      "deletions": 0,
+      "files_changed": 4,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 4,
+      "commit_messages": [
+        "Add case to capture enum subtype reduction (addresses #35867) (#68)\n\n* Add case to capture enum subtype reduction (addresses #35867)\r\n\r\nSigned-off-by: Lawrence Craft <lcraft6@bloomberg.net>"
+      ],
+      "avg_commit_msg_length": 189.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/enumMemberReduction.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "js": 1,
+        "symbols": 1,
+        "types": 1,
+        "ts": 1
+      },
+      "review_states": {},
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "### Describe your changes\r\n\r\nI've added a few tests to address the behavior described in #35867. The issue itself is fixed, but these tests will help catch regressions. Once this is merged the bug should be able to be closed.\r\n\r\n### Testing performed\r\n\r\nI added cases for lots of permutations of this subtype reduction and checked the output to ensure the correct types were being returned. Everything looked good, including Typescript cleverly narrowing to unions of enums when values are falsy and the || operator would filter them out.\r\n\r\nThanks to @acutmore and @mkubilayk for the reviews and help on this!\r\n\r\nFixes #35867",
+      "body_cleaned_length": 626,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.3184713375796179,
+      "author_type": "User"
+    },
+    "username": "lawrencecraft"
+  },
+  {
+    "pr_number": 49797,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8274,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49797,
+      "title": "The error \"Object is possibly null or undefined\" is ambiguous.",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nThis pull request attempts to fix the issue #8274.\r\n\r\nThe changes made to the diagnostic messages are the following:\r\n\r\nWhen an entity name is found and its total length is shorter than 100 characters, the error messages are replaced with a more explicit equivalent using this entity name.\r\n- **TS2531:** `Object is possibly 'null'.` => **TS18047**: `'{0}' is possibly 'null'.`\r\n- **TS2532:** `Object is possibly 'undefined'.` => **TS18048**: `'{0}' is possibly 'undefined'.`\r\n- **TS2533:** `Object is possibly 'null' or 'undefined'.` => **TS18049**: `'{0}' is possibly 'null' or 'undefined'.`\r\n- **TS2571:** `Object is of type 'unknown'.` => **TS18046**: `'{0}' is of type 'unknown'.`\r\n\r\nIn cases which were previously handled by TS2531, TS2532, or TS2533, if the value is explicitly either `null` or `undefined`:\r\n- **TS18050**: `The value '{0}' cannot be used here.`\r\n\r\nBaseline have been updated in order to reflect the changes.\r\n\r\nComments, changes and advice are welcome.\r\n\r\nFixes #8274.\r\n\r\n(Note: Updated on September 27th, 2022, for a better overview of the changes)\r\n",
+      "body_length": 1869,
+      "created_at": "2022-07-06T05:21:59Z",
+      "merged_at": "2022-09-15T23:13:53Z",
+      "merged": true,
+      "time_to_merge_hours": 1721.865,
+      "state": "MERGED",
+      "additions": 1793,
+      "deletions": 1622,
+      "files_changed": 71,
+      "commits_count": 14,
+      "review_count": 10,
+      "comment_count": 10,
+      "commit_messages": [
+        "added object name to TS2571, 2531, 2532 and 2533",
+        "updated localized diagnostic messages",
+        "updated baseline to fit diagnostic message change",
+        "Merge branch 'microsoft:main' into norech/issue_8274",
+        "Revert \"updated localized diagnostic messages\"\n\nThis reverts commit 738cf094bdb4a1f07d74f90747afe00366549300.",
+        "specialized the error to EntityNameExpression",
+        "updated baseline to fit new changes",
+        "added multiline undefined access test",
+        "added TS18049 - value cannot be used here",
+        "adjusted baseline",
+        "corrected a small linting issue",
+        "Merge branch 'main' into norech/issue_8274",
+        "Merge branch 'main' into norech/issue_8274",
+        "Update error numbers after merge from main"
+      ],
+      "avg_commit_msg_length": 44.785714285714285,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/noUncheckedIndexedAccessDestructuring.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/arithmeticOperatorWithNullValueAndInvalidOperands.errors.txt",
+        "tests/baselines/reference/arithmeticOperatorWithNullValueAndValidOperands.errors.txt",
+        "tests/baselines/reference/arithmeticOperatorWithOnlyNullValueOrUndefinedValue.errors.txt",
+        "tests/baselines/reference/arithmeticOperatorWithUndefinedValueAndInvalidOperands.errors.txt",
+        "tests/baselines/reference/arithmeticOperatorWithUndefinedValueAndValidOperands.errors.txt",
+        "tests/baselines/reference/binaryArithmatic1.errors.txt",
+        "tests/baselines/reference/binaryArithmatic2.errors.txt",
+        "tests/baselines/reference/binaryArithmatic3.errors.txt",
+        "tests/baselines/reference/binaryArithmatic4.errors.txt",
+        "tests/baselines/reference/bitwiseNotOperatorWithAnyOtherType.errors.txt",
+        "tests/baselines/reference/circularOptionalityRemoval.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithIdenticalPrimitiveType.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithOneOperandIsNull.errors.txt",
+        "tests/baselines/reference/compoundArithmeticAssignmentLHSCanBeAssigned.errors.txt",
+        "tests/baselines/reference/compoundArithmeticAssignmentWithInvalidOperands.errors.txt",
+        "tests/baselines/reference/compoundAssignmentLHSIsValue.errors.txt",
+        "tests/baselines/reference/compoundExponentiationAssignmentLHSCanBeAssigned1.errors.txt",
+        "tests/baselines/reference/compoundExponentiationAssignmentLHSCannotBeAssigned.errors.txt",
+        "tests/baselines/reference/compoundExponentiationAssignmentLHSIsValue.errors.txt",
+        "tests/baselines/reference/contextuallyTypedIifeStrict.errors.txt",
+        "tests/baselines/reference/controlFlowGenericTypes.errors.txt",
+        "tests/baselines/reference/controlFlowOptionalChain.errors.txt",
+        "tests/baselines/reference/decrementOperatorWithAnyOtherTypeInvalidOperations.errors.txt",
+        "tests/baselines/reference/destructuringControlFlow.errors.txt",
+        "tests/baselines/reference/equalityStrictNulls.errors.txt",
+        "tests/baselines/reference/exponentiationOperatorWithNullValueAndInvalidOperands.errors.txt",
+        "tests/baselines/reference/exponentiationOperatorWithNullValueAndValidOperands.errors.txt",
+        "tests/baselines/reference/exponentiationOperatorWithOnlyNullValueOrUndefinedValue.errors.txt",
+        "tests/baselines/reference/exponentiationOperatorWithUndefinedValueAndInvalidOperands.errors.txt",
+        "tests/baselines/reference/exponentiationOperatorWithUndefinedValueAndValidOperands.errors.txt",
+        "tests/baselines/reference/forInStrictNullChecksNoError.errors.txt",
+        "tests/baselines/reference/functionsMissingReturnStatementsAndExpressions.errors.txt",
+        "tests/baselines/reference/implicitConstParameters.errors.txt",
+        "tests/baselines/reference/inOperatorWithInvalidOperands.errors.txt",
+        "tests/baselines/reference/incrementOperatorWithAnyOtherTypeInvalidOperations.errors.txt",
+        "tests/baselines/reference/literals.errors.txt",
+        "tests/baselines/reference/logicalAssignment4(target=es2015).errors.txt",
+        "tests/baselines/reference/logicalAssignment4(target=es2020).errors.txt",
+        "tests/baselines/reference/logicalAssignment4(target=es2021).errors.txt",
+        "tests/baselines/reference/logicalAssignment4(target=esnext).errors.txt",
+        "tests/baselines/reference/logicalAssignment5(target=es2015).errors.txt",
+        "tests/baselines/reference/logicalAssignment5(target=es2020).errors.txt",
+        "tests/baselines/reference/logicalAssignment5(target=es2021).errors.txt",
+        "tests/baselines/reference/logicalAssignment5(target=esnext).errors.txt",
+        "tests/baselines/reference/moduleVariableArrayIndexer.errors.txt",
+        "tests/baselines/reference/narrowingTruthyObject.errors.txt",
+        "tests/baselines/reference/negateOperatorInvalidOperations.errors.txt",
+        "tests/baselines/reference/negateOperatorWithAnyOtherType.errors.txt",
+        "tests/baselines/reference/noUncheckedIndexedAccessDestructuring.errors.txt",
+        "tests/baselines/reference/nonPrimitiveStrictNull.errors.txt",
+        "tests/baselines/reference/nullKeyword.errors.txt",
+        "tests/baselines/reference/nullishCoalescingOperator11.errors.txt",
+        "tests/baselines/reference/nullishCoalescingOperator4.errors.txt",
+        "tests/baselines/reference/omittedExpressionForOfLoop.errors.txt",
+        "tests/baselines/reference/plusOperatorWithAnyOtherType.errors.txt",
+        "tests/baselines/reference/privateNameAndAny.errors.txt",
+        "tests/baselines/reference/privateNameInInExpression(target=es2022).errors.txt",
+        "tests/baselines/reference/privateNameInInExpression(target=esnext).errors.txt",
+        "tests/baselines/reference/propertyAccess4.errors.txt",
+        "tests/baselines/reference/propertyAccess5.errors.txt",
+        "tests/baselines/reference/reverseMappedPartiallyInferableTypes.errors.txt",
+        "tests/baselines/reference/specialIntersectionsInMappedTypes.errors.txt",
+        "tests/baselines/reference/typeofThis.errors.txt",
+        "tests/baselines/reference/unknownType1.errors.txt",
+        "tests/baselines/reference/widenedTypes.errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "json": 1,
+        "txt": 65,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 2,
+        "COMMENTED": 7,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "lib update",
+          "color": "561584",
+          "description": "PR modifies files in the `lib` folder"
+        },
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This pull request attempts to fix the issue #8274.\r\n\r\nThe changes made to the diagnostic messages are the following:\r\n\r\nWhen an entity name is found and its total length is shorter than 100 characters, the error messages are replaced with a more explicit equivalent using this entity name.\r\n- **TS2531:** `Object is possibly 'null'.` => **TS18047**: `'{0}' is possibly 'null'.`\r\n- **TS2532:** `Object is possibly 'undefined'.` => **TS18048**: `'{0}' is possibly 'undefined'.`\r\n- **TS2533:** `Object is possibly 'null' or 'undefined'.` => **TS18049**: `'{0}' is possibly 'null' or 'undefined'.`\r\n- **TS2571:** `Object is of type 'unknown'.` => **TS18046**: `'{0}' is of type 'unknown'.`\r\n\r\nIn cases which were previously handled by TS2531, TS2532, or TS2533, if the value is explicitly either `null` or `undefined`:\r\n- **TS18050**: `The value '{0}' cannot be used here.`\r\n\r\nBaseline have been updated in order to reflect the changes.\r\n\r\nComments, changes and advice are welcome.\r\n\r\nFixes #8274.\r\n\r\n(Note: Updated on September 27th, 2022, for a better overview of the changes)",
+      "body_cleaned_length": 1074,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 42.53611556982344,
+      "author_type": "User"
+    },
+    "username": "norech"
+  },
+  {
+    "pr_number": 49804,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 39618,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: LS: Smart-Select",
+          "PursuitFellowship"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49804,
+      "title": "🐛 Fix smart selection of propery signatures having JSDoc comments",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #39618\r\nFixes #49807 ",
+      "body_length": 820,
+      "created_at": "2022-07-06T11:06:00Z",
+      "merged_at": "2022-07-12T16:04:21Z",
+      "merged": true,
+      "time_to_merge_hours": 148.9725,
+      "state": "MERGED",
+      "additions": 388,
+      "deletions": 2,
+      "files_changed": 7,
+      "commits_count": 8,
+      "review_count": 3,
+      "comment_count": 3,
+      "commit_messages": [
+        "🐛 Avoid grouping JSDoc nodes of propery signatures with others in smart selection\n\nSigned-off-by: Babak K. Shandiz <babak.k.shandiz@gmail.com>",
+        "⚗️ Add test case for JSDoc smart selection (#39618)\n\nSigned-off-by: Babak K. Shandiz <babak.k.shandiz@gmail.com>",
+        "⚗️ Add test baseline for JSDoc smart selection (#39618)\n\nSigned-off-by: Babak K. Shandiz <babak.k.shandiz@gmail.com>",
+        "🐛 Fix skipping SyntaxList first child's JSDoc in smart selection\n\nSigned-off-by: GitHub <noreply@github.com>",
+        "⚗️ Add tests to ensure not skipping first SyntaxList child's JSDoc\n\nSigned-off-by: GitHub <noreply@github.com>",
+        "🔨 Exclude JSDoc token from tokens pivoting property signature\n\nSigned-off-by: GitHub <noreply@github.com>",
+        "⚗️ Update test case to also include modifier\n\nSigned-off-by: GitHub <noreply@github.com>",
+        "⚗️ Update test case reference baseline\n\nSigned-off-by: GitHub <noreply@github.com>"
+      ],
+      "avg_commit_msg_length": 107.875,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 4,
+        "baseline": 3
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #39618\r\nFixes #49807",
+      "body_cleaned_length": 26,
+      "template_removed_length": 794,
+      "template_reduction_percentage": 96.82926829268293,
+      "author_type": "User"
+    },
+    "username": "babakks"
+  },
+  {
+    "pr_number": 50029,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 49149,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Experimentation Needed"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 50029,
+      "title": "fix(49149): remove unneeded array overload to Object.freeze",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #49149\r\n",
+      "body_length": 807,
+      "created_at": "2022-07-25T00:33:33Z",
+      "merged_at": "2022-08-15T23:10:02Z",
+      "merged": true,
+      "time_to_merge_hours": 526.6080555555556,
+      "state": "MERGED",
+      "additions": 99,
+      "deletions": 105,
+      "files_changed": 39,
+      "commits_count": 4,
+      "review_count": 0,
+      "comment_count": 15,
+      "commit_messages": [
+        "fix(49149): remove unneeded array overload to Object.freeze",
+        "chore: commit baseline changes",
+        "Merge branch 'main' into microsoft-49149",
+        "Merge branch 'main' into microsoft-49149"
+      ],
+      "avg_commit_msg_length": 42.25,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/checkIndexConstraintOfJavascriptClassExpression.errors.txt",
+        "tests/baselines/reference/destructuringParameterDeclaration4.errors.txt",
+        "tests/baselines/reference/destructuringTuple.errors.txt",
+        "tests/baselines/reference/duplicateNumericIndexers.errors.txt",
+        "tests/baselines/reference/externModule.errors.txt",
+        "tests/baselines/reference/invalidTypeOfTarget.errors.txt",
+        "tests/baselines/reference/mappedTypeWithAsClauseAndLateBoundProperty.errors.txt",
+        "tests/baselines/reference/narrowExceptionVariableInCatchClause.errors.txt",
+        "tests/baselines/reference/narrowFromAnyWithInstanceof.errors.txt",
+        "tests/baselines/reference/narrowFromAnyWithTypePredicate.errors.txt",
+        "tests/baselines/reference/parserMemberAccessAfterPostfixExpression1.errors.txt",
+        "tests/baselines/reference/parserRegularExpressionDivideAmbiguity1.errors.txt",
+        "tests/baselines/reference/parserRegularExpressionDivideAmbiguity2.errors.txt",
+        "tests/baselines/reference/parserS7.2_A1.5_T2.errors.txt",
+        "tests/baselines/reference/parserS7.3_A1.1_T2.errors.txt",
+        "tests/baselines/reference/parserS7.6_A4.2_T1.errors.txt",
+        "tests/baselines/reference/parserUnicode1.errors.txt",
+        "tests/baselines/reference/promisePermutations.errors.txt",
+        "tests/baselines/reference/promisePermutations2.errors.txt",
+        "tests/baselines/reference/promisePermutations3.errors.txt",
+        "tests/baselines/reference/redefineArray.errors.txt",
+        "tests/baselines/reference/scannerS7.2_A1.5_T2.errors.txt",
+        "tests/baselines/reference/scannerS7.3_A1.1_T2.errors.txt",
+        "tests/baselines/reference/scannerS7.6_A4.2_T1.errors.txt",
+        "tests/baselines/reference/taggedTemplateStringsWithOverloadResolution1.errors.txt",
+        "tests/baselines/reference/taggedTemplateStringsWithOverloadResolution1_ES6.errors.txt"
+      ],
+      "file_types": {
+        "ts": 1,
+        "txt": 26,
+        "symbols": 6,
+        "types": 6
+      },
+      "review_states": {},
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        },
+        {
+          "name": "Merge/Review for Next Release",
+          "color": "1489B6",
+          "description": "This PR should be re-reviewed and merged ASAP for the next release."
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #49149",
+      "body_cleaned_length": 12,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 98.51301115241635,
+      "author_type": "User"
+    },
+    "username": "nicolas377"
+  },
+  {
+    "pr_number": 51236,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 51225,
+        "labels": [
+          "Help Wanted",
+          "Good First Issue",
+          "Experience Enhancement",
+          "Domain: LS: Symbol Navigation"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 51236,
+      "title": "fix(51225): Go-to-definition on case or default should jump to the containing switch statement if available.",
+      "body": "Fixes #51225",
+      "body_length": 12,
+      "created_at": "2022-10-20T07:44:16Z",
+      "merged_at": "2024-01-11T19:14:03Z",
+      "merged": true,
+      "time_to_merge_hours": 10763.496388888889,
+      "state": "MERGED",
+      "additions": 291,
+      "deletions": 6,
+      "files_changed": 16,
+      "commits_count": 12,
+      "review_count": 37,
+      "comment_count": 11,
+      "commit_messages": [
+        "fix(51225): Go-to-definition on case or default should jump to the containing switch statement if available.",
+        "Merge branch 'main' into fix/51225\n\n# Conflicts:\n#\tsrc/services/goToDefinition.ts",
+        "fix(51225): Fix context span",
+        "Merge branch 'main' into fix/51225",
+        "port tests to baselineGoToDefinition",
+        "dprint fmt",
+        "Revert context span change\n\nPer https://github.com/microsoft/TypeScript/pull/51236#issuecomment-1414291555",
+        "Revert context span again, add close paren this time",
+        "Better way of including close paren",
+        "Merge branch 'main' into fix/51225",
+        "Move context span calculation to central location",
+        "move createDefinitionInfoFromStatement closer to others\n\nrename back to switch -- there's no point in unused abstraction."
+      ],
+      "avg_commit_msg_length": 57.833333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.16666666666666666,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 9,
+        "jsonc": 7
+      },
+      "review_states": {
+        "COMMENTED": 32,
+        "CHANGES_REQUESTED": 2,
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "For Uncommitted Bug",
+          "color": "ededed",
+          "description": "PR for untriaged, rejected, closed or missing bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #51225",
+      "body_cleaned_length": 12,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "sviat9440"
+  },
+  {
+    "pr_number": 51594,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 51437,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 51594,
+      "title": "Fix #51437 Duplicate \"Duplicate identifier\" errors",
+      "body": "Fixes #51437\r\n\r\n## Description\r\n\r\nDuplicate \"Duplicate identifier\" diagnostics are shown for getters and setters\r\n\r\n[Playground](https://www.typescriptlang.org/play?#code/MYGwhgzhAEAa0G8CwAoa7oHpPQIzQFMAnIgeyNQ2gDNTSAKASkUqoyIIBcBXIgOzwBuVugC+qEVhwAmQiXIRJAcy406TFmjboOPfkMniURoA)\r\n\r\nDuplicates from bindDiagnostics and checkDiagnostics are displayed\r\n\r\n## Solution\r\n\r\nUse `sortAndDeduplicateDiagnostics` in `getMergedBindAndCheckDiagnostics`.\r\n\r\n## Considerations\r\n\r\nI had a fourslash test fail that I believe is due to a duplicate being removed, let me know if I'm wrong.\r\n",
+      "body_length": 575,
+      "created_at": "2022-11-19T02:44:45Z",
+      "merged_at": "2022-12-09T03:21:42Z",
+      "merged": true,
+      "time_to_merge_hours": 480.61583333333334,
+      "state": "MERGED",
+      "additions": 26,
+      "deletions": 14,
+      "files_changed": 4,
+      "commits_count": 9,
+      "review_count": 3,
+      "comment_count": 1,
+      "commit_messages": [
+        "retroactive approach to remove duplicate diagnostics",
+        "use code instead of messageText, update test",
+        "use existing de-dupe function",
+        "rename test and baselines",
+        "add fourslash test for better assertion of fix",
+        "review feedback: move deduplicate to getDiagnosticsHelper",
+        "Merge branch 'main' into fix_#51437_duplicate_diagnostics",
+        "accept baseline with sorted diagnostics",
+        "remove newline"
+      ],
+      "avg_commit_msg_length": 40.333333333333336,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/tsserver/projects/handles-the-missing-files-added-with-tripleslash-ref.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 3,
+        "js": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #51437\r\n\r\n## Description\r\n\r\nDuplicate \"Duplicate identifier\" diagnostics are shown for getters and setters\r\n\r\n[Playground](https://www.typescriptlang.org/play?#code/MYGwhgzhAEAa0G8CwAoa7oHpPQIzQFMAnIgeyNQ2gDNTSAKASkUqoyIIBcBXIgOzwBuVugC+qEVhwAmQiXIRJAcy406TFmjboOPfkMniURoA)\r\n\r\nDuplicates from bindDiagnostics and checkDiagnostics are displayed\r\n\r\n## Solution\r\n\r\nUse `sortAndDeduplicateDiagnostics` in `getMergedBindAndCheckDiagnostics`.\r\n\r\n## Considerations\r\n\r\nI had a fourslash test fail that I believe is due to a duplicate being removed, let me know if I'm wrong.",
+      "body_cleaned_length": 573,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.34782608695652173,
+      "author_type": "User"
+    },
+    "username": "gmanninglive"
+  },
+  {
+    "pr_number": 51838,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 51223,
+        "labels": [
+          "Help Wanted",
+          "Good First Issue",
+          "Experience Enhancement",
+          "Domain: LS: Symbol Navigation"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 51838,
+      "title": "fix(51223): Go-to-definition for yield and await keyword; jump to respective function definition",
+      "body": "Fixes #51223\r\n\r\nMy first PR on this project, apologies in advance in case I missed anything in the guidelines. \r\n\r\nPlease note that there was some discussion in the issue for `await`, whether it should jump to the function definition or the respective `async`. This PR does the former - in the very most cases, they should be right next to each other either way, and the latter seems slightly more involved to implement (which I'm absolutely willing to tackle though if preferred). \r\n\r\nFurthermore, in the case of an error (e.g. surrounding function is not async/generator), this implementation should not provide any goToDefinition. \r\n",
+      "body_length": 636,
+      "created_at": "2022-12-09T14:44:29Z",
+      "merged_at": "2022-12-20T21:29:59Z",
+      "merged": true,
+      "time_to_merge_hours": 270.7583333333333,
+      "state": "MERGED",
+      "additions": 95,
+      "deletions": 0,
+      "files_changed": 9,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(51223): Go-to-definition for yield and await keyword; jump to respective function definition"
+      ],
+      "avg_commit_msg_length": 96.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 9
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #51223\r\n\r\nMy first PR on this project, apologies in advance in case I missed anything in the guidelines. \r\n\r\nPlease note that there was some discussion in the issue for `await`, whether it should jump to the function definition or the respective `async`. This PR does the former - in the very most cases, they should be right next to each other either way, and the latter seems slightly more involved to implement (which I'm absolutely willing to tackle though if preferred). \r\n\r\nFurthermore, in the case of an error (e.g. surrounding function is not async/generator), this implementation should not provide any goToDefinition.",
+      "body_cleaned_length": 633,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.4716981132075472,
+      "author_type": "User"
+    },
+    "username": "abuob"
+  },
+  {
+    "pr_number": 52242,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 52220,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages",
+          "Fix Available"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 52242,
+      "title": "Add 2023 array methods to target features",
+      "body": "\r\nFixes #52220\r\n\r\nAdds es2023 array methods to target features.\r\n\r\nI haven't added any unit tests for this - I couldn't find anything that tests this already, and I'm afraid I don't know enough about the repo to determine where these would make sense. Any pointers would be much appreciated :)\r\n",
+      "body_length": 295,
+      "created_at": "2023-01-14T23:44:20Z",
+      "merged_at": "2023-01-25T18:31:53Z",
+      "merged": true,
+      "time_to_merge_hours": 258.7925,
+      "state": "MERGED",
+      "additions": 1210,
+      "deletions": 1,
+      "files_changed": 9,
+      "commits_count": 8,
+      "review_count": 6,
+      "comment_count": 9,
+      "commit_messages": [
+        "Add 2023 array methods to target features",
+        "Merge branch 'microsoft:main' into main",
+        "Add es2022 target to findLast tests",
+        "Add es2022 baseline files for findLast",
+        "Merge branch 'microsoft:main' into main",
+        "Merge branch 'microsoft:main' into main",
+        "Merge branch 'microsoft:main' into main",
+        "Merge branch 'microsoft:main' into main"
+      ],
+      "avg_commit_msg_length": 38.625,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/findLast(target=es2022).js",
+        "tests/baselines/reference/findLast(target=esnext).js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/findLast(target=es2022).errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "txt": 1,
+        "js": 2,
+        "symbols": 2,
+        "types": 2
+      },
+      "review_states": {
+        "APPROVED": 1,
+        "COMMENTED": 5
+      },
+      "labels": [
+        {
+          "name": "For Milestone Bug",
+          "color": "001f77",
+          "description": "PRs that fix a bug with a specific milestone"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #52220\r\n\r\nAdds es2023 array methods to target features.\r\n\r\nI haven't added any unit tests for this - I couldn't find anything that tests this already, and I'm afraid I don't know enough about the repo to determine where these would make sense. Any pointers would be much appreciated :)",
+      "body_cleaned_length": 291,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 1.3559322033898304,
+      "author_type": "User"
+    },
+    "username": "OliverRadini"
+  },
+  {
+    "pr_number": 55012,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 54967,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: lib.d.ts",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 55012,
+      "title": "Fix the type of Array.copyWithin #54967",
+      "body": "This commit is to remove the optional behaviour of Array#copyWithin's 2nd argument 'start' method, to match the MDN documentation.\r\n\r\nFixes #54967 \r\n",
+      "body_length": 149,
+      "created_at": "2023-07-13T19:40:50Z",
+      "merged_at": "2023-07-28T23:13:08Z",
+      "merged": true,
+      "time_to_merge_hours": 363.53833333333336,
+      "state": "MERGED",
+      "additions": 34,
+      "deletions": 34,
+      "files_changed": 7,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Fix the type of Array.copyWithin #54967"
+      ],
+      "avg_commit_msg_length": 39.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/mappedTypeWithAsClauseAndLateBoundProperty2.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/mappedTypeWithAsClauseAndLateBoundProperty.errors.txt"
+      ],
+      "file_types": {
+        "ts": 3,
+        "txt": 1,
+        "types": 2,
+        "js": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Uncommitted Bug",
+          "color": "ededed",
+          "description": "PR for untriaged, rejected, closed or missing bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This commit is to remove the optional behaviour of Array#copyWithin's 2nd argument 'start' method, to match the MDN documentation.\r\n\r\nFixes #54967",
+      "body_cleaned_length": 146,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 2.013422818791946,
+      "author_type": "User"
+    },
+    "username": "shubhamshd"
+  },
+  {
+    "pr_number": 55449,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 53082,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 55449,
+      "title": "Fix double error on invalid delete of readonly property",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #53082. This PR added a unit test based on https://github.com/microsoft/TypeScript/pull/53961.",
+      "body_length": 895,
+      "created_at": "2023-08-21T14:19:04Z",
+      "merged_at": "2023-08-24T16:57:22Z",
+      "merged": true,
+      "time_to_merge_hours": 74.63833333333334,
+      "state": "MERGED",
+      "additions": 63,
+      "deletions": 1,
+      "files_changed": 6,
+      "commits_count": 4,
+      "review_count": 9,
+      "comment_count": 16,
+      "commit_messages": [
+        "Fix double error on invalid delete of readonly property",
+        "dprint fmt",
+        "Add a compiler test",
+        "revert src/testRunner/unittests/tsserver/inconsistentErrorInEditor.ts"
+      ],
+      "avg_commit_msg_length": 38.25,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/deleteReadonlyInStrictNullChecks.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/deleteReadonlyInStrictNullChecks.errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "txt": 1,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 8,
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #53082. This PR added a unit test based on https://github.com/microsoft/TypeScript/pull/53961.",
+      "body_cleaned_length": 100,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 88.8268156424581,
+      "author_type": "User"
+    },
+    "username": "shinichy"
+  },
+  {
+    "pr_number": 56621,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 56513,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: lib.d.ts",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 56621,
+      "title": "fix(56513): Allow Intl locales to be readonly arrays",
+      "body": "Fixes #56513:\r\n\r\nUpdates the definitions for `Intl.getCanonicalLocales()` and `Intl.PluralRules` constructors/methods to accept readonly arrays. Several of the locations mentioned in the issue seem to be correctly defined now (essentially >= es2020) since they build off `LocalesArgument`.\r\n\r\n",
+      "body_length": 293,
+      "created_at": "2023-11-30T20:21:54Z",
+      "merged_at": "2023-12-13T16:07:48Z",
+      "merged": true,
+      "time_to_merge_hours": 307.765,
+      "state": "MERGED",
+      "additions": 179,
+      "deletions": 27,
+      "files_changed": 8,
+      "commits_count": 4,
+      "review_count": 4,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix(56513): Allow Intl locales to be readonly arrays\n\nUpdates the definitions for Intl.getCanonicalLocales() and Intl.PluralRules constructors/methods to accept readonly arrays.",
+        "Restore conformance test",
+        "Re-apply and approve baseline changes",
+        "Update signatures to use readonly arrays instead of Readonly utility type"
+      ],
+      "avg_commit_msg_length": 77.75,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.25,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/localesObjectArgument.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 3,
+        "types": 3,
+        "js": 1,
+        "symbols": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #56513:\r\n\r\nUpdates the definitions for `Intl.getCanonicalLocales()` and `Intl.PluralRules` constructors/methods to accept readonly arrays. Several of the locations mentioned in the issue seem to be correctly defined now (essentially >= es2020) since they build off `LocalesArgument`.",
+      "body_cleaned_length": 289,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 1.3651877133105803,
+      "author_type": "User"
+    },
+    "username": "robballou"
+  },
+  {
+    "pr_number": 60232,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 60223,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: lib.d.ts",
+          "Good First Issue",
+          "Fix Available"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 60232,
+      "title": "fix(60223): add Promise.try() to ESNext lib",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [X] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #60223\r\n",
+      "body_length": 809,
+      "created_at": "2024-10-15T07:51:23Z",
+      "merged_at": "2024-11-06T01:14:03Z",
+      "merged": true,
+      "time_to_merge_hours": 521.3777777777777,
+      "state": "MERGED",
+      "additions": 1525,
+      "deletions": 740,
+      "files_changed": 79,
+      "commits_count": 5,
+      "review_count": 18,
+      "comment_count": 9,
+      "commit_messages": [
+        "fix(60223): add Promise.try() to ESNext lib",
+        "Allow PromiseLike results",
+        "Allow passing additional args",
+        "Fixed incorrect description in JSDoc",
+        "fix: flatten return type of Promise.try()"
+      ],
+      "avg_commit_msg_length": 34.8,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.4,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/promiseTry.js",
+        "tests/baselines/reference/tsc/commandLine/does-not-add-color-when-NO_COLOR-is-set.js",
+        "tests/baselines/reference/tsc/commandLine/help-all.js",
+        "tests/baselines/reference/tsc/commandLine/help.js",
+        "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped-when-host-can't-provide-terminal-width.js",
+        "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped.js",
+        "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-Linux.js",
+        "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js",
+        "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-Linux.js",
+        "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-MacOs.js",
+        "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-Linux.js",
+        "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-MacOs.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true-useFsEventsOnParentDirectory.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-event-ends-with-tilde.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-occurs-when-file-is-still-on-the-disk.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-dynamic-polling-when-renaming-file-in-subfolder.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-watchDirectory-when-renaming-file-in-subfolder.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-watchFile-when-renaming-file-in-subfolder.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders-with-synchronousWatchDirectory.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-renaming-a-file.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-with-outDir-and-declaration-enabled.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching-extendedDiagnostics.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-fallbackPolling-option.js",
+        "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-watchDirectory-option.js",
+        "tests/baselines/reference/tsserver/projectErrors/file-rename-on-wsl2.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location-with-currentDirectory-at-root.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing-with-currentDirectory-at-root.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-with-currentDirectory-at-root.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file-with-currentDirectory-at-root.js",
+        "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file.js",
+        "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux.js",
+        "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs-canUseWatchEvents.js",
+        "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs.js",
+        "tests/baselines/reference/tsserver/watchEnvironment/recursive-directory-does-not-watch-files-starting-with-dot-in-node_modules.js",
+        "tests/baselines/reference/tsserver/watchEnvironment/uses-dynamic-polling-when-file-is-added-to-subfolder.js",
+        "tests/baselines/reference/tsserver/watchEnvironment/uses-non-recursive-watchDirectory-when-file-is-added-to-subfolder.js",
+        "tests/baselines/reference/tsserver/watchEnvironment/uses-watchFile-when-file-is-added-to-subfolder.js",
+        "tests/baselines/reference/tsserver/watchEnvironment/watching-npm-install-in-codespaces-where-workspaces-folder-is-hosted-at-root.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 4,
+        "json": 18,
+        "js": 55,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "COMMENTED": 16
+      },
+      "labels": [
+        {
+          "name": "For Milestone Bug",
+          "color": "001f77",
+          "description": "PRs that fix a bug with a specific milestone"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #60223",
+      "body_cleaned_length": 12,
+      "template_removed_length": 797,
+      "template_reduction_percentage": 98.51668726823239,
+      "author_type": "User"
+    },
+    "username": "dirkluijk"
+  },
+  {
+    "pr_number": 45794,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45776,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Comment Emit"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 45794,
+      "title": "Emit comments for each node in a node list (microsoft:#45776)",
+      "body": "Fixes #45776\r\n",
+      "body_length": 12,
+      "created_at": "2021-09-09T08:20:42Z",
+      "updated_at": "2023-03-27T22:05:14Z",
+      "closed_at": "2023-03-27T22:05:13Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 59,
+      "deletions": 3,
+      "files_changed": 7,
+      "commits_count": 1,
+      "review_count": 3,
+      "comment_count": 2,
+      "pr_size": 62,
+      "avg_commit_msg_length": 61.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tests/baselines/reference/assignmentCompatBug3.js",
+        "tests/baselines/reference/commaDelimitedListComments.js",
+        "tests/baselines/reference/privateNameBadDeclaration.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2,
+        "js": 3,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "COMMENTED": 3
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #45776",
+      "body_cleaned_length": 12,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 14.285714285714285,
+      "author_type": "User"
+    },
+    "username": "hyrumcoop"
+  },
+  {
+    "pr_number": 46637,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46570,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46637,
+      "title": "fix(46570) Unhelpful \"Did you forget to include 'void' in your type argument to 'Promise'\" in JS file",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n-->\r\n\r\nFixes #46570 \r\n",
+      "body_length": 12,
+      "created_at": "2021-11-02T05:06:32Z",
+      "updated_at": "2022-03-17T23:04:47Z",
+      "closed_at": "2022-03-17T23:04:47Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 3,
+      "deletions": 3,
+      "files_changed": 3,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "pr_size": 6,
+      "avg_commit_msg_length": 31.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2,
+        "json": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #46570",
+      "body_cleaned_length": 12,
+      "template_removed_length": 443,
+      "template_reduction_percentage": 97.36263736263736,
+      "author_type": "User"
+    },
+    "username": "osaimola"
+  },
+  {
+    "pr_number": 47126,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45717,
+        "labels": [
+          "Help Wanted",
+          "Discussion",
+          "Good First Issue",
+          "Experience Enhancement",
+          "Effort: Casual"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47126,
+      "title": "Improve positioning of compiler error messaging info",
+      "body": "![Screen Shot 2022-01-19 at 12 29 09 PM](https://user-images.githubusercontent.com/49038/150129601-c1f34f14-084a-476b-bb5a-1620d9a5388a.png)\r\n\r\n![Screen Shot 2022-01-19 at 12 30 55 PM](https://user-images.githubusercontent.com/49038/150129854-8a37f774-3cc0-43e0-a1aa-7b74b3f01882.png)\r\n\r\n![Screen Shot 2022-01-19 at 12 31 33 PM](https://user-images.githubusercontent.com/49038/150129959-8d54376b-3fb1-48da-8d8f-b7d74acf943d.png)\r\n\r\n\r\nFixes #45717.\r\n\r\nThis PR improves the formatting of compiler error messages for better legibility as described in the referenced issue.\r\n\r\nTwo concerns that are worth noting with this PR;\r\n- Moving the error next to the file means that the error code doesn't show in, for example, the \"file not found\" error message. Not that it's all that necessary with clear and detailed error messages in that case in particular, but there are most likely others I'm not aware of.\r\n\r\n- With errors that contain multiple code spans, the message for subsequent locations is moved above the code itself, which means that some error messages might need to be subtly changed. For example, in [this comment](https://github.com/microsoft/TypeScript/issues/45717#issuecomment-912970377), the period at the end of the \"was also declared\" messages is changed to a colon.\r\n",
+      "body_length": 758,
+      "created_at": "2021-12-13T00:36:11Z",
+      "updated_at": "2024-05-30T12:41:42Z",
+      "closed_at": "2024-05-30T12:41:42Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 4777,
+      "deletions": 4932,
+      "files_changed": 819,
+      "commits_count": 5,
+      "review_count": 0,
+      "comment_count": 21,
+      "pr_size": 9709,
+      "avg_commit_msg_length": 22.4,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/ES5For-of17.errors.txt",
+        "tests/baselines/reference/ES5For-of20.errors.txt",
+        "tests/baselines/reference/ES5For-of7.errors.txt",
+        "tests/baselines/reference/FunctionAndModuleWithSameNameAndCommonRoot.errors.txt",
+        "tests/baselines/reference/ModuleAndClassWithSameNameAndCommonRoot.errors.txt",
+        "tests/baselines/reference/ModuleWithExportedAndNonExportedFunctions.errors.txt",
+        "tests/baselines/reference/abstractPropertyInConstructor.errors.txt",
+        "tests/baselines/reference/allowImportClausesToMergeWithTypes.errors.txt",
+        "tests/baselines/reference/anonymousClassExpression2.errors.txt",
+        "tests/baselines/reference/anyIdenticalToItself.errors.txt",
+        "tests/baselines/reference/arrayAssignmentTest1.errors.txt",
+        "tests/baselines/reference/arrayAssignmentTest2.errors.txt",
+        "tests/baselines/reference/arrayAssignmentTest5.errors.txt",
+        "tests/baselines/reference/arrayFrom.errors.txt",
+        "tests/baselines/reference/arrayOfSubtypeIsAssignableToReadonlyArray.errors.txt",
+        "tests/baselines/reference/assignLambdaToNominalSubtypeOfFunction.errors.txt",
+        "tests/baselines/reference/assignParameterPropertyToPropertyDeclarationESNext.errors.txt",
+        "tests/baselines/reference/assignmentCompat1.errors.txt",
+        "tests/baselines/reference/assignmentCompatBug2.errors.txt",
+        "tests/baselines/reference/assignmentCompatFunctionsWithOptionalArgs.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithCallSignatures2.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithCallSignatures3.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithConstructSignatures2.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithConstructSignatures3.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithDiscriminatedUnion.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithNumericIndexer.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithNumericIndexer2.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithNumericIndexer3.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithObjectMembers4.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithObjectMembers5.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithObjectMembersOptionality2.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithObjectMembersStringNumericNames.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithStringIndexer.errors.txt",
+        "tests/baselines/reference/assignmentCompatWithStringIndexer2.errors.txt",
+        "tests/baselines/reference/assignmentCompatability_checking-apply-member-off-of-function-interface.errors.txt",
+        "tests/baselines/reference/assignmentCompatability_checking-call-member-off-of-function-interface.errors.txt",
+        "tests/baselines/reference/assignmentRestElementWithErrorSourceType.errors.txt",
+        "tests/baselines/reference/assignments.errors.txt",
+        "tests/baselines/reference/asyncArrowFunction9_es2017.errors.txt",
+        "tests/baselines/reference/asyncArrowFunction9_es5.errors.txt",
+        "tests/baselines/reference/asyncArrowFunction9_es6.errors.txt",
+        "tests/baselines/reference/augmentedTypesVar.errors.txt",
+        "tests/baselines/reference/autoLift2.errors.txt",
+        "tests/baselines/reference/badArrayIndex.errors.txt",
+        "tests/baselines/reference/baseCheck.errors.txt",
+        "tests/baselines/reference/bases.errors.txt",
+        "tests/baselines/reference/bigintWithoutLib.errors.txt",
+        "tests/baselines/reference/blockScopedBindingUsedBeforeDef.errors.txt",
+        "tests/baselines/reference/blockScopedEnumVariablesUseBeforeDef.errors.txt",
+        "tests/baselines/reference/blockScopedEnumVariablesUseBeforeDef_preserve.errors.txt",
+        "tests/baselines/reference/blockScopedVariablesUseBeforeDef.errors.txt",
+        "tests/baselines/reference/bluebirdStaticThis.errors.txt",
+        "tests/baselines/reference/cannotInvokeNewOnIndexExpression.errors.txt",
+        "tests/baselines/reference/castingTuple.errors.txt",
+        "tests/baselines/reference/catchClauseWithTypeAnnotation.errors.txt",
+        "tests/baselines/reference/chained.errors.txt",
+        "tests/baselines/reference/chained2.errors.txt",
+        "tests/baselines/reference/chainedAssignment1.errors.txt",
+        "tests/baselines/reference/chainedAssignment3.errors.txt",
+        "tests/baselines/reference/chainedAssignmentChecking.errors.txt",
+        "tests/baselines/reference/chainedCallsWithTypeParameterConstrainedToOtherTypeParameter.errors.txt",
+        "tests/baselines/reference/checkJsdocTypeTag6.errors.txt",
+        "tests/baselines/reference/checkJsxChildrenProperty2.errors.txt",
+        "tests/baselines/reference/checkJsxChildrenProperty4.errors.txt",
+        "tests/baselines/reference/checkJsxChildrenProperty5.errors.txt",
+        "tests/baselines/reference/checkMergedGlobalUMDSymbol.errors.txt",
+        "tests/baselines/reference/circularImportAlias.errors.txt",
+        "tests/baselines/reference/classAbstractInstantiations2.errors.txt",
+        "tests/baselines/reference/classCanExtendConstructorFunction.errors.txt",
+        "tests/baselines/reference/classDeclarationShouldBeOutOfScopeInComputedNames.errors.txt",
+        "tests/baselines/reference/classExpressionAssignment.errors.txt",
+        "tests/baselines/reference/classExtendingPrimitive.errors.txt",
+        "tests/baselines/reference/classExtendsEveryObjectType.errors.txt",
+        "tests/baselines/reference/classExtendsEveryObjectType2.errors.txt",
+        "tests/baselines/reference/classExtendsInterfaceInExpression.errors.txt",
+        "tests/baselines/reference/classExtendsItselfIndirectly.errors.txt",
+        "tests/baselines/reference/classExtendsItselfIndirectly2.errors.txt",
+        "tests/baselines/reference/classImplementsClass2.errors.txt",
+        "tests/baselines/reference/classImplementsClass4.errors.txt",
+        "tests/baselines/reference/classImplementsClass7.errors.txt",
+        "tests/baselines/reference/classImplementsMergedClassInterface.errors.txt",
+        "tests/baselines/reference/classInheritence.errors.txt",
+        "tests/baselines/reference/classMemberWithMissingIdentifier2.errors.txt",
+        "tests/baselines/reference/classMergedWithInterfaceMultipleBasesNoError.errors.txt",
+        "tests/baselines/reference/classOrder2.errors.txt",
+        "tests/baselines/reference/classSideInheritance2.errors.txt",
+        "tests/baselines/reference/classStaticBlock16.errors.txt",
+        "tests/baselines/reference/classStaticBlock3(target=es2022).errors.txt",
+        "tests/baselines/reference/classStaticBlock3(target=esnext).errors.txt",
+        "tests/baselines/reference/classStaticBlock4(target=es2022).errors.txt"
+      ],
+      "file_types": {
+        "ts": 9,
+        "json": 1,
+        "txt": 90
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "Experiment",
+          "color": "acd617",
+          "description": "A fork with an experimental idea which might not make it into master"
+        },
+        {
+          "name": "For Uncommitted Bug",
+          "color": "ededed",
+          "description": "PR for untriaged, rejected, closed or missing bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "![Screen Shot 2022-01-19 at 12 29 09 PM](https://user-images.githubusercontent.com/49038/150129601-c1f34f14-084a-476b-bb5a-1620d9a5388a.png)\r\n\r\n![Screen Shot 2022-01-19 at 12 30 55 PM](https://user-images.githubusercontent.com/49038/150129854-8a37f774-3cc0-43e0-a1aa-7b74b3f01882.png)\r\n\r\n![Screen Shot 2022-01-19 at 12 31 33 PM](https://user-images.githubusercontent.com/49038/150129959-8d54376b-3fb1-48da-8d8f-b7d74acf943d.png)\r\n\r\n\r\nFixes #45717.\r\n\r\nThis PR improves the formatting of compiler error messages for better legibility as described in the referenced issue.\r\n\r\nTwo concerns that are worth noting with this PR;\r\n- Moving the error next to the file means that the error code doesn't show in, for example, the \"file not found\" error message. Not that it's all that necessary with clear and detailed error messages in that case in particular, but there are most likely others I'm not aware of.\r\n\r\n- With errors that contain multiple code spans, the message for subsequent locations is moved above the code itself, which means that some error messages might need to be subtly changed. For example, in [this comment](https://github.com/microsoft/TypeScript/issues/45717#issuecomment-912970377), the period at the end of the \"was also declared\" messages is changed to a colon.",
+      "body_cleaned_length": 1281,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.1558846453624318,
+      "author_type": "User"
+    },
+    "username": "futurGH"
+  },
+  {
+    "pr_number": 47454,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 45776,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Comment Emit"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 47454,
+      "title": "fix: 🐛 Added fix for element based comments",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [X ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X ] You've successfully run `gulp runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #45776\r\n",
+      "body_length": 12,
+      "created_at": "2022-01-15T12:19:38Z",
+      "updated_at": "2022-01-20T23:53:58Z",
+      "closed_at": "2022-01-20T23:53:58Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 11,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 12,
+      "avg_commit_msg_length": 43.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #45776",
+      "body_cleaned_length": 12,
+      "template_removed_length": 797,
+      "template_reduction_percentage": 98.51668726823239,
+      "author_type": "User"
+    },
+    "username": "devpriyanshu96"
+  },
+  {
+    "pr_number": 48724,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 48630,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 48724,
+      "title": "fix: Fix for of loop to check right hand side if left hand side is omitted expression.",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `gulp runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #48630 \r\n\r\nFor the checkVariableLikeDeclaration function, instead of checking the right hand side of the element is valid only when the binding element is encountered. This fix will now also check if the right hand side of the for of loop is valid even if the variable of the left hand side is omitted expression.\r\n",
+      "body_length": 315,
+      "created_at": "2022-04-15T21:49:07Z",
+      "updated_at": "2022-04-16T01:44:15Z",
+      "closed_at": "2022-04-16T01:44:15Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 17,
+      "deletions": 3,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 20,
+      "avg_commit_msg_length": 54.333333333333336,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "js": 1,
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "lib update",
+          "color": "561584",
+          "description": "PR modifies files in the `lib` folder"
+        },
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #48630 \r\n\r\nFor the checkVariableLikeDeclaration function, instead of checking the right hand side of the element is valid only when the binding element is encountered. This fix will now also check if the right hand side of the for of loop is valid even if the variable of the left hand side is omitted expression.",
+      "body_cleaned_length": 319,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 71.36445242369838,
+      "author_type": "User"
+    },
+    "username": "wannieman98"
+  },
+  {
+    "pr_number": 49208,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 46246,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 49208,
+      "title": "fix(46246): Extending Class/Interface With a Primitive Throws a More Concise Error Report",
+      "body": "fixes #46246 \r\n\r\n### Example\r\nClass:\r\n```TS\r\nclass foo extends number {} \r\n```\r\nError:\r\n```A class cannot extend a primitive type like 'number'. A class can only extend named object types.```\r\n\r\nInterface:\r\n```TS\r\ninterface bar extends number { }\r\n```\r\nError:\r\n```An interface cannot extend a primitive type like 'number'. An interface can only extend named object types.```\r\n\r\n\r\n### Notes:\r\n* gulp `runtests` passed on current branch.\r\n* I updated a few unit tests to test for the error. I did not feel new test cases were necessary, as the errors were well covered.\r\n* Function responsible for the ambiguous error: `checkAndReportErrorForUsingTypeAsValue`\r\n* Function to check heritage clause: `checkAndReportErrorForExtendingPrimitiveType`\r\n\r\n## Description\r\nThe approach was to check for extension of primitives directly before the ambiguous error message was thrown. This lead to making a new function.\r\n\r\nI didn't add the code to the function `checkAndReportErrorForUsingTypeAsValue` because the intended error checking functionality was separate from evaluating the *value* for error checking. \r\n \r\nThe new function `checkAndReportErrorForExtendingPrimitiveType` now handles checking heritage clause related errors in regards to classes extending primitives.\r\n\r\nIn the code, we check if the current errorLocation's expected heritage clause was, in fact, a `SyntaxKind.HeritageClause`. A bitmask was used to check against the expected heritage clause: `errorLocation.parent.parent.kind`. If it's a primitive name and a heritage clause, we throw a more descriptive error.\r\n\r\n### This was my first contribution to any project of any size, so I would appreciate any feedback!\r\n",
+      "body_length": 1564,
+      "created_at": "2022-05-22T19:32:32Z",
+      "updated_at": "2022-10-02T15:00:23Z",
+      "closed_at": "2022-10-02T15:00:23Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 39,
+      "deletions": 14,
+      "files_changed": 8,
+      "commits_count": 9,
+      "review_count": 6,
+      "comment_count": 10,
+      "pr_size": 53,
+      "avg_commit_msg_length": 42.111111111111114,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "README.md",
+        "tests/baselines/reference/classExtendingPrimitive.errors.txt",
+        "tests/baselines/reference/errorLocationForInterfaceExtension.errors.txt",
+        "tests/baselines/reference/topLevelAwaitErrors.1(module=es2022).errors.txt",
+        "tests/baselines/reference/topLevelAwaitErrors.1(module=esnext).errors.txt"
+      ],
+      "file_types": {
+        "md": 1,
+        "json": 2,
+        "ts": 1,
+        "txt": 4
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 2,
+        "COMMENTED": 4
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #46246 \r\n\r\n### Example\r\nClass:\r\n```TS\r\nclass foo extends number {} \r\n```\r\nError:\r\n```A class cannot extend a primitive type like 'number'. A class can only extend named object types.```\r\n\r\nInterface:\r\n```TS\r\ninterface bar extends number { }\r\n```\r\nError:\r\n```An interface cannot extend a primitive type like 'number'. An interface can only extend named object types.```\r\n\r\n\r\n### Notes:\r\n* gulp `runtests` passed on current branch.\r\n* I updated a few unit tests to test for the error. I did not feel new test cases were necessary, as the errors were well covered.\r\n* Function responsible for the ambiguous error: `checkAndReportErrorForUsingTypeAsValue`\r\n* Function to check heritage clause: `checkAndReportErrorForExtendingPrimitiveType`\r\n\r\n## Description\r\nThe approach was to check for extension of primitives directly before the ambiguous error message was thrown. This lead to making a new function.\r\n\r\nI didn't add the code to the function `checkAndReportErrorForUsingTypeAsValue` because the intended error checking functionality was separate from evaluating the *value* for error checking. \r\n \r\nThe new function `checkAndReportErrorForExtendingPrimitiveType` now handles checking heritage clause related errors in regards to classes extending primitives.\r\n\r\nIn the code, we check if the current errorLocation's expected heritage clause was, in fact, a `SyntaxKind.HeritageClause`. A bitmask was used to check against the expected heritage clause: `errorLocation.parent.parent.kind`. If it's a primitive name and a heritage clause, we throw a more descriptive error.\r\n\r\n### This was my first contribution to any project of any size, so I would appreciate any feedback!",
+      "body_cleaned_length": 1678,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.11904761904761905,
+      "author_type": "User"
+    },
+    "username": "maross3"
+  },
+  {
+    "pr_number": 53961,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 53082,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 53961,
+      "title": "Fix double error on invalid delete of readonly property",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #53082\r\n\r\nWhenever we detect there's an error of type `The_operand_of_a_delete_operator_cannot_be_a_read_only_property`, we don't need to check for the `The_operand_of_a_delete_operator_must_be_optional` error.",
+      "body_length": 209,
+      "created_at": "2023-04-22T10:02:47Z",
+      "updated_at": "2023-09-15T17:45:24Z",
+      "closed_at": "2023-09-15T17:45:19Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 3,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 21,
+      "pr_size": 4,
+      "avg_commit_msg_length": 43.333333333333336,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #53082\r\n\r\nWhenever we detect there's an error of type `The_operand_of_a_delete_operator_cannot_be_a_read_only_property`, we don't need to check for the `The_operand_of_a_delete_operator_must_be_optional` error.",
+      "body_cleaned_length": 216,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 78.63501483679525,
+      "author_type": "User"
+    },
+    "username": "galabra"
+  },
+  {
+    "pr_number": 54927,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 30408,
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue",
+          "Effort: Moderate",
+          "Domain: Error Messages",
+          "Domain: Related Error Spans",
+          "Experience Enhancement",
+          "PursuitFellowship"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 54927,
+      "title": "fix: appropriate error message for out of scope label",
+      "body": "I've changed the error message when a label is not found in scope. It's a pretty easy fix, as it just checks if there's a label behind a break/continue statement and if so, give the message that the just used label doesn't exist - all this is checked as soon as the checkGrammarBreakOrContinueStatement hits a function/class like \r\n\r\n\r\nFixes #30408\r\n",
+      "body_length": 342,
+      "created_at": "2023-07-08T02:01:16Z",
+      "updated_at": "2024-07-25T17:57:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 84,
+      "deletions": 0,
+      "files_changed": 7,
+      "commits_count": 10,
+      "review_count": 10,
+      "comment_count": 9,
+      "pr_size": 84,
+      "avg_commit_msg_length": 31.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.2,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/breakTarget7.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/breakTarget7.errors.txt"
+      ],
+      "file_types": {
+        "ts": 2,
+        "json": 1,
+        "txt": 1,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 2,
+        "COMMENTED": 8
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "I've changed the error message when a label is not found in scope. It's a pretty easy fix, as it just checks if there's a label behind a break/continue statement and if so, give the message that the just used label doesn't exist - all this is checked as soon as the checkGrammarBreakOrContinueStatement hits a function/class like \r\n\r\n\r\nFixes #30408",
+      "body_cleaned_length": 348,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5714285714285714,
+      "author_type": "User"
+    },
+    "username": "Mvmo"
+  },
+  {
+    "pr_number": 56666,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15506,
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 56666,
+      "title": "Fix(15506) - Disallow non-any/number/string operands on comparisons",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [X] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [X] Code is up-to-date with the `main` branch\r\n* [X] You've successfully run `hereby runtests` locally\r\n* [X] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\nFixes #15506 :\r\n\r\nThis PR aims to fix the #15506 ticket, here I based myself on previous PRs (and suggestions) that tried to resolve this same issue in the past (so I would say that it was co-authored by @feloy and @FabianLauer). \r\n\r\nFrom what I understand, the main idea is that we should flag an error on **every** comparison (`<`, `>`, `<=` and `>=`)  that is not between a `string`, `number`, or `any` types. Doing this, triggered a lot of new errors on the baselines (that seem correctly triggered assuming that I understand the issue correctly), but I would like to confirm that I got this right because it seems like a huge change to me.\r\n\r\nI'm submitting the PR as a spike for now, just to gather suggestions, understand if this still a desired change and confirm that I'm following the right path here since this issue is kinda old and this is my first time contributing here.\r\n",
+      "body_length": 857,
+      "created_at": "2023-12-04T20:50:08Z",
+      "updated_at": "2025-04-30T18:02:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 6261,
+      "deletions": 29,
+      "files_changed": 39,
+      "commits_count": 13,
+      "review_count": 0,
+      "comment_count": 15,
+      "pr_size": 6290,
+      "avg_commit_msg_length": 56.76923076923077,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6923076923076923,
+      "commit_types": [
+        "refactor",
+        "fix",
+        "chore"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/comparisonOperatorWithInvalidOperand.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/ambiguousGenericAssertion1.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithIdenticalObjects.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithIdenticalPrimitiveType.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithIdenticalTypeParameter.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithInvalidOperand.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipObjectsOnCallSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipObjectsOnConstructorSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipObjectsOnIndexSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipObjectsOnInstantiatedCallSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipObjectsOnInstantiatedConstructorSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithNoRelationshipTypeParameter.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithOneOperandIsAny.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithOneOperandIsNull.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithOneOperandIsUndefined.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnCallSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnConstructorSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnIndexSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnInstantiatedCallSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnInstantiatedConstructorSignature.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnOptionalProperty.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithSubtypeObjectOnProperty.errors.txt",
+        "tests/baselines/reference/comparisonOperatorWithTypeParameter.errors.txt",
+        "tests/baselines/reference/grammarAmbiguities.errors.txt",
+        "tests/baselines/reference/instantiationExpressionErrors.errors.txt",
+        "tests/baselines/reference/intTypeCheck.errors.txt",
+        "tests/baselines/reference/jsxInvalidEsprimaTestSuite.errors.txt",
+        "tests/baselines/reference/parserConstructorAmbiguity1.errors.txt",
+        "tests/baselines/reference/parserConstructorAmbiguity2.errors.txt",
+        "tests/baselines/reference/parserConstructorAmbiguity4.errors.txt",
+        "tests/baselines/reference/parserTypeAssertionInObjectCreationExpression1.errors.txt",
+        "tests/baselines/reference/stringLiteralTypesWithVariousOperators01.errors.txt",
+        "tests/baselines/reference/tsxFragmentErrors.errors.txt",
+        "tests/baselines/reference/typeAssertions.errors.txt"
+      ],
+      "file_types": {
+        "ts": 3,
+        "txt": 33,
+        "js": 1,
+        "symbols": 1,
+        "types": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #15506 :\r\n\r\nThis PR aims to fix the #15506 ticket, here I based myself on previous PRs (and suggestions) that tried to resolve this same issue in the past (so I would say that it was co-authored by @feloy and @FabianLauer). \r\n\r\nFrom what I understand, the main idea is that we should flag an error on **every** comparison (`<`, `>`, `<=` and `>=`)  that is not between a `string`, `number`, or `any` types. Doing this, triggered a lot of new errors on the baselines (that seem correctly triggered assuming that I understand the issue correctly), but I would like to confirm that I got this right because it seems like a huge change to me.\r\n\r\nI'm submitting the PR as a spike for now, just to gather suggestions, understand if this still a desired change and confirm that I'm following the right path here since this issue is kinda old and this is my first time contributing here.",
+      "body_cleaned_length": 885,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 47.32142857142857,
+      "author_type": "User"
+    },
+    "username": "c0sta"
+  },
+  {
+    "pr_number": 59164,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 25083,
+        "labels": [
+          "Bug",
+          "Good First Issue",
+          "Domain: enum"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 59164,
+      "title": "fix: allow BindableStaticNameExpression as late-bindable name",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `hereby runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #25083\r\n\nMost of the stuff was already in place, and I mostly aligned the functions with the types.",
+      "body_length": 103,
+      "created_at": "2024-07-07T10:35:37Z",
+      "updated_at": "2024-07-07T19:17:37Z",
+      "closed_at": "2024-07-07T19:17:37Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 133,
+      "deletions": 34,
+      "files_changed": 11,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 167,
+      "avg_commit_msg_length": 61.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "tests/baselines/reference/computedPropertyNameWithElementAccessExpression.js",
+        "tests/baselines/reference/isolatedDeclarationLazySymbols.js"
+      ],
+      "doc_files": [
+        "tests/baselines/reference/isolatedDeclarationLazySymbols.errors.txt"
+      ],
+      "file_types": {
+        "ts": 4,
+        "js": 2,
+        "symbols": 2,
+        "types": 2,
+        "txt": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #25083\r\n\nMost of the stuff was already in place, and I mostly aligned the functions with the types.",
+      "body_cleaned_length": 105,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 88.33333333333333,
+      "author_type": "User"
+    },
+    "username": "jeengbe"
+  },
+  {
+    "pr_number": 61121,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 29707,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: classes"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 61121,
+      "title": "Fix: Correct constructor type inference in checker.ts (#29707).",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #29707\r\n\r\nThis PR fixes an issue where the constructor type was incorrectly inferred in checker.ts. The fix ensures that the correct type is assigned, preventing potential type errors in class instantiation.\r\nAdjusted type-checking logic in checker.ts to correctly infer the constructor type.\r\n\r\n# Changes Made\r\n- Updated logic in checker.ts to handle constructor type inference correctly.\r\n- Added/updated unit tests to validate the fix.\r\n\r\n# Verification Steps\r\n- Ran hereby runtests locally to confirm all tests pass.\r\n- Code is up-to-date with the main branch.\r\n\r\nPlease do Guide if my approach was wrong or if further refinements are needed!\r\n",
+      "body_length": 627,
+      "created_at": "2025-02-05T05:14:33Z",
+      "updated_at": "2025-02-06T03:17:47Z",
+      "closed_at": "2025-02-05T12:54:38Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 21,
+      "deletions": 14,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 35,
+      "avg_commit_msg_length": 63.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #29707\r\n\r\nThis PR fixes an issue where the constructor type was incorrectly inferred in checker.ts. The fix ensures that the correct type is assigned, preventing potential type errors in class instantiation.\r\nAdjusted type-checking logic in checker.ts to correctly infer the constructor type.\r\n\r\n# Changes Made\r\n- Updated logic in checker.ts to handle constructor type inference correctly.\r\n- Added/updated unit tests to validate the fix.\r\n\r\n# Verification Steps\r\n- Ran hereby runtests locally to confirm all tests pass.\r\n- Code is up-to-date with the main branch.\r\n\r\nPlease do Guide if my approach was wrong or if further refinements are needed!",
+      "body_cleaned_length": 652,
+      "template_removed_length": 797,
+      "template_reduction_percentage": 55.00345065562456,
+      "author_type": "User"
+    },
+    "username": "aman1-2"
+  },
+  {
+    "pr_number": 61430,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 3676,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Formatter",
+          "Domain: LS: Smart Indentation"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 61430,
+      "title": "Fix to aggressive indentation for ternary operator #3676",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #3676\r\n- This PR provides a solution to the aggressive indentation for nested conditional expressions using a specific style (issue #3676). Instead of using a one-liner, the style keeps the true branch in the same line as its associated condition but the false branch in the next line. Without the changes in this PR, the false branch gets mistakenly indented. This PR corrects the behavior by specifying this category of style in the function `nodeWillIndentChild` in `smartindenter.ts`.  \r\n- The added unit test includes examples mentioned in the original issue and discussion. \r\n- The solution does not address the \"different, but similar\" example in the last comment on May 31, 2019. I'm not sure if it's opened as a separate issue already? Also, when I stepped through that example, it appears that the issue might be more related to how context node is assigned to child node, and how indentation, delta, node start position get inherited/recalculated with nested, mixed types. \r\n- As of now, the code is up to date and all tests, including the new test, passed locally.\r\n",
+      "body_length": 1063,
+      "created_at": "2025-03-15T23:30:12Z",
+      "updated_at": "2025-03-16T02:30:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 52,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 6,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 53,
+      "avg_commit_msg_length": 61.333333333333336,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 2
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #3676\r\n- This PR provides a solution to the aggressive indentation for nested conditional expressions using a specific style (issue #3676). Instead of using a one-liner, the style keeps the true branch in the same line as its associated condition but the false branch in the next line. Without the changes in this PR, the false branch gets mistakenly indented. This PR corrects the behavior by specifying this category of style in the function `nodeWillIndentChild` in `smartindenter.ts`.  \r\n- The added unit test includes examples mentioned in the original issue and discussion. \r\n- The solution does not address the \"different, but similar\" example in the last comment on May 31, 2019. I'm not sure if it's opened as a separate issue already? Also, when I stepped through that example, it appears that the issue might be more related to how context node is assigned to child node, and how indentation, delta, node start position get inherited/recalculated with nested, mixed types. \r\n- As of now, the code is up to date and all tests, including the new test, passed locally.",
+      "body_cleaned_length": 1082,
+      "template_removed_length": 797,
+      "template_reduction_percentage": 42.41617881852049,
+      "author_type": "User"
+    },
+    "username": "wukongO-O"
+  },
+  {
+    "pr_number": 61637,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 4534,
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: Error Messages"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 61637,
+      "title": "Make an error message related to the `PropertyDecorator` kinder",
+      "body": "<!--\r\nThank you for submitting a pull request!\r\n\r\nPlease verify that:\r\n* [ ] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [ ] Code is up-to-date with the `main` branch\r\n* [ ] You've successfully run `hereby runtests` locally\r\n* [ ] There are new or updated unit tests validating the change\r\n\r\nRefer to CONTRIBUTING.MD for more details.\r\n  https://github.com/Microsoft/TypeScript/blob/main/CONTRIBUTING.md\r\n\r\n** Please don't send typo fixes! **\r\nPlease don't send a PR solely for the purpose of fixing a typo, unless that\r\ntypo truly hurts understanding of the text. Each PR represents work for the\r\nmaintainers, and that work should provide commensurate value.\r\n\r\nIf you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.\r\n-->\r\n\r\nFixes #4534\r\n\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `hereby runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\n# What I did\r\n\r\n- make some interfaces give and return `DiagnosticAndArguments` instead of `DiagnosticMessage`\r\n- improve the error message as mentioned at [#4534 (comment)](https://github.com/microsoft/TypeScript/issues/4534#issue-103801476)",
+      "body_length": 387,
+      "created_at": "2025-05-01T04:28:23Z",
+      "updated_at": "2025-07-23T16:20:37Z",
+      "closed_at": "2025-07-23T16:20:37Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 39,
+      "deletions": 38,
+      "files_changed": 4,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 77,
+      "avg_commit_msg_length": 53.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tests/baselines/reference/decoratorOnClassProperty6.errors.txt",
+        "tests/baselines/reference/decoratorOnClassProperty7.errors.txt"
+      ],
+      "file_types": {
+        "ts": 1,
+        "json": 1,
+        "txt": 2
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #4534\r\n\r\n* [x] There is an associated issue in the `Backlog` milestone (**required**)\r\n* [x] Code is up-to-date with the `main` branch\r\n* [x] You've successfully run `hereby runtests` locally\r\n* [x] There are new or updated unit tests validating the change\r\n\r\n# What I did\r\n\r\n- make some interfaces give and return `DiagnosticAndArguments` instead of `DiagnosticMessage`\r\n- improve the error message as mentioned at [#4534 (comment)](https://github.com/microsoft/TypeScript/issues/4534#issue-103801476)",
+      "body_cleaned_length": 508,
+      "template_removed_length": 795,
+      "template_reduction_percentage": 61.013046815042216,
+      "author_type": "User"
+    },
+    "username": "o-m12a"
+  },
+  {
+    "pr_number": 61759,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15506,
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 61759,
+      "title": "Return an error if either the left or right value are of type boolean",
+      "body": "Fixes #15506\r\nCheck if the values on either side of a greater than (>) or less than symbol (<) are boolean and if so return an error.\r\n",
+      "body_length": 132,
+      "created_at": "2025-05-23T21:00:26Z",
+      "updated_at": "2025-05-30T15:54:50Z",
+      "closed_at": "2025-05-30T15:54:50Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 7,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 7,
+      "avg_commit_msg_length": 69.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "For Backlog Bug",
+          "color": "9ff4ed",
+          "description": "PRs that fix a backlog bug"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #15506\r\nCheck if the values on either side of a greater than (>) or less than symbol (<) are boolean and if so return an error.",
+      "body_cleaned_length": 133,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 1.4814814814814816,
+      "author_type": "User"
+    },
+    "username": "CamBoyd"
+  }
+]

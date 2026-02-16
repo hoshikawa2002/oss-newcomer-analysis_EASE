@@ -1,0 +1,386 @@
+[
+  {
+    "number": 13603,
+    "created_at": "2021-10-03T19:04:18Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Status-In progress",
+      "Product-Color Picker"
+    ]
+  },
+  {
+    "number": 16527,
+    "created_at": "2022-02-23T10:45:44Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Product-PowerToys Run",
+      "Run-Results (Programs)",
+      "Run-Plugin"
+    ]
+  },
+  {
+    "number": 16809,
+    "created_at": "2022-03-05T15:36:22Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Product-PowerToys Run",
+      "Run-Plugin"
+    ]
+  },
+  {
+    "number": 20618,
+    "created_at": "2022-09-16T13:02:01Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 22568,
+    "created_at": "2022-12-07T16:15:47Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Product-Settings",
+      "Resolution-Fix Committed"
+    ]
+  },
+  {
+    "number": 23692,
+    "created_at": "2023-01-31T16:26:38Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Product-Mouse Utilities"
+    ]
+  },
+  {
+    "number": 24727,
+    "created_at": "2023-03-10T13:26:51Z",
+    "labels": [
+      "Issue-Bug",
+      "Good first issue",
+      "Needs-Triage",
+      "Product-Advanced Paste"
+    ]
+  },
+  {
+    "number": 24791,
+    "created_at": "2023-03-13T17:10:13Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 24830,
+    "created_at": "2023-03-15T16:54:08Z",
+    "labels": [
+      "Issue-Bug",
+      "Good first issue",
+      "Product-PowerToys Run",
+      "Resolution-Fix Committed",
+      "Cost-Small"
+    ]
+  },
+  {
+    "number": 24832,
+    "created_at": "2023-03-15T18:50:05Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Status-In progress",
+      "Needs-Triage",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 24860,
+    "created_at": "2023-03-16T21:08:57Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Needs-Triage",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 24913,
+    "created_at": "2023-03-19T20:17:58Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Product-Screen Ruler"
+    ]
+  },
+  {
+    "number": 24978,
+    "created_at": "2023-03-22T21:45:45Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Idea-New PowerToy",
+      "Resolution-Already Fixed/Doesn't Apply",
+      "Needs-Team-Response"
+    ]
+  },
+  {
+    "number": 26554,
+    "created_at": "2023-06-01T11:34:32Z",
+    "labels": [
+      "Issue-Bug",
+      "Good first issue",
+      "Product-PowerToys Run",
+      "Product-Settings",
+      "Resolution-Fix Committed",
+      "Cost-Small",
+      "Status-Reproducible"
+    ]
+  },
+  {
+    "number": 26640,
+    "created_at": "2023-06-04T08:01:55Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Issue-Docs",
+      "Resolution-Fix Committed",
+      "Product-Mouse Without Borders"
+    ]
+  },
+  {
+    "number": 27066,
+    "created_at": "2023-06-27T12:37:28Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Issue-Docs",
+      "Resolution-Fix Committed",
+      "Cost-Small"
+    ]
+  },
+  {
+    "number": 27869,
+    "created_at": "2023-08-06T18:04:39Z",
+    "labels": [
+      "Issue-Bug",
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Cost-Small",
+      "Product-Peek"
+    ]
+  },
+  {
+    "number": 29096,
+    "created_at": "2023-10-08T17:22:13Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Area-Flyout"
+    ]
+  },
+  {
+    "number": 29867,
+    "created_at": "2023-11-15T18:38:00Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Cost-Small",
+      "Product-Peek"
+    ]
+  },
+  {
+    "number": 30703,
+    "created_at": "2024-01-02T18:42:50Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Product-PowerRename",
+      "Resolution-Fix Committed"
+    ]
+  },
+  {
+    "number": 30913,
+    "created_at": "2024-01-12T16:34:30Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Product-FancyZones",
+      "Area-Runner",
+      "Product-Always On Top"
+    ]
+  },
+  {
+    "number": 32437,
+    "created_at": "2024-04-13T11:47:00Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Status-In progress",
+      "Cost-Small",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 32527,
+    "created_at": "2024-04-18T18:27:18Z",
+    "labels": [
+      "Good first issue",
+      "Issue-Docs",
+      "Priority-3",
+      "Cost-Small",
+      "Needs-Triage"
+    ]
+  },
+  {
+    "number": 32533,
+    "created_at": "2024-04-19T12:10:36Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 33155,
+    "created_at": "2024-05-30T04:50:16Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Product-PowerToys Run",
+      "Resolution-Fix Committed",
+      "Run-Plugin"
+    ]
+  },
+  {
+    "number": 33288,
+    "created_at": "2024-06-07T14:34:15Z",
+    "labels": [
+      "Issue-Bug",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Product-File Explorer",
+      "Cost-Small"
+    ]
+  },
+  {
+    "number": 33468,
+    "created_at": "2024-06-21T10:30:25Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Resolution-Fix Committed",
+      "Cost-Small",
+      "Run-Plugin"
+    ]
+  },
+  {
+    "number": 35471,
+    "created_at": "2024-10-17T12:33:09Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Good first issue",
+      "Resolution-Already Fixed/Doesn't Apply",
+      "Product-Quick Accent"
+    ]
+  },
+  {
+    "number": 35753,
+    "created_at": "2024-11-04T18:58:50Z",
+    "labels": [
+      "Issue-Bug",
+      "Help Wanted",
+      "Good first issue",
+      "Area-User Interface",
+      "Priority-3",
+      "Area-OOBE",
+      "Cost-Small",
+      "Resolution-Already Fixed/Doesn't Apply"
+    ]
+  },
+  {
+    "number": 35847,
+    "created_at": "2024-11-08T22:05:22Z",
+    "labels": [
+      "Idea-Enhancement",
+      "Help Wanted",
+      "Good first issue",
+      "Area-User Interface",
+      "Priority-3",
+      "Cost-Small",
+      "Resolution-Already Fixed/Doesn't Apply"
+    ]
+  },
+  {
+    "number": 36386,
+    "created_at": "2024-12-17T12:48:58Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Status-In progress",
+      "Issue-Feature",
+      "Product-Hosts File Editor"
+    ]
+  },
+  {
+    "number": 36806,
+    "created_at": "2025-01-10T21:45:31Z",
+    "labels": [
+      "Issue-Bug",
+      "Help Wanted",
+      "Good first issue",
+      "Product-Settings",
+      "Resolution-Fix Committed",
+      "Priority-3"
+    ]
+  },
+  {
+    "number": 37934,
+    "created_at": "2025-03-13T20:58:07Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Product-Command Palette"
+    ]
+  },
+  {
+    "number": 38961,
+    "created_at": "2025-04-18T21:33:39Z",
+    "labels": [
+      "Issue-Bug",
+      "Good first issue",
+      "Status-In progress",
+      "Product-Command Palette",
+      "CmdPal-Inbox Extensions"
+    ]
+  },
+  {
+    "number": 39501,
+    "created_at": "2025-05-16T11:14:44Z",
+    "labels": [
+      "Help Wanted",
+      "Good first issue",
+      "Issue-Task",
+      "Product-Command Palette"
+    ]
+  }
+]

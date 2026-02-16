@@ -1,0 +1,48 @@
+repository,pr_number,pr_url,gfi_issue_numbers,created_at,state,matched_types,assigned_type_priority,all_labels,manual_classification
+denoland_deno,11760,https://github.com/denoland/deno/pull/11760,,2021-08-18,MERGED,Bug; Documentation,Bug,bug; good first issue; docs,Bug
+electron_electron,33262,https://github.com/electron/electron/pull/33262,,2022-03-13,MERGED,Bug; Documentation,Bug,documentation :notebook:; beginner friendly; bug :beetle:,Bug
+electron_electron,39258,https://github.com/electron/electron/pull/39258,,2023-07-27,MERGED,Feature; Documentation,Feature,enhancement :sparkles:; documentation :notebook:; beginner friendly,Documentation
+electron_electron,45392,https://github.com/electron/electron/pull/45392,,2025-01-30,MERGED,Feature; Documentation,Feature,enhancement :sparkles:; documentation :notebook:; beginner friendly,Documentation
+electron_electron,46094,https://github.com/electron/electron/pull/46094,,2025-03-18,CLOSED,Feature; Documentation,Feature,enhancement :sparkles:; documentation :notebook:; beginner friendly,Documentation
+electron_electron,46518,https://github.com/electron/electron/pull/46518,,2025-04-06,OPEN,Feature; Documentation,Feature,enhancement :sparkles:; documentation :notebook:; beginner friendly,Documentation
+godotengine_godot,70386,https://github.com/godotengine/godot/pull/70386,,2022-12-21,MERGED,Feature; Documentation,Feature,enhancement; topic:core; good first issue; documentation,Documentation
+huggingface_transformers,29661,https://github.com/huggingface/transformers/pull/29661,,2024-03-14,MERGED,Bug; Documentation,Bug,Documentation; bug; Good First Issue,Bug
+kubernetes_kubernetes,118259,https://github.com/kubernetes/kubernetes/pull/118259,,2023-05-25,CLOSED,Bug; Documentation,Bug,kind/bug; priority/backlog; kind/documentation; sig/node; help wanted; priority/important-longterm; good first issue; triage/accepted,Bug
+kubernetes_kubernetes,128945,https://github.com/kubernetes/kubernetes/pull/128945,,2024-11-22,CLOSED,Bug; Documentation,Bug,kind/bug; priority/backlog; kind/documentation; sig/node; help wanted; priority/important-longterm; good first issue; triage/accepted,Bug
+mui_material-ui,27723,https://github.com/mui/material-ui/pull/27723,,2021-08-13,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; scope: autocomplete,Bug
+mui_material-ui,28260,https://github.com/mui/material-ui/pull/28260,,2021-09-10,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue,Bug
+mui_material-ui,28700,https://github.com/mui/material-ui/pull/28700,,2021-09-29,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue,Bug
+mui_material-ui,28873,https://github.com/mui/material-ui/pull/28873,,2021-10-06,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; component: Box,Bug
+mui_material-ui,29117,https://github.com/mui/material-ui/pull/29117,,2021-10-17,MERGED,Feature; Documentation,Feature,type: new feature; docs; good first issue; scope: system,Feature
+mui_material-ui,29180,https://github.com/mui/material-ui/pull/29180,,2021-10-20,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; scope: menu,Bug
+mui_material-ui,36858,https://github.com/mui/material-ui/pull/36858,,2023-04-12,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; ready to take,Bug
+mui_material-ui,39259,https://github.com/mui/material-ui/pull/39259,,2023-10-01,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; typescript; scope: system; customization: theme,Bug
+mui_material-ui,40303,https://github.com/mui/material-ui/pull/40303,,2023-12-24,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; ready to take,Bug
+mui_material-ui,43067,https://github.com/mui/material-ui/pull/43067,,2024-07-25,MERGED,Bug; Documentation,Bug,type: bug; docs; good first issue; scope: card; ready to take,Bug
+mui_material-ui,43119,https://github.com/mui/material-ui/pull/43119,,2024-07-30,CLOSED,Bug; Documentation,Bug,type: bug; docs; good first issue; scope: card; ready to take,Bug
+nodejs_node,41165,https://github.com/nodejs/node/pull/41165,,2021-12-14,CLOSED,Bug; Documentation,Bug,confirmed-bug; doc; stream; good first issue; linux,Bug
+puppeteer_puppeteer,13940,https://github.com/puppeteer/puppeteer/pull/13940,,2025-06-14,CLOSED,Feature; Documentation,Feature,feature; good first issue; documentation,Documentation
+pytorch_pytorch,127492,https://github.com/pytorch/pytorch/pull/127492,,2024-05-30,CLOSED,Feature; Documentation,Feature,module: docs; feature; good first issue; triaged; module: linear algebra,Feature
+rust-lang_rust,92443,https://github.com/rust-lang/rust/pull/92443,,2021-12-30,MERGED,Bug; Documentation,Bug,E-easy; T-rustdoc; E-mentor; C-bug; A-intra-doc-links,Bug
+rust-lang_rust,103757,https://github.com/rust-lang/rust/pull/103757,,2022-10-30,MERGED,Feature; Documentation,Feature,E-easy; C-enhancement; A-docs; A-const-generics; A-error-codes,Feature
+rust-lang_rust,110905,https://github.com/rust-lang/rust/pull/110905,,2023-04-27,MERGED,Bug; Documentation,Bug,E-easy; T-rustdoc; A-docs; C-bug,Bug
+rust-lang_rust,113876,https://github.com/rust-lang/rust/pull/113876,,2023-07-20,MERGED,Bug; Documentation,Bug,E-easy; T-libs-api; E-help-wanted; A-docs; C-bug; T-libs,Bug
+rust-lang_rust,117027,https://github.com/rust-lang/rust/pull/117027,,2023-10-21,CLOSED,Bug; Documentation,Bug,E-easy; T-rustdoc; A-docs; C-bug; A-rustdoc-themes,Bug
+rust-lang_rust,118192,https://github.com/rust-lang/rust/pull/118192,,2023-11-23,MERGED,Bug; Documentation,Bug,E-easy; T-rustdoc; C-bug; A-rustdoc-ui,Bug
+rust-lang_rust,118594,https://github.com/rust-lang/rust/pull/118594,,2023-12-04,MERGED,Bug; Documentation,Bug,E-easy; T-rustdoc; C-bug; A-rustdoc-ui,Bug
+rust-lang_rust,125946,https://github.com/rust-lang/rust/pull/125946,,2024-06-04,MERGED,Feature; Documentation,Feature,E-easy; T-rustdoc; C-enhancement; A-rustdoc-ui,Feature
+rust-lang_rust,131067,https://github.com/rust-lang/rust/pull/131067,,2024-09-30,MERGED,Bug; Documentation,Bug,E-easy; T-rustdoc; E-mentor; T-bootstrap; A-docs; C-bug,Bug
+rust-lang_rust,135406,https://github.com/rust-lang/rust/pull/135406,,2025-01-12,MERGED,Bug; Documentation,Bug,E-easy; A-lints; T-compiler; A-docs; C-bug,Bug
+rust-lang_rust,136798,https://github.com/rust-lang/rust/pull/136798,,2025-02-10,MERGED,Feature; Documentation,Feature,E-easy; C-enhancement; T-libs-api; A-docs,Feature
+rust-lang_rust,140487,https://github.com/rust-lang/rust/pull/140487,,2025-04-29,CLOSED,Bug; Documentation,Bug,E-easy; A-docs; C-bug; T-libs; A-floating-point,Bug
+storybookjs_storybook,21773,https://github.com/storybookjs/storybook/pull/21773,,2023-03-25,MERGED,Bug; Documentation,Bug,bug; good first issue; addon: docs; addon: outline,Bug
+storybookjs_storybook,21870,https://github.com/storybookjs/storybook/pull/21870,,2023-04-01,MERGED,Bug; Documentation,Bug,bug; good first issue; addon: docs; block: other,Bug
+storybookjs_storybook,23986,https://github.com/storybookjs/storybook/pull/23986,,2023-08-29,MERGED,Bug; Documentation,Bug,bug; good first issue; help wanted; addon: docs; sev:S3,Bug
+storybookjs_storybook,26236,https://github.com/storybookjs/storybook/pull/26236,,2024-02-28,CLOSED,Bug; Documentation,Bug,bug; good first issue; help wanted; addon: docs; sev:S3,Bug
+storybookjs_storybook,26459,https://github.com/storybookjs/storybook/pull/26459,,2024-03-12,CLOSED,Bug; Documentation,Bug,bug; good first issue; help wanted; addon: docs,Bug
+storybookjs_storybook,26482,https://github.com/storybookjs/storybook/pull/26482,,2024-03-13,CLOSED,Bug; Documentation,Bug,bug; good first issue; help wanted; addon: docs,Bug
+storybookjs_storybook,31320,https://github.com/storybookjs/storybook/pull/31320,,2025-04-30,MERGED,Bug; Documentation,Bug,bug; good first issue; help wanted; addon: docs; block: other; sev:S3,Bug
+supabase_supabase,6302,https://github.com/supabase/supabase/pull/6302,,2022-04-05,MERGED,Bug; Documentation,Bug,bug; documentation; help wanted; good first issue; p3,Bug
+supabase_supabase,15253,https://github.com/supabase/supabase/pull/15253,,2023-06-21,MERGED,Bug; Documentation,Bug,bug; documentation; help wanted; good first issue,Bug
+supabase_supabase,15458,https://github.com/supabase/supabase/pull/15458,,2023-06-29,MERGED,Bug; Feature,Bug,bug; enhancement; good first issue; frontend,Bug
+supabase_supabase,30120,https://github.com/supabase/supabase/pull/30120,,2024-10-26,CLOSED,Bug; Feature,Bug,bug; enhancement; help wanted; good first issue; frontend,Bug

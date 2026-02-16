@@ -1,0 +1,3 @@
+metric,start_value,end_value,kendall_tau,p_value,trend
+GFI Ratio,0.5317891751359016,0.4829621679635095,-0.4414893617021276,9.588801331632796e-06,decreasing
+Newcomer Engagement,27.0,27.0,0.06388644928446713,0.522179448288231,no trend

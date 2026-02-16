@@ -1,0 +1,1160 @@
+[
+  {
+    "number": 39316,
+    "created_at": "2021-07-09T00:00:24Z",
+    "labels": [
+      "stream",
+      "good first issue",
+      "web streams"
+    ]
+  },
+  {
+    "number": 39447,
+    "created_at": "2021-07-19T14:42:48Z",
+    "labels": [
+      "confirmed-bug",
+      "stream",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39684,
+    "created_at": "2021-08-06T10:51:44Z",
+    "labels": [
+      "http",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39787,
+    "created_at": "2021-08-17T05:39:07Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39804,
+    "created_at": "2021-08-18T20:12:41Z",
+    "labels": [
+      "stream",
+      "good first issue",
+      "web streams"
+    ]
+  },
+  {
+    "number": 40091,
+    "created_at": "2021-09-12T20:27:34Z",
+    "labels": [
+      "good first issue",
+      "encoding"
+    ]
+  },
+  {
+    "number": 40136,
+    "created_at": "2021-09-17T14:57:58Z",
+    "labels": [
+      "doc",
+      "net",
+      "stream",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 40227,
+    "created_at": "2021-09-27T07:12:26Z",
+    "labels": [
+      "crypto",
+      "good first issue",
+      "performance"
+    ]
+  },
+  {
+    "number": 40377,
+    "created_at": "2021-10-08T15:07:26Z",
+    "labels": [
+      "confirmed-bug",
+      "doc",
+      "stream",
+      "good first issue",
+      "linux"
+    ]
+  },
+  {
+    "number": 40452,
+    "created_at": "2021-10-14T06:49:52Z",
+    "labels": [
+      "confirmed-bug",
+      "http",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 40678,
+    "created_at": "2021-10-31T23:29:36Z",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "feature request",
+      "eventtarget"
+    ]
+  },
+  {
+    "number": 40800,
+    "created_at": "2021-11-13T13:01:30Z",
+    "labels": [
+      "stream",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 41000,
+    "created_at": "2021-11-28T18:00:53Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 41011,
+    "created_at": "2021-11-29T07:58:15Z",
+    "labels": [
+      "http",
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 41591,
+    "created_at": "2022-01-19T10:48:53Z",
+    "labels": [
+      "doc",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 43134,
+    "created_at": "2022-02-10T15:07:56Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 43360,
+    "created_at": "2022-06-09T15:54:51Z",
+    "labels": [
+      "confirmed-bug",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 43766,
+    "created_at": "2022-07-10T21:32:43Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 43837,
+    "created_at": "2022-07-14T23:33:55Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 44040,
+    "created_at": "2022-07-29T12:04:15Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 44188,
+    "created_at": "2022-08-09T10:07:00Z",
+    "labels": [
+      "confirmed-bug",
+      "http",
+      "stream",
+      "good first issue",
+      "web streams"
+    ]
+  },
+  {
+    "number": 44556,
+    "created_at": "2022-09-07T13:21:30Z",
+    "labels": [
+      "stream",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 44612,
+    "created_at": "2022-09-12T12:39:31Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 44720,
+    "created_at": "2022-09-19T08:41:29Z",
+    "labels": [
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 44749,
+    "created_at": "2022-09-22T17:50:07Z",
+    "labels": [
+      "child_process",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 44816,
+    "created_at": "2022-09-29T09:37:26Z",
+    "labels": [
+      "http",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 45260,
+    "created_at": "2022-10-31T21:17:28Z",
+    "labels": [
+      "good first issue",
+      "process"
+    ]
+  },
+  {
+    "number": 45381,
+    "created_at": "2022-11-08T23:41:48Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "web streams"
+    ]
+  },
+  {
+    "number": 45396,
+    "created_at": "2022-11-10T02:24:14Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 45433,
+    "created_at": "2022-11-11T21:31:57Z",
+    "labels": [
+      "build",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 45641,
+    "created_at": "2022-11-27T07:57:25Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 45643,
+    "created_at": "2022-11-27T09:40:58Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 45670,
+    "created_at": "2022-11-29T06:11:32Z",
+    "labels": [
+      "util",
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 45713,
+    "created_at": "2022-12-02T10:03:20Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "watch-mode"
+    ]
+  },
+  {
+    "number": 45755,
+    "created_at": "2022-12-06T08:13:09Z",
+    "labels": [
+      "doc",
+      "events",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 45761,
+    "created_at": "2022-12-06T14:41:15Z",
+    "labels": [
+      "c++",
+      "good first issue",
+      "python"
+    ]
+  },
+  {
+    "number": 45836,
+    "created_at": "2022-12-13T06:25:22Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 45838,
+    "created_at": "2022-12-13T08:30:56Z",
+    "labels": [
+      "test",
+      "good first issue",
+      "linux"
+    ]
+  },
+  {
+    "number": 45910,
+    "created_at": "2022-12-19T19:12:49Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 46036,
+    "created_at": "2022-12-31T23:20:37Z",
+    "labels": [
+      "child_process",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 46045,
+    "created_at": "2023-01-01T20:39:38Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 46323,
+    "created_at": "2023-01-23T23:17:03Z",
+    "labels": [
+      "confirmed-bug",
+      "good first issue",
+      "eventtarget"
+    ]
+  },
+  {
+    "number": 46453,
+    "created_at": "2023-01-31T23:44:03Z",
+    "labels": [
+      "confirmed-bug",
+      "http",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 46727,
+    "created_at": "2023-02-19T02:42:43Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 46750,
+    "created_at": "2023-02-20T18:28:54Z",
+    "labels": [
+      "dgram",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 46862,
+    "created_at": "2023-02-27T10:49:26Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 47110,
+    "created_at": "2023-03-15T21:11:01Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 47169,
+    "created_at": "2023-03-20T09:15:50Z",
+    "labels": [
+      "url",
+      "good first issue",
+      "feature request",
+      "whatwg-url"
+    ]
+  },
+  {
+    "number": 47231,
+    "created_at": "2023-03-23T11:33:20Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 47480,
+    "created_at": "2023-04-08T11:43:38Z",
+    "labels": [
+      "http",
+      "good first issue",
+      "feature request"
+    ]
+  },
+  {
+    "number": 47633,
+    "created_at": "2023-04-20T09:55:31Z",
+    "labels": [
+      "doc",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 47643,
+    "created_at": "2023-04-20T14:36:28Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 47705,
+    "created_at": "2023-04-24T16:50:54Z",
+    "labels": [
+      "cluster",
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 47707,
+    "created_at": "2023-04-24T21:36:35Z",
+    "labels": [
+      "test",
+      "good first issue",
+      "code-and-learn"
+    ]
+  },
+  {
+    "number": 47784,
+    "created_at": "2023-04-29T19:09:22Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 47842,
+    "created_at": "2023-05-03T16:35:05Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 47897,
+    "created_at": "2023-05-06T13:06:34Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 48016,
+    "created_at": "2023-05-15T09:34:45Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 48112,
+    "created_at": "2023-05-22T11:56:31Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 48771,
+    "created_at": "2023-07-14T13:54:07Z",
+    "labels": [
+      "confirmed-bug",
+      "http",
+      "net",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 48887,
+    "created_at": "2023-07-22T20:02:52Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 49224,
+    "created_at": "2023-08-18T07:21:29Z",
+    "labels": [
+      "test",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 49420,
+    "created_at": "2023-08-31T10:59:54Z",
+    "labels": [
+      "doc",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 49487,
+    "created_at": "2023-09-04T17:23:11Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 49488,
+    "created_at": "2023-09-04T17:30:23Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 49848,
+    "created_at": "2023-09-25T05:20:50Z",
+    "labels": [
+      "confirmed-bug",
+      "vm",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 49888,
+    "created_at": "2023-09-26T23:12:41Z",
+    "labels": [
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 50159,
+    "created_at": "2023-10-12T03:12:40Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 50275,
+    "created_at": "2023-10-19T10:06:11Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "web-standards"
+    ]
+  },
+  {
+    "number": 50368,
+    "created_at": "2023-10-24T15:31:45Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 50401,
+    "created_at": "2023-10-26T00:01:03Z",
+    "labels": [
+      "good first issue",
+      "eventtarget"
+    ]
+  },
+  {
+    "number": 50417,
+    "created_at": "2023-10-26T17:37:07Z",
+    "labels": [
+      "good first issue",
+      "eventtarget"
+    ]
+  },
+  {
+    "number": 50432,
+    "created_at": "2023-10-27T18:00:50Z",
+    "labels": [
+      "good first issue",
+      "whatwg-url"
+    ]
+  },
+  {
+    "number": 50498,
+    "created_at": "2023-11-01T08:42:24Z",
+    "labels": [
+      "good first issue",
+      "tools"
+    ]
+  },
+  {
+    "number": 50536,
+    "created_at": "2023-11-03T09:59:35Z",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "feature request"
+    ]
+  },
+  {
+    "number": 50571,
+    "created_at": "2023-11-06T08:34:01Z",
+    "labels": [
+      "benchmark",
+      "good first issue",
+      "performance"
+    ]
+  },
+  {
+    "number": 50749,
+    "created_at": "2023-11-15T18:07:18Z",
+    "labels": [
+      "doc",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 50780,
+    "created_at": "2023-11-18T12:29:26Z",
+    "labels": [
+      "assert",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 50901,
+    "created_at": "2023-11-24T21:59:42Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51057,
+    "created_at": "2023-12-05T10:19:01Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 51174,
+    "created_at": "2023-12-16T08:09:38Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 51235,
+    "created_at": "2023-12-20T12:50:18Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51299,
+    "created_at": "2023-12-28T00:55:19Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51610,
+    "created_at": "2024-01-30T18:46:37Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51769,
+    "created_at": "2024-02-15T14:50:38Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51770,
+    "created_at": "2024-02-15T14:51:44Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 51817,
+    "created_at": "2024-02-21T01:35:36Z",
+    "labels": [
+      "confirmed-bug",
+      "buffer",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52163,
+    "created_at": "2024-03-20T11:44:15Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52174,
+    "created_at": "2024-03-21T10:06:22Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52208,
+    "created_at": "2024-03-25T10:05:42Z",
+    "labels": [
+      "help wanted",
+      "good first issue",
+      "whatwg-url"
+    ]
+  },
+  {
+    "number": 52218,
+    "created_at": "2024-03-26T09:41:30Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52233,
+    "created_at": "2024-03-27T18:19:36Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52263,
+    "created_at": "2024-03-29T17:56:19Z",
+    "labels": [
+      "good first issue",
+      "web streams"
+    ]
+  },
+  {
+    "number": 52357,
+    "created_at": "2024-04-03T20:05:52Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 52404,
+    "created_at": "2024-04-07T12:11:43Z",
+    "labels": [
+      "windows",
+      "build",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52420,
+    "created_at": "2024-04-08T12:08:43Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "single-executable"
+    ]
+  },
+  {
+    "number": 52447,
+    "created_at": "2024-04-10T09:19:29Z",
+    "labels": [
+      "doc",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52544,
+    "created_at": "2024-04-15T18:51:10Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "feature request"
+    ]
+  },
+  {
+    "number": 52670,
+    "created_at": "2024-04-24T19:52:08Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 52914,
+    "created_at": "2024-05-09T04:42:19Z",
+    "labels": [
+      "build",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52978,
+    "created_at": "2024-05-14T07:24:19Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 53095,
+    "created_at": "2024-05-22T08:48:58Z",
+    "labels": [
+      "util",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 53684,
+    "created_at": "2024-07-02T10:43:32Z",
+    "labels": [
+      "http",
+      "good first issue",
+      "feature request",
+      "v20.x"
+    ]
+  },
+  {
+    "number": 53867,
+    "created_at": "2024-07-16T13:21:33Z",
+    "labels": [
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 53868,
+    "created_at": "2024-07-16T13:25:04Z",
+    "labels": [
+      "confirmed-bug",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 53871,
+    "created_at": "2024-07-16T17:03:09Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 53906,
+    "created_at": "2024-07-17T19:14:17Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 54001,
+    "created_at": "2024-07-23T08:58:17Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "watch-mode",
+      "dotenv"
+    ]
+  },
+  {
+    "number": 54105,
+    "created_at": "2024-07-29T20:36:44Z",
+    "labels": [
+      "buffer",
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 54551,
+    "created_at": "2024-08-25T14:23:30Z",
+    "labels": [
+      "test",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 55091,
+    "created_at": "2024-09-23T22:55:02Z",
+    "labels": [
+      "doc",
+      "module",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 55129,
+    "created_at": "2024-09-26T08:00:57Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "cli",
+      "dotenv"
+    ]
+  },
+  {
+    "number": 55367,
+    "created_at": "2024-10-12T18:29:52Z",
+    "labels": [
+      "timers",
+      "good first issue",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 55446,
+    "created_at": "2024-10-18T17:23:35Z",
+    "labels": [
+      "confirmed-bug",
+      "util",
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 55702,
+    "created_at": "2024-11-03T09:30:54Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "tools",
+      "stale",
+      "strip-types"
+    ]
+  },
+  {
+    "number": 55764,
+    "created_at": "2024-11-07T12:28:08Z",
+    "labels": [
+      "confirmed-bug",
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 55842,
+    "created_at": "2024-11-13T21:18:16Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 55864,
+    "created_at": "2024-11-15T09:05:31Z",
+    "labels": [
+      "fs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 56049,
+    "created_at": "2024-11-28T08:40:11Z",
+    "labels": [
+      "confirmed-bug",
+      "fs",
+      "windows",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 56475,
+    "created_at": "2025-01-05T02:24:25Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 56531,
+    "created_at": "2025-01-09T12:29:44Z",
+    "labels": [
+      "child_process",
+      "c++",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 56542,
+    "created_at": "2025-01-10T09:23:56Z",
+    "labels": [
+      "confirmed-bug",
+      "good first issue",
+      "encoding"
+    ]
+  },
+  {
+    "number": 56640,
+    "created_at": "2025-01-17T13:06:14Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 57045,
+    "created_at": "2025-02-14T15:28:17Z",
+    "labels": [
+      "confirmed-bug",
+      "good first issue",
+      "process"
+    ]
+  },
+  {
+    "number": 57206,
+    "created_at": "2025-02-25T15:07:37Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "test_runner"
+    ]
+  },
+  {
+    "number": 57418,
+    "created_at": "2025-03-12T00:10:00Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "feature request"
+    ]
+  },
+  {
+    "number": 57658,
+    "created_at": "2025-03-28T09:06:39Z",
+    "labels": [
+      "good first issue",
+      "feature request",
+      "never-stale"
+    ]
+  },
+  {
+    "number": 57986,
+    "created_at": "2025-04-23T07:24:02Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 58113,
+    "created_at": "2025-05-02T03:13:20Z",
+    "labels": [
+      "doc",
+      "good first issue",
+      "watch-mode"
+    ]
+  },
+  {
+    "number": 58234,
+    "created_at": "2025-05-08T13:18:02Z",
+    "labels": [
+      "good first issue",
+      "diagnostics_channel"
+    ]
+  },
+  {
+    "number": 58562,
+    "created_at": "2025-06-03T06:10:47Z",
+    "labels": [
+      "good first issue",
+      "aix",
+      "flaky-test"
+    ]
+  },
+  {
+    "number": 58641,
+    "created_at": "2025-06-09T09:34:05Z",
+    "labels": [
+      "repl",
+      "good first issue",
+      "deprecations"
+    ]
+  },
+  {
+    "number": 58805,
+    "created_at": "2025-06-23T16:22:05Z",
+    "labels": [
+      "v8 engine",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 58894,
+    "created_at": "2025-06-29T21:58:43Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 58895,
+    "created_at": "2025-06-29T22:11:40Z",
+    "labels": [
+      "doc",
+      "good first issue"
+    ]
+  }
+]

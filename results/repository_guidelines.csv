@@ -1,0 +1,38 @@
+repository,github_url,language,stars,has_contributing_md,contributing_url,has_gfi_labels,gfi_label_names,has_gfi_prs_in_dataset,notes
+JuliaLang/julia,https://github.com/JuliaLang/julia,Julia,48339,yes,https://github.com/JuliaLang/julia/blob/master/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+angular/angular,https://github.com/angular/angular,TypeScript,99818,yes,https://github.com/angular/angular/blob/main/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+ant-design/ant-design,https://github.com/ant-design/ant-design,TypeScript,97471,yes,https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md,yes,good first issue; help wanted; OSS-Easy,yes,
+axios/axios,https://github.com/axios/axios,JavaScript,108577,yes,https://github.com/axios/axios/blob/v1.x/CONTRIBUTING.md,no,,no,No GFI-related labels found
+bitcoin/bitcoin,https://github.com/bitcoin/bitcoin,C++,88043,yes,https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md,yes,good first issue,yes,
+denoland/deno,https://github.com/denoland/deno,Rust,106110,yes,https://github.com/denoland/deno/blob/main/.github/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+electron/electron,https://github.com/electron/electron,C++,120062,yes,https://github.com/electron/electron/blob/main/CONTRIBUTING.md,yes,beginner friendly,yes,Uses beginner friendly label
+excalidraw/excalidraw,https://github.com/excalidraw/excalidraw,TypeScript,116365,yes,https://github.com/excalidraw/excalidraw/blob/master/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+facebook/react,https://github.com/facebook/react,JavaScript,242885,yes,https://github.com/facebook/react/blob/main/CONTRIBUTING.md,yes,Difficulty: starter; good first issue; good first issue (taken),yes,Uses Difficulty: starter label
+fastapi/fastapi,https://github.com/fastapi/fastapi,Python,94953,yes,https://github.com/fastapi/fastapi/blob/master/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+flutter/flutter,https://github.com/flutter/flutter,Dart,175056,yes,https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md,yes,good first issue,yes,
+gin-gonic/gin,https://github.com/gin-gonic/gin,Go,87941,yes,https://github.com/gin-gonic/gin/blob/master/CONTRIBUTING.md,yes,help wanted,no,Has GFI labels but no GFI PRs from newcomers in analysis period
+godotengine/godot,https://github.com/godotengine/godot,C++,106501,yes,https://github.com/godotengine/godot/blob/master/CONTRIBUTING.md,yes,good first issue,yes,
+huggingface/transformers,https://github.com/huggingface/transformers,Python,156284,yes,https://github.com/huggingface/transformers/blob/main/CONTRIBUTING.md,yes,Good First Issue; Help wanted,yes,
+kubernetes/kubernetes,https://github.com/kubernetes/kubernetes,Go,120387,yes,https://github.com/kubernetes/kubernetes/blob/master/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys,C#,129178,yes,https://github.com/microsoft/PowerToys/blob/main/CONTRIBUTING.md,yes,Good first issue; Help Wanted,yes,
+microsoft/TypeScript,https://github.com/microsoft/TypeScript,TypeScript,107739,yes,https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md,yes,Good First Issue; Help Wanted,yes,
+microsoft/terminal,https://github.com/microsoft/terminal,C++,101766,yes,https://github.com/microsoft/terminal/blob/main/CONTRIBUTING.md,yes,good first issue; Help Wanted,yes,
+microsoft/vscode,https://github.com/microsoft/vscode,TypeScript,181565,yes,https://github.com/microsoft/vscode/blob/main/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+mrdoob/three.js,https://github.com/mrdoob/three.js,JavaScript,110807,yes,https://github.com/mrdoob/three.js/blob/dev/.github/CONTRIBUTING.md,no,,no,No GFI-related labels found
+mui/material-ui,https://github.com/mui/material-ui,JavaScript,97788,yes,https://github.com/mui/material-ui/blob/master/CONTRIBUTING.md,yes,good first issue,yes,
+n8n-io/n8n,https://github.com/n8n-io/n8n,TypeScript,173808,yes,https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md,yes,Good First Issue; Help Wanted,no,Has GFI labels but no GFI PRs from newcomers in analysis period
+neovim/neovim,https://github.com/neovim/neovim,Vim Script,96333,yes,https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md,yes,complexity:low (GFI equivalent),no,Uses complexity:low instead of good first issue
+nodejs/node,https://github.com/nodejs/node,JavaScript,115630,yes,https://github.com/nodejs/node/blob/main/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh,Shell,184593,yes,https://github.com/ohmyzsh/ohmyzsh/blob/master/CONTRIBUTING.md,yes,Good first issue,yes,
+puppeteer/puppeteer,https://github.com/puppeteer/puppeteer,TypeScript,93535,no,,yes,good first issue,yes,
+pytorch/pytorch,https://github.com/pytorch/pytorch,Python,97278,yes,https://github.com/pytorch/pytorch/blob/main/CONTRIBUTING.md,yes,good first issue; easy; newcomer,yes,Uses module-based labeling; good first issue + easy + newcomer labels
+rust-lang/rust,https://github.com/rust-lang/rust,Rust,110158,yes,https://github.com/rust-lang/rust/blob/main/CONTRIBUTING.md,yes,E-easy; D-newcomer-roadblock,yes,Uses E-easy and D-newcomer-roadblock labels
+storybookjs/storybook,https://github.com/storybookjs/storybook,TypeScript,89225,yes,https://github.com/storybookjs/storybook/blob/next/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+supabase/supabase,https://github.com/supabase/supabase,TypeScript,97411,yes,https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+sveltejs/svelte,https://github.com/sveltejs/svelte,JavaScript,85725,yes,https://github.com/sveltejs/svelte/blob/main/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+tailwindlabs/tailwindcss,https://github.com/tailwindlabs/tailwindcss,TypeScript,93441,yes,https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md,yes,good first issue,no,Has GFI labels but no GFI PRs from newcomers in analysis period
+tauri-apps/tauri,https://github.com/tauri-apps/tauri,Rust,102501,yes,https://github.com/tauri-apps/tauri/blob/dev/.github/CONTRIBUTING.md,yes,good first issue; help wanted,yes,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow,C++,193675,yes,https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md,yes,good first issue,yes,
+twbs/bootstrap,https://github.com/twbs/bootstrap,MDX,173981,yes,https://github.com/twbs/bootstrap/blob/main/.github/CONTRIBUTING.md,yes,help wanted,no,Has GFI labels but no GFI PRs from newcomers in analysis period
+vercel/next.js,https://github.com/vercel/next.js,JavaScript,137581,no,,yes,good first issue,yes,
+yt-dlp/yt-dlp,https://github.com/yt-dlp/yt-dlp,Python,146497,yes,https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTING.md,yes,good first issue,yes,

@@ -1,0 +1,274 @@
+[
+  {
+    "pr_number": 59534,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 58270,
+        "labels": [
+          "type:bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 59534,
+      "title": "Fix LSTMBlockCell Check Fail",
+      "body": "Fixes #58270 ",
+      "body_length": 12,
+      "created_at": "2023-02-03T06:24:59Z",
+      "updated_at": "2023-04-05T13:16:07Z",
+      "closed_at": "2023-04-04T20:07:02Z",
+      "merged_at": "2023-04-04T20:07:02Z",
+      "merged": true,
+      "state": "MERGED",
+      "time_to_merge_hours": 1453.7008333333333,
+      "additions": 113,
+      "deletions": 2,
+      "files_changed": 4,
+      "commits_count": 16,
+      "review_count": 13,
+      "comment_count": 30,
+      "pr_size": 115,
+      "avg_commit_msg_length": 45.3125,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "tensorflow/python/kernel_tests/nn_ops/rnn_cell_test.py"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "cc": 3,
+        "py": 1
+      },
+      "review_states": {
+        "COMMENTED": 8,
+        "APPROVED": 3,
+        "CHANGES_REQUESTED": 2
+      },
+      "has_changes_requested": true,
+      "has_approved": true,
+      "labels": [
+        {
+          "name": "awaiting review",
+          "color": "bc3869",
+          "description": "Pull request awaiting review"
+        },
+        {
+          "name": "ready to pull",
+          "color": "2cd643",
+          "description": "PR ready for merge process"
+        },
+        {
+          "name": "size:XS",
+          "color": "adafea",
+          "description": "CL Change Size: Extra Small"
+        },
+        {
+          "name": "prtype:bugfix",
+          "color": "159b2e",
+          "description": "PR to fix a bug"
+        },
+        {
+          "name": "comp:core",
+          "color": "024391",
+          "description": "issues related to core part of tensorflow"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #58270",
+      "body_cleaned_length": 12,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 7.6923076923076925,
+      "author_type": "User"
+    },
+    "username": "mattbahr"
+  },
+  {
+    "pr_number": 58998,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 58261,
+        "labels": [
+          "type:bug",
+          "comp:ops",
+          "good first issue",
+          "TF 2.10"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 58998,
+      "title": "Fix a check fail in GRUBlockCell",
+      "body": "Signed-off-by: Shogo Hida <shogo.hida@gmail.com>\r\n\r\nFixes #58261",
+      "body_length": 59,
+      "created_at": "2022-12-25T15:07:44Z",
+      "updated_at": "2023-02-16T19:30:18Z",
+      "closed_at": "2023-02-16T19:30:17Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 5,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 3,
+      "pr_size": 5,
+      "avg_commit_msg_length": 61.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "cc": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "size:XS",
+          "color": "adafea",
+          "description": "CL Change Size: Extra Small"
+        },
+        {
+          "name": "prtype:bugfix",
+          "color": "159b2e",
+          "description": "PR to fix a bug"
+        },
+        {
+          "name": "comp:core",
+          "color": "024391",
+          "description": "issues related to core part of tensorflow"
+        }
+      ],
+      "label_categories": [
+        "bug_fix"
+      ],
+      "is_bug_fix": true,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Signed-off-by: Shogo Hida <shogo.hida@gmail.com>\r\n\r\nFixes #58261",
+      "body_cleaned_length": 64,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "shogohida"
+  },
+  {
+    "pr_number": 92521,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 58106,
+        "labels": [
+          "stat:awaiting response",
+          "type:bug",
+          "stale",
+          "comp:ops",
+          "good first issue",
+          "TF 2.9"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 92521,
+      "title": "Fixes #58106: Add shape validation to AvgPool3DGrad input to prevent crash",
+      "body": "Fixes #58106",
+      "body_length": 12,
+      "created_at": "2025-05-01T00:05:57Z",
+      "updated_at": "2025-06-04T05:57:20Z",
+      "closed_at": "2025-06-04T05:57:20Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 5,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 5,
+      "pr_size": 5,
+      "avg_commit_msg_length": 23.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "cc": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [
+        {
+          "name": "stat:awaiting response",
+          "color": "f4b400",
+          "description": "Status  - Awaiting response from author"
+        },
+        {
+          "name": "stale",
+          "color": "d4c5f9",
+          "description": "This label marks the issue/pr stale - to be closed automatically if no activity"
+        },
+        {
+          "name": "ready to pull",
+          "color": "2cd643",
+          "description": "PR ready for merge process"
+        },
+        {
+          "name": "size:XS",
+          "color": "adafea",
+          "description": "CL Change Size: Extra Small"
+        },
+        {
+          "name": "comp:core",
+          "color": "024391",
+          "description": "issues related to core part of tensorflow"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #58106",
+      "body_cleaned_length": 12,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Patel4j5"
+  }
+]

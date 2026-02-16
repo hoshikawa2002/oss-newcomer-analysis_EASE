@@ -1,0 +1,131 @@
+[
+  {
+    "number": 30656,
+    "created_at": "2021-08-22T11:48:49Z",
+    "labels": [
+      "component/webview",
+      "beginner friendly",
+      "bug :beetle:"
+    ]
+  },
+  {
+    "number": 30670,
+    "created_at": "2021-08-24T01:01:24Z",
+    "labels": [
+      "platform/macOS",
+      "beginner friendly",
+      "bug :beetle:"
+    ]
+  },
+  {
+    "number": 31624,
+    "created_at": "2021-10-28T16:54:27Z",
+    "labels": [
+      "enhancement :sparkles:",
+      "platform/macOS",
+      "beginner friendly"
+    ]
+  },
+  {
+    "number": 31648,
+    "created_at": "2021-11-01T07:04:45Z",
+    "labels": [
+      "beginner friendly",
+      "bug :beetle:",
+      "Apple Silicon 🍎",
+      "has-repro-comment",
+      "stale"
+    ]
+  },
+  {
+    "number": 32545,
+    "created_at": "2022-01-20T00:24:33Z",
+    "labels": [
+      "platform/macOS",
+      "beginner friendly",
+      "bug :beetle:",
+      "status/confirmed",
+      "16-x-y",
+      "stale"
+    ]
+  },
+  {
+    "number": 32606,
+    "created_at": "2022-01-25T04:20:46Z",
+    "labels": [
+      "platform/macOS",
+      "beginner friendly",
+      "bug :beetle:",
+      "bug/regression :leftwards_arrow_with_hook:",
+      "13-x-y",
+      "14-x-y",
+      "15-x-y",
+      "stale"
+    ]
+  },
+  {
+    "number": 32867,
+    "created_at": "2022-02-11T10:35:39Z",
+    "labels": [
+      "documentation :notebook:",
+      "beginner friendly",
+      "bug :beetle:"
+    ]
+  },
+  {
+    "number": 34678,
+    "created_at": "2022-06-21T10:54:24Z",
+    "labels": [
+      "beginner friendly",
+      "bug :beetle:",
+      "19-x-y"
+    ]
+  },
+  {
+    "number": 35756,
+    "created_at": "2022-09-21T15:05:19Z",
+    "labels": [
+      "documentation :notebook:",
+      "beginner friendly",
+      "pr welcome"
+    ]
+  },
+  {
+    "number": 36260,
+    "created_at": "2022-11-06T04:45:29Z",
+    "labels": [
+      "documentation :notebook:",
+      "beginner friendly",
+      "bug :beetle:"
+    ]
+  },
+  {
+    "number": 38339,
+    "created_at": "2023-05-17T08:03:04Z",
+    "labels": [
+      "enhancement :sparkles:",
+      "documentation :notebook:",
+      "beginner friendly"
+    ]
+  },
+  {
+    "number": 40173,
+    "created_at": "2023-10-11T10:52:06Z",
+    "labels": [
+      "enhancement :sparkles:",
+      "documentation :notebook:",
+      "beginner friendly"
+    ]
+  },
+  {
+    "number": 47415,
+    "created_at": "2025-06-08T15:30:21Z",
+    "labels": [
+      "documentation :notebook:",
+      "beginner friendly",
+      "component/crash-reporter",
+      "bug :beetle:",
+      "36-x-y"
+    ]
+  }
+]

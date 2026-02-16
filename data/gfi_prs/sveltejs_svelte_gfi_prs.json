@@ -1,0 +1,326 @@
+[
+  {
+    "pr_number": 6665,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6643,
+        "labels": [
+          "bug",
+          "good first issue",
+          "compiler"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6665,
+      "title": "add HTMLElement and SVGElement into globals",
+      "body": "Fixes #6643 \r\n\r\n### Before submitting the PR, please make sure you do the following\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [x] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests\r\n-  [x] Run the tests with `npm test` and lint the project with `npm run lint`\r\n",
+      "body_length": 548,
+      "created_at": "2021-08-18T18:36:22Z",
+      "merged_at": "2021-08-20T15:56:36Z",
+      "merged": true,
+      "time_to_merge_hours": 45.33722222222222,
+      "state": "MERGED",
+      "additions": 3,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 0,
+      "commit_messages": [
+        "add HTMLElement and SVGElement into globals",
+        "re-sort names"
+      ],
+      "avg_commit_msg_length": 28.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {},
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #6643 \r\n\r\n### Before submitting the PR, please make sure you do the following\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [x] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests\r\n-  [x] Run the tests with `npm test` and lint the project with `npm run lint`",
+      "body_cleaned_length": 546,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.36496350364963503,
+      "author_type": "User"
+    },
+    "username": "vicky1999"
+  },
+  {
+    "pr_number": 6682,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6681,
+        "labels": [
+          "good first issue",
+          "documentation"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6682,
+      "title": "[docs] update docs/Component-format script-markup-style order",
+      "body": "### Before submitting the PR, please make sure you do the following\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] Prefix your PR title with `[feat]`, `[fix]`, `[chore]`, or `[docs]`.\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [x] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests\r\n-  [x] Run the tests with `npm test` and lint the project with `npm run lint`\r\n\r\n### Motivation\r\n\r\nfix: #6681 \r\n\r\n> The https://svelte.dev/docs#Component_format docs currently present the example snippet in script-style-markup order. But the default order used by prettier-plugin-svelte is script-markup-style (technically options-script-markup-style, but the https://svelte.dev/docs#Component_format docs don't show options), and my subjective impression is that script-markup-style order is more common in real-world code than script-style-markup. (I haven't done any kind of formal survey). I suspect most people write Svelte code in that order because in most components, the markup is tied to the script, and the style is tied closely to the markup, but the style is not closely tied to the script. And so for those components, script-markup-style is the most natural order.\r\n\r\nI checked whether is there not the other wrong `script-markup-style` order in docs, examples, and tutorials manually. I found there is no other wrong order. (I’m sorry if there is a leak).",
+      "body_length": 1600,
+      "created_at": "2021-08-25T13:15:07Z",
+      "merged_at": "2021-08-25T13:20:07Z",
+      "merged": true,
+      "time_to_merge_hours": 0.08333333333333333,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "commit_messages": [
+        "chore(docs): update Component-format script-markup-style order"
+      ],
+      "avg_commit_msg_length": 62.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "site/content/docs/01-component-format.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {},
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "### Before submitting the PR, please make sure you do the following\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] Prefix your PR title with `[feat]`, `[fix]`, `[chore]`, or `[docs]`.\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [x] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests\r\n-  [x] Run the tests with `npm test` and lint the project with `npm run lint`\r\n\r\n### Motivation\r\n\r\nfix: #6681 \r\n\r\n> The https://svelte.dev/docs#Component_format docs currently present the example snippet in script-style-markup order. But the default order used by prettier-plugin-svelte is script-markup-style (technically options-script-markup-style, but the https://svelte.dev/docs#Component_format docs don't show options), and my subjective impression is that script-markup-style order is more common in real-world code than script-style-markup. (I haven't done any kind of formal survey). I suspect most people write Svelte code in that order because in most components, the markup is tied to the script, and the style is tied closely to the markup, but the style is not closely tied to the script. And so for those components, script-markup-style is the most natural order.\r\n\r\nI checked whether is there not the other wrong `script-markup-style` order in docs, examples, and tutorials manually. I found there is no other wrong order. (I’m sorry if there is a leak).",
+      "body_cleaned_length": 1600,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Shinyaigeek"
+  },
+  {
+    "pr_number": 8096,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 4233,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8096,
+      "title": "fix: ensure `bind:offsetHeight` updates",
+      "body": "Fixes #4233\r\n\r\nSometimes, `bind:offsetHeight` and `bind:offsetWidth` do not update initially, for example when immediately changing the size as demonstrated in #4233. It looks like the `iframe` not always fire an initial resize event, probably related to the `iframe` loading asynchronously. This can be fixed by triggering a resize event inside the `onload` event of the `iframe`.\r\n\r\nI'm aware of the long term plan to implement a solution using `ResizeObserver` alongside quirky and slow `iframe` solution (see #5963 and https://github.com/sveltejs/svelte/pull/5524#issuecomment-727280861). But the `iframe` solution will stay around for a long time, and this little PR fixes one of the common issues it has.\r\n\r\nI've tested this solution manually in a separate project on Chrome and Firefox. It resolves the cases reported in #4233 and does not cause duplicate updates on the end-users side. I'm trying to write an integration test (see PR), but I can't get that to work as expected yet (both properties `width` and `height` are rendered with value `0`). Any idea what I'm overlooking there?",
+      "body_length": 1093,
+      "created_at": "2022-12-08T15:50:40Z",
+      "merged_at": "2023-02-23T11:03:14Z",
+      "merged": true,
+      "time_to_merge_hours": 1843.2094444444444,
+      "state": "MERGED",
+      "additions": 28,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 4,
+      "review_count": 1,
+      "comment_count": 6,
+      "commit_messages": [
+        "fix: #4233 `bind:offsetHeight` doesn't always fire",
+        "chore: write a unit test for offsetWidth/offsetHeight (WIP)",
+        "Merge remote-tracking branch 'upstream/master' into fix/4233_resize",
+        "add test"
+      ],
+      "avg_commit_msg_length": 46.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "chore",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "test/runtime-puppeteer/samples/binding-width-height-initialize/_config.js"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "js": 1,
+        "svelte": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #4233\r\n\r\nSometimes, `bind:offsetHeight` and `bind:offsetWidth` do not update initially, for example when immediately changing the size as demonstrated in #4233. It looks like the `iframe` not always fire an initial resize event, probably related to the `iframe` loading asynchronously. This can be fixed by triggering a resize event inside the `onload` event of the `iframe`.\r\n\r\nI'm aware of the long term plan to implement a solution using `ResizeObserver` alongside quirky and slow `iframe` solution (see #5963 and https://github.com/sveltejs/svelte/pull/5524#issuecomment-727280861). But the `iframe` solution will stay around for a long time, and this little PR fixes one of the common issues it has.\r\n\r\nI've tested this solution manually in a separate project on Chrome and Firefox. It resolves the cases reported in #4233 and does not cause duplicate updates on the end-users side. I'm trying to write an integration test (see PR), but I can't get that to work as expected yet (both properties `width` and `height` are rendered with value `0`). Any idea what I'm overlooking there?",
+      "body_cleaned_length": 1093,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "josdejong"
+  },
+  {
+    "pr_number": 8830,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8829,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8830,
+      "title": "docs: format \"MutationObserver\" as code",
+      "body": "Fixes #8829 \r\n\r\nFormat \"MutationObserver\" in the v3-v4 migration guide as code (using backticks).\r\n\r\n### Before submitting the PR, please make sure you do the following\r\n\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] Prefix your PR title with `feat:`, `fix:`, `chore:`, or `docs:`.\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [ ] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests and linting\r\n\r\n- [x] Run the tests with `pnpm test` and lint the project with `pnpm lint`\r\n",
+      "body_length": 718,
+      "created_at": "2023-06-24T01:57:56Z",
+      "merged_at": "2023-06-24T02:14:16Z",
+      "merged": true,
+      "time_to_merge_hours": 0.2722222222222222,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "commit_messages": [
+        "docs: format \"MutationObserver\" as code"
+      ],
+      "avg_commit_msg_length": 39.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "documentation/docs/05-misc/04-v4-migration-guide.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {},
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #8829 \r\n\r\nFormat \"MutationObserver\" in the v3-v4 migration guide as code (using backticks).\r\n\r\n### Before submitting the PR, please make sure you do the following\r\n\r\n- [x] It's really useful if your PR references an issue where it is discussed ahead of time. In many cases, features are absent for a reason. For large changes, please create an RFC: https://github.com/sveltejs/rfcs\r\n- [x] Prefix your PR title with `feat:`, `fix:`, `chore:`, or `docs:`.\r\n- [x] This message body should clearly illustrate what problems it solves.\r\n- [ ] Ideally, include a test that fails without this PR but passes with it.\r\n\r\n### Tests and linting\r\n\r\n- [x] Run the tests with `pnpm test` and lint the project with `pnpm lint`",
+      "body_cleaned_length": 716,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.2785515320334262,
+      "author_type": "User"
+    },
+    "username": "neelkarma"
+  },
+  {
+    "pr_number": 13429,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 7782,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13429,
+      "title": "fix: allow unquoted slash while attribute value is empty",
+      "body": "Fixes #7782\r\n\r\n* Added check for `current_chunk.raw.length` in `done()` and allow `/` if current chunk length is 0\r\n* Renamed regex variable for checking invalid value and self closing tag\r\n* Added test for `<a href=/>home</a>` as mentioned in #13090 ",
+      "body_length": 232,
+      "created_at": "2024-09-29T06:41:02Z",
+      "updated_at": "2025-01-07T23:27:20Z",
+      "closed_at": "2025-01-07T23:27:19Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 52,
+      "deletions": 6,
+      "files_changed": 3,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 58,
+      "avg_commit_msg_length": 56.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/svelte/tests/parser-legacy/samples/attribute-unquoted/input.svelte",
+        "packages/svelte/tests/parser-legacy/samples/attribute-unquoted/output.json"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "js": 1,
+        "svelte": 1,
+        "json": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #7782\r\n\r\n* Added check for `current_chunk.raw.length` in `done()` and allow `/` if current chunk length is 0\r\n* Renamed regex variable for checking invalid value and self closing tag\r\n* Added test for `<a href=/>home</a>` as mentioned in #13090",
+      "body_cleaned_length": 250,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.398406374501992,
+      "author_type": "User"
+    },
+    "username": "eug-L"
+  }
+]

@@ -1,0 +1,1981 @@
+[
+  {
+    "pr_number": 93600,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 62612,
+        "labels": [
+          "framework",
+          "f: material design",
+          "d: api docs",
+          "good first issue",
+          "P2"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 93600,
+      "title": "fix: inline templatized see also",
+      "body": "This PR replace the dartdoc template in the \"see also\" doc part of the file [`slider_theme.dart`](https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/material/slider_theme.dart).\r\n\r\nFixes #62612 \r\n",
+      "body_length": 217,
+      "created_at": "2021-11-13T16:23:08Z",
+      "merged_at": "2021-11-17T02:28:06Z",
+      "merged": true,
+      "time_to_merge_hours": 82.08277777777778,
+      "state": "MERGED",
+      "additions": 69,
+      "deletions": 45,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: inline templatized see also"
+      ],
+      "avg_commit_msg_length": 32.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR replace the dartdoc template in the \"see also\" doc part of the file [`slider_theme.dart`](https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/material/slider_theme.dart).\r\n\r\nFixes #62612",
+      "body_cleaned_length": 214,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 1.3824884792626728,
+      "author_type": "User"
+    },
+    "username": "Letiste"
+  },
+  {
+    "pr_number": 103816,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 99671,
+        "labels": [
+          "framework",
+          "platform-web",
+          "good first issue",
+          "has reproducible steps",
+          "P2",
+          "r: fixed",
+          "found in release: 2.10",
+          "found in release: 2.11"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 103816,
+      "title": "[web] [fix] Cache resource data only if the fetching succeed",
+      "body": "Fix for issue #99671 \r\n\r\nCaching the resulting resource is done regardless of whether the call was successful. This results in caching both successful and failed results. \r\nThis PR changes the logic to only cache successful results. \r\n\r\nCloses #99671\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 1735,
+      "created_at": "2022-05-14T16:38:56Z",
+      "merged_at": "2022-05-24T23:23:07Z",
+      "merged": true,
+      "time_to_merge_hours": 246.73638888888888,
+      "state": "MERGED",
+      "additions": 232,
+      "deletions": 28,
+      "files_changed": 5,
+      "commits_count": 1,
+      "review_count": 6,
+      "comment_count": 3,
+      "commit_messages": [
+        "[fix] [web] Cache resource data only if the fetching succeed\n\n[fix] [web] Updated tests\n\n[fix] [web] Added tests"
+      ],
+      "avg_commit_msg_length": 112.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 4,
+        "yaml": 1
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "c: contributor-productivity",
+          "color": "d4c5f9",
+          "description": "Team-specific productivity, code health, technical debt."
+        },
+        {
+          "name": "tool",
+          "color": "5319e7",
+          "description": "Affects the \"flutter\" command-line tool. See also t: labels."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix for issue #99671 \r\n\r\nCaching the resulting resource is done regardless of whether the call was successful. This results in caching both successful and failed results. \r\nThis PR changes the logic to only cache successful results. \r\n\r\nCloses #99671\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1719,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.9221902017291067,
+      "author_type": "User"
+    },
+    "username": "dacianf"
+  },
+  {
+    "pr_number": 125785,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 125651,
+        "labels": [
+          "framework",
+          "f: scrolling",
+          "d: api docs",
+          "d: examples",
+          "good first issue",
+          "P2"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 125785,
+      "title": "Add sample code for SliverAppBar",
+      "body": "This PR adds an another example for SliverAppBar, showing the use of stretch and onStretchTrigger\r\n\r\n\r\nhttps://user-images.githubusercontent.com/68919043/235420973-2bfb9871-9e05-4d87-9538-941d43178c76.mp4\r\n\r\nFixes #125651 \r\n\r\n### Adds sample code for SliverAppBar [stretch, onStretchTrigger]\r\n\r\nThis PR adds an another simple and easily understandable example code for SliverAppBar.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 1867,
+      "created_at": "2023-05-01T07:26:13Z",
+      "merged_at": "2023-05-05T18:09:25Z",
+      "merged": true,
+      "time_to_merge_hours": 106.72,
+      "state": "MERGED",
+      "additions": 143,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 5,
+      "review_count": 6,
+      "comment_count": 10,
+      "commit_messages": [
+        "Add sample code for SliverAppBar",
+        "++",
+        "add stretchTriggerOffset to the sample code",
+        "Update packages/flutter/lib/src/material/app_bar.dart",
+        "Merge branch 'master' into doc-update"
+      ],
+      "avg_commit_msg_length": 33.4,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "examples/api/test/material/appbar/sliver_app_bar.4_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 3
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "c: contributor-productivity",
+          "color": "d4c5f9",
+          "description": "Team-specific productivity, code health, technical debt."
+        },
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "f: scrolling",
+          "color": "207de5",
+          "description": "Viewports, list views, slivers, etc."
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        },
+        {
+          "name": "d: examples",
+          "color": "0e8a16",
+          "description": "Sample code and demos"
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR adds an another example for SliverAppBar, showing the use of stretch and onStretchTrigger\r\n\r\n\r\nhttps://user-images.githubusercontent.com/68919043/235420973-2bfb9871-9e05-4d87-9538-941d43178c76.mp4\r\n\r\nFixes #125651 \r\n\r\n### Adds sample code for SliverAppBar [stretch, onStretchTrigger]\r\n\r\nThis PR adds an another simple and easily understandable example code for SliverAppBar.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1851,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.8569898232458489,
+      "author_type": "User"
+    },
+    "username": "Istiak-Ahmed78"
+  },
+  {
+    "pr_number": 125433,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 112755,
+        "labels": [
+          "framework",
+          "f: material design",
+          "d: api docs",
+          "good first issue",
+          "r: fixed",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 125433,
+      "title": "Data table example scroll",
+      "body": "\r\nFix : #112755\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 663,
+      "created_at": "2023-04-24T19:25:00Z",
+      "updated_at": "2023-05-16T19:18:11Z",
+      "closed_at": "2023-05-16T19:18:11Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 73,
+      "deletions": 28,
+      "files_changed": 2,
+      "commits_count": 10,
+      "review_count": 0,
+      "comment_count": 0,
+      "pr_size": 101,
+      "avg_commit_msg_length": 54.2,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "examples/api/test/material/data_table/data_table.1_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "c: contributor-productivity",
+          "color": "d4c5f9",
+          "description": "Team-specific productivity, code health, technical debt."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        },
+        {
+          "name": "d: examples",
+          "color": "0e8a16",
+          "description": "Sample code and demos"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix : #112755\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1482,
+      "template_removed_length": 18,
+      "template_reduction_percentage": 1.2,
+      "author_type": "User"
+    },
+    "username": "stMerlHin"
+  },
+  {
+    "pr_number": 131160,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 97065,
+        "labels": [
+          "tool",
+          "platform-windows",
+          "a: desktop",
+          "a: build",
+          "good first issue",
+          "P2",
+          "team-windows"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 131160,
+      "title": "Fixed regex to show missing assets file error",
+      "body": "Added Regex to match error message from verbos build as suggested by @stuartmorgan [here](https://github.com/flutter/flutter/pull/98137#discussion_r810559589).\r\nModified Windows Build Test\r\n\r\nFixes #97065 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 1690,
+      "created_at": "2023-07-23T14:02:14Z",
+      "merged_at": "2023-07-31T20:42:09Z",
+      "merged": true,
+      "time_to_merge_hours": 198.6652777777778,
+      "state": "MERGED",
+      "additions": 45,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 14,
+      "review_count": 20,
+      "comment_count": 3,
+      "commit_messages": [
+        "Fixed regex to show missing assets file error",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Fixed regex and created a seperate test",
+        "Merge branch 'master' of https://github.com/thisisjaymehta/flutter",
+        "Merge branch 'flutter:master' into master",
+        "Merge branch 'flutter:master' into master",
+        "Update packages/flutter_tools/lib/src/windows/build_windows.dart\n\nCo-authored-by: Loïc Sharma <737941+loic-sharma@users.noreply.github.com>",
+        "Merge branch 'master' into master",
+        "Converted tab to spaces on line 194",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master"
+      ],
+      "avg_commit_msg_length": 45.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter_tools/test/commands.shard/hermetic/build_windows_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 17,
+        "APPROVED": 2,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "tool",
+          "color": "5319e7",
+          "description": "Affects the \"flutter\" command-line tool. See also t: labels."
+        },
+        {
+          "name": "platform-windows",
+          "color": "c0408a",
+          "description": "Building on or for Windows specifically"
+        },
+        {
+          "name": "a: desktop",
+          "color": "55ddbb",
+          "description": "Running on desktop"
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Added Regex to match error message from verbos build as suggested by @stuartmorgan [here](https://github.com/flutter/flutter/pull/98137#discussion_r810559589).\r\nModified Windows Build Test\r\n\r\nFixes #97065 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1674,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.9467455621301776,
+      "author_type": "User"
+    },
+    "username": "thisisjaymehta"
+  },
+  {
+    "pr_number": 131293,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 131166,
+        "labels": [
+          "tool",
+          "good first issue",
+          "P3",
+          "team-tool",
+          "triaged-tool"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 131293,
+      "title": "Appended period remove & Uri parsing fix.",
+      "body": "Fixed code for the Uri as it includes the period at the end as the part of Uri parsing previously.\r\n\r\nAs for example:\r\n```\r\nA crash report has been written to /Users/andrewkolos/Desktop/asset_transformers_test/flutter_03.log.\r\n``` \r\n\r\nMany terminals are unable to follow the link because it includes the period in the end as part of it. This PR simply removes the period in the end so that it is clickable in many systems (e.g. by `alt` -clicking on it in an embedded bash terminal, VSCode).\r\n\r\n```\r\nA crash report has been written to /Users/andrewkolos/Desktop/asset_transformers_test/flutter_03.log\r\n``` \r\n\r\nFixes:  #131166 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 2111,
+      "created_at": "2023-07-25T20:31:54Z",
+      "merged_at": "2023-07-31T20:42:12Z",
+      "merged": true,
+      "time_to_merge_hours": 144.17166666666665,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 13,
+      "review_count": 6,
+      "comment_count": 6,
+      "commit_messages": [
+        "Update crash_reporting.dart\n\nFixed code for the Uri as it includes the period at the end as the part of Uri parsing previously.",
+        "Update crash_reporting_test.dart\n\nFixed the code in crash_reporting_test.dart file.",
+        "Revert \"Update crash_reporting_test.dart\"\n\nThis reverts commit b2badd84e7a15c626e0701ce2778ca89c9f1ebde.",
+        "Revert \"Revert \"Update crash_reporting_test.dart\"\"\n\nThis reverts commit 390e8beaf55e51a753d0b3298b9fb88034865011.",
+        "Update crash_reporting_test.dart",
+        "Update crash_reporting_test\n\nMade exact string match with the logger errorText.",
+        "Merge branch 'flutter:master' into master",
+        "Update crash_reporting_test\n\nRemoved the unnecessary change for the period!",
+        "Revert \"Update crash_reporting_test\"\n\nThis reverts commit b377d807892ac9acae962a58d760f4016040450e.",
+        "Merge branch 'flutter:master' into master",
+        "Update crash_reporting_test\n\nRemoved the unnecessary change!",
+        "Appended Period Remove!",
+        "Merge branch 'master' into master"
+      ],
+      "avg_commit_msg_length": 70.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter_tools/test/general.shard/crash_reporting_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 3
+      },
+      "labels": [
+        {
+          "name": "tool",
+          "color": "5319e7",
+          "description": "Affects the \"flutter\" command-line tool. See also t: labels."
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixed code for the Uri as it includes the period at the end as the part of Uri parsing previously.\r\n\r\nAs for example:\r\n```\r\nA crash report has been written to /Users/andrewkolos/Desktop/asset_transformers_test/flutter_03.log.\r\n``` \r\n\r\nMany terminals are unable to follow the link because it includes the period in the end as part of it. This PR simply removes the period in the end so that it is clickable in many systems (e.g. by `alt` -clicking on it in an embedded bash terminal, VSCode).\r\n\r\n```\r\nA crash report has been written to /Users/andrewkolos/Desktop/asset_transformers_test/flutter_03.log\r\n``` \r\n\r\nFixes:  #131166 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 2095,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.7579346281383231,
+      "author_type": "User"
+    },
+    "username": "SumitBikram"
+  },
+  {
+    "pr_number": 140947,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 140574,
+        "labels": [
+          "platform-ios",
+          "framework",
+          "f: material design",
+          "platform-mac",
+          "a: fidelity",
+          "good first issue",
+          "P2",
+          "a: adaptivity",
+          "team-design",
+          "triaged-design",
+          "found in release: 3.16"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 140947,
+      "title": "resolved the issue of indeterminate CircularProgressIndicator.adaptive on Darwin ",
+      "body": "Fixes #140574\r\n\r\nPasses the value from `CircularProgressIndicator` to the Cupertino version so that functionality is not lost on Apple devices.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 1628,
+      "created_at": "2024-01-04T05:33:35Z",
+      "merged_at": "2024-01-09T18:19:07Z",
+      "merged": true,
+      "time_to_merge_hours": 132.7588888888889,
+      "state": "MERGED",
+      "additions": 40,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 38,
+      "review_count": 15,
+      "comment_count": 23,
+      "commit_messages": [
+        "Update progress_indicator.dart\n\nresolved issue of cicularactivityindicator",
+        "Merge pull request #1 from nikkivirtuoso/nikkivirtuoso-patch-1\n\nUpdate progress_indicator.dart",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Update progress_indicator.dart\n\nnit changes",
+        "test cases updated",
+        "nit changes",
+        "Merge branch 'master' into master",
+        "trying to correct the linux error",
+        "change in test case #2",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Update packages/flutter/lib/src/material/progress_indicator.dart\n\nCo-authored-by: Mitchell Goodwin <58190796+MitchellGoodwin@users.noreply.github.com>",
+        "seperate test created",
+        "Merge branch 'master' into master",
+        "testwidgets",
+        "commented",
+        "again uncomment",
+        "Merge branch 'master' into master",
+        "removed trailing spaces",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Update packages/flutter/test/material/progress_indicator_test.dart\n\nCo-authored-by: Mitchell Goodwin <58190796+MitchellGoodwin@users.noreply.github.com>",
+        "outstanding nits",
+        "1113 line remove",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "Merge branch 'master' into master",
+        "nit changes",
+        "val->value",
+        "minor_Change\n\nCo-authored-by: Qun Cheng <36861262+QuncCccccc@users.noreply.github.com>",
+        "another val -> value",
+        "Merge branch 'master' into master"
+      ],
+      "avg_commit_msg_length": 37.60526315789474,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/material/progress_indicator_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 12,
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #140574\r\n\r\nPasses the value from `CircularProgressIndicator` to the Cupertino version so that functionality is not lost on Apple devices.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1612,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.9828009828009828,
+      "author_type": "User"
+    },
+    "username": "nikkivirtuoso"
+  },
+  {
+    "pr_number": 151272,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 151194,
+        "labels": [
+          "f: cupertino",
+          "d: api docs",
+          "d: examples",
+          "good first issue",
+          "P2",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 151272,
+      "title": "Replaced {@tool snippet} with {@tool dartpad} in CupertinoTabController",
+      "body": "This PR update replace the `{@tool snippet} ` with `{@tool dartpad}` in CupertinoTabController\r\n\r\nfixes: #151194 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [X] I signed the [CLA].\r\n- [X] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [X] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 1982,
+      "created_at": "2024-07-03T21:37:44Z",
+      "merged_at": "2024-07-11T19:23:20Z",
+      "merged": true,
+      "time_to_merge_hours": 189.76,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 6,
+      "review_count": 2,
+      "comment_count": 1,
+      "commit_messages": [
+        "added {@tool dartpad}",
+        "Merge branch 'master' into ramonfarizel/fix-docs",
+        "Merge branch 'master' into ramonfarizel/fix-docs",
+        "Merge branch 'master' into ramonfarizel/fix-docs",
+        "Merge branch 'master' into ramonfarizel/fix-docs",
+        "Merge branch 'master' into ramonfarizel/fix-docs"
+      ],
+      "avg_commit_msg_length": 43.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: cupertino",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/cupertino repository"
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR update replace the `{@tool snippet} ` with `{@tool dartpad}` in CupertinoTabController\r\n\r\nfixes: #151194 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [X] I signed the [CLA].\r\n- [X] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [X] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 1966,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.8072653884964682,
+      "author_type": "User"
+    },
+    "username": "RamonFarizel"
+  },
+  {
+    "pr_number": 152836,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 152460,
+        "labels": [
+          "tool",
+          "a: quality",
+          "c: proposal",
+          "good first issue",
+          "P3",
+          "r: fixed",
+          "team-tool",
+          "triaged-tool"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 152836,
+      "title": "Fix `flutter create` warning regarding Java compatibility",
+      "body": "This PR modifies the warning message regarding Java compatibility to make it consistent with the Flutter style guide.\r\n\r\n**Current message looks like this**\r\n```\r\n[RECOMMENDED] If so, to keep the default AGP version 8.1.0, make\r\nsure to download a compatible Java version\r\n(Java 17 <= compatible Java version < Java 21).\r\nYou may configure this compatible Java version by running:\r\n`flutter config --jdk-dir=<JDK_DIRECTORY>`\r\nNote that this is a global configuration for Flutter.\r\n\r\nAlternatively, to continue using your configured Java version, update the AGP\r\nversion specified in the following files to a compatible AGP\r\nversion (minimum compatible AGP version: 7.0) as necessary:\r\n    -   /home/user/project/testproj/android/build.gradle\r\n\r\nSee\r\nhttps://developer.android.com/build/releases/gradle-plugin for details on\r\ncompatible Java/AGP versions.\r\n```\r\n\r\n**After Modification**\r\n\r\n```\r\nTo keep the default AGP version 8.1.0, download a compatible Java version \r\n(Java 17 <= compatible Java version < Java 21). Configure this Java version \r\nglobally for Flutter by running:\r\n\r\n  flutter config --jdk-dir=<JDK_DIRECTORY>\r\n\r\nAlternatively, to continue using your current Java version, update the AGP \r\nversion in the following file(s) to a compatible version (minimum AGP version: 7.0):\r\n\r\n  /home/user/project/testproj/android/build.gradle\r\n\r\nFor details on compatible Java and AGP versions, see\r\nhttps://developer.android.com/build/releases/gradle-plugin\r\n```\r\n\r\nFixes #152460 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 3351,
+      "created_at": "2024-08-04T13:59:11Z",
+      "merged_at": "2024-09-11T16:21:17Z",
+      "merged": true,
+      "time_to_merge_hours": 914.3683333333333,
+      "state": "MERGED",
+      "additions": 26,
+      "deletions": 13,
+      "files_changed": 2,
+      "commits_count": 10,
+      "review_count": 8,
+      "comment_count": 6,
+      "commit_messages": [
+        "fix: warning message cleanup",
+        "fix: remove `-` from `gradleBuildFilePaths`",
+        "test: add test for warning message",
+        "Merge branch 'master' of github.com:flutter/flutter into fix/152460-java-compatibility-warning",
+        "Merge branch 'master' into fix/152460-java-compatibility-warning",
+        "Merge branch 'master' into fix/152460-java-compatibility-warning",
+        "Merge branch 'master' into fix/152460-java-compatibility-warning",
+        "fix: use pluralizing suffix for file\n\nCo-authored-by: Andrew Kolos <andrewrkolos@gmail.com>",
+        "fix: remove semicolon\n\nCo-authored-by: Andrew Kolos <andrewrkolos@gmail.com>",
+        "Merge branch 'master' into fix/152460-java-compatibility-warning"
+      ],
+      "avg_commit_msg_length": 62.2,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix",
+        "test"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter_tools/test/commands.shard/permeable/create_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 6,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "tool",
+          "color": "5319e7",
+          "description": "Affects the \"flutter\" command-line tool. See also t: labels."
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR modifies the warning message regarding Java compatibility to make it consistent with the Flutter style guide.\r\n\r\n**Current message looks like this**\r\n```\r\n[RECOMMENDED] If so, to keep the default AGP version 8.1.0, make\r\nsure to download a compatible Java version\r\n(Java 17 <= compatible Java version < Java 21).\r\nYou may configure this compatible Java version by running:\r\n`flutter config --jdk-dir=<JDK_DIRECTORY>`\r\nNote that this is a global configuration for Flutter.\r\n\r\nAlternatively, to continue using your configured Java version, update the AGP\r\nversion specified in the following files to a compatible AGP\r\nversion (minimum compatible AGP version: 7.0) as necessary:\r\n    -   /home/user/project/testproj/android/build.gradle\r\n\r\nSee\r\nhttps://developer.android.com/build/releases/gradle-plugin for details on\r\ncompatible Java/AGP versions.\r\n```\r\n\r\n**After Modification**\r\n\r\n```\r\nTo keep the default AGP version 8.1.0, download a compatible Java version \r\n(Java 17 <= compatible Java version < Java 21). Configure this Java version \r\nglobally for Flutter by running:\r\n\r\n  flutter config --jdk-dir=<JDK_DIRECTORY>\r\n\r\nAlternatively, to continue using your current Java version, update the AGP \r\nversion in the following file(s) to a compatible version (minimum AGP version: 7.0):\r\n\r\n  /home/user/project/testproj/android/build.gradle\r\n\r\nFor details on compatible Java and AGP versions, see\r\nhttps://developer.android.com/build/releases/gradle-plugin\r\n```\r\n\r\nFixes #152460 \r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 3335,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.47746941211578636,
+      "author_type": "User"
+    },
+    "username": "shashwatpathak98"
+  },
+  {
+    "pr_number": 154473,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 154450,
+        "labels": [
+          "framework",
+          "f: cupertino",
+          "d: api docs",
+          "d: examples",
+          "good first issue",
+          "r: fixed",
+          "team-framework"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 154473,
+      "title": "Replace `ListTile` usage with `CupertinoListTile`",
+      "body": "This PR replaces the `ListTile` usage in the cupertino switch example with `CupertinoListTile`.\r\n\r\nFixes #154450\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 1979,
+      "created_at": "2024-08-31T13:44:12Z",
+      "merged_at": "2024-09-03T18:14:53Z",
+      "merged": true,
+      "time_to_merge_hours": 76.51138888888889,
+      "state": "MERGED",
+      "additions": 3,
+      "deletions": 3,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 7,
+      "comment_count": 2,
+      "commit_messages": [
+        "refactor: replace `listTile` usage with `CupertinoListTile`",
+        "fix: test",
+        "test: revert change"
+      ],
+      "avg_commit_msg_length": 29.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "refactor",
+        "test",
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {
+        "APPROVED": 3,
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 3
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: cupertino",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/cupertino repository"
+        },
+        {
+          "name": "autosubmit",
+          "color": "008820",
+          "description": "Merge PR when tree becomes green via auto submit App"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR replaces the `ListTile` usage in the cupertino switch example with `CupertinoListTile`.\r\n\r\nFixes #154450\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 1963,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.808489135927236,
+      "author_type": "User"
+    },
+    "username": "ishon19"
+  },
+  {
+    "pr_number": 159385,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 159382,
+        "labels": [
+          "a: text input",
+          "c: new feature",
+          "framework",
+          "f: cupertino",
+          "c: proposal",
+          "good first issue",
+          "P2",
+          "r: fixed",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 159385,
+      "title": "Added spellCheckConfiguration to the constructor of CupertinoTextFormFieldRow",
+      "body": "Before: No way to set the _spellCheckConfiguration_ property of a CupertinoTextFormFieldRow, meaning no spellcheck/highlighting of incorrect words is present. This can be done on the standard CupertinoTextField widget, but not the CupertinoTextFormFieldRow widget.\r\n![image](https://github.com/user-attachments/assets/891721c4-020b-4a3f-9492-e2ba7a475bd5)\r\n\r\nAfter: Adding this property allows the _spellCheckConfiguration_ to be configured and spellcheck/highlighting of incorrect words working as expected.\r\n![image](https://github.com/user-attachments/assets/7b20692d-9444-4ce6-9b43-54bda7de2552)\r\n![image](https://github.com/user-attachments/assets/3e86c901-4954-4ac2-9f63-bcdddfa3b43c)\r\n\r\nFixes #159382 by adding the _ spellCheckConfiguration_ field to the constructor of CupertinoTextFormFieldRow and passing the value through to CupertinoTextField.borderless internally.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 2744,
+      "created_at": "2024-11-24T06:38:06Z",
+      "merged_at": "2024-12-11T20:39:49Z",
+      "merged": true,
+      "time_to_merge_hours": 422.0286111111111,
+      "state": "MERGED",
+      "additions": 26,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 4,
+      "review_count": 3,
+      "comment_count": 3,
+      "commit_messages": [
+        "Added spellCheckConfiguration property\n\nNull by default, passed through to CupertinoTextField.borderless upon creation",
+        "Merge branch 'master' of github.com:sargntpi/flutter",
+        "Added test for spellCheckConfiguration on CupertinoTextField\n\nPrevents spellCheckConfiguration being removed and causing issues.",
+        "Merge branch 'flutter:master' into master"
+      ],
+      "avg_commit_msg_length": 84.75,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/cupertino/text_form_field_row_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "a: text input",
+          "color": "55ddbb",
+          "description": "Entering text in a text field or keyboard related problems"
+        },
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: cupertino",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/cupertino repository"
+        },
+        {
+          "name": "team-text-input",
+          "color": "198022",
+          "description": "Owned by Text Input team"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Before: No way to set the _spellCheckConfiguration_ property of a CupertinoTextFormFieldRow, meaning no spellcheck/highlighting of incorrect words is present. This can be done on the standard CupertinoTextField widget, but not the CupertinoTextFormFieldRow widget.\r\n![image](https://github.com/user-attachments/assets/891721c4-020b-4a3f-9492-e2ba7a475bd5)\r\n\r\nAfter: Adding this property allows the _spellCheckConfiguration_ to be configured and spellcheck/highlighting of incorrect words working as expected.\r\n![image](https://github.com/user-attachments/assets/7b20692d-9444-4ce6-9b43-54bda7de2552)\r\n![image](https://github.com/user-attachments/assets/3e86c901-4954-4ac2-9f63-bcdddfa3b43c)\r\n\r\nFixes #159382 by adding the _ spellCheckConfiguration_ field to the constructor of CupertinoTextFormFieldRow and passing the value through to CupertinoTextField.borderless internally.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 2728,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.5830903790087464,
+      "author_type": "User"
+    },
+    "username": "sargntpi"
+  },
+  {
+    "pr_number": 161650,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 161602,
+        "labels": [
+          "a: text input",
+          "f: material design",
+          "waiting for PR to land (fixed)",
+          "d: api docs",
+          "good first issue",
+          "P2",
+          "team-text-input",
+          "triaged-text-input"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 161650,
+      "title": "Fix incorrect [enabled] documentation",
+      "body": "This PR updates the documentation to align with the current behavior of the InputDecorator. When [enabled] is false, [helperText],[errorText], and [counterText] are actually still displayed. So, this updates the docs to align with current functionality.\r\n\r\nFixes #161602\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 2047,
+      "created_at": "2025-01-15T08:00:13Z",
+      "merged_at": "2025-01-22T19:14:36Z",
+      "merged": true,
+      "time_to_merge_hours": 179.2397222222222,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 4,
+      "review_count": 4,
+      "comment_count": 0,
+      "commit_messages": [
+        "Fix incorrect [enabled] documentation",
+        "Merge branch 'master' into sethmfuller-patch-1",
+        "Update input_decorator.dart\n\nCo-authored-by: Mitchell Goodwin <58190796+MitchellGoodwin@users.noreply.github.com>",
+        "Merge branch 'master' into sethmfuller-patch-1"
+      ],
+      "avg_commit_msg_length": 60.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "team-text-input",
+          "color": "198022",
+          "description": "Owned by Text Input team"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR updates the documentation to align with the current behavior of the InputDecorator. When [enabled] is false, [helperText],[errorText], and [counterText] are actually still displayed. So, this updates the docs to align with current functionality.\r\n\r\nFixes #161602\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 2031,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.7816316560820713,
+      "author_type": "User"
+    },
+    "username": "sethmfuller"
+  },
+  {
+    "pr_number": 169854,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 59306,
+        "labels": [
+          "a: text input",
+          "framework",
+          "f: material design",
+          "a: internationalization",
+          "good first issue",
+          "has reproducible steps",
+          "P2",
+          "found in release: 3.3",
+          "found in release: 3.6",
+          "team-text-input",
+          "triaged-text-input"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 169854,
+      "title": "Fix text selection toolbar alignment for RTL languages",
+      "body": "<!--\r\nThanks for filing a pull request!\r\nReviewers are typically assigned within a week of filing a request.\r\nTo learn more about code review, see our documentation on Tree Hygiene: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n-->\r\n\r\n**Fix text selection toolbar alignment for RTL (right-to-left) languages**\r\n\r\nThis PR updates the Material text selection toolbar to properly support right-to-left (RTL) layouts. Previously, the toolbar and its buttons did not align or order correctly when using RTL text direction, leading to a broken or confusing user experience for RTL languages.\r\n\r\n**Summary of changes:**\r\n- Refactored layout logic in `text_selection_toolbar.dart` to handle RTL and LTR directions for both horizontal and overflow (vertical) arrangements.\r\n- Updated padding logic in `text_selection_toolbar_text_button.dart` to use `EdgeInsetsDirectional`, ensuring correct padding for both text directions.\r\n- Added new widget tests to verify that:\r\n  - Toolbar items are ordered right-to-left in RTL contexts.\r\n  - The overflow menu behaves correctly in RTL, showing items in the correct order and position.\r\n\r\n**Before:**  \r\n- Toolbar items and overflow menus did not respect RTL layout, resulting in misaligned or reversed button order.\r\n- Padding was inconsistent in RTL.\r\n<details>\r\n<summary>Before Screenshots</summary>\r\n\r\n| LTR Not Expanded | LTR Expanded | RTL Not Expanded | RTL Expanded |\r\n|---|---|---|---|\r\n| ![before_ltr_non_expanded jpg](https://github.com/user-attachments/assets/bccf719e-c95a-46b1-b924-d2fb229e4ada) | ![before_ltr_expanded jpg](https://github.com/user-attachments/assets/a947690a-62fb-4f41-863c-d3822294bb66) | ![before_rtl_non_expanded](https://github.com/user-attachments/assets/1e3440ee-d80c-4554-aeda-7632f2b166ca) | ![before_rtl_expanded](https://github.com/user-attachments/assets/364a3b2b-d068-4488-afbd-61224e74c30a) |\r\n\r\n</details>\r\n\r\n\r\n**After:**  \r\n- Toolbar items and overflow menus are correctly ordered and aligned for RTL.\r\n- Button padding is now directionally correct.\r\n\r\n<details>\r\n<summary>After Screenshots</summary>\r\n\r\n| LTR Not Expanded | LTR Expanded | RTL Not Expanded | RTL Expanded |\r\n|---|---|---|---|\r\n| ![after_ltr_non_expanded](https://github.com/user-attachments/assets/b63bf625-0d37-4304-9ba5-af017c197b15) | ![after_ltr_expanded](https://github.com/user-attachments/assets/6a95c9b7-e343-4e7e-93ae-f18de6d38a2e) | ![after_rtl_not_expanded](https://github.com/user-attachments/assets/8a93b08b-fcf2-45a9-8f5a-390133c0aec4) | ![after_rtl_expanded](https://github.com/user-attachments/assets/5cbdffd4-3943-44cc-98d9-fa470e11b942) |\r\n\r\n</details>\r\n\r\nThis improves the usability and accessibility of text selection controls for users of RTL languages.\r\n\r\n\r\nFixes #59306 \r\n\r\n---\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 4648,
+      "created_at": "2025-06-02T12:13:29Z",
+      "merged_at": "2025-06-25T21:38:39Z",
+      "merged": true,
+      "time_to_merge_hours": 561.4194444444445,
+      "state": "MERGED",
+      "additions": 258,
+      "deletions": 51,
+      "files_changed": 3,
+      "commits_count": 17,
+      "review_count": 19,
+      "comment_count": 4,
+      "commit_messages": [
+        "refactor: change padding type to EdgeInsetsGeometry for better flexibility for both rtl and ltr",
+        "fix: RTL TextDirection in TextSelectionToolbarItemsLayout\n\nThis change ensures that the Material text selection toolbar correctly positions its items (including the overflow button) according to the current `TextDirection` (LTR or RTL).\n\nPreviously, the layout logic did not account for text direction, leading to incorrect placement of items in RTL layouts.\n\nThe `_TextSelectionToolbarItemsLayout` and its corresponding `_RenderTextSelectionToolbarItemsLayout` now explicitly take a `textDirection` parameter. The `_placeChildren` method in the render object has been updated to arrange items from right-to-left when in an RTL context.",
+        "feat: added tests tp ensure TextSelectionToolbar items are ordered right-to-left in RTL\n\nThis commit introduces tests to verify that:\n- Items in `TextSelectionToolbar` are correctly ordered from right-to-left when the `textDirection` is `TextDirection.rtl`.\n- The overflow menu in `TextSelectionToolbar` functions as expected in RTL mode, correctly displaying and hiding overflowed items.",
+        "feat: added tests to ensure TextSelectionToolbar items are ordered right-to-left in RTL\n\nThis commit introduces tests to verify that:\n- Items in `TextSelectionToolbar` are correctly ordered from right-to-left when the `textDirection` is `TextDirection.rtl`.\n- The overflow menu in `TextSelectionToolbar` functions as expected in RTL mode, correctly displaying and hiding overflowed items.",
+        "Merge remote-tracking branch 'origin/fix-text-selection-toolbar-in-rtl' into fix-text-selection-toolbar-in-rtl",
+        "fix: added missing dots to the end of docs",
+        "fix: added missing dots to the end of docs",
+        "fix: remove duplicate if clause",
+        "Refactor: Separate TextSelectionToolbar layout logic into horizontal and vertical methods\n\nThis change refactors the `_placeChildren` method in `TextSelectionToolbar` by extracting the logic for horizontal and vertical layouts into two new methods: `_placeChildrenHorizontally` and `_placeChildrenVertically`.\n\nThis improves code readability and maintainability by clearly separating the distinct layout calculations.",
+        "fix: TextSelectionToolbar RTL item order test\n\nThe previous test for right-to-left (RTL) item ordering in `TextSelectionToolbar` incorrectly assumed items would be perfectly adjacent. This commit revises the test to accurately verify that items are positioned to the left of their preceding items in RTL, allowing for potential spacing or visual separation between them.\n\nThe test now:\n- Adds `Text` widgets as children to `TestBox` for easier identification and position retrieval.\n- Verifies that `next.right` is less than or equal to `current.left` for each pair of items in RTL.\n- Additionally confirms the visual right-to-left order by comparing the sorted list of right edges with the actual list.",
+        "Merge branch 'flutter:master' into fix-text-selection-toolbar-in-rtl",
+        "fix: Fix typo in TextSelectionToolbar RTL test comment\n\nThe comment incorrectly stated that item 2 should be rightmost in RTL. It has been corrected to leftmost.",
+        "Refactor: Simplify horizontal layout logic in TextSelectionToolbar\n\nThis commit refactors the `_placeChildrenHorizontally` method in `TextSelectionToolbar` for improved clarity and efficiency.\n\nThe changes include:\n- Renaming variables for better readability (e.g., `paintedContentItems` to `contentItems`, `totalHorizontalWidth` to `totalWidth`).\n- Simplifying the logic for collecting and positioning child items by iterating directly over children using `visitChildren`.\n- Using a boolean `showNavButton` derived from `_lastIndexThatFits` to determine if the navigation button should be painted, instead of a separate `navButtonIsPainted` flag.",
+        "Refactor: Improve layout logic in Material text selection toolbar\n\nThis commit refactors the `_placeChildrenVertically` method within the `_TextSelectionToolbarContentLayout` class of the Material text selection toolbar.\n\nThe changes include:\n- Using `visitChildren` for iterating over child render objects, replacing the manual linked-list traversal.\n- Renaming `maxItemWidth` to `maxWidth` for clarity.\n- Removing the unused `nextSize` variable.\n- Simplifying the logic for handling the navigation button.\n\nThese changes improve the readability and maintainability of the vertical layout logic for the overflow menu in the Material text selection toolbar.",
+        "Refactor: Simplify logic in `TextSelectionToolbar`\n\nThis commit refactors the logic within the `TextSelectionToolbar`'s `performLayout` method.\nSpecifically, it streamlines the condition for determining whether a child should be painted. Instead of checking `_shouldPaintChild` and then setting `shouldPaint` to true or false, it now directly checks `!_shouldPaintChild` to set `shouldPaint` to false, with an `else` block to set it to true. This improves readability without changing the underlying behavior.",
+        "Merge branch 'flutter:master' into fix-text-selection-toolbar-in-rtl",
+        "Merge branch 'flutter:master' into fix-text-selection-toolbar-in-rtl"
+      ],
+      "avg_commit_msg_length": 295.88235294117646,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.7647058823529411,
+      "commit_types": [
+        "refactor",
+        "feat",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/material/text_selection_toolbar_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 3
+      },
+      "review_states": {
+        "COMMENTED": 17,
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "a: text input",
+          "color": "55ddbb",
+          "description": "Entering text in a text field or keyboard related problems"
+        },
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**Fix text selection toolbar alignment for RTL (right-to-left) languages**\r\n\r\nThis PR updates the Material text selection toolbar to properly support right-to-left (RTL) layouts. Previously, the toolbar and its buttons did not align or order correctly when using RTL text direction, leading to a broken or confusing user experience for RTL languages.\r\n\r\n**Summary of changes:**\r\n- Refactored layout logic in `text_selection_toolbar.dart` to handle RTL and LTR directions for both horizontal and overflow (vertical) arrangements.\r\n- Updated padding logic in `text_selection_toolbar_text_button.dart` to use `EdgeInsetsDirectional`, ensuring correct padding for both text directions.\r\n- Added new widget tests to verify that:\r\n  - Toolbar items are ordered right-to-left in RTL contexts.\r\n  - The overflow menu behaves correctly in RTL, showing items in the correct order and position.\r\n\r\n**Before:**  \r\n- Toolbar items and overflow menus did not respect RTL layout, resulting in misaligned or reversed button order.\r\n- Padding was inconsistent in RTL.\r\n<details>\r\n<summary>Before Screenshots</summary>\r\n\r\n| LTR Not Expanded | LTR Expanded | RTL Not Expanded | RTL Expanded |\r\n|---|---|---|---|\r\n| ![before_ltr_non_expanded jpg](https://github.com/user-attachments/assets/bccf719e-c95a-46b1-b924-d2fb229e4ada) | ![before_ltr_expanded jpg](https://github.com/user-attachments/assets/a947690a-62fb-4f41-863c-d3822294bb66) | ![before_rtl_non_expanded](https://github.com/user-attachments/assets/1e3440ee-d80c-4554-aeda-7632f2b166ca) | ![before_rtl_expanded](https://github.com/user-attachments/assets/364a3b2b-d068-4488-afbd-61224e74c30a) |\r\n\r\n</details>\r\n\r\n\r\n**After:**  \r\n- Toolbar items and overflow menus are correctly ordered and aligned for RTL.\r\n- Button padding is now directionally correct.\r\n\r\n<details>\r\n<summary>After Screenshots</summary>\r\n\r\n| LTR Not Expanded | LTR Expanded | RTL Not Expanded | RTL Expanded |\r\n|---|---|---|---|\r\n| ![after_ltr_non_expanded](https://github.com/user-attachments/assets/b63bf625-0d37-4304-9ba5-af017c197b15) | ![after_ltr_expanded](https://github.com/user-attachments/assets/6a95c9b7-e343-4e7e-93ae-f18de6d38a2e) | ![after_rtl_not_expanded](https://github.com/user-attachments/assets/8a93b08b-fcf2-45a9-8f5a-390133c0aec4) | ![after_rtl_expanded](https://github.com/user-attachments/assets/5cbdffd4-3943-44cc-98d9-fa470e11b942) |\r\n\r\n</details>\r\n\r\nThis improves the usability and accessibility of text selection controls for users of RTL languages.\r\n\r\n\r\nFixes #59306 \r\n\r\n---\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 4363,
+      "template_removed_length": 285,
+      "template_reduction_percentage": 6.131669535283993,
+      "author_type": "User"
+    },
+    "username": "SalehTZ"
+  },
+  {
+    "pr_number": 170335,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 167317,
+        "labels": [
+          "framework",
+          "f: cupertino",
+          "d: examples",
+          "good first issue",
+          "P3",
+          "r: fixed",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 170335,
+      "title": "Add example for CupertinoExpansionTile transition modes",
+      "body": "This PR adds a combined example for the CupertinoExpansionTile widget, demonstrating its usage with both available transition modes: fade and scroll.\r\n\r\n**A demo app showing two CupertinoExpansionTile widgets:**\r\n\r\n- One using the default fade transition mode\r\n\r\n- One using the scroll transition mode\r\n\r\nA corresponding widget test verifying expand/collapse behavior for both tiles\r\n\r\n### Issue\r\nCloses: #167317\r\n\r\n## Tests\r\n\r\n- Added widget tests to validate the expand and collapse behavior for both transition modes\r\n\r\n\r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview) and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md) wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide](https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md), including [Features we expect every widget to implement](https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement).\r\n- [x] I signed the [CLA](https://cla.developers.google.com/).\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with ///).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests).\r\n- [x] I followed the [breaking change policy](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes) and added [Data Driven Fixes](https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md) where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord](https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "body_length": 2147,
+      "created_at": "2025-06-10T10:02:41Z",
+      "merged_at": "2025-06-18T07:21:38Z",
+      "merged": true,
+      "time_to_merge_hours": 189.31583333333333,
+      "state": "MERGED",
+      "additions": 169,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 25,
+      "review_count": 21,
+      "comment_count": 0,
+      "commit_messages": [
+        "[cupertino] Add sample and tests for CupertinoExpansionTile with fade and scroll transitions",
+        "[cupertino] Add sample and tests for CupertinoExpansionTile with fade and scroll transitions",
+        "Add missing license header to example and test files",
+        "Merge branch 'feature/cupertino_expansion_tile_example' of https://github.com/thakaredipali/flutter into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "[CupertinoExpansionTile] Combine fade and scroll transition examples into a single file",
+        "[CupertinoExpansionTile] Link example in API docs",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Revert \"[CupertinoExpansionTile] Link example in API docs\"\n\nThis reverts commit 87e57c64bac321a3d5e2f511c297b90eca16eb96.",
+        "[CupertinoExpansionTile] Link example in API docs",
+        "Apply some review suggestions",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Apply some review suggestions",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Improve CupertinoExpansionTile UI layout",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Apply some review suggestions",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "Merge branch 'master' into feature/cupertino_expansion_tile_example",
+        "format correctly"
+      ],
+      "avg_commit_msg_length": 65.36,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "examples/api/test/cupertino/expansion_tile/cupertino_expansion_tile.0_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 3
+      },
+      "review_states": {
+        "COMMENTED": 17,
+        "APPROVED": 3,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: cupertino",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/cupertino repository"
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        },
+        {
+          "name": "d: examples",
+          "color": "0e8a16",
+          "description": "Sample code and demos"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR adds a combined example for the CupertinoExpansionTile widget, demonstrating its usage with both available transition modes: fade and scroll.\r\n\r\n**A demo app showing two CupertinoExpansionTile widgets:**\r\n\r\n- One using the default fade transition mode\r\n\r\n- One using the scroll transition mode\r\n\r\nA corresponding widget test verifying expand/collapse behavior for both tiles\r\n\r\n### Issue\r\nCloses: #167317\r\n\r\n## Tests\r\n\r\n- Added widget tests to validate the expand and collapse behavior for both transition modes\r\n\r\n\r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview) and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md) wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide](https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md), including [Features we expect every widget to implement](https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement).\r\n- [x] I signed the [CLA](https://cla.developers.google.com/).\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with ///).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests).\r\n- [x] I followed the [breaking change policy](https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes) and added [Data Driven Fixes](https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md) where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord](https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md).",
+      "body_cleaned_length": 2131,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.7452258965999069,
+      "author_type": "User"
+    },
+    "username": "thakaredipali"
+  },
+  {
+    "pr_number": 113194,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 112755,
+        "labels": [
+          "framework",
+          "f: material design",
+          "d: api docs",
+          "good first issue",
+          "r: fixed",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 113194,
+      "title": "Fix: Cannot scroll in DataTable documentation example (#112755)",
+      "body": "This PR converts the `SizedBox` in the [second DataTable documentation example](https://api.flutter.dev/flutter/material/DataTable-class.html#material.DataTable.2) to a `SingleChildScrollView`, allowing the user to scroll to see items outside the viewport.\r\n\r\nFixes: #112755\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [ ] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n   Is this test-exempt? I did not see any existing tests for this example.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat\r\n",
+      "body_length": 903,
+      "created_at": "2022-10-10T01:25:54Z",
+      "updated_at": "2023-02-06T08:29:28Z",
+      "closed_at": "2023-02-06T08:29:27Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 6,
+      "pr_size": 3,
+      "avg_commit_msg_length": 63.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "c: contributor-productivity",
+          "color": "d4c5f9",
+          "description": "Team-specific productivity, code health, technical debt."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        },
+        {
+          "name": "d: examples",
+          "color": "0e8a16",
+          "description": "Sample code and demos"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR converts the `SizedBox` in the [second DataTable documentation example](https://api.flutter.dev/flutter/material/DataTable-class.html#material.DataTable.2) to a `SingleChildScrollView`, allowing the user to scroll to see items outside the viewport.\r\n\r\nFixes: #112755\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [ ] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n   Is this test-exempt? I did not see any existing tests for this example.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/wiki/Tree-hygiene#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/wiki/Tree-hygiene\r\n[test-exempt]: https://github.com/flutter/flutter/wiki/Tree-hygiene#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/wiki/Chat",
+      "body_cleaned_length": 1819,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.8719346049046321,
+      "author_type": "User"
+    },
+    "username": "ferndot"
+  },
+  {
+    "pr_number": 123474,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 95719,
+        "labels": [
+          "c: new feature",
+          "framework",
+          "engine",
+          "c: proposal",
+          "good first issue",
+          "a: layout",
+          "P3",
+          "team-engine",
+          "triaged-engine"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 123474,
+      "title": "Implement SystemChrome.getPreferredOrientations",
+      "body": "Implement SystemChrome.getPreferredOrientations as requested in #95719. The main idea is to store requested orientations on the framework side, so it would return exactly the same list as the user has set.\r\n\r\nFixes #95719\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\n",
+      "body_length": 794,
+      "created_at": "2023-03-25T19:23:11Z",
+      "updated_at": "2023-04-04T22:28:25Z",
+      "closed_at": "2023-04-04T22:28:24Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 51,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 2,
+      "comment_count": 6,
+      "pr_size": 51,
+      "avg_commit_msg_length": 33.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/services/system_chrome_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 2
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Implement SystemChrome.getPreferredOrientations as requested in #95719. The main idea is to store requested orientations on the framework side, so it would return exactly the same list as the user has set.\r\n\r\nFixes #95719\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.",
+      "body_cleaned_length": 854,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 0.4662004662004662,
+      "author_type": "User"
+    },
+    "username": "foreg"
+  },
+  {
+    "pr_number": 130424,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 122179,
+        "labels": [
+          "platform-ios",
+          "tool",
+          "a: build",
+          "good first issue",
+          "P2",
+          "r: fixed",
+          "has partial patch",
+          "team-ios",
+          "triaged-ios"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 130424,
+      "title": "Fix CLI build tool log output during build ipa --export-options-plist",
+      "body": "# Description\r\nBefore: when running `flutter build ipa --export-options-plist [plist file]`, the log output was always \"Building App Store IPA...\", even if the method was not \"app-store\" in the plist file. The method could be app-store, ad-hoc, enterprise, development, or validation. \r\n\r\nAfter: running the above build command results in the correct method being shown in the logs. For example, when the method is 'ad-hoc', the output is \"Building ad-hoc IPA...\"\r\n\r\n# Related Issues\r\nFixes #122179 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [ ] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\n# Testing \r\n - ran unit tests in flutter/packages/flutter_tools/test\r\n - ran `flutter build ipa --export-options-plist [plist file]` with different methods in a sample plist file ",
+      "body_length": 1227,
+      "created_at": "2023-07-12T17:35:02Z",
+      "updated_at": "2023-12-05T23:58:42Z",
+      "closed_at": "2023-12-05T23:58:41Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 3,
+      "pr_size": 4,
+      "avg_commit_msg_length": 41.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "dart": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "tool",
+          "color": "5319e7",
+          "description": "Affects the \"flutter\" command-line tool. See also t: labels."
+        },
+        {
+          "name": "team-ios",
+          "color": "198022",
+          "description": "Owned by iOS platform team"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "# Description\r\nBefore: when running `flutter build ipa --export-options-plist [plist file]`, the log output was always \"Building App Store IPA...\", even if the method was not \"app-store\" in the plist file. The method could be app-store, ad-hoc, enterprise, development, or validation. \r\n\r\nAfter: running the above build command results in the correct method being shown in the logs. For example, when the method is 'ad-hoc', the output is \"Building ad-hoc IPA...\"\r\n\r\n# Related Issues\r\nFixes #122179 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [ ] I updated/added relevant documentation (doc comments with `///`).\r\n- [ ] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] All existing and new tests are passing.\r\n\r\n# Testing \r\n - ran unit tests in flutter/packages/flutter_tools/test\r\n - ran `flutter build ipa --export-options-plist [plist file]` with different methods in a sample plist file",
+      "body_cleaned_length": 1316,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.07593014426727411,
+      "author_type": "User"
+    },
+    "username": "mnguyen427"
+  },
+  {
+    "pr_number": 154049,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 153860,
+        "labels": [
+          "framework",
+          "f: scrolling",
+          "d: api docs",
+          "d: examples",
+          "good first issue",
+          "P2",
+          "r: fixed",
+          "team-framework",
+          "triaged-framework"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 154049,
+      "title": "Add sample code for AutomaticKeepAliveClientMixin.",
+      "body": "Fixes #153860 \r\nFixes #146612 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 761,
+      "created_at": "2024-08-24T11:22:35Z",
+      "updated_at": "2025-01-07T23:28:44Z",
+      "closed_at": "2025-01-07T23:28:43Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 835,
+      "deletions": 17,
+      "files_changed": 11,
+      "commits_count": 13,
+      "review_count": 6,
+      "comment_count": 10,
+      "pr_size": 852,
+      "avg_commit_msg_length": 61.46153846153846,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "examples/api/test/widgets/automatic_keep_alive/automatic_keep_alive.0_test.dart",
+        "examples/api/test/widgets/automatic_keep_alive/automatic_keep_alive_client_mixin.0_test.dart",
+        "examples/api/test/widgets/keep_alive/keep_alive.0_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 11
+      },
+      "review_states": {
+        "COMMENTED": 6
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: scrolling",
+          "color": "207de5",
+          "description": "Viewports, list views, slivers, etc."
+        },
+        {
+          "name": "d: api docs",
+          "color": "0e8a16",
+          "description": "Issues with https://api.flutter.dev/"
+        },
+        {
+          "name": "d: examples",
+          "color": "0e8a16",
+          "description": "Sample code and demos"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #153860 \r\nFixes #146612 \r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 1883,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.842548709847288,
+      "author_type": "User"
+    },
+    "username": "SohanRaidev"
+  },
+  {
+    "pr_number": 157366,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 59059,
+        "labels": [
+          "c: new feature",
+          "framework",
+          "good first issue",
+          "P3",
+          "workaround available",
+          "team-framework",
+          "triaged-framework"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 157366,
+      "title": "Feature: Add BuildContext to FormFieldValidator function (Resolves #59059)",
+      "body": "Feature: Add BuildContext to FormFieldValidator function (Resolves #59059)\r\n\r\nThe `FormFieldValidator` function doesn't provides a `BuildContext` variable to access the context. This fix the next problem:\r\n\r\nAccessing the context nor a locale, for returning locale-specific error strings in `FormFieldValidator`.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [ ] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n<!-- Links -->\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md\r\n",
+      "body_length": 1034,
+      "created_at": "2024-10-22T18:41:10Z",
+      "updated_at": "2024-11-08T21:37:26Z",
+      "closed_at": "2024-11-08T12:42:45Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 297,
+      "deletions": 255,
+      "files_changed": 10,
+      "commits_count": 1,
+      "review_count": 4,
+      "comment_count": 6,
+      "pr_size": 552,
+      "avg_commit_msg_length": 74.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/cupertino/text_form_field_row_restoration_test.dart",
+        "packages/flutter/test/cupertino/text_form_field_row_test.dart",
+        "packages/flutter/test/material/dropdown_form_field_test.dart",
+        "packages/flutter/test/material/dropdown_test.dart",
+        "packages/flutter/test/material/text_form_field_restoration_test.dart",
+        "packages/flutter/test/material/text_form_field_test.dart",
+        "packages/flutter/test/widgets/form_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 10
+      },
+      "review_states": {
+        "COMMENTED": 4
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "a: text input",
+          "color": "55ddbb",
+          "description": "Entering text in a text field or keyboard related problems"
+        },
+        {
+          "name": "waiting for customer response",
+          "color": "000000",
+          "description": "The Flutter team cannot make further progress on this issue until the original reporter responds"
+        },
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        },
+        {
+          "name": "f: cupertino",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/cupertino repository"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Feature: Add BuildContext to FormFieldValidator function (Resolves #59059)\r\n\r\nThe `FormFieldValidator` function doesn't provides a `BuildContext` variable to access the context. This fix the next problem:\r\n\r\nAccessing the context nor a locale, for returning locale-specific error strings in `FormFieldValidator`.\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [ ] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.\r\n\r\nIf you need help, consider asking for advice on the #hackers-new channel on [Discord].\r\n\r\n\r\n[Contributor Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#overview\r\n[Tree Hygiene]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md\r\n[test-exempt]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#tests\r\n[Flutter Style Guide]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md\r\n[Features we expect every widget to implement]: https://github.com/flutter/flutter/blob/main/docs/contributing/Style-guide-for-Flutter-repo.md#features-we-expect-every-widget-to-implement\r\n[CLA]: https://cla.developers.google.com/\r\n[flutter/tests]: https://github.com/flutter/tests\r\n[breaking change policy]: https://github.com/flutter/flutter/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes\r\n[Discord]: https://github.com/flutter/flutter/blob/main/docs/contributing/Chat.md\r\n[Data Driven Fixes]: https://github.com/flutter/flutter/blob/main/docs/contributing/Data-driven-Fixes.md",
+      "body_cleaned_length": 2163,
+      "template_removed_length": 16,
+      "template_reduction_percentage": 0.7342817806333181,
+      "author_type": "User"
+    },
+    "username": "martinpelli"
+  },
+  {
+    "pr_number": 165739,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 165114,
+        "labels": [
+          "framework",
+          "f: material design",
+          "r: invalid",
+          "good first issue",
+          "P2",
+          "team-design",
+          "triaged-design"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 165739,
+      "title": "Fix: Apply theme to text in _PackageListTile",
+      "body": "\r\n## What is this PR doing?\r\n\r\nThis PR fixes issue #165114 where text in the `_PackageListTile` widget doesn't use the app's theme. Currently in the `showLicensePage` dialog, the title and subtitle text in each package list tile are not themed, causing them to remain black in dark mode.\r\n\r\n## Solution\r\n\r\nAdded theme styling to the `Text` widgets in the `_PackageListTile.build` method by applying appropriate text themes from the current context.\r\n\r\nBefore fix: In dark mode, the text in the license page package list remains black, making it difficult to read.\r\nAfter fix: Text correctly applies the theme's text styles and becomes visible in dark mode.\r\n\r\n## Related Issues\r\n\r\nFixes #165114\r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.",
+      "body_length": 1320,
+      "created_at": "2025-03-22T10:34:38Z",
+      "updated_at": "2025-06-11T23:05:52Z",
+      "closed_at": "2025-06-04T19:25:41Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 49,
+      "deletions": 6,
+      "files_changed": 2,
+      "commits_count": 15,
+      "review_count": 9,
+      "comment_count": 7,
+      "pr_size": 55,
+      "avg_commit_msg_length": 45.266666666666666,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.13333333333333333,
+      "commit_types": [
+        "test",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/material/about_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 8,
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: material design",
+          "color": "207de5",
+          "description": "flutter/packages/flutter/material repository."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What is this PR doing?\r\n\r\nThis PR fixes issue #165114 where text in the `_PackageListTile` widget doesn't use the app's theme. Currently in the `showLicensePage` dialog, the title and subtitle text in each package list tile are not themed, causing them to remain black in dark mode.\r\n\r\n## Solution\r\n\r\nAdded theme styling to the `Text` widgets in the `_PackageListTile.build` method by applying appropriate text themes from the current context.\r\n\r\nBefore fix: In dark mode, the text in the license page package list remains black, making it difficult to read.\r\nAfter fix: Text correctly applies the theme's text styles and becomes visible in dark mode.\r\n\r\n## Related Issues\r\n\r\nFixes #165114\r\n\r\n\r\n## Pre-launch Checklist\r\n\r\n- [x] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.\r\n- [x] I read the [Tree Hygiene] wiki page, which explains my responsibilities.\r\n- [x] I read and followed the [Flutter Style Guide], including [Features we expect every widget to implement].\r\n- [x] I signed the [CLA].\r\n- [x] I listed at least one issue that this PR fixes in the description above.\r\n- [x] I updated/added relevant documentation (doc comments with `///`).\r\n- [x] I added new tests to check the change I am making, or this PR is [test-exempt].\r\n- [x] I followed the [breaking change policy] and added [Data Driven Fixes] where supported.\r\n- [x] All existing and new tests are passing.",
+      "body_cleaned_length": 1421,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.14054813773717498,
+      "author_type": "User"
+    },
+    "username": "suojae"
+  },
+  {
+    "pr_number": 170927,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 167922,
+        "labels": [
+          "c: new feature",
+          "framework",
+          "c: proposal",
+          "good first issue",
+          "P2",
+          "r: fixed",
+          "team-framework",
+          "triaged-framework"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 170927,
+      "title": "Change RawScrollbar padding from EdgeInsets to EdgeInsetsGeometry",
+      "body": "## Summary\n\nChanges RawScrollbar's `padding` property from `EdgeInsets?` to `EdgeInsetsGeometry?` to allow using `EdgeInsetsDirectional` for better RTL support.\n\n## Changes Made\n\n- Updated `RawScrollbar.padding` property type from `EdgeInsets?` to `EdgeInsetsGeometry?`\n- Added proper resolution of EdgeInsetsGeometry to EdgeInsets when passing to ScrollbarPainter\n- Added comprehensive test that verifies EdgeInsetsDirectional works correctly in both LTR and RTL directions\n\n## Test Plan\n\n- [x] All existing scrollbar tests pass (87 tests)\n- [x] All material scrollbar tests pass (45 tests)\n- [x] Added new test for EdgeInsetsDirectional functionality\n- [x] Static analysis passes (`flutter analyze`)\n\n## Breaking Changes\n\nNone - this is a backward-compatible change. Existing code using `EdgeInsets` continues to work unchanged.\n\nFixes #167922",
+      "body_length": 785,
+      "created_at": "2025-06-20T18:11:44Z",
+      "updated_at": "2025-07-17T19:43:22Z",
+      "closed_at": "2025-07-17T19:43:22Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 98,
+      "deletions": 3,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 6,
+      "comment_count": 3,
+      "pr_size": 101,
+      "avg_commit_msg_length": 88.33333333333333,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/flutter/test/widgets/scrollbar_test.dart"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "dart": 2
+      },
+      "review_states": {
+        "COMMENTED": 6
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "framework",
+          "color": "207de5",
+          "description": "flutter/packages/flutter repository. See also f: labels."
+        },
+        {
+          "name": "f: scrolling",
+          "color": "207de5",
+          "description": "Viewports, list views, slivers, etc."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## Summary\n\nChanges RawScrollbar's `padding` property from `EdgeInsets?` to `EdgeInsetsGeometry?` to allow using `EdgeInsetsDirectional` for better RTL support.\n\n## Changes Made\n\n- Updated `RawScrollbar.padding` property type from `EdgeInsets?` to `EdgeInsetsGeometry?`\n- Added proper resolution of EdgeInsetsGeometry to EdgeInsets when passing to ScrollbarPainter\n- Added comprehensive test that verifies EdgeInsetsDirectional works correctly in both LTR and RTL directions\n\n## Test Plan\n\n- [x] All existing scrollbar tests pass (87 tests)\n- [x] All material scrollbar tests pass (45 tests)\n- [x] Added new test for EdgeInsetsDirectional functionality\n- [x] Static analysis passes (`flutter analyze`)\n\n## Breaking Changes\n\nNone - this is a backward-compatible change. Existing code using `EdgeInsets` continues to work unchanged.\n\nFixes #167922",
+      "body_cleaned_length": 845,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "samuelkchris"
+  }
+]

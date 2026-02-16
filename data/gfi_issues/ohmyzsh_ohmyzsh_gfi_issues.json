@@ -1,0 +1,92 @@
+[
+  {
+    "number": 10469,
+    "created_at": "2021-12-01T15:46:00Z",
+    "labels": [
+      "Feature",
+      "Area: core",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 10907,
+    "created_at": "2022-05-02T12:13:02Z",
+    "labels": [
+      "Bug",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 11151,
+    "created_at": "2022-09-05T16:01:29Z",
+    "labels": [
+      "Area: plugin",
+      "Hacktoberfest",
+      "Good first issue",
+      "Enhancement"
+    ]
+  },
+  {
+    "number": 11198,
+    "created_at": "2022-09-27T00:25:37Z",
+    "labels": [
+      "Bug",
+      "Hacktoberfest"
+    ]
+  },
+  {
+    "number": 11388,
+    "created_at": "2022-12-14T11:17:33Z",
+    "labels": [
+      "Area: plugin",
+      "Topic: alias",
+      "Good first issue",
+      "Enhancement"
+    ]
+  },
+  {
+    "number": 11482,
+    "created_at": "2023-02-06T09:57:55Z",
+    "labels": [
+      "Feature",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 11613,
+    "created_at": "2023-04-11T13:48:13Z",
+    "labels": [
+      "Feature",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 11700,
+    "created_at": "2023-05-19T11:25:22Z",
+    "labels": [
+      "Feature",
+      "New: plugin",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 11816,
+    "created_at": "2023-07-26T18:52:41Z",
+    "labels": [
+      "Feature",
+      "Hacktoberfest",
+      "New: plugin",
+      "Good first issue"
+    ]
+  },
+  {
+    "number": 11841,
+    "created_at": "2023-08-11T13:15:14Z",
+    "labels": [
+      "Bug",
+      "Hacktoberfest",
+      "Good first issue",
+      "Status: not reproducible"
+    ]
+  }
+]

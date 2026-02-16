@@ -1,0 +1,1317 @@
+[
+  {
+    "pr_number": 4890,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 3971,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 4890,
+      "title": "fix: don't crash on drop highlighted text onto canvas",
+      "body": "Closes #3971 \r\n\r\nAdds a missing check for if a file is present on drop. This is required manually due a typescript `as any` cast further inside the code block. Also manually adds a couple of type annotations to make clear that file may not be provided.\r\n\r\nThe behaviour is now to take no action, if a file is not found (rather than showing an error modal).\r\n\r\n![excalidraw-no-crash-on-drop-text](https://user-images.githubusercontent.com/12255914/157292710-313e6dac-3945-429d-9886-4575dd623702.gif)\r\n",
+      "body_length": 500,
+      "created_at": "2022-03-08T17:33:06Z",
+      "merged_at": "2022-03-09T10:51:14Z",
+      "merged": true,
+      "time_to_merge_hours": 17.302222222222223,
+      "state": "MERGED",
+      "additions": 7,
+      "deletions": 4,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 6,
+      "comment_count": 4,
+      "commit_messages": [
+        "fix: don't crash on drop highlighted text onto canvas",
+        "fix tests"
+      ],
+      "avg_commit_msg_length": 31.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "src/tests/helpers/api.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "COMMENTED": 5,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #3971 \r\n\r\nAdds a missing check for if a file is present on drop. This is required manually due a typescript `as any` cast further inside the code block. Also manually adds a couple of type annotations to make clear that file may not be provided.\r\n\r\nThe behaviour is now to take no action, if a file is not found (rather than showing an error modal).\r\n\r\n![excalidraw-no-crash-on-drop-text](https://user-images.githubusercontent.com/12255914/157292710-313e6dac-3945-429d-9886-4575dd623702.gif)",
+      "body_cleaned_length": 498,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.4,
+      "author_type": "User"
+    },
+    "username": "tommilligan"
+  },
+  {
+    "pr_number": 6428,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6418,
+        "labels": [
+          "enhancement",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6428,
+      "title": "feat: add container to multiple text elements",
+      "body": "Closes #6418\r\n\r\nUpdated `actionCreateContainerFromText` action to take multiple text elements.\r\nIterated over each element and adding containers to them\r\n\r\n\r\nhttps://user-images.githubusercontent.com/51131670/230577307-4a6a56af-94c1-4ec5-ac6a-9fa515fea2f7.mov\r\n\r\n\r\n",
+      "body_length": 265,
+      "created_at": "2023-04-07T08:53:16Z",
+      "merged_at": "2023-04-07T13:50:36Z",
+      "merged": true,
+      "time_to_merge_hours": 4.955555555555556,
+      "state": "MERGED",
+      "additions": 88,
+      "deletions": 84,
+      "files_changed": 1,
+      "commits_count": 5,
+      "review_count": 2,
+      "comment_count": 5,
+      "commit_messages": [
+        "update perform and predicate function to take multiple text elements",
+        "change types format with prettier",
+        "don't re-render on mutate",
+        "fix lint",
+        "fix intellise & and simplify"
+      ],
+      "avg_commit_msg_length": 32.4,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #6418\r\n\r\nUpdated `actionCreateContainerFromText` action to take multiple text elements.\r\nIterated over each element and adding containers to them\r\n\r\n\r\nhttps://user-images.githubusercontent.com/51131670/230577307-4a6a56af-94c1-4ec5-ac6a-9fa515fea2f7.mov",
+      "body_cleaned_length": 259,
+      "template_removed_length": 6,
+      "template_reduction_percentage": 2.2641509433962264,
+      "author_type": "User"
+    },
+    "username": "ChinmayMhatre"
+  },
+  {
+    "pr_number": 6451,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6434,
+        "labels": [
+          "bug",
+          "good first issue",
+          "Text containers"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6451,
+      "title": "fix: center align text when bind to container via context menu",
+      "body": "- [x] closes #6434\r\n- [x] Add tests",
+      "body_length": 35,
+      "created_at": "2023-04-14T01:18:53Z",
+      "merged_at": "2023-04-14T13:22:39Z",
+      "merged": true,
+      "time_to_merge_hours": 12.062777777777777,
+      "state": "MERGED",
+      "additions": 14,
+      "deletions": 1,
+      "files_changed": 2,
+      "commits_count": 5,
+      "review_count": 7,
+      "comment_count": 1,
+      "commit_messages": [
+        "fix: bind to container defaults to left-aligned text",
+        "fix: center-aligned text bound to container",
+        "fix: center-aligned text bound to container",
+        "fix: move test to textWysiwyg.test.tsx",
+        "fix: merge duplicate tests"
+      ],
+      "avg_commit_msg_length": 40.4,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "src/element/textWysiwyg.test.tsx"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 2
+      },
+      "review_states": {
+        "COMMENTED": 5,
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "- [x] closes #6434\r\n- [x] Add tests",
+      "body_cleaned_length": 35,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "snorfyang"
+  },
+  {
+    "pr_number": 6477,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6476,
+        "labels": [
+          "good first issue",
+          "Text containers"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6477,
+      "title": "fix: rotate the text element when binding to a rotated container",
+      "body": "Fixes #6476 ",
+      "body_length": 12,
+      "created_at": "2023-04-18T07:41:40Z",
+      "merged_at": "2023-04-20T11:04:40Z",
+      "merged": true,
+      "time_to_merge_hours": 51.38333333333333,
+      "state": "MERGED",
+      "additions": 31,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 5,
+      "review_count": 3,
+      "comment_count": 2,
+      "commit_messages": [
+        "Updated logic to update the bound child angle from the parent",
+        "update angle when generating text element",
+        "add test",
+        "remove",
+        "fix"
+      ],
+      "avg_commit_msg_length": 23.8,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "src/element/textWysiwyg.test.tsx"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 2
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #6476",
+      "body_cleaned_length": 11,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 8.333333333333332,
+      "author_type": "User"
+    },
+    "username": "siddhant1"
+  },
+  {
+    "pr_number": 8135,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8107,
+        "labels": [
+          "documentation",
+          "good first issue",
+          "package:excalidraw"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8135,
+      "title": "feat: allow props.initialData to be a function",
+      "body": "- Allow `initialData` to be a function.\r\n- Update `api/props/` and `api/props/initialdata` docs\r\n\r\nThe function is being called twice in development builds because of [strict mode](https://legacy.reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects) but it does not impact production builds.\r\n\r\nclose: #8107",
+      "body_length": 322,
+      "created_at": "2024-06-13T22:11:13Z",
+      "merged_at": "2024-06-24T09:36:49Z",
+      "merged": true,
+      "time_to_merge_hours": 251.42666666666668,
+      "state": "MERGED",
+      "additions": 10,
+      "deletions": 2,
+      "files_changed": 3,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 7,
+      "commit_messages": [
+        "allow initialData to be a function",
+        "Add null fallback to function return",
+        "Update changelog"
+      ],
+      "avg_commit_msg_length": 28.666666666666668,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "packages/excalidraw/CHANGELOG.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "tsx": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "- Allow `initialData` to be a function.\r\n- Update `api/props/` and `api/props/initialdata` docs\r\n\r\nThe function is being called twice in development builds because of [strict mode](https://legacy.reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects) but it does not impact production builds.\r\n\r\nclose: #8107",
+      "body_cleaned_length": 322,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "es-romo"
+  },
+  {
+    "pr_number": 9264,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9242,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9264,
+      "title": "chore: Use isDevEnv() and isTestEnv()",
+      "body": "Fixed #9242 \r\n\r\n- Replaced all instances of `import.meta.env.DEV` with `isDevEnv()`.\r\n- Replaced all instances of `import.meta.env.TEST` with `isTestEnv()`.\r\n- Ensured tests exist and are exposed at the `@excalidraw/excalidraw` package level.\r\n- Verified everything works by running tests.",
+      "body_length": 289,
+      "created_at": "2025-03-13T05:34:18Z",
+      "merged_at": "2025-03-24T18:44:01Z",
+      "merged": true,
+      "time_to_merge_hours": 277.16194444444443,
+      "state": "MERGED",
+      "additions": 48,
+      "deletions": 45,
+      "files_changed": 16,
+      "commits_count": 5,
+      "review_count": 2,
+      "comment_count": 4,
+      "commit_messages": [
+        "Replaced import.meta.env.DEV and TEST with isDevEnv() and isTestEnv() (#9242)",
+        "replaced env.test checks also",
+        "Fix lint errors\n\nSigned-off-by: Mark Tolmacs <mark@lazycat.hu>",
+        "refactor: replace import.meta.env.DEV checks with isDevEnv() utility function",
+        "fix lint errors"
+      ],
+      "avg_commit_msg_length": 52.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.2,
+      "commit_types": [
+        "refactor"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 5,
+        "ts": 11
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixed #9242 \r\n\r\n- Replaced all instances of `import.meta.env.DEV` with `isDevEnv()`.\r\n- Replaced all instances of `import.meta.env.TEST` with `isTestEnv()`.\r\n- Ensured tests exist and are exposed at the `@excalidraw/excalidraw` package level.\r\n- Verified everything works by running tests.",
+      "body_cleaned_length": 289,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "mursaleen-nisar"
+  },
+  {
+    "pr_number": 9279,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9276,
+        "labels": [
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9279,
+      "title": "fix: prevent search menu from opening when dialog is open",
+      "body": "Fixes #9276 \r\n\r\nThis PR adds a check to prevent search menu from opening if any dialog is open.",
+      "body_length": 95,
+      "created_at": "2025-03-17T19:28:45Z",
+      "merged_at": "2025-06-03T13:53:01Z",
+      "merged": true,
+      "time_to_merge_hours": 1866.4044444444444,
+      "state": "MERGED",
+      "additions": 8,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 2,
+      "comment_count": 4,
+      "commit_messages": [
+        "fix: prevent search menu from opening when dialog is open",
+        "Merge branch 'master' into master"
+      ],
+      "avg_commit_msg_length": 45.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1,
+        "tsx": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #9276 \r\n\r\nThis PR adds a check to prevent search menu from opening if any dialog is open.",
+      "body_cleaned_length": 95,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "heysujal"
+  },
+  {
+    "pr_number": 9348,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9334,
+        "labels": [
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9348,
+      "title": "feat: add container to MORE multiple text elements",
+      "body": "Closes #9334 \r\n\r\nUpdated `actionWrapTextInContainer` action's predicate, to check if **some** of the selected elements are textual",
+      "body_length": 130,
+      "created_at": "2025-04-06T12:06:14Z",
+      "merged_at": "2025-04-06T22:57:27Z",
+      "merged": true,
+      "time_to_merge_hours": 10.85361111111111,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Show \"Wrap text in a container\" context menu option, if some of selected elements are textual"
+      ],
+      "avg_commit_msg_length": 93.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #9334 \r\n\r\nUpdated `actionWrapTextInContainer` action's predicate, to check if **some** of the selected elements are textual",
+      "body_cleaned_length": 130,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "narekmalk"
+  },
+  {
+    "pr_number": 6133,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 3762,
+        "labels": [
+          "enhancement",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6133,
+      "title": "feat: Adding option to paste tabular data as a rough table",
+      "body": "fix:#3762\r\n- If the user pest a spreadsheet of more than two columns only displays the table button.\r\n- The user can paste a table. \r\n-  If the user pests a two columns spreadsheet, display the charts and table buttons. \r\n![1](https://user-images.githubusercontent.com/66743724/213571076-150402a7-8e9f-4e33-91f4-0ea98dfdd10d.jpg)\r\n![2](https://user-images.githubusercontent.com/66743724/213571088-8d23d4f6-70f4-4bb8-b592-0257c78e8468.jpg)\r\n![3](https://user-images.githubusercontent.com/66743724/213571096-f3f765f0-f310-4b6b-ba43-18e78523d03b.jpg)\r\n![4](https://user-images.githubusercontent.com/66743724/213571109-e42641ff-ebaf-4ace-a8cc-734eeefe3143.jpg)\r\n",
+      "body_length": 209,
+      "created_at": "2023-01-19T21:58:36Z",
+      "updated_at": "2023-02-11T22:04:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 187,
+      "deletions": 25,
+      "files_changed": 6,
+      "commits_count": 11,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 212,
+      "avg_commit_msg_length": 12.727272727272727,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "src/table.test.ts",
+        "src/tests/__snapshots__/charts.test.tsx.snap"
+      ],
+      "doc_files": [
+        "src/packages/excalidraw/CHANGELOG.md"
+      ],
+      "file_types": {
+        "ts": 3,
+        "tsx": 1,
+        "md": 1,
+        "snap": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fix:#3762\r\n- If the user pest a spreadsheet of more than two columns only displays the table button.\r\n- The user can paste a table. \r\n-  If the user pests a two columns spreadsheet, display the charts and table buttons. \r\n![1](https://user-images.githubusercontent.com/66743724/213571076-150402a7-8e9f-4e33-91f4-0ea98dfdd10d.jpg)\r\n![2](https://user-images.githubusercontent.com/66743724/213571088-8d23d4f6-70f4-4bb8-b592-0257c78e8468.jpg)\r\n![3](https://user-images.githubusercontent.com/66743724/213571096-f3f765f0-f310-4b6b-ba43-18e78523d03b.jpg)\r\n![4](https://user-images.githubusercontent.com/66743724/213571109-e42641ff-ebaf-4ace-a8cc-734eeefe3143.jpg)",
+      "body_cleaned_length": 656,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.303951367781155,
+      "author_type": "User"
+    },
+    "username": "nicodeheza"
+  },
+  {
+    "pr_number": 6411,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5951,
+        "labels": [
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6411,
+      "title": "fix: Display error message on file permissions error",
+      "body": "Resolves #5951\r\n#### Changelog\r\n- If `saveAsJson` throws, push an error message to app state.\r\n\r\n#### Testing\r\n- On Chrome, disable \"file editing\" from chrome://settings/content > Additional permissions > File editing.\r\n- Open Excalidraw.\r\n- Click \"Save to...\" button.\r\n- Click on \"Save to file\".\r\n- It should display this error message:\r\n![image](https://user-images.githubusercontent.com/8978815/229314479-5453c3ec-7152-4425-b6c9-c959ce540835.png)\r\n",
+      "body_length": 306,
+      "created_at": "2023-04-01T21:25:13Z",
+      "updated_at": "2023-04-01T21:26:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 7,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 8,
+      "avg_commit_msg_length": 47.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Resolves #5951\r\n#### Changelog\r\n- If `saveAsJson` throws, push an error message to app state.\r\n\r\n#### Testing\r\n- On Chrome, disable \"file editing\" from chrome://settings/content > Additional permissions > File editing.\r\n- Open Excalidraw.\r\n- Click \"Save to...\" button.\r\n- Click on \"Save to file\".\r\n- It should display this error message:\r\n![image](https://user-images.githubusercontent.com/8978815/229314479-5453c3ec-7152-4425-b6c9-c959ce540835.png)",
+      "body_cleaned_length": 449,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.4434589800443459,
+      "author_type": "User"
+    },
+    "username": "0916dhkim"
+  },
+  {
+    "pr_number": 6432,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6340,
+        "labels": [
+          "enhancement",
+          "good first issue",
+          "Text containers"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6432,
+      "title": "feat: Added shortcut to wrap text in container/Bind/Unbind text and container/arrow",
+      "body": "Closes #6340 \r\n\r\n- [x] Added Shortcut ```Alt + B``` to wrap text in container if only text selected.\r\n- [x] Added Same Shortcut ```Alt + B``` to bind text with container/arrow if they are selected with text as well.\r\n- [x] Added Shortcut ```Alt + Shift + B``` to unbind/unwrap text from container/arrow.",
+      "body_length": 265,
+      "created_at": "2023-04-07T20:11:49Z",
+      "updated_at": "2024-03-02T21:25:46Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 53,
+      "deletions": 28,
+      "files_changed": 3,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 4,
+      "pr_size": 81,
+      "avg_commit_msg_length": 83.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "ts": 2
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #6340 \r\n\r\n- [x] Added Shortcut ```Alt + B``` to wrap text in container if only text selected.\r\n- [x] Added Same Shortcut ```Alt + B``` to bind text with container/arrow if they are selected with text as well.\r\n- [x] Added Shortcut ```Alt + Shift + B``` to unbind/unwrap text from container/arrow.",
+      "body_cleaned_length": 303,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ishaan1091"
+  },
+  {
+    "pr_number": 6627,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6608,
+        "labels": [
+          "enhancement",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6627,
+      "title": "feat: Support of uploading multiple images",
+      "body": "Closes #6608 \r\n\r\n✅ All tests have been passed\r\n\r\nDo I need to write unit/integration tests for these?\r\n\r\nI have a doubt about the `fileHandler`() and the way that I've handled it... I couldn't understand what it is about but want to know more...",
+      "body_length": 233,
+      "created_at": "2023-05-27T21:37:57Z",
+      "updated_at": "2023-05-27T21:39:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 129,
+      "deletions": 95,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 224,
+      "avg_commit_msg_length": 73.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes #6608 \r\n\r\n✅ All tests have been passed\r\n\r\nDo I need to write unit/integration tests for these?\r\n\r\nI have a doubt about the `fileHandler`() and the way that I've handled it... I couldn't understand what it is about but want to know more...",
+      "body_cleaned_length": 245,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "codingmickey"
+  },
+  {
+    "pr_number": 8328,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8321,
+        "labels": [
+          "good first issue",
+          "high priority",
+          "history"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8328,
+      "title": "fix: record history when pasting image",
+      "body": "fixes #8321 ",
+      "body_length": 11,
+      "created_at": "2024-08-06T09:55:07Z",
+      "updated_at": "2024-08-29T03:42:25Z",
+      "closed_at": "2024-08-29T03:42:25Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 832,
+      "deletions": 309,
+      "files_changed": 3,
+      "commits_count": 1,
+      "review_count": 3,
+      "comment_count": 1,
+      "pr_size": 1141,
+      "avg_commit_msg_length": 38.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/excalidraw/tests/__snapshots__/history.test.tsx.snap",
+        "packages/excalidraw/tests/history.test.tsx"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 2,
+        "snap": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1,
+        "COMMENTED": 2
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #8321",
+      "body_cleaned_length": 11,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 8.333333333333332,
+      "author_type": "User"
+    },
+    "username": "lzl0304"
+  },
+  {
+    "pr_number": 8591,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8586,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8591,
+      "title": "feat: Add Angle-Constrained Freedraw (Shift + Draw Straight Lines in Discrete Angles)",
+      "body": "This update adds angle-constrained drawing to the freedraw tool. By holding the Shift key, users can draw straight lines locked to discrete angles, mimicking the behavior of the line tool. This improvement enhances precision and control during freehand drawing.\r\nFixes: #8586 \r\nSupport angle constrained freedraw (Shift + draw straight line in discrete angles) just like with the line tool\r\n\r\n\r\n\r\nhttps://github.com/user-attachments/assets/722a2b7d-3fb1-4207-b023-7c96af61f8a9\r\n\r\n",
+      "body_length": 444,
+      "created_at": "2024-10-03T20:47:17Z",
+      "updated_at": "2024-10-14T18:06:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 137,
+      "deletions": 16,
+      "files_changed": 6,
+      "commits_count": 7,
+      "review_count": 8,
+      "comment_count": 9,
+      "pr_size": 153,
+      "avg_commit_msg_length": 75.14285714285714,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "ts": 5
+      },
+      "review_states": {
+        "COMMENTED": 7,
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This update adds angle-constrained drawing to the freedraw tool. By holding the Shift key, users can draw straight lines locked to discrete angles, mimicking the behavior of the line tool. This improvement enhances precision and control during freehand drawing.\r\nFixes: #8586 \r\nSupport angle constrained freedraw (Shift + draw straight line in discrete angles) just like with the line tool\r\n\r\n\r\n\r\nhttps://github.com/user-attachments/assets/722a2b7d-3fb1-4207-b023-7c96af61f8a9",
+      "body_cleaned_length": 476,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 0.8333333333333334,
+      "author_type": "User"
+    },
+    "username": "vidipsingh"
+  },
+  {
+    "pr_number": 8609,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8518,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8609,
+      "title": "Fix: Overlap of child element with already existing preset of childs in Flowchart",
+      "body": "fixed #8518 \r\n\r\nEarlier:\r\n[Screencast from 2024-10-08 08-46-26.webm](https://github.com/user-attachments/assets/b7a2d094-6273-44fb-a5a9-3c9a0af6feee)\r\n\r\nAfter:\r\n[Screencast from 2024-10-08 08-29-06.webm](https://github.com/user-attachments/assets/fab29f47-fca5-4409-872b-f6659abe715a)\r\n[Screencast from 2024-10-08 08-30-57.webm](https://github.com/user-attachments/assets/919fe4a2-fa6b-4391-a21e-08efc0e3918c)\r\n\r\n@mtolmacs @dwelle  Please Review\r\n",
+      "body_length": 183,
+      "created_at": "2024-10-08T03:20:27Z",
+      "updated_at": "2024-10-08T19:09:43Z",
+      "closed_at": "2024-10-08T19:09:43Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 47,
+      "deletions": 15,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 4,
+      "pr_size": 62,
+      "avg_commit_msg_length": 77.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixed #8518 \r\n\r\nEarlier:\r\n[Screencast from 2024-10-08 08-46-26.webm](https://github.com/user-attachments/assets/b7a2d094-6273-44fb-a5a9-3c9a0af6feee)\r\n\r\nAfter:\r\n[Screencast from 2024-10-08 08-29-06.webm](https://github.com/user-attachments/assets/fab29f47-fca5-4409-872b-f6659abe715a)\r\n[Screencast from 2024-10-08 08-30-57.webm](https://github.com/user-attachments/assets/919fe4a2-fa6b-4391-a21e-08efc0e3918c)\r\n\r\n@mtolmacs @dwelle  Please Review",
+      "body_cleaned_length": 445,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.44742729306487694,
+      "author_type": "User"
+    },
+    "username": "sahitya-chandra"
+  },
+  {
+    "pr_number": 8674,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 8657,
+        "labels": [
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 8674,
+      "title": "chore: renamed the Align section to Align & Distribute",
+      "body": "This PR fixes #8657\r\n\r\nRenamed the \"Align\" section to \"Align & Distribute\" to improve discoverability.\r\n\r\n![labels-align-distribute](https://github.com/user-attachments/assets/01d3d840-cb14-44be-9bdd-cf75e4d28d89)\r\n",
+      "body_length": 99,
+      "created_at": "2024-10-19T20:16:18Z",
+      "updated_at": "2024-10-19T20:19:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 2,
+      "avg_commit_msg_length": 54.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "json": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR fixes #8657\r\n\r\nRenamed the \"Align\" section to \"Align & Distribute\" to improve discoverability.\r\n\r\n![labels-align-distribute](https://github.com/user-attachments/assets/01d3d840-cb14-44be-9bdd-cf75e4d28d89)",
+      "body_cleaned_length": 213,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.9302325581395349,
+      "author_type": "User"
+    },
+    "username": "pgautame"
+  },
+  {
+    "pr_number": 9187,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9112,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9187,
+      "title": "chore: update node version @24",
+      "body": "using node version @23.8.0\r\nI have done following:\r\n- [x] Run all the tests\r\n\r\ncloses #9112 \r\n\r\n",
+      "body_length": 83,
+      "created_at": "2025-02-25T07:00:21Z",
+      "updated_at": "2025-06-02T10:51:39Z",
+      "closed_at": "2025-06-02T10:51:39Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 11,
+      "pr_size": 4,
+      "avg_commit_msg_length": 41.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "json": 2
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "using node version @23.8.0\r\nI have done following:\r\n- [x] Run all the tests\r\n\r\ncloses #9112",
+      "body_cleaned_length": 91,
+      "template_removed_length": 5,
+      "template_reduction_percentage": 5.208333333333334,
+      "author_type": "User"
+    },
+    "username": "dennyzain"
+  },
+  {
+    "pr_number": 9532,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9527,
+        "labels": [
+          "enhancement",
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9532,
+      "title": "fix: Add front-end hex color validation to the color input field.",
+      "body": "fixes #9527 \r\n\r\nI used `var(--color-danger-darkest)` to display red for invalid hex colors. The function also supports the reserved keyword `COLOR_PALETTE.transparent` and can be extended to handle additional keywords.\r\n\r\nhttps://github.com/user-attachments/assets/49561d13-9dc3-462e-af64-66579203532b\r\n\r\n",
+      "body_length": 245,
+      "created_at": "2025-05-15T19:32:53Z",
+      "updated_at": "2025-05-15T19:34:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 54,
+      "deletions": 2,
+      "files_changed": 3,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 56,
+      "avg_commit_msg_length": 49.666666666666664,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.3333333333333333,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "packages/excalidraw/components/ColorPicker/hex.test.ts"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "scss": 1,
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes #9527 \r\n\r\nI used `var(--color-danger-darkest)` to display red for invalid hex colors. The function also supports the reserved keyword `COLOR_PALETTE.transparent` and can be extended to handle additional keywords.\r\n\r\nhttps://github.com/user-attachments/assets/49561d13-9dc3-462e-af64-66579203532b",
+      "body_cleaned_length": 301,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 1.3114754098360655,
+      "author_type": "User"
+    },
+    "username": "shahil-yadav"
+  },
+  {
+    "pr_number": 9542,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9503,
+        "labels": [
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9542,
+      "title": "fix: Make canvas search results stable (#9503)",
+      "body": "Fixes #9503\r\n\r\nPrevents canvas search results from reordering when matched elements are dragged.\r\n\r\nThe results were previously sorted by element Y position, which changes during dragging, causing the list to reorder. This change sorts by the stable element ID instead.\r\n\r\n**To test:**\r\n1. Add multiple text elements containing the same word (e.g., \"test 1\", \"test 2\").\r\n2. Search for that word (\"test\").\r\n3. Drag one of the matching elements on the canvas.\r\n4. Verify the order of results in the search list remains unchanged.\r\n\r\nBefore:\r\n![before](https://github.com/user-attachments/assets/7c763fa9-f888-4792-880b-7bd4ba56cce4)\r\n\r\nAfter:\r\n![after](https://github.com/user-attachments/assets/c160ffad-2347-4391-b450-523affc578bf)",
+      "body_length": 516,
+      "created_at": "2025-05-17T14:14:04Z",
+      "updated_at": "2025-05-17T15:14:44Z",
+      "closed_at": "2025-05-17T15:14:44Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 3,
+      "deletions": 10161,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 10164,
+      "avg_commit_msg_length": 47.333333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.6666666666666666,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "lock": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #9503\r\n\r\nPrevents canvas search results from reordering when matched elements are dragged.\r\n\r\nThe results were previously sorted by element Y position, which changes during dragging, causing the list to reorder. This change sorts by the stable element ID instead.\r\n\r\n**To test:**\r\n1. Add multiple text elements containing the same word (e.g., \"test 1\", \"test 2\").\r\n2. Search for that word (\"test\").\r\n3. Drag one of the matching elements on the canvas.\r\n4. Verify the order of results in the search list remains unchanged.\r\n\r\nBefore:\r\n![before](https://github.com/user-attachments/assets/7c763fa9-f888-4792-880b-7bd4ba56cce4)\r\n\r\nAfter:\r\n![after](https://github.com/user-attachments/assets/c160ffad-2347-4391-b450-523affc578bf)",
+      "body_cleaned_length": 731,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "shobhitsrivastava2023"
+  },
+  {
+    "pr_number": 9567,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 9541,
+        "labels": [
+          "enhancement",
+          "good first issue",
+          "UX/UI"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 9567,
+      "title": "feat: notify user when no shape tool is active",
+      "body": "Adds a toast notification that prompts the user to select a shape tool before drawing. If a non-drawing tool is selected and the user tries to draw, a toast appears with the message: \"Please select a shape tool to draw.\" \r\n\r\n## Summary of Changes\r\n\r\n- **Feature:** Added a toast notification to guide users when attempting to draw without a shape tool selected.\r\n- **Behavior:**  \r\n  - If a user tries to draw while a non-drawing tool (such as selection, hand, lasso, text, image, eraser, custom, frame, magicframe, or laser) is active, a toast appears with the message:  \r\n    **\"Please select a shape tool to draw.\"**\r\n  - The drawing action is prevented until a shape tool is selected.\r\n- **Implementation:**  \r\n  - Inserted a check at the top of the `handleCanvasPointerDown` method in `App.tsx`.\r\n  - If a non-drawing tool is selected, the toast is shown using `this.setToast` and the method returns early.\r\n\r\n---\r\n\r\nfixes #9541\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n- **New Features**\n  - Added a notification prompting users to select a shape tool when attempting to draw with a non-drawing or custom tool. The message appears as a closable toast for 2 seconds.\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+      "body_length": 1073,
+      "created_at": "2025-05-24T04:16:21Z",
+      "updated_at": "2025-05-24T21:21:32Z",
+      "closed_at": "2025-05-24T21:21:32Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 27,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 3,
+      "pr_size": 29,
+      "avg_commit_msg_length": 46.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Adds a toast notification that prompts the user to select a shape tool before drawing. If a non-drawing tool is selected and the user tries to draw, a toast appears with the message: \"Please select a shape tool to draw.\" \r\n\r\n## Summary of Changes\r\n\r\n- **Feature:** Added a toast notification to guide users when attempting to draw without a shape tool selected.\r\n- **Behavior:**  \r\n  - If a user tries to draw while a non-drawing tool (such as selection, hand, lasso, text, image, eraser, custom, frame, magicframe, or laser) is active, a toast appears with the message:  \r\n    **\"Please select a shape tool to draw.\"**\r\n  - The drawing action is prevented until a shape tool is selected.\r\n- **Implementation:**  \r\n  - Inserted a check at the top of the `handleCanvasPointerDown` method in `App.tsx`.\r\n  - If a non-drawing tool is selected, the toast is shown using `this.setToast` and the method returns early.\r\n\r\n---\r\n\r\nfixes #9541\r\n\n\n\n## Summary by CodeRabbit\n\n- **New Features**\n  - Added a notification prompting users to select a shape tool when attempting to draw with a non-drawing or custom tool. The message appears as a closable toast for 2 seconds.",
+      "body_cleaned_length": 1160,
+      "template_removed_length": 145,
+      "template_reduction_percentage": 11.11111111111111,
+      "author_type": "User"
+    },
+    "username": "itsknk"
+  }
+]

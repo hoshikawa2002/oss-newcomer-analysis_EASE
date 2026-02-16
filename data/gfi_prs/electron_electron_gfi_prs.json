@@ -1,0 +1,406 @@
+[
+  {
+    "pr_number": 33262,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 32867,
+        "labels": [
+          "documentation :notebook:",
+          "beginner friendly",
+          "bug :beetle:"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 33262,
+      "title": "fix: fiddle ipc code pattern 3",
+      "body": "#### Description of Change\r\nCloses #32867 \r\n<!--\r\nThank you for your Pull Request. Please provide a description above and review\r\nthe requirements below.\r\n\r\nContributors guide: https://github.com/electron/electron/blob/main/CONTRIBUTING.md\r\n-->\r\nFixed docs and fiddle code and tested with the fiddle.\r\n- Added missing requirement `ipcMain` in docs code.\r\n- Modified `event.reply` to `event.sender.send` as reply is not a function anymore in process event.\r\n\r\n#### Checklist\r\n<!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->\r\n\r\n- [X] `npm test` passes\r\n- [X] relevant documentation is changed or added\r\n\r\n#### Release Notes\r\nNotes: none",
+      "body_length": 667,
+      "created_at": "2022-03-13T05:30:26Z",
+      "merged_at": "2022-03-16T15:01:30Z",
+      "merged": true,
+      "time_to_merge_hours": 81.51777777777778,
+      "state": "MERGED",
+      "additions": 3,
+      "deletions": 3,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 8,
+      "commit_messages": [
+        "fix: fiddle ipc code pattern 3"
+      ],
+      "avg_commit_msg_length": 30.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/fiddles/ipc/pattern-3/renderer.js",
+        "docs/tutorial/ipc.md"
+      ],
+      "file_types": {
+        "js": 1,
+        "md": 1
+      },
+      "review_states": {
+        "APPROVED": 2
+      },
+      "labels": [
+        {
+          "name": "documentation :notebook:",
+          "color": "6addf7",
+          "description": ""
+        },
+        {
+          "name": "semver/patch",
+          "color": "6ac2dd",
+          "description": "backwards-compatible bug fixes"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "#### Description of Change\r\nCloses #32867 \r\n\r\nFixed docs and fiddle code and tested with the fiddle.\r\n- Added missing requirement `ipcMain` in docs code.\r\n- Modified `event.reply` to `event.sender.send` as reply is not a function anymore in process event.\r\n\r\n#### Checklist\r\n\r\n\r\n- [X] `npm test` passes\r\n- [X] relevant documentation is changed or added\r\n\r\n#### Release Notes\r\nNotes: none",
+      "body_cleaned_length": 387,
+      "template_removed_length": 280,
+      "template_reduction_percentage": 41.97901049475262,
+      "author_type": "User"
+    },
+    "username": "akgupta0777"
+  },
+  {
+    "pr_number": 39258,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 38339,
+        "labels": [
+          "enhancement :sparkles:",
+          "documentation :notebook:",
+          "beginner friendly"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 39258,
+      "title": "docs: fix some string union type",
+      "body": "#### Description of Change\r\n\r\nfixes #38339\r\n\r\n#### Checklist\r\n\r\n- [x] PR description included and stakeholders cc'd\r\n- [x] `npm test` passes\r\n- [x] tests are [changed or added](https://github.com/electron/electron/blob/main/docs/development/testing.md)\r\n- [x] relevant documentation, tutorials, templates and examples are changed or added\r\n\r\n#### Release Notes\r\n\r\nNotes:  none\r\n",
+      "body_length": 378,
+      "created_at": "2023-07-27T11:19:05Z",
+      "merged_at": "2023-07-31T08:33:00Z",
+      "merged": true,
+      "time_to_merge_hours": 93.23194444444445,
+      "state": "MERGED",
+      "additions": 30,
+      "deletions": 11,
+      "files_changed": 7,
+      "commits_count": 4,
+      "review_count": 3,
+      "comment_count": 4,
+      "commit_messages": [
+        "docs: fix some string union types\n\nImprove Type Union Typings in the Docs",
+        "test: add smoke tests",
+        "test: update `ses.clearStorageData` test case",
+        "test: update `ses.clearStorageData` test case"
+      ],
+      "avg_commit_msg_length": 46.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "test",
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/desktop-capturer.md",
+        "docs/api/native-image.md",
+        "docs/api/session.md",
+        "docs/api/web-contents.md",
+        "docs/api/webview-tag.md"
+      ],
+      "file_types": {
+        "md": 5,
+        "ts": 2
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "COMMENTED": 1
+      },
+      "labels": [
+        {
+          "name": "documentation :notebook:",
+          "color": "6addf7",
+          "description": ""
+        },
+        {
+          "name": "semver/patch",
+          "color": "6ac2dd",
+          "description": "backwards-compatible bug fixes"
+        },
+        {
+          "name": "merged/26-x-y",
+          "color": "ededed",
+          "description": "PR was merged to the \"26-x-y\" branch."
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "#### Description of Change\r\n\r\nfixes #38339\r\n\r\n#### Checklist\r\n\r\n- [x] PR description included and stakeholders cc'd\r\n- [x] `npm test` passes\r\n- [x] tests are [changed or added](https://github.com/electron/electron/blob/main/docs/development/testing.md)\r\n- [x] relevant documentation, tutorials, templates and examples are changed or added\r\n\r\n#### Release Notes\r\n\r\nNotes:  none",
+      "body_cleaned_length": 376,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5291005291005291,
+      "author_type": "User"
+    },
+    "username": "anyerqi"
+  },
+  {
+    "pr_number": 45392,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 14728,
+        "labels": [
+          "enhancement :sparkles:",
+          "documentation :notebook:",
+          "beginner friendly"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 45392,
+      "title": "docs: added upstream doc links for node, chromium, and v8 in default_app",
+      "body": "#### Description of Change\r\n\r\nAdded upstream documentation links for Node.js, Chromium, and V8 in the default_app of Electron.\r\n\r\nFixes #14728\r\n\r\nThis is my first open-source contribution, and I’m excited to get involved with Electron! I would appreciate any feedback on improvements or best practices.\r\n\r\n#### Checklist\r\n<!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->\r\n\r\n- [x] PR description included and stakeholders cc'd\r\n- [x] `npm test` passes\r\n- [ ] tests are [changed or added](https://github.com/electron/electron/blob/main/docs/development/testing.md)\r\n- [x] relevant documentation, tutorials, templates and examples are changed or added\r\n- [x] [PR release notes](https://github.com/electron/clerk/blob/main/README.md) describe the change in a way relevant to app developers, and are [capitalized, punctuated, and past tense](https://github.com/electron/clerk/blob/main/README.md#examples).\r\n\r\n#### Release Notes\r\n\r\nNotes: Added upstream documentation links for Node.js, Chromium, and V8 in the default_app.\r\n",
+      "body_length": 1052,
+      "created_at": "2025-01-30T13:26:36Z",
+      "merged_at": "2025-02-22T16:15:36Z",
+      "merged": true,
+      "time_to_merge_hours": 554.8166666666667,
+      "state": "MERGED",
+      "additions": 14,
+      "deletions": 7,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 3,
+      "comment_count": 7,
+      "commit_messages": [
+        "docs: added upstream doc links for node, chromium, and v8 in default_app"
+      ],
+      "avg_commit_msg_length": 72.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 3
+      },
+      "labels": [
+        {
+          "name": "documentation :notebook:",
+          "color": "6addf7",
+          "description": ""
+        },
+        {
+          "name": "semver/patch",
+          "color": "6ac2dd",
+          "description": "backwards-compatible bug fixes"
+        },
+        {
+          "name": "no-backport",
+          "color": "CB07C4",
+          "description": ""
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "#### Description of Change\r\n\r\nAdded upstream documentation links for Node.js, Chromium, and V8 in the default_app of Electron.\r\n\r\nFixes #14728\r\n\r\nThis is my first open-source contribution, and I’m excited to get involved with Electron! I would appreciate any feedback on improvements or best practices.\r\n\r\n#### Checklist\r\n\r\n\r\n- [x] PR description included and stakeholders cc'd\r\n- [x] `npm test` passes\r\n- [ ] tests are [changed or added](https://github.com/electron/electron/blob/main/docs/development/testing.md)\r\n- [x] relevant documentation, tutorials, templates and examples are changed or added\r\n- [x] [PR release notes](https://github.com/electron/clerk/blob/main/README.md) describe the change in a way relevant to app developers, and are [capitalized, punctuated, and past tense](https://github.com/electron/clerk/blob/main/README.md#examples).\r\n\r\n#### Release Notes\r\n\r\nNotes: Added upstream documentation links for Node.js, Chromium, and V8 in the default_app.",
+      "body_cleaned_length": 970,
+      "template_removed_length": 82,
+      "template_reduction_percentage": 7.79467680608365,
+      "author_type": "User"
+    },
+    "username": "nilayarya"
+  },
+  {
+    "pr_number": 46094,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 40173,
+        "labels": [
+          "enhancement :sparkles:",
+          "documentation :notebook:",
+          "beginner friendly"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46094,
+      "title": "Improve Documentation on Handling Deep Links on Cold Start (Windows &…",
+      "body": "# Improve Deep Linking Documentation for Cold Start Scenarios  #42627\r\n\r\n## Problem\r\nThe current Electron documentation lacks clear guidance on handling deep links during cold start (when the app is not running), particularly for Windows and Linux platforms. This creates confusion for developers implementing deep linking across different platforms.\r\n\r\n## Solution\r\nI've enhanced the deep linking documentation with:\r\n\r\n1. **New Comprehensive Guide** (`docs/tutorial/deep-linking.md`)\r\n   ```diff\r\n   + Created new deep-linking.md with platform-specific implementation details\r\n   + Added clear examples for cold start handling\r\n   + Included best practices and error handling patterns\r\n   ```\r\n\r\n2. **Updated Quick Start Guide** (`docs/tutorial/launch-app-from-url-in-another-app.md`)\r\n   ```diff\r\n   - <!-- ✍ Update this section if you want to provide more details -->\r\n   + Added platform-specific notes for cold start behavior\r\n   + Added reference to comprehensive deep linking guide\r\n   ```\r\n\r\n3. **Enhanced API Docs** (`docs/api/app.md`)\r\n   ```diff\r\n   - Sets the current executable as the default handler for a protocol...\r\n   + Added detailed platform-specific behavior documentation\r\n   + Added development vs production setup examples\r\n   + Added cold start handling instructions\r\n   ```\r\n\r\n## Key Improvements\r\n\r\n### 1. Clear Platform Differences\r\nBefore developers had to figure out platform differences through trial and error. Now it's explicitly documented:\r\n```javascript\r\n// Windows & Linux (cold start)\r\napp.on('ready', () => {\r\n  const deepLinkUrl = process.argv.find(arg => arg.startsWith('myapp://'))\r\n  if (deepLinkUrl) handleDeepLink(deepLinkUrl)\r\n})\r\n\r\n// macOS (all scenarios)\r\napp.on('will-finish-launching', () => {\r\n  app.on('open-url', (event, url) => {\r\n    event.preventDefault()\r\n    handleDeepLink(url)\r\n  })\r\n})\r\n```\r\n\r\n### 2. Development Environment Support\r\nAdded clear guidance for development scenarios:\r\n```javascript\r\nif (process.defaultApp) {\r\n  if (process.argv.length >= 2) {\r\n    app.setAsDefaultProtocolClient('myapp', process.execPath, [path.resolve(process.argv[1])])\r\n  }\r\n} else {\r\n  app.setAsDefaultProtocolClient('myapp')\r\n}\r\n```\r\n\r\n### 3. Best Practices\r\nAdded practical examples for robust implementations:\r\n```javascript\r\nfunction isValidDeepLink(url) {\r\n  try {\r\n    const parsedUrl = new URL(url)\r\n    return parsedUrl.protocol === 'myapp:'\r\n  } catch {\r\n    return false\r\n  }\r\n}\r\n```\r\n\r\n## Before & After\r\n\r\nBefore:\r\n- No clear guidance on cold start handling\r\n- Platform differences buried in implementation details\r\n- Development vs production setup unclear\r\n\r\nAfter:\r\n- Clear platform-specific implementation guides\r\n- Step-by-step cold start handling instructions\r\n- Best practices and error handling patterns\r\n- Development environment configuration examples\r\n\r\n## Testing\r\n- Verified documentation accuracy on Windows, Linux, and macOS\r\n- Validated code examples in both development and production\r\n- Confirmed cross-references between all documentation files\r\n\r\n## Related\r\nCloses #40173",
+      "body_length": 2743,
+      "created_at": "2025-03-18T06:00:56Z",
+      "updated_at": "2025-04-02T05:05:30Z",
+      "closed_at": "2025-04-02T05:05:30Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 642,
+      "deletions": 450,
+      "files_changed": 3,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 1,
+      "pr_size": 1092,
+      "avg_commit_msg_length": 83.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/app.md",
+        "docs/tutorial/deep-linking.md",
+        "docs/tutorial/launch-app-from-url-in-another-app.md"
+      ],
+      "file_types": {
+        "md": 3
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "# Improve Deep Linking Documentation for Cold Start Scenarios  #42627\r\n\r\n## Problem\r\nThe current Electron documentation lacks clear guidance on handling deep links during cold start (when the app is not running), particularly for Windows and Linux platforms. This creates confusion for developers implementing deep linking across different platforms.\r\n\r\n## Solution\r\nI've enhanced the deep linking documentation with:\r\n\r\n1. **New Comprehensive Guide** (`docs/tutorial/deep-linking.md`)\r\n   ```diff\r\n   + Created new deep-linking.md with platform-specific implementation details\r\n   + Added clear examples for cold start handling\r\n   + Included best practices and error handling patterns\r\n   ```\r\n\r\n2. **Updated Quick Start Guide** (`docs/tutorial/launch-app-from-url-in-another-app.md`)\r\n   ```diff\r\n   - \r\n   + Added platform-specific notes for cold start behavior\r\n   + Added reference to comprehensive deep linking guide\r\n   ```\r\n\r\n3. **Enhanced API Docs** (`docs/api/app.md`)\r\n   ```diff\r\n   - Sets the current executable as the default handler for a protocol...\r\n   + Added detailed platform-specific behavior documentation\r\n   + Added development vs production setup examples\r\n   + Added cold start handling instructions\r\n   ```\r\n\r\n## Key Improvements\r\n\r\n### 1. Clear Platform Differences\r\nBefore developers had to figure out platform differences through trial and error. Now it's explicitly documented:\r\n```javascript\r\n// Windows & Linux (cold start)\r\napp.on('ready', () => {\r\n  const deepLinkUrl = process.argv.find(arg => arg.startsWith('myapp://'))\r\n  if (deepLinkUrl) handleDeepLink(deepLinkUrl)\r\n})\r\n\r\n// macOS (all scenarios)\r\napp.on('will-finish-launching', () => {\r\n  app.on('open-url', (event, url) => {\r\n    event.preventDefault()\r\n    handleDeepLink(url)\r\n  })\r\n})\r\n```\r\n\r\n### 2. Development Environment Support\r\nAdded clear guidance for development scenarios:\r\n```javascript\r\nif (process.defaultApp) {\r\n  if (process.argv.length >= 2) {\r\n    app.setAsDefaultProtocolClient('myapp', process.execPath, [path.resolve(process.argv[1])])\r\n  }\r\n} else {\r\n  app.setAsDefaultProtocolClient('myapp')\r\n}\r\n```\r\n\r\n### 3. Best Practices\r\nAdded practical examples for robust implementations:\r\n```javascript\r\nfunction isValidDeepLink(url) {\r\n  try {\r\n    const parsedUrl = new URL(url)\r\n    return parsedUrl.protocol === 'myapp:'\r\n  } catch {\r\n    return false\r\n  }\r\n}\r\n```\r\n\r\n## Before & After\r\n\r\nBefore:\r\n- No clear guidance on cold start handling\r\n- Platform differences buried in implementation details\r\n- Development vs production setup unclear\r\n\r\nAfter:\r\n- Clear platform-specific implementation guides\r\n- Step-by-step cold start handling instructions\r\n- Best practices and error handling patterns\r\n- Development environment configuration examples\r\n\r\n## Testing\r\n- Verified documentation accuracy on Windows, Linux, and macOS\r\n- Validated code examples in both development and production\r\n- Confirmed cross-references between all documentation files\r\n\r\n## Related\r\nCloses #40173",
+      "body_cleaned_length": 2988,
+      "template_removed_length": 66,
+      "template_reduction_percentage": 2.161100196463654,
+      "author_type": "User"
+    },
+    "username": "rajanarahul93"
+  },
+  {
+    "pr_number": 46518,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 40173,
+        "labels": [
+          "enhancement :sparkles:",
+          "documentation :notebook:",
+          "beginner friendly"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 46518,
+      "title": "docs: fix deep linking documentation to address platform-specific issues",
+      "body": "This PR improves the deep linking documentation to address several important issues that were previously undocumented:\r\n\r\n1. macOS Synchronous Handling: Added critical guidance on registering the 'open-url' event listener synchronously at application startup to prevent missed events.\r\n\r\n2. Windows/Linux Cold Start: Added missing documentation for handling deep links when the application is launched from a cold start on Windows and Linux platforms using process.argv.\r\n\r\n3. Protocol Registration Explanation: Added clear explanations for the different protocol registration approaches between development and production environments.\r\n\r\nThese changes provide comprehensive guidance for implementing deep linking correctly across all platforms and scenarios, ensuring developers can properly implement this feature in their Electron applications.\r\n\r\nFixes #40173\r\n",
+      "body_length": 848,
+      "created_at": "2025-04-06T14:14:45Z",
+      "updated_at": "2025-06-23T10:23:19Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 50,
+      "deletions": 5,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "pr_size": 55,
+      "avg_commit_msg_length": 146.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/tutorial/launch-app-from-url-in-another-app.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "documentation :notebook:",
+          "color": "6addf7",
+          "description": ""
+        },
+        {
+          "name": "semver/patch",
+          "color": "6ac2dd",
+          "description": "backwards-compatible bug fixes"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR improves the deep linking documentation to address several important issues that were previously undocumented:\r\n\r\n1. macOS Synchronous Handling: Added critical guidance on registering the 'open-url' event listener synchronously at application startup to prevent missed events.\r\n\r\n2. Windows/Linux Cold Start: Added missing documentation for handling deep links when the application is launched from a cold start on Windows and Linux platforms using process.argv.\r\n\r\n3. Protocol Registration Explanation: Added clear explanations for the different protocol registration approaches between development and production environments.\r\n\r\nThese changes provide comprehensive guidance for implementing deep linking correctly across all platforms and scenarios, ensuring developers can properly implement this feature in their Electron applications.\r\n\r\nFixes #40173",
+      "body_cleaned_length": 864,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.23094688221709006,
+      "author_type": "User"
+    },
+    "username": "ishanhemnani"
+  }
+]

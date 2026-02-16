@@ -1,0 +1,1260 @@
+[
+  {
+    "number": 27162,
+    "created_at": "2021-07-07T12:54:56Z",
+    "labels": [
+      "good first issue",
+      "typescript"
+    ]
+  },
+  {
+    "number": 27301,
+    "created_at": "2021-07-15T14:14:56Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "component: Popper"
+    ]
+  },
+  {
+    "number": 27525,
+    "created_at": "2021-07-30T14:41:51Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "scope: autocomplete"
+    ]
+  },
+  {
+    "number": 27605,
+    "created_at": "2021-08-04T17:42:21Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "scope: system"
+    ]
+  },
+  {
+    "number": 27608,
+    "created_at": "2021-08-05T02:29:48Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "scope: stepper"
+    ]
+  },
+  {
+    "number": 27669,
+    "created_at": "2021-08-09T20:40:44Z",
+    "labels": [
+      "type: new feature",
+      "good first issue",
+      "scope: button",
+      "typescript",
+      "component: ButtonBase"
+    ]
+  },
+  {
+    "number": 27933,
+    "created_at": "2021-08-23T21:19:26Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: autocomplete"
+    ]
+  },
+  {
+    "number": 27973,
+    "created_at": "2021-08-26T11:38:08Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "component: Fab"
+    ]
+  },
+  {
+    "number": 28116,
+    "created_at": "2021-09-02T19:00:27Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "package: codemod"
+    ]
+  },
+  {
+    "number": 28236,
+    "created_at": "2021-09-09T08:09:50Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28303,
+    "created_at": "2021-09-12T17:22:05Z",
+    "labels": [
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28477,
+    "created_at": "2021-09-19T13:14:11Z",
+    "labels": [
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28554,
+    "created_at": "2021-09-23T08:52:43Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: Grid"
+    ]
+  },
+  {
+    "number": 28555,
+    "created_at": "2021-09-23T08:53:16Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: switch"
+    ]
+  },
+  {
+    "number": 28588,
+    "created_at": "2021-09-25T16:03:59Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28623,
+    "created_at": "2021-09-26T04:29:23Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28624,
+    "created_at": "2021-09-26T09:16:15Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: icons"
+    ]
+  },
+  {
+    "number": 28677,
+    "created_at": "2021-09-29T05:30:36Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 28686,
+    "created_at": "2021-09-29T12:43:17Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: text field"
+    ]
+  },
+  {
+    "number": 28850,
+    "created_at": "2021-10-05T15:47:06Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "component: Box"
+    ]
+  },
+  {
+    "number": 28962,
+    "created_at": "2021-10-10T09:12:11Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: app bar"
+    ]
+  },
+  {
+    "number": 28993,
+    "created_at": "2021-10-11T17:14:14Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "v5.x migration"
+    ]
+  },
+  {
+    "number": 29030,
+    "created_at": "2021-10-13T11:12:13Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: list"
+    ]
+  },
+  {
+    "number": 29050,
+    "created_at": "2021-10-14T14:29:54Z",
+    "labels": [
+      "type: new feature",
+      "docs",
+      "good first issue",
+      "scope: system"
+    ]
+  },
+  {
+    "number": 29056,
+    "created_at": "2021-10-14T16:05:22Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: autocomplete"
+    ]
+  },
+  {
+    "number": 29065,
+    "created_at": "2021-10-14T21:57:34Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "scope: menu"
+    ]
+  },
+  {
+    "number": 29066,
+    "created_at": "2021-10-14T23:59:25Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: LoadingButton"
+    ]
+  },
+  {
+    "number": 29178,
+    "created_at": "2021-10-20T08:51:40Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: Grid",
+      "typescript"
+    ]
+  },
+  {
+    "number": 29206,
+    "created_at": "2021-10-21T14:06:56Z",
+    "labels": [
+      "good first issue",
+      "scope: text field"
+    ]
+  },
+  {
+    "number": 29207,
+    "created_at": "2021-10-21T15:50:30Z",
+    "labels": [
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 29362,
+    "created_at": "2021-10-28T19:48:29Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: masonry"
+    ]
+  },
+  {
+    "number": 29439,
+    "created_at": "2021-10-31T20:07:04Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: select"
+    ]
+  },
+  {
+    "number": 29628,
+    "created_at": "2021-11-11T17:22:56Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: menu",
+      "typescript"
+    ]
+  },
+  {
+    "number": 29636,
+    "created_at": "2021-11-12T05:02:14Z",
+    "labels": [
+      "good first issue",
+      "package: @mui/base"
+    ]
+  },
+  {
+    "number": 29705,
+    "created_at": "2021-11-16T16:34:07Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: masonry"
+    ]
+  },
+  {
+    "number": 29848,
+    "created_at": "2021-11-23T09:39:27Z",
+    "labels": [
+      "good first issue",
+      "scope: tabs",
+      "typescript"
+    ]
+  },
+  {
+    "number": 30520,
+    "created_at": "2022-01-06T15:00:06Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "package: lab"
+    ]
+  },
+  {
+    "number": 30715,
+    "created_at": "2022-01-21T02:11:00Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: LoadingButton"
+    ]
+  },
+  {
+    "number": 30964,
+    "created_at": "2022-02-07T18:54:26Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: divider",
+      "v5.x migration"
+    ]
+  },
+  {
+    "number": 31125,
+    "created_at": "2022-02-17T15:45:56Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: text field"
+    ]
+  },
+  {
+    "number": 32068,
+    "created_at": "2022-03-31T02:32:24Z",
+    "labels": [
+      "type: new feature",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 32437,
+    "created_at": "2022-04-23T21:10:41Z",
+    "labels": [
+      "good first issue",
+      "hook: useScrollTrigger"
+    ]
+  },
+  {
+    "number": 32490,
+    "created_at": "2022-04-28T10:33:17Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: tabs",
+      "typescript"
+    ]
+  },
+  {
+    "number": 32640,
+    "created_at": "2022-05-05T13:55:49Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: TextareaAutosize"
+    ]
+  },
+  {
+    "number": 33054,
+    "created_at": "2022-06-07T09:27:22Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: icon button"
+    ]
+  },
+  {
+    "number": 33402,
+    "created_at": "2022-07-05T16:19:04Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "component: CssBaseline"
+    ]
+  },
+  {
+    "number": 33410,
+    "created_at": "2022-07-06T10:20:19Z",
+    "labels": [
+      "type: new feature",
+      "good first issue",
+      "scope: stepper"
+    ]
+  },
+  {
+    "number": 33443,
+    "created_at": "2022-07-09T12:00:17Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: system"
+    ]
+  },
+  {
+    "number": 33564,
+    "created_at": "2022-07-18T18:49:27Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "component: FormControl"
+    ]
+  },
+  {
+    "number": 33694,
+    "created_at": "2022-07-29T11:03:58Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "package: @mui/base",
+      "component: TablePagination"
+    ]
+  },
+  {
+    "number": 33793,
+    "created_at": "2022-08-04T07:11:22Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: table",
+      "typescript"
+    ]
+  },
+  {
+    "number": 33802,
+    "created_at": "2022-08-04T17:33:21Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: table",
+      "typescript"
+    ]
+  },
+  {
+    "number": 33865,
+    "created_at": "2022-08-09T04:39:03Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 34042,
+    "created_at": "2022-08-23T02:41:58Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: avatar"
+    ]
+  },
+  {
+    "number": 34210,
+    "created_at": "2022-09-06T21:26:31Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: select",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 34239,
+    "created_at": "2022-09-09T09:12:33Z",
+    "labels": [
+      "good first issue",
+      "scope: menu",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 34404,
+    "created_at": "2022-09-21T03:23:36Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: menu"
+    ]
+  },
+  {
+    "number": 34519,
+    "created_at": "2022-09-29T18:41:26Z",
+    "labels": [
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 34570,
+    "created_at": "2022-10-02T04:37:47Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: select",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 34719,
+    "created_at": "2022-10-11T18:59:43Z",
+    "labels": [
+      "good first issue",
+      "package: @mui/base",
+      "type: enhancement",
+      "scope: portal"
+    ]
+  },
+  {
+    "number": 34801,
+    "created_at": "2022-10-17T14:30:45Z",
+    "labels": [
+      "good first issue",
+      "scope: system",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 34928,
+    "created_at": "2022-10-29T23:11:11Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: Grid"
+    ]
+  },
+  {
+    "number": 35031,
+    "created_at": "2022-11-07T11:05:01Z",
+    "labels": [
+      "type: bug",
+      "accessibility",
+      "good first issue",
+      "scope: table"
+    ]
+  },
+  {
+    "number": 35376,
+    "created_at": "2022-12-06T20:28:52Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: menu",
+      "scope: select"
+    ]
+  },
+  {
+    "number": 35711,
+    "created_at": "2023-01-02T18:41:59Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: table"
+    ]
+  },
+  {
+    "number": 35867,
+    "created_at": "2023-01-19T00:42:12Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: checkbox",
+      "package: joy-ui",
+      "design: joy"
+    ]
+  },
+  {
+    "number": 35927,
+    "created_at": "2023-01-23T19:07:38Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 36009,
+    "created_at": "2023-01-31T10:17:22Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: table",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 36035,
+    "created_at": "2023-02-03T07:06:47Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "type: regression",
+      "component: FormControl"
+    ]
+  },
+  {
+    "number": 36108,
+    "created_at": "2023-02-08T09:45:07Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: dialog"
+    ]
+  },
+  {
+    "number": 36125,
+    "created_at": "2023-02-10T02:24:00Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: app bar"
+    ]
+  },
+  {
+    "number": 36223,
+    "created_at": "2023-02-16T12:31:52Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: avatar"
+    ]
+  },
+  {
+    "number": 36269,
+    "created_at": "2023-02-20T09:37:33Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: select",
+      "customization: theme"
+    ]
+  },
+  {
+    "number": 36293,
+    "created_at": "2023-02-22T10:55:25Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: LoadingButton",
+      "browser: Safari",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 36541,
+    "created_at": "2023-03-16T19:26:52Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: table"
+    ]
+  },
+  {
+    "number": 36552,
+    "created_at": "2023-03-17T17:51:18Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "scope: autocomplete"
+    ]
+  },
+  {
+    "number": 36678,
+    "created_at": "2023-03-29T09:21:46Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "design: joy"
+    ]
+  },
+  {
+    "number": 36856,
+    "created_at": "2023-04-12T09:00:08Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 36877,
+    "created_at": "2023-04-13T20:30:38Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: chip",
+      "package: joy-ui",
+      "browser: Firefox"
+    ]
+  },
+  {
+    "number": 37236,
+    "created_at": "2023-05-11T09:55:17Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: tooltip"
+    ]
+  },
+  {
+    "number": 37277,
+    "created_at": "2023-05-15T07:14:29Z",
+    "labels": [
+      "good first issue",
+      "scope: select",
+      "package: joy-ui",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 37459,
+    "created_at": "2023-06-01T07:26:23Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: avatar",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 38048,
+    "created_at": "2023-07-19T14:36:56Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: autocomplete"
+    ]
+  },
+  {
+    "number": 38083,
+    "created_at": "2023-07-21T07:39:40Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "ready to take",
+      "examples"
+    ]
+  },
+  {
+    "number": 38405,
+    "created_at": "2023-08-10T06:32:24Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: system"
+    ]
+  },
+  {
+    "number": 38406,
+    "created_at": "2023-08-10T07:34:31Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: tabs"
+    ]
+  },
+  {
+    "number": 38494,
+    "created_at": "2023-08-16T08:55:37Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: GlobalStyles",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 38860,
+    "created_at": "2023-09-07T13:53:53Z",
+    "labels": [
+      "good first issue",
+      "scope: icons",
+      "scope: docs-infra"
+    ]
+  },
+  {
+    "number": 38862,
+    "created_at": "2023-09-07T17:54:46Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "typescript",
+      "scope: system",
+      "customization: theme"
+    ]
+  },
+  {
+    "number": 38936,
+    "created_at": "2023-09-12T13:00:51Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "component: Popper"
+    ]
+  },
+  {
+    "number": 38944,
+    "created_at": "2023-09-13T07:11:13Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: pagination"
+    ]
+  },
+  {
+    "number": 39041,
+    "created_at": "2023-09-18T13:27:54Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: drawer",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 39053,
+    "created_at": "2023-09-19T06:24:33Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: app bar",
+      "typescript"
+    ]
+  },
+  {
+    "number": 39063,
+    "created_at": "2023-09-20T00:48:43Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: pagination"
+    ]
+  },
+  {
+    "number": 39187,
+    "created_at": "2023-09-27T12:42:31Z",
+    "labels": [
+      "docs",
+      "support: question",
+      "good first issue",
+      "scope: text field",
+      "component: TextareaAutosize",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 39329,
+    "created_at": "2023-10-06T08:26:50Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "component: TextareaAutosize",
+      "package: joy-ui",
+      "scope: textarea"
+    ]
+  },
+  {
+    "number": 39348,
+    "created_at": "2023-10-08T20:06:40Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: skeleton",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 40112,
+    "created_at": "2023-12-05T15:53:24Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "package: joy-ui",
+      "component: FormControl"
+    ]
+  },
+  {
+    "number": 40298,
+    "created_at": "2023-12-24T09:36:10Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 40299,
+    "created_at": "2023-12-24T13:47:15Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: avatar"
+    ]
+  },
+  {
+    "number": 40331,
+    "created_at": "2023-12-26T15:16:07Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: dialog",
+      "typescript",
+      "scope: modal",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 40390,
+    "created_at": "2023-12-31T06:29:05Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "component: ButtonGroup",
+      "ready to take",
+      "package: joy-ui"
+    ]
+  },
+  {
+    "number": 40630,
+    "created_at": "2024-01-16T10:11:09Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: tabs",
+      "typescript",
+      "package: lab"
+    ]
+  },
+  {
+    "number": 40664,
+    "created_at": "2024-01-18T00:43:10Z",
+    "labels": [
+      "good first issue",
+      "package: joy-ui",
+      "customization: theme"
+    ]
+  },
+  {
+    "number": 41062,
+    "created_at": "2024-02-11T22:06:20Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: table",
+      "ready to take",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 41398,
+    "created_at": "2024-03-07T16:54:26Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: dialog"
+    ]
+  },
+  {
+    "number": 41707,
+    "created_at": "2024-03-29T14:50:36Z",
+    "labels": [
+      "good first issue",
+      "scope: select",
+      "typescript",
+      "type: regression"
+    ]
+  },
+  {
+    "number": 41871,
+    "created_at": "2024-04-12T11:33:19Z",
+    "labels": [
+      "good first issue",
+      "package: utils",
+      "nextjs"
+    ]
+  },
+  {
+    "number": 42015,
+    "created_at": "2024-04-24T11:26:11Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: alert"
+    ]
+  },
+  {
+    "number": 42228,
+    "created_at": "2024-05-13T22:02:09Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: toggle button"
+    ]
+  },
+  {
+    "number": 42231,
+    "created_at": "2024-05-14T06:58:56Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "typescript",
+      "scope: focus trap"
+    ]
+  },
+  {
+    "number": 42567,
+    "created_at": "2024-06-07T16:20:34Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: autocomplete",
+      "ready to take",
+      "support: docs-feedback"
+    ]
+  },
+  {
+    "number": 42601,
+    "created_at": "2024-06-10T10:10:14Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "scope: alert",
+      "ready to take",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 42760,
+    "created_at": "2024-06-26T14:50:23Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "customization: theme",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 42859,
+    "created_at": "2024-07-05T21:21:15Z",
+    "labels": [
+      "type: bug",
+      "docs",
+      "good first issue",
+      "scope: card",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 43040,
+    "created_at": "2024-07-23T11:06:39Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: list",
+      "support: docs-feedback"
+    ]
+  },
+  {
+    "number": 43152,
+    "created_at": "2024-08-02T16:12:27Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: text field"
+    ]
+  },
+  {
+    "number": 43222,
+    "created_at": "2024-08-07T23:43:43Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: menu",
+      "component: Popover",
+      "ready to take",
+      "customization: dom"
+    ]
+  },
+  {
+    "number": 43385,
+    "created_at": "2024-08-20T23:23:40Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "scope: pagination"
+    ]
+  },
+  {
+    "number": 43499,
+    "created_at": "2024-08-28T15:21:02Z",
+    "labels": [
+      "good first issue",
+      "scope: checkbox",
+      "support: docs-feedback"
+    ]
+  },
+  {
+    "number": 43525,
+    "created_at": "2024-08-30T06:58:14Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "blog",
+      "support: docs-feedback"
+    ]
+  },
+  {
+    "number": 43572,
+    "created_at": "2024-09-02T09:52:19Z",
+    "labels": [
+      "good first issue",
+      "scope: dialog",
+      "type: regression",
+      "v6.x"
+    ]
+  },
+  {
+    "number": 43609,
+    "created_at": "2024-09-04T13:43:04Z",
+    "labels": [
+      "good first issue",
+      "typescript",
+      "scope: autocomplete",
+      "ready to take",
+      "type: enhancement"
+    ]
+  },
+  {
+    "number": 43690,
+    "created_at": "2024-09-10T10:22:32Z",
+    "labels": [
+      "docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 46709,
+    "created_at": "2024-09-13T17:42:03Z",
+    "labels": [
+      "performance",
+      "good first issue",
+      "internal",
+      "ready to take",
+      "scope: all components"
+    ]
+  },
+  {
+    "number": 44783,
+    "created_at": "2024-12-16T12:02:57Z",
+    "labels": [
+      "good first issue",
+      "scope: select",
+      "typescript",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 45537,
+    "created_at": "2025-03-10T17:37:27Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "scope: system",
+      "customization: css"
+    ]
+  },
+  {
+    "number": 46131,
+    "created_at": "2025-05-12T08:08:09Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: autocomplete",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 46191,
+    "created_at": "2025-05-21T21:43:32Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: toast",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 46192,
+    "created_at": "2025-05-21T23:07:40Z",
+    "labels": [
+      "type: bug",
+      "good first issue",
+      "scope: toast",
+      "ready to take"
+    ]
+  },
+  {
+    "number": 46418,
+    "created_at": "2025-06-25T08:36:58Z",
+    "labels": [
+      "docs",
+      "good first issue",
+      "customization: theme",
+      "support: docs-feedback"
+    ]
+  }
+]

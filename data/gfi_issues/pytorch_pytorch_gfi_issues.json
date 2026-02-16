@@ -1,0 +1,3761 @@
+[
+  {
+    "number": 61210,
+    "created_at": "2021-07-03T17:48:21Z",
+    "labels": [
+      "oncall: jit",
+      "good first issue",
+      "OSS contribution wanted"
+    ]
+  },
+  {
+    "number": 61654,
+    "created_at": "2021-07-14T15:17:37Z",
+    "labels": [
+      "module: internals",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 62501,
+    "created_at": "2021-07-30T20:00:56Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "module: __torch_dispatch__"
+    ]
+  },
+  {
+    "number": 63265,
+    "created_at": "2021-08-14T00:36:11Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "module: scatter & gather ops"
+    ]
+  },
+  {
+    "number": 64067,
+    "created_at": "2021-08-26T23:47:20Z",
+    "labels": [
+      "good first issue",
+      "module: ci",
+      "triaged",
+      "enhancement"
+    ]
+  },
+  {
+    "number": 64978,
+    "created_at": "2021-09-14T09:48:49Z",
+    "labels": [
+      "module: onnx",
+      "module: docs",
+      "feature",
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 65431,
+    "created_at": "2021-09-21T22:53:18Z",
+    "labels": [
+      "good first issue",
+      "module: ci",
+      "triaged",
+      "enhancement"
+    ]
+  },
+  {
+    "number": 65980,
+    "created_at": "2021-10-01T02:27:26Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged"
+    ]
+  },
+  {
+    "number": 66813,
+    "created_at": "2021-10-18T20:12:49Z",
+    "labels": [
+      "module: performance",
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "actionable"
+    ]
+  },
+  {
+    "number": 67227,
+    "created_at": "2021-10-25T22:18:39Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 67321,
+    "created_at": "2021-10-27T06:15:46Z",
+    "labels": [
+      "feature",
+      "good first issue",
+      "triaged",
+      "module: random"
+    ]
+  },
+  {
+    "number": 67612,
+    "created_at": "2021-11-01T05:53:29Z",
+    "labels": [
+      "good first issue",
+      "module: tests",
+      "triaged"
+    ]
+  },
+  {
+    "number": 67904,
+    "created_at": "2021-11-05T10:43:37Z",
+    "labels": [
+      "module: sparse",
+      "feature",
+      "good first issue",
+      "triaged",
+      "module: tensor creation"
+    ]
+  },
+  {
+    "number": 68928,
+    "created_at": "2021-11-26T06:08:54Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: scatter & gather ops"
+    ]
+  },
+  {
+    "number": 69444,
+    "created_at": "2021-12-06T10:00:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering"
+    ]
+  },
+  {
+    "number": 70301,
+    "created_at": "2021-12-22T12:12:15Z",
+    "labels": [
+      "module: docs",
+      "module: nn",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 70904,
+    "created_at": "2022-01-06T10:25:39Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: correctness (silent)"
+    ]
+  },
+  {
+    "number": 71096,
+    "created_at": "2022-01-10T15:24:40Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "triaged",
+      "module: testing"
+    ]
+  },
+  {
+    "number": 71385,
+    "created_at": "2022-01-17T15:17:34Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: linear algebra"
+    ]
+  },
+  {
+    "number": 71458,
+    "created_at": "2022-01-19T00:19:05Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "module: rpc"
+    ]
+  },
+  {
+    "number": 72661,
+    "created_at": "2022-02-10T17:59:26Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "module: ci",
+      "triaged",
+      "enhancement"
+    ]
+  },
+  {
+    "number": 73188,
+    "created_at": "2022-02-21T17:35:06Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "actionable",
+      "module: norms and normalization"
+    ]
+  },
+  {
+    "number": 73193,
+    "created_at": "2022-02-21T17:42:10Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "module: cpu",
+      "module: error checking",
+      "triaged",
+      "module: mkldnn"
+    ]
+  },
+  {
+    "number": 73701,
+    "created_at": "2022-03-02T23:34:21Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "module: ci",
+      "triaged"
+    ]
+  },
+  {
+    "number": 73859,
+    "created_at": "2022-03-07T18:17:24Z",
+    "labels": [
+      "good first issue",
+      "module: ci",
+      "triaged",
+      "better-engineering"
+    ]
+  },
+  {
+    "number": 74326,
+    "created_at": "2022-03-16T19:49:28Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "module: ci",
+      "triaged"
+    ]
+  },
+  {
+    "number": 74341,
+    "created_at": "2022-03-16T21:53:17Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "module: ci",
+      "triaged"
+    ]
+  },
+  {
+    "number": 74692,
+    "created_at": "2022-03-24T16:40:04Z",
+    "labels": [
+      "good first issue",
+      "module: typing",
+      "triaged"
+    ]
+  },
+  {
+    "number": 75112,
+    "created_at": "2022-04-01T17:22:52Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "module: ci"
+    ]
+  },
+  {
+    "number": 75287,
+    "created_at": "2022-04-05T22:31:35Z",
+    "labels": [
+      "module: bootcamp",
+      "feature",
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "pt_distributed_rampup"
+    ]
+  },
+  {
+    "number": 75705,
+    "created_at": "2022-04-12T22:17:28Z",
+    "labels": [
+      "good first issue",
+      "module: ci",
+      "triaged"
+    ]
+  },
+  {
+    "number": 75950,
+    "created_at": "2022-04-17T21:26:34Z",
+    "labels": [
+      "good first issue",
+      "module: cpu",
+      "triaged",
+      "module: complex"
+    ]
+  },
+  {
+    "number": 79361,
+    "created_at": "2022-06-12T03:19:01Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 79452,
+    "created_at": "2022-06-13T20:40:30Z",
+    "labels": [
+      "oncall: distributed",
+      "module: bootcamp",
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "pt_distributed_rampup"
+    ]
+  },
+  {
+    "number": 80153,
+    "created_at": "2022-06-23T18:11:26Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: infra"
+    ]
+  },
+  {
+    "number": 80441,
+    "created_at": "2022-06-28T10:19:12Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: linear algebra",
+      "actionable"
+    ]
+  },
+  {
+    "number": 80786,
+    "created_at": "2022-07-01T22:26:33Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: interpolation"
+    ]
+  },
+  {
+    "number": 81075,
+    "created_at": "2022-07-08T00:47:14Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 82031,
+    "created_at": "2022-07-22T23:15:33Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 82245,
+    "created_at": "2022-07-26T20:07:41Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 83038,
+    "created_at": "2022-08-08T23:29:25Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 83486,
+    "created_at": "2022-08-15T23:05:43Z",
+    "labels": [
+      "oncall: distributed",
+      "module: bootcamp",
+      "good first issue",
+      "triaged",
+      "module: c10d"
+    ]
+  },
+  {
+    "number": 83533,
+    "created_at": "2022-08-16T19:06:20Z",
+    "labels": [
+      "oncall: jit",
+      "module: onnx",
+      "good first issue",
+      "OSS contribution wanted",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 84193,
+    "created_at": "2022-08-29T15:15:35Z",
+    "labels": [
+      "triaged",
+      "fx",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "number": 84566,
+    "created_at": "2022-09-06T14:23:35Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "triaged",
+      "module: c10d"
+    ]
+  },
+  {
+    "number": 84589,
+    "created_at": "2022-09-06T19:01:57Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "triaged",
+      "module: ddp"
+    ]
+  },
+  {
+    "number": 84593,
+    "created_at": "2022-09-06T19:57:17Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: c10d"
+    ]
+  },
+  {
+    "number": 84865,
+    "created_at": "2022-09-12T15:49:48Z",
+    "labels": [
+      "oncall: distributed",
+      "module: bootcamp",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 85021,
+    "created_at": "2022-09-14T17:47:49Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: linear algebra",
+      "actionable"
+    ]
+  },
+  {
+    "number": 85111,
+    "created_at": "2022-09-15T21:26:50Z",
+    "labels": [
+      "module: crash",
+      "module: nn",
+      "good first issue",
+      "module: error checking",
+      "actionable"
+    ]
+  },
+  {
+    "number": 85155,
+    "created_at": "2022-09-16T15:34:43Z",
+    "labels": [
+      "high priority",
+      "module: nn",
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 85425,
+    "created_at": "2022-09-21T18:24:00Z",
+    "labels": [
+      "feature",
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "module: determinism",
+      "module: pooling"
+    ]
+  },
+  {
+    "number": 85439,
+    "created_at": "2022-09-21T21:21:54Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: edge cases"
+    ]
+  },
+  {
+    "number": 93684,
+    "created_at": "2022-09-22T12:06:59Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: numpy"
+    ]
+  },
+  {
+    "number": 85712,
+    "created_at": "2022-09-27T16:01:39Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: pooling"
+    ]
+  },
+  {
+    "number": 93701,
+    "created_at": "2022-09-27T23:54:35Z",
+    "labels": [
+      "good first issue",
+      "low priority",
+      "triaged",
+      "module: testing",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 86208,
+    "created_at": "2022-10-04T16:13:56Z",
+    "labels": [
+      "module: docs",
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 86224,
+    "created_at": "2022-10-04T19:44:01Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "actionable",
+      "module: reductions"
+    ]
+  },
+  {
+    "number": 93713,
+    "created_at": "2022-10-06T18:25:28Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 86443,
+    "created_at": "2022-10-07T04:08:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: aotdispatch",
+      "module: pt2-dispatcher",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 86446,
+    "created_at": "2022-10-07T04:23:20Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: fx",
+      "oncall: pt2",
+      "module: aotdispatch",
+      "module: pt2-dispatcher",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 86744,
+    "created_at": "2022-10-11T22:41:27Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86750,
+    "created_at": "2022-10-11T23:35:30Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86806,
+    "created_at": "2022-10-12T17:31:10Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86807,
+    "created_at": "2022-10-12T17:31:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86808,
+    "created_at": "2022-10-12T17:31:55Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86809,
+    "created_at": "2022-10-12T17:32:07Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86810,
+    "created_at": "2022-10-12T17:32:15Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86990,
+    "created_at": "2022-10-14T20:20:45Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 86991,
+    "created_at": "2022-10-14T20:24:41Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 93539,
+    "created_at": "2022-10-16T01:42:42Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 87219,
+    "created_at": "2022-10-18T17:27:31Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 87220,
+    "created_at": "2022-10-18T17:39:03Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 87221,
+    "created_at": "2022-10-18T17:43:14Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 87333,
+    "created_at": "2022-10-19T23:59:12Z",
+    "labels": [
+      "oncall: distributed",
+      "module: bootcamp",
+      "good first issue",
+      "module: rpc",
+      "pt_distributed_rampup"
+    ]
+  },
+  {
+    "number": 93553,
+    "created_at": "2022-10-20T02:30:44Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-must-fix"
+    ]
+  },
+  {
+    "number": 87672,
+    "created_at": "2022-10-25T04:51:29Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: assert failure"
+    ]
+  },
+  {
+    "number": 87862,
+    "created_at": "2022-10-27T14:50:44Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "actionable"
+    ]
+  },
+  {
+    "number": 88094,
+    "created_at": "2022-10-31T16:03:10Z",
+    "labels": [
+      "module: crash",
+      "good first issue",
+      "module: cpu",
+      "triaged"
+    ]
+  },
+  {
+    "number": 88098,
+    "created_at": "2022-10-31T17:01:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: infra"
+    ]
+  },
+  {
+    "number": 93605,
+    "created_at": "2022-11-02T20:17:29Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 89382,
+    "created_at": "2022-11-20T15:53:13Z",
+    "labels": [
+      "feature",
+      "module: nn",
+      "module: cuda",
+      "good first issue",
+      "triaged",
+      "module: complex",
+      "actionable"
+    ]
+  },
+  {
+    "number": 89914,
+    "created_at": "2022-11-30T15:37:36Z",
+    "labels": [
+      "module: bootcamp",
+      "good first issue",
+      "triaged",
+      "module: functionalization"
+    ]
+  },
+  {
+    "number": 91174,
+    "created_at": "2022-12-20T16:59:11Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91175,
+    "created_at": "2022-12-20T17:21:45Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91176,
+    "created_at": "2022-12-20T17:23:00Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91177,
+    "created_at": "2022-12-20T17:26:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91402,
+    "created_at": "2022-12-27T15:09:48Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91403,
+    "created_at": "2022-12-27T15:17:06Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91404,
+    "created_at": "2022-12-27T16:08:24Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91415,
+    "created_at": "2022-12-27T21:59:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91505,
+    "created_at": "2022-12-29T14:28:33Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 91506,
+    "created_at": "2022-12-29T14:38:39Z",
+    "labels": [
+      "good first issue",
+      "module: primTorch",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 91692,
+    "created_at": "2023-01-04T11:12:40Z",
+    "labels": [
+      "module: autograd",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 91700,
+    "created_at": "2023-01-04T15:48:00Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 91781,
+    "created_at": "2023-01-05T22:33:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 92141,
+    "created_at": "2023-01-13T09:42:19Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: 64-bit",
+      "module: mkl",
+      "module: linear algebra"
+    ]
+  },
+  {
+    "number": 92209,
+    "created_at": "2023-01-14T19:03:16Z",
+    "labels": [
+      "good first issue",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 92675,
+    "created_at": "2023-01-20T08:30:26Z",
+    "labels": [
+      "high priority",
+      "feature",
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: python frontend",
+      "module: functorch",
+      "matrix multiplication",
+      "module: first class dims"
+    ]
+  },
+  {
+    "number": 93376,
+    "created_at": "2023-01-31T17:03:04Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 93384,
+    "created_at": "2023-01-31T18:54:26Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 94598,
+    "created_at": "2023-02-10T15:28:19Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 94634,
+    "created_at": "2023-02-10T22:55:02Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: correctness (silent)"
+    ]
+  },
+  {
+    "number": 94740,
+    "created_at": "2023-02-13T16:56:43Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: edge cases"
+    ]
+  },
+  {
+    "number": 95371,
+    "created_at": "2023-02-23T10:04:54Z",
+    "labels": [
+      "high priority",
+      "module: sparse",
+      "module: crash",
+      "module: cuda",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 95376,
+    "created_at": "2023-02-23T13:27:39Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "module: pickle",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 95796,
+    "created_at": "2023-03-01T17:06:42Z",
+    "labels": [
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "actionable"
+    ]
+  },
+  {
+    "number": 96292,
+    "created_at": "2023-03-08T10:57:00Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged"
+    ]
+  },
+  {
+    "number": 96308,
+    "created_at": "2023-03-08T16:03:22Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 96456,
+    "created_at": "2023-03-09T22:08:48Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: meta tensors",
+      "oncall: pt2",
+      "module: pt2-dispatcher"
+    ]
+  },
+  {
+    "number": 96459,
+    "created_at": "2023-03-09T22:24:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 96517,
+    "created_at": "2023-03-10T13:47:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 96734,
+    "created_at": "2023-03-14T07:09:31Z",
+    "labels": [
+      "good first issue",
+      "module: tests",
+      "triaged",
+      "module: numpy",
+      "module: testing"
+    ]
+  },
+  {
+    "number": 96737,
+    "created_at": "2023-03-14T08:14:49Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 96864,
+    "created_at": "2023-03-15T17:48:07Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: linear algebra"
+    ]
+  },
+  {
+    "number": 96992,
+    "created_at": "2023-03-17T00:25:26Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 97096,
+    "created_at": "2023-03-18T20:23:23Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 97117,
+    "created_at": "2023-03-19T23:39:22Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 97211,
+    "created_at": "2023-03-21T02:41:19Z",
+    "labels": [
+      "module: cuda",
+      "good first issue",
+      "triaged",
+      "module: cublas",
+      "module: linear algebra"
+    ]
+  },
+  {
+    "number": 97469,
+    "created_at": "2023-03-23T21:17:33Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: c10d"
+    ]
+  },
+  {
+    "number": 97480,
+    "created_at": "2023-03-23T22:49:12Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 98287,
+    "created_at": "2023-04-04T09:04:07Z",
+    "labels": [
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: python frontend"
+    ]
+  },
+  {
+    "number": 98729,
+    "created_at": "2023-04-10T07:41:46Z",
+    "labels": [
+      "module: internals",
+      "good first issue",
+      "triaged",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 98918,
+    "created_at": "2023-04-12T07:30:33Z",
+    "labels": [
+      "good first issue",
+      "module: serialization",
+      "triaged"
+    ]
+  },
+  {
+    "number": 99107,
+    "created_at": "2023-04-13T23:53:05Z",
+    "labels": [
+      "oncall: quantization",
+      "low priority",
+      "triaged",
+      "topic: docs",
+      "easy"
+    ]
+  },
+  {
+    "number": 99278,
+    "created_at": "2023-04-16T21:21:35Z",
+    "labels": [
+      "module: build",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 99531,
+    "created_at": "2023-04-19T14:37:55Z",
+    "labels": [
+      "module: docs",
+      "module: nn",
+      "module: rnn",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 99735,
+    "created_at": "2023-04-21T17:00:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 100076,
+    "created_at": "2023-04-26T07:33:49Z",
+    "labels": [
+      "module: docs",
+      "module: dataloader",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 100697,
+    "created_at": "2023-05-05T08:35:37Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 100698,
+    "created_at": "2023-05-05T08:46:59Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: primTorch",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 100838,
+    "created_at": "2023-05-07T22:18:48Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: decompositions"
+    ]
+  },
+  {
+    "number": 100842,
+    "created_at": "2023-05-07T23:31:41Z",
+    "labels": [
+      "module: cuda",
+      "good first issue",
+      "triaged",
+      "module: jiterator"
+    ]
+  },
+  {
+    "number": 100854,
+    "created_at": "2023-05-08T06:33:55Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 101979,
+    "created_at": "2023-05-22T16:03:03Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 101980,
+    "created_at": "2023-05-22T16:10:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 102147,
+    "created_at": "2023-05-24T04:11:06Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 102205,
+    "created_at": "2023-05-24T20:53:50Z",
+    "labels": [
+      "module: internals",
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "oncall: pt2",
+      "module: aotdispatch",
+      "module: pt2-dispatcher"
+    ]
+  },
+  {
+    "number": 102207,
+    "created_at": "2023-05-24T21:01:30Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 102339,
+    "created_at": "2023-05-26T05:48:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 102857,
+    "created_at": "2023-06-02T18:17:45Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 102870,
+    "created_at": "2023-06-02T19:14:27Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 103008,
+    "created_at": "2023-06-05T19:49:57Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 103101,
+    "created_at": "2023-06-06T19:38:21Z",
+    "labels": [
+      "feature",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 103111,
+    "created_at": "2023-06-06T21:38:52Z",
+    "labels": [
+      "feature",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 103169,
+    "created_at": "2023-06-07T18:21:50Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 103194,
+    "created_at": "2023-06-07T20:08:07Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 103276,
+    "created_at": "2023-06-08T22:22:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "topic: docs",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 103480,
+    "created_at": "2023-06-13T01:56:58Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 103539,
+    "created_at": "2023-06-13T20:18:29Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 103545,
+    "created_at": "2023-06-13T20:52:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 103602,
+    "created_at": "2023-06-14T17:12:50Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 103615,
+    "created_at": "2023-06-14T19:22:04Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-symbolic-analysis"
+    ]
+  },
+  {
+    "number": 103618,
+    "created_at": "2023-06-14T19:48:24Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 103620,
+    "created_at": "2023-06-14T19:53:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 103892,
+    "created_at": "2023-06-20T15:45:46Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 104102,
+    "created_at": "2023-06-23T13:29:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 104359,
+    "created_at": "2023-06-28T17:36:12Z",
+    "labels": [
+      "oncall: jit",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 104884,
+    "created_at": "2023-07-10T17:19:36Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 104985,
+    "created_at": "2023-07-11T15:58:23Z",
+    "labels": [
+      "module: autograd",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 105225,
+    "created_at": "2023-07-14T15:51:54Z",
+    "labels": [
+      "module: performance",
+      "module: cuda",
+      "good first issue",
+      "triaged",
+      "module: linear algebra",
+      "actionable"
+    ]
+  },
+  {
+    "number": 105230,
+    "created_at": "2023-07-14T18:00:20Z",
+    "labels": [
+      "good first issue",
+      "module: typing",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 105452,
+    "created_at": "2023-07-18T08:38:57Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: linear algebra"
+    ]
+  },
+  {
+    "number": 105519,
+    "created_at": "2023-07-19T06:18:20Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: decompositions"
+    ]
+  },
+  {
+    "number": 106051,
+    "created_at": "2023-07-26T17:26:53Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "triaged",
+      "module: complex",
+      "module: regression",
+      "module: partial aliasing",
+      "actionable",
+      "module: correctness (silent)",
+      "module: viewing and reshaping"
+    ]
+  },
+  {
+    "number": 106064,
+    "created_at": "2023-07-26T18:41:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 106125,
+    "created_at": "2023-07-27T08:48:20Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 106175,
+    "created_at": "2023-07-27T22:47:22Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 106207,
+    "created_at": "2023-07-28T15:08:45Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 106251,
+    "created_at": "2023-07-29T06:31:31Z",
+    "labels": [
+      "module: nn",
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 106377,
+    "created_at": "2023-08-01T11:54:23Z",
+    "labels": [
+      "needs reproduction",
+      "good first issue",
+      "module: tests",
+      "triaged",
+      "module: infra",
+      "module: testing"
+    ]
+  },
+  {
+    "number": 106407,
+    "created_at": "2023-08-01T20:49:50Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 106448,
+    "created_at": "2023-08-02T11:19:45Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: meta tensors",
+      "matrix multiplication"
+    ]
+  },
+  {
+    "number": 106571,
+    "created_at": "2023-08-03T19:38:06Z",
+    "labels": [
+      "good first issue",
+      "module: lint",
+      "triaged",
+      "enhancement",
+      "better-engineering"
+    ]
+  },
+  {
+    "number": 107005,
+    "created_at": "2023-08-11T02:05:48Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 107006,
+    "created_at": "2023-08-11T02:15:43Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 107022,
+    "created_at": "2023-08-11T09:26:53Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: complex",
+      "enhancement"
+    ]
+  },
+  {
+    "number": 107175,
+    "created_at": "2023-08-14T21:05:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-must-fix",
+      "module: sdpa"
+    ]
+  },
+  {
+    "number": 107372,
+    "created_at": "2023-08-17T09:57:13Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "triaged",
+      "module: c10d",
+      "oncall: pt2",
+      "module: dynamo",
+      "pt2d-triage-nov2024"
+    ]
+  },
+  {
+    "number": 107595,
+    "created_at": "2023-08-21T14:32:39Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 107682,
+    "created_at": "2023-08-22T12:30:22Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 107856,
+    "created_at": "2023-08-24T07:59:02Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 107970,
+    "created_at": "2023-08-25T17:56:58Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: numpy",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 108406,
+    "created_at": "2023-09-01T08:57:32Z",
+    "labels": [
+      "triaged",
+      "topic: docs",
+      "easy"
+    ]
+  },
+  {
+    "number": 108446,
+    "created_at": "2023-09-01T21:06:26Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 108621,
+    "created_at": "2023-09-06T03:14:18Z",
+    "labels": [
+      "feature",
+      "good first issue",
+      "triaged",
+      "module: half",
+      "oncall: pt2",
+      "module: inductor",
+      "matrix multiplication"
+    ]
+  },
+  {
+    "number": 108744,
+    "created_at": "2023-09-07T03:40:20Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dtensor"
+    ]
+  },
+  {
+    "number": 108904,
+    "created_at": "2023-09-08T20:54:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109031,
+    "created_at": "2023-09-11T16:48:09Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109056,
+    "created_at": "2023-09-11T19:50:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109266,
+    "created_at": "2023-09-14T00:35:19Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "triaged",
+      "pt_distributed_rampup"
+    ]
+  },
+  {
+    "number": 109502,
+    "created_at": "2023-09-18T15:20:09Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109504,
+    "created_at": "2023-09-18T15:25:02Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-triage-june2024"
+    ]
+  },
+  {
+    "number": 109508,
+    "created_at": "2023-09-18T15:29:36Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "release notes: dynamo"
+    ]
+  },
+  {
+    "number": 109538,
+    "created_at": "2023-09-18T20:52:38Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109605,
+    "created_at": "2023-09-19T14:52:03Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: numpy",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 109610,
+    "created_at": "2023-09-19T15:31:58Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 109861,
+    "created_at": "2023-09-22T03:36:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 110286,
+    "created_at": "2023-09-29T15:55:05Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 110315,
+    "created_at": "2023-09-29T21:08:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "ezyang's list",
+      "oncall: pt2",
+      "module: dynamo",
+      "oncall: export",
+      "dynamo-triage-june2024"
+    ]
+  },
+  {
+    "number": 110599,
+    "created_at": "2023-10-05T13:54:42Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "release notes: dynamo",
+      "dynamo-must-fix"
+    ]
+  },
+  {
+    "number": 110712,
+    "created_at": "2023-10-06T15:52:30Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "topic: docs",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 110738,
+    "created_at": "2023-10-06T18:31:54Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 110765,
+    "created_at": "2023-10-06T21:15:46Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 110950,
+    "created_at": "2023-10-10T14:57:36Z",
+    "labels": [
+      "good first issue",
+      "module: lint",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 111075,
+    "created_at": "2023-10-11T19:20:14Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "export-triaged",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 111222,
+    "created_at": "2023-10-13T18:35:53Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: testing"
+    ]
+  },
+  {
+    "number": 111776,
+    "created_at": "2023-10-23T03:09:31Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 112371,
+    "created_at": "2023-10-30T06:59:07Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering"
+    ]
+  },
+  {
+    "number": 112532,
+    "created_at": "2023-10-31T21:11:07Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-triage-june2024",
+      "dynamo-polyfill"
+    ]
+  },
+  {
+    "number": 112630,
+    "created_at": "2023-11-01T19:42:47Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "easy"
+    ]
+  },
+  {
+    "number": 112731,
+    "created_at": "2023-11-02T14:13:51Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "module: tests",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 112848,
+    "created_at": "2023-11-03T13:37:36Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 112919,
+    "created_at": "2023-11-03T22:01:44Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 113026,
+    "created_at": "2023-11-06T15:17:51Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 113040,
+    "created_at": "2023-11-06T17:50:09Z",
+    "labels": [
+      "feature",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 113198,
+    "created_at": "2023-11-07T20:28:42Z",
+    "labels": [
+      "module: cuda",
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: edge cases"
+    ]
+  },
+  {
+    "number": 113876,
+    "created_at": "2023-11-16T16:39:10Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 113894,
+    "created_at": "2023-11-16T21:05:07Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 114179,
+    "created_at": "2023-11-20T22:26:27Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 114218,
+    "created_at": "2023-11-21T10:07:37Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 114403,
+    "created_at": "2023-11-22T21:23:34Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: aotdispatch",
+      "module: pt2-dispatcher"
+    ]
+  },
+  {
+    "number": 114517,
+    "created_at": "2023-11-24T19:18:18Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-must-fix"
+    ]
+  },
+  {
+    "number": 114527,
+    "created_at": "2023-11-25T04:10:08Z",
+    "labels": [
+      "triage review",
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "oncall: pt2",
+      "module: fakeTensor",
+      "module: pt2-dispatcher"
+    ]
+  },
+  {
+    "number": 114676,
+    "created_at": "2023-11-28T09:19:34Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 115016,
+    "created_at": "2023-12-02T18:39:55Z",
+    "labels": [
+      "good first issue",
+      "module: lint",
+      "triaged"
+    ]
+  },
+  {
+    "number": 115106,
+    "created_at": "2023-12-04T22:47:40Z",
+    "labels": [
+      "good first issue",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 115811,
+    "created_at": "2023-12-14T08:48:59Z",
+    "labels": [
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 115992,
+    "created_at": "2023-12-17T06:37:30Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: functorch"
+    ]
+  },
+  {
+    "number": 116396,
+    "created_at": "2023-12-25T16:53:32Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 116463,
+    "created_at": "2023-12-27T17:45:23Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 116581,
+    "created_at": "2024-01-01T00:48:29Z",
+    "labels": [
+      "triage review",
+      "good first issue",
+      "oncall: pt2",
+      "module: inductor",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 117026,
+    "created_at": "2024-01-09T07:10:19Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: __torch_function__",
+      "tensor subclass",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-tensor-subclasses"
+    ]
+  },
+  {
+    "number": 117058,
+    "created_at": "2024-01-09T20:34:17Z",
+    "labels": [
+      "good first issue",
+      "module: memory usage",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 117351,
+    "created_at": "2024-01-12T13:25:02Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 117370,
+    "created_at": "2024-01-12T16:27:17Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 117556,
+    "created_at": "2024-01-16T18:27:55Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 117563,
+    "created_at": "2024-01-16T18:49:44Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 117652,
+    "created_at": "2024-01-17T15:50:27Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task",
+      "dynamo-must-fix"
+    ]
+  },
+  {
+    "number": 117806,
+    "created_at": "2024-01-19T00:05:51Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "module: __torch_function__",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 117807,
+    "created_at": "2024-01-19T00:10:44Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "module: pt2 optimizer"
+    ]
+  },
+  {
+    "number": 117836,
+    "created_at": "2024-01-19T07:05:44Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamo",
+      "module: pt2 optimizer"
+    ]
+  },
+  {
+    "number": 118072,
+    "created_at": "2024-01-23T05:24:21Z",
+    "labels": [
+      "needs reproduction",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-must-fix",
+      "dynamo-triage-june2024"
+    ]
+  },
+  {
+    "number": 118156,
+    "created_at": "2024-01-24T01:17:12Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task",
+      "dynamo-must-fix"
+    ]
+  },
+  {
+    "number": 118230,
+    "created_at": "2024-01-24T22:03:27Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: pt2 optimizer"
+    ]
+  },
+  {
+    "number": 118476,
+    "created_at": "2024-01-27T22:06:28Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 118733,
+    "created_at": "2024-01-31T05:39:19Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 119133,
+    "created_at": "2024-02-03T22:49:05Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 119191,
+    "created_at": "2024-02-05T14:52:11Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: mta",
+      "module: functionalization",
+      "oncall: pt2",
+      "module: aotdispatch",
+      "module: pt2-dispatcher",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 119210,
+    "created_at": "2024-02-05T18:46:15Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: functionalization",
+      "oncall: pt2",
+      "export-triaged",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 119233,
+    "created_at": "2024-02-05T22:00:43Z",
+    "labels": [
+      "good first issue",
+      "module: python frontend"
+    ]
+  },
+  {
+    "number": 119272,
+    "created_at": "2024-02-06T10:49:32Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 119543,
+    "created_at": "2024-02-09T11:54:06Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "module: scatter & gather ops"
+    ]
+  },
+  {
+    "number": 119588,
+    "created_at": "2024-02-09T20:27:14Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: custom-operators",
+      "actionable",
+      "module: meta tensors",
+      "oncall: pt2",
+      "module: pt2-dispatcher",
+      "internal ramp-up task"
+    ]
+  },
+  {
+    "number": 119606,
+    "created_at": "2024-02-09T23:26:24Z",
+    "labels": [
+      "module: docs",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 119969,
+    "created_at": "2024-02-15T04:41:24Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 120503,
+    "created_at": "2024-02-23T18:06:22Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 120570,
+    "created_at": "2024-02-24T23:42:58Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "module: NaNs and Infs",
+      "easy"
+    ]
+  },
+  {
+    "number": 120998,
+    "created_at": "2024-03-01T14:56:00Z",
+    "labels": [
+      "oncall: quantization",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 121077,
+    "created_at": "2024-03-02T16:04:58Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: build warnings"
+    ]
+  },
+  {
+    "number": 121374,
+    "created_at": "2024-03-07T01:12:26Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor",
+      "empathy-day"
+    ]
+  },
+  {
+    "number": 122129,
+    "created_at": "2024-03-18T20:37:43Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: pt2-dispatcher",
+      "llm-amenable"
+    ]
+  },
+  {
+    "number": 122307,
+    "created_at": "2024-03-20T13:44:13Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "small",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 122771,
+    "created_at": "2024-03-27T07:29:17Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 122937,
+    "created_at": "2024-03-29T03:33:10Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 123317,
+    "created_at": "2024-04-04T00:56:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 123451,
+    "created_at": "2024-04-05T16:11:50Z",
+    "labels": [
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "actionable"
+    ]
+  },
+  {
+    "number": 123974,
+    "created_at": "2024-04-12T21:22:14Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 124512,
+    "created_at": "2024-04-19T18:43:55Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 124738,
+    "created_at": "2024-04-23T16:17:00Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: amp (automated mixed precision)"
+    ]
+  },
+  {
+    "number": 125140,
+    "created_at": "2024-04-29T05:39:46Z",
+    "labels": [
+      "module: autograd",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 125694,
+    "created_at": "2024-05-07T18:26:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-tensor-subclasses"
+    ]
+  },
+  {
+    "number": 126026,
+    "created_at": "2024-05-12T13:14:54Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 126268,
+    "created_at": "2024-05-15T07:48:53Z",
+    "labels": [
+      "module: autograd",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 126367,
+    "created_at": "2024-05-16T01:52:29Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "actionable",
+      "easy"
+    ]
+  },
+  {
+    "number": 126647,
+    "created_at": "2024-05-19T15:41:59Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "actionable",
+      "module: python frontend",
+      "easy"
+    ]
+  },
+  {
+    "number": 127003,
+    "created_at": "2024-05-23T20:17:57Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 127043,
+    "created_at": "2024-05-24T00:10:41Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 127049,
+    "created_at": "2024-05-24T01:39:28Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 129020,
+    "created_at": "2024-06-19T00:45:10Z",
+    "labels": [
+      "module: internals",
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 129158,
+    "created_at": "2024-06-20T19:04:30Z",
+    "labels": [
+      "module: docs",
+      "good first issue",
+      "module: convolution",
+      "triaged"
+    ]
+  },
+  {
+    "number": 129403,
+    "created_at": "2024-06-24T19:31:32Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 129690,
+    "created_at": "2024-06-27T19:31:23Z",
+    "labels": [
+      "good first issue",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 129719,
+    "created_at": "2024-06-27T23:38:26Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: aotinductor"
+    ]
+  },
+  {
+    "number": 130087,
+    "created_at": "2024-07-04T03:12:20Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 130301,
+    "created_at": "2024-07-09T00:31:49Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 130554,
+    "created_at": "2024-07-11T17:52:01Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-dicts",
+      "dynamo-triage-june2024"
+    ]
+  },
+  {
+    "number": 130557,
+    "created_at": "2024-07-11T18:02:16Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-triage-june2024",
+      "dynamo-polyfill"
+    ]
+  },
+  {
+    "number": 130861,
+    "created_at": "2024-07-16T21:29:56Z",
+    "labels": [
+      "good first issue",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 131040,
+    "created_at": "2024-07-18T15:35:10Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "topic: docs",
+      "module: python frontend"
+    ]
+  },
+  {
+    "number": 131043,
+    "created_at": "2024-07-18T16:42:07Z",
+    "labels": [
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: boolean tensor"
+    ]
+  },
+  {
+    "number": 131654,
+    "created_at": "2024-07-24T14:49:04Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 131941,
+    "created_at": "2024-07-26T20:31:37Z",
+    "labels": [
+      "good first issue",
+      "export-triaged",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 131944,
+    "created_at": "2024-07-26T20:48:33Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: __torch_function__",
+      "module: python frontend"
+    ]
+  },
+  {
+    "number": 132054,
+    "created_at": "2024-07-29T15:25:42Z",
+    "labels": [
+      "oncall: distributed",
+      "good first issue",
+      "module: typing"
+    ]
+  },
+  {
+    "number": 132178,
+    "created_at": "2024-07-30T21:39:46Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "module: special",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 132222,
+    "created_at": "2024-07-31T09:59:23Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "internal ramp-up task",
+      "dynamo-symbolic-analysis"
+    ]
+  },
+  {
+    "number": 133157,
+    "created_at": "2024-08-10T02:19:07Z",
+    "labels": [
+      "good first issue",
+      "triaged"
+    ]
+  },
+  {
+    "number": 133172,
+    "created_at": "2024-08-10T20:07:22Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 133253,
+    "created_at": "2024-08-12T18:56:09Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "upstream triton"
+    ]
+  },
+  {
+    "number": 133394,
+    "created_at": "2024-08-14T01:53:58Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: decompositions"
+    ]
+  },
+  {
+    "number": 133637,
+    "created_at": "2024-08-15T22:06:42Z",
+    "labels": [
+      "good first issue",
+      "module: memory usage",
+      "triaged",
+      "module: amp (automated mixed precision)",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 133766,
+    "created_at": "2024-08-17T15:43:23Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 133785,
+    "created_at": "2024-08-17T22:14:36Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted"
+    ]
+  },
+  {
+    "number": 134896,
+    "created_at": "2024-08-31T01:51:04Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 135011,
+    "created_at": "2024-09-03T11:00:04Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "recompilations"
+    ]
+  },
+  {
+    "number": 135087,
+    "created_at": "2024-09-04T03:25:56Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: meta tensors",
+      "oncall: pt2",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 135127,
+    "created_at": "2024-09-04T18:12:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: codegen"
+    ]
+  },
+  {
+    "number": 135436,
+    "created_at": "2024-09-08T11:17:13Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: unsigned int"
+    ]
+  },
+  {
+    "number": 135439,
+    "created_at": "2024-09-08T15:23:50Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 135463,
+    "created_at": "2024-09-09T04:49:29Z",
+    "labels": [
+      "module: nn",
+      "good first issue",
+      "module: error checking",
+      "triaged",
+      "module: python frontend",
+      "module: edge cases"
+    ]
+  },
+  {
+    "number": 135521,
+    "created_at": "2024-09-09T19:17:59Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "better-engineering",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 135584,
+    "created_at": "2024-09-10T16:36:47Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "oncall: pt2",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 135859,
+    "created_at": "2024-09-12T11:12:15Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 135880,
+    "created_at": "2024-09-12T18:34:14Z",
+    "labels": [
+      "module: docs",
+      "module: nn",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 135954,
+    "created_at": "2024-09-13T03:58:57Z",
+    "labels": [
+      "module: windows",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 136002,
+    "created_at": "2024-09-13T15:31:55Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 136038,
+    "created_at": "2024-09-13T19:24:54Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 136075,
+    "created_at": "2024-09-14T04:47:47Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: dynamo",
+      "dynamo-triage-jan2025"
+    ]
+  },
+  {
+    "number": 136453,
+    "created_at": "2024-09-23T19:13:02Z",
+    "labels": [
+      "module: docs",
+      "triaged",
+      "module: linear algebra",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 136481,
+    "created_at": "2024-09-23T22:39:48Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "vllm-compile",
+      "module: vllm"
+    ]
+  },
+  {
+    "number": 136524,
+    "created_at": "2024-09-24T11:59:08Z",
+    "labels": [
+      "module: onnx",
+      "good first issue",
+      "triaged",
+      "OSS contribution wanted",
+      "onnx-triaged"
+    ]
+  },
+  {
+    "number": 136862,
+    "created_at": "2024-09-27T15:17:10Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "topic: not user facing",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 137159,
+    "created_at": "2024-10-02T03:16:40Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 137179,
+    "created_at": "2024-10-02T15:25:49Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamic shapes"
+    ]
+  },
+  {
+    "number": 137186,
+    "created_at": "2024-10-02T15:58:24Z",
+    "labels": [
+      "high priority",
+      "triage review",
+      "good first issue",
+      "module: correctness (silent)"
+    ]
+  },
+  {
+    "number": 137285,
+    "created_at": "2024-10-03T17:39:56Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "better-engineering",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 137380,
+    "created_at": "2024-10-04T22:57:36Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "module: graph breaks",
+      "dynamo-variable-tracker"
+    ]
+  },
+  {
+    "number": 138150,
+    "created_at": "2024-10-17T02:28:22Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: higher order operators",
+      "module: pt2-dispatcher"
+    ]
+  },
+  {
+    "number": 138412,
+    "created_at": "2024-10-20T03:37:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-triage-jan2025"
+    ]
+  },
+  {
+    "number": 139140,
+    "created_at": "2024-10-29T01:23:29Z",
+    "labels": [
+      "good first issue",
+      "module: cpu",
+      "triaged",
+      "module: norms and normalization"
+    ]
+  },
+  {
+    "number": 140591,
+    "created_at": "2024-11-13T19:28:06Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "enhancement",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 141262,
+    "created_at": "2024-11-21T18:55:19Z",
+    "labels": [
+      "good first issue",
+      "module: tests",
+      "triaged",
+      "enhancement",
+      "actionable",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 141364,
+    "created_at": "2024-11-22T19:33:00Z",
+    "labels": [
+      "module: docs",
+      "module: serialization",
+      "triaged",
+      "actionable",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 142048,
+    "created_at": "2024-12-04T14:47:44Z",
+    "labels": [
+      "module: crash",
+      "good first issue",
+      "triaged",
+      "module: linear algebra",
+      "module: mps"
+    ]
+  },
+  {
+    "number": 142306,
+    "created_at": "2024-12-07T17:35:45Z",
+    "labels": [
+      "good first issue",
+      "module: typing",
+      "triaged",
+      "better-engineering"
+    ]
+  },
+  {
+    "number": 142380,
+    "created_at": "2024-12-09T16:40:54Z",
+    "labels": [
+      "good first issue",
+      "module: ci",
+      "triaged"
+    ]
+  },
+  {
+    "number": 144522,
+    "created_at": "2025-01-10T00:57:47Z",
+    "labels": [
+      "module: docs",
+      "oncall: quantization",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 144607,
+    "created_at": "2025-01-11T05:10:15Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamic shapes",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 144717,
+    "created_at": "2025-01-13T23:19:17Z",
+    "labels": [
+      "high priority",
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 146018,
+    "created_at": "2025-01-30T03:48:52Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "actionable",
+      "ciflow/trunk",
+      "oncall: pt2",
+      "module: inductor",
+      "module: compile ux"
+    ]
+  },
+  {
+    "number": 147170,
+    "created_at": "2025-02-14T01:53:46Z",
+    "labels": [
+      "oncall: quantization",
+      "good first issue",
+      "oncall: pt2",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 147236,
+    "created_at": "2025-02-14T23:22:43Z",
+    "labels": [
+      "module: build",
+      "module: rocm",
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 147625,
+    "created_at": "2025-02-21T14:36:34Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor",
+      "oncall: export",
+      "module: aotinductor"
+    ]
+  },
+  {
+    "number": 147627,
+    "created_at": "2025-02-21T15:07:50Z",
+    "labels": [
+      "good first issue",
+      "module: lint",
+      "triaged",
+      "enhancement",
+      "actionable"
+    ]
+  },
+  {
+    "number": 147842,
+    "created_at": "2025-02-25T11:25:00Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 148808,
+    "created_at": "2025-03-08T03:28:59Z",
+    "labels": [
+      "module: autograd",
+      "good first issue",
+      "triaged",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 149002,
+    "created_at": "2025-03-11T22:25:54Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "module: inductor",
+      "module: floatx (formerly float8)"
+    ]
+  },
+  {
+    "number": 149572,
+    "created_at": "2025-03-19T22:56:16Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 150850,
+    "created_at": "2025-04-08T15:12:44Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "better-engineering",
+      "oncall: pt2"
+    ]
+  },
+  {
+    "number": 150917,
+    "created_at": "2025-04-09T08:32:07Z",
+    "labels": [
+      "module: docs",
+      "module: cuda",
+      "triaged",
+      "easy",
+      "docathon-h1-2025"
+    ]
+  },
+  {
+    "number": 152280,
+    "created_at": "2025-04-27T15:36:16Z",
+    "labels": [
+      "good first issue",
+      "module: typing",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 152847,
+    "created_at": "2025-05-05T18:25:03Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "topic: not user facing",
+      "module: core aten"
+    ]
+  },
+  {
+    "number": 152952,
+    "created_at": "2025-05-06T14:55:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable"
+    ]
+  },
+  {
+    "number": 153298,
+    "created_at": "2025-05-10T00:04:47Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 153392,
+    "created_at": "2025-05-12T17:52:24Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 153410,
+    "created_at": "2025-05-12T20:49:55Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "export-triaged",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 153646,
+    "created_at": "2025-05-15T18:48:25Z",
+    "labels": [
+      "good first issue",
+      "module: logging",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo"
+    ]
+  },
+  {
+    "number": 153669,
+    "created_at": "2025-05-15T22:53:35Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "oncall: pt2",
+      "module: dynamo",
+      "dynamo-triage-jan2025",
+      "module: compile ux"
+    ]
+  },
+  {
+    "number": 155307,
+    "created_at": "2025-06-06T03:10:53Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  },
+  {
+    "number": 155309,
+    "created_at": "2025-06-06T03:14:22Z",
+    "labels": [
+      "good first issue",
+      "oncall: pt2",
+      "export-triaged",
+      "oncall: export"
+    ]
+  },
+  {
+    "number": 155551,
+    "created_at": "2025-06-10T09:28:30Z",
+    "labels": [
+      "module: docs",
+      "module: optimizer",
+      "good first issue",
+      "triaged",
+      "easy"
+    ]
+  },
+  {
+    "number": 155718,
+    "created_at": "2025-06-11T16:44:21Z",
+    "labels": [
+      "good first issue",
+      "triaged",
+      "actionable",
+      "oncall: pt2",
+      "module: inductor"
+    ]
+  }
+]

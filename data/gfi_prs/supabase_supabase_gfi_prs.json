@@ -1,0 +1,2017 @@
+[
+  {
+    "pr_number": 4489,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 4328,
+        "labels": [
+          "bug",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 4489,
+      "title": "Bugfix[#4328]: change font and bg for light/dark theme",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nBug fix #4328 \r\n\r\n## What is the current behavior?\r\n\r\nContrast looks bad in light mode\r\n\r\n## What is the new behavior?\r\n\r\nIt looks good now ;)\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n<img width=\"678\" alt=\"Bildschirmfoto 2021-12-15 um 08 19 35\" src=\"https://user-images.githubusercontent.com/7260797/146141173-d5ab5649-5acf-4c6a-9ae7-73ff6bce5fb7.png\">\r\n\r\n@joshenlim @MildTomato @phamhieu \r\n",
+      "body_length": 467,
+      "created_at": "2021-12-15T07:21:24Z",
+      "merged_at": "2021-12-16T03:14:29Z",
+      "merged": true,
+      "time_to_merge_hours": 19.884722222222223,
+      "state": "MERGED",
+      "additions": 5,
+      "deletions": 5,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Bugfix[#4328]: change font and bg for light/dark theme"
+      ],
+      "avg_commit_msg_length": 54.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nBug fix #4328 \r\n\r\n## What is the current behavior?\r\n\r\nContrast looks bad in light mode\r\n\r\n## What is the new behavior?\r\n\r\nIt looks good now ;)\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n<img width=\"678\" alt=\"Bildschirmfoto 2021-12-15 um 08 19 35\" src=\"https://user-images.githubusercontent.com/7260797/146141173-d5ab5649-5acf-4c6a-9ae7-73ff6bce5fb7.png\">\r\n\r\n@joshenlim @MildTomato @phamhieu",
+      "body_cleaned_length": 464,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.6423982869379015,
+      "author_type": "User"
+    },
+    "username": "w0wka91"
+  },
+  {
+    "pr_number": 5550,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5297,
+        "labels": [
+          "bug",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 5550,
+      "title": "fix: fix supabase light mode issue",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nBug fix. This light mode bug seem to be happening to pages that were trying to get darkMode data as a prop from DefaultLayout (e.g, /auth, /404). \r\n\r\nImplemented react context to pass darkMode data globally to components.\r\n\r\ncloses #5297 \r\n\r\n## What is the current behavior?\r\nThe supabase wordmark logo doesn't change to its light version on light mode\r\n\r\n/auth page:\r\n![SCR-20220220-ym](https://user-images.githubusercontent.com/48682663/154812464-4594af67-79ff-4d7c-baf4-6ff0046387e9.png)\r\n\r\n/404 page:\r\n![SCR-20220220-zd](https://user-images.githubusercontent.com/48682663/154812490-b0154deb-ef88-4f1d-8a70-ad4f91a05671.png)\r\n\r\n\r\n## What is the new behavior?\r\nThe supabase wordmark logo now changes to its light version on light mode\r\n\r\n/auth page:\r\n![SCR-20220220-w5](https://user-images.githubusercontent.com/48682663/154812341-294a4327-5a7d-43e2-a90a-dd44824ebc8f.png)\r\n\r\n/404 page:\r\n![SCR-20220220-wv](https://user-images.githubusercontent.com/48682663/154812374-883552c8-78a3-4ca9-a72d-0608e060a595.png)\r\n\r\n\r\n## Additional context\r\n\r\nPreviously, the darkMode prop data will be received as undefined because prop data cannot be passed to children. Trying to pass darkMode data as a prop may also cause \"prop drilling\" to many components.\r\n\r\nUsed react's context API to solve this darkMode data's undefined type and \"prop drilling\" issue so components can fetch darkMode data from the global theme context provided by the theme provider wrapping them.",
+      "body_length": 1507,
+      "created_at": "2022-02-19T18:03:31Z",
+      "merged_at": "2022-02-21T18:38:57Z",
+      "merged": true,
+      "time_to_merge_hours": 48.590555555555554,
+      "state": "MERGED",
+      "additions": 90,
+      "deletions": 68,
+      "files_changed": 9,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: fix supabase light mode issue"
+      ],
+      "avg_commit_msg_length": 34.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 9
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nBug fix. This light mode bug seem to be happening to pages that were trying to get darkMode data as a prop from DefaultLayout (e.g, /auth, /404). \r\n\r\nImplemented react context to pass darkMode data globally to components.\r\n\r\ncloses #5297 \r\n\r\n## What is the current behavior?\r\nThe supabase wordmark logo doesn't change to its light version on light mode\r\n\r\n/auth page:\r\n![SCR-20220220-ym](https://user-images.githubusercontent.com/48682663/154812464-4594af67-79ff-4d7c-baf4-6ff0046387e9.png)\r\n\r\n/404 page:\r\n![SCR-20220220-zd](https://user-images.githubusercontent.com/48682663/154812490-b0154deb-ef88-4f1d-8a70-ad4f91a05671.png)\r\n\r\n\r\n## What is the new behavior?\r\nThe supabase wordmark logo now changes to its light version on light mode\r\n\r\n/auth page:\r\n![SCR-20220220-w5](https://user-images.githubusercontent.com/48682663/154812341-294a4327-5a7d-43e2-a90a-dd44824ebc8f.png)\r\n\r\n/404 page:\r\n![SCR-20220220-wv](https://user-images.githubusercontent.com/48682663/154812374-883552c8-78a3-4ca9-a72d-0608e060a595.png)\r\n\r\n\r\n## Additional context\r\n\r\nPreviously, the darkMode prop data will be received as undefined because prop data cannot be passed to children. Trying to pass darkMode data as a prop may also cause \"prop drilling\" to many components.\r\n\r\nUsed react's context API to solve this darkMode data's undefined type and \"prop drilling\" issue so components can fetch darkMode data from the global theme context provided by the theme provider wrapping them.",
+      "body_cleaned_length": 1507,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "louis-27"
+  },
+  {
+    "pr_number": 6302,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 6296,
+        "labels": [
+          "bug",
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "p3"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6302,
+      "title": "fixes #6296",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nDocumentation, fixes #6296 \r\n\r\n## What is the current behavior?\r\n\r\nThe documentation shows the wrong parameter to add user metadata for CreateUser()\r\n\r\n## What is the new behavior?\r\n\r\nDocumentation shows the correct parameter\r\n\r\n## Additional context\r\nFixes #6296 \r\n",
+      "body_length": 316,
+      "created_at": "2022-04-05T14:34:52Z",
+      "merged_at": "2022-04-05T19:02:04Z",
+      "merged": true,
+      "time_to_merge_hours": 4.453333333333333,
+      "state": "MERGED",
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fixes #6296"
+      ],
+      "avg_commit_msg_length": 11.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "web/spec/supabase.yml"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "yml": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nDocumentation, fixes #6296 \r\n\r\n## What is the current behavior?\r\n\r\nThe documentation shows the wrong parameter to add user metadata for CreateUser()\r\n\r\n## What is the new behavior?\r\n\r\nDocumentation shows the correct parameter\r\n\r\n## Additional context\r\nFixes #6296",
+      "body_cleaned_length": 313,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.949367088607595,
+      "author_type": "User"
+    },
+    "username": "RaghavBhat02"
+  },
+  {
+    "pr_number": 6837,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5025,
+        "labels": [
+          "bug",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6837,
+      "title": "Fix: Add a check for max db password length of 99",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nBug fix, fixes #5025\r\n\r\n## What is the current behavior?\r\n\r\nUsers can create a database password with 99 or more characters, but are unable to use it at a later point.\r\n\r\n## What is the new behavior?\r\n\r\nA warning is shown to the user indicating that the password must be fewer than 99 characters.\r\n\r\n> Feel free to include screenshots if it includes visual changes.\r\n\r\nI modified the HTML on the live site to get a screenshot of what I expect the errors to look like.  However, I don't think I can run this part of the site locally to confirm.\r\n![shorter-password-example](https://user-images.githubusercontent.com/52075362/168409582-c93e09f8-e8a3-4503-b36c-499826cf8a58.png)\r\n\r\n\r\n\r\n## Additional context\r\n\r\nI don't think there is a way to test this myself, but the change is mostly simple and shouldn't be too much of a problem.\r\n",
+      "body_length": 705,
+      "created_at": "2022-05-14T03:47:49Z",
+      "updated_at": "2022-08-30T14:45:29Z",
+      "closed_at": "2022-08-30T14:45:29Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 42,
+      "deletions": 18,
+      "files_changed": 1,
+      "commits_count": 4,
+      "review_count": 9,
+      "comment_count": 4,
+      "pr_size": 60,
+      "avg_commit_msg_length": 53.25,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 3,
+        "COMMENTED": 6
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nBug fix, fixes #5025\r\n\r\n## What is the current behavior?\r\n\r\nUsers can create a database password with 99 or more characters, but are unable to use it at a later point.\r\n\r\n## What is the new behavior?\r\n\r\nA warning is shown to the user indicating that the password must be fewer than 99 characters.\r\n\r\n> Feel free to include screenshots if it includes visual changes.\r\n\r\nI modified the HTML on the live site to get a screenshot of what I expect the errors to look like.  However, I don't think I can run this part of the site locally to confirm.\r\n![shorter-password-example](https://user-images.githubusercontent.com/52075362/168409582-c93e09f8-e8a3-4503-b36c-499826cf8a58.png)\r\n\r\n\r\n\r\n## Additional context\r\n\r\nI don't think there is a way to test this myself, but the change is mostly simple and shouldn't be too much of a problem.",
+      "body_cleaned_length": 879,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.22701475595913734,
+      "author_type": "User"
+    },
+    "username": "nrayburn-tech"
+  },
+  {
+    "pr_number": 6962,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 4195,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 6962,
+      "title": "Proposed changes to Fix Issue #4195",
+      "body": "## What kind of change does this PR introduce?\r\n\r\ndocs update\r\n\r\n## What is the current behavior?\r\nThe documentation isn't clear on whether this \"eq\" syntax is an exact row match on a primary/unique key, or more of a \"filter\" that will match any row that equals a certain value.\r\n\r\nPlease link any relevant issues here. -> Fixes #4195\r\n\r\n## What is the new behavior?\r\nIt looks like the ``col`` parameter in the ``{table}:{col}=eq.{val}`` syntax doesn't have to be a primary/unique key. So it looks like it can be used to listen to all todos by user_id, for example. But it only seems to allow for integers.\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n",
+      "body_length": 741,
+      "created_at": "2022-05-24T11:52:43Z",
+      "merged_at": "2022-06-03T22:31:15Z",
+      "merged": true,
+      "time_to_merge_hours": 250.64222222222222,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 4,
+      "review_count": 3,
+      "comment_count": 5,
+      "commit_messages": [
+        "Proposed changes to Fix Issue #4195",
+        "Fixed",
+        "Update supabase.yml",
+        "Merge pull request #1 from Sonichigo/patch-1-1\n\nUpdate supabase.yml"
+      ],
+      "avg_commit_msg_length": 31.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "web/spec/supabase.yml"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "yml": 1
+      },
+      "review_states": {
+        "COMMENTED": 2,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\ndocs update\r\n\r\n## What is the current behavior?\r\nThe documentation isn't clear on whether this \"eq\" syntax is an exact row match on a primary/unique key, or more of a \"filter\" that will match any row that equals a certain value.\r\n\r\nPlease link any relevant issues here. -> Fixes #4195\r\n\r\n## What is the new behavior?\r\nIt looks like the ``col`` parameter in the ``{table}:{col}=eq.{val}`` syntax doesn't have to be a primary/unique key. So it looks like it can be used to listen to all todos by user_id, for example. But it only seems to allow for integers.\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.",
+      "body_cleaned_length": 739,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.2699055330634278,
+      "author_type": "User"
+    },
+    "username": "Sonichigo"
+  },
+  {
+    "pr_number": 7101,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 5440,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 7101,
+      "title": "updated the examples folder with flutter todo app",
+      "body": "## What kind of change does this PR introduce?\r\n \r\nI've added the flutter todo app in the example folder\r\n\r\n## What is the current behavior?\r\n\r\nThere was no todo example based on flutter\r\n\r\n## What is the new behavior?\r\n\r\nFolder named flutter-todo-list added in the examples directory\r\n\r\n\r\n\r\ncloses #5440 \r\n",
+      "body_length": 307,
+      "created_at": "2022-06-01T11:52:16Z",
+      "merged_at": "2022-06-20T09:01:55Z",
+      "merged": true,
+      "time_to_merge_hours": 453.16083333333336,
+      "state": "MERGED",
+      "additions": 3732,
+      "deletions": 0,
+      "files_changed": 96,
+      "commits_count": 16,
+      "review_count": 19,
+      "comment_count": 17,
+      "commit_messages": [
+        "removed .git file",
+        "Update examples/todo-list/flutter-todo-list/lib/main.dart\n\nCo-authored-by: Tyler <18113850+dshukertjr@users.noreply.github.com>",
+        "added listView instead of column and await instead of then",
+        "code refactored and snackbar added for errors",
+        "fix: using outlinedButton instead of a custom button",
+        "fix: remove SizedBox that are directly under body of Scaffold",
+        "feat: updated input theme",
+        "fix: replacing custom textfield with themed TextFormField",
+        "fix: replace snackbar method with extension method",
+        "fix: lint cleanup",
+        "removed separate dir for auth and crud func && updated the supabase",
+        "removed user database and changed todos db same as nextjs todo example",
+        "removed user database and changed todos db same as nextjs todo example",
+        "Update examples/todo-list/flutter-todo-list/lib/screens/todo.dart\n\nCo-authored-by: Tyler <18113850+dshukertjr@users.noreply.github.com>",
+        "removed unwanted setState()",
+        "onTab changed to onTap"
+      ],
+      "avg_commit_msg_length": 56.25,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.375,
+      "commit_types": [
+        "fix",
+        "feat"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "examples/todo-list/flutter-todo-list/test/widget_test.dart"
+      ],
+      "doc_files": [
+        "examples/todo-list/flutter-todo-list/README.md",
+        "examples/todo-list/flutter-todo-list/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+        "examples/todo-list/flutter-todo-list/windows/CMakeLists.txt",
+        "examples/todo-list/flutter-todo-list/windows/flutter/CMakeLists.txt",
+        "examples/todo-list/flutter-todo-list/windows/runner/CMakeLists.txt"
+      ],
+      "file_types": {
+        "gitignore": 4,
+        "metadata": 1,
+        "md": 2,
+        "yaml": 2,
+        "gradle": 3,
+        "xml": 7,
+        "kt": 1,
+        "png": 29,
+        "properties": 2,
+        "plist": 4,
+        "xcconfig": 2,
+        "pbxproj": 1,
+        "xcworkspacedata": 2,
+        "xcsettings": 2,
+        "xcscheme": 1,
+        "swift": 1,
+        "json": 3,
+        "storyboard": 2,
+        "h": 6,
+        "dart": 6,
+        "lock": 1,
+        "html": 1,
+        "txt": 3,
+        "cc": 1,
+        "cmake": 1,
+        "rc": 1,
+        "cpp": 4,
+        "ico": 1,
+        "manifest": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 4,
+        "COMMENTED": 14,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n \r\nI've added the flutter todo app in the example folder\r\n\r\n## What is the current behavior?\r\n\r\nThere was no todo example based on flutter\r\n\r\n## What is the new behavior?\r\n\r\nFolder named flutter-todo-list added in the examples directory\r\n\r\n\r\n\r\ncloses #5440",
+      "body_cleaned_length": 304,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.9771986970684038,
+      "author_type": "User"
+    },
+    "username": "Anikets08"
+  },
+  {
+    "pr_number": 7204,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 4829,
+        "labels": [
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 7204,
+      "title": "fix: On the database view databases/table one cannot distinguish tables via UI with big screens",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nThis change fixes a bug on the table view on displays with huge resolutions.\r\n\r\nFixes #4829 \r\n\r\nBug fix, feature, docs update, ...\r\n\r\n## What is the current behavior?\r\n\r\nOn large screens, the table view looks like this\r\n![image](https://user-images.githubusercontent.com/9058762/148381973-7733c6b9-9435-4a8f-a19c-1c8c1b4cc2ff.png)\r\n\r\nFrom a viewpoint of Accessibility and Usability not only are the icon buttons to edit small but they are also visually not grouped to the name. On top of that there is no visual marker telling me that I am currently hovering the correct table.\r\n\r\n## What is the new behavior?\r\n\r\n#### Table rows are now hoverable\r\n\r\nhttps://user-images.githubusercontent.com/39791369/172179561-fa1e2b8a-5d84-4417-8705-33a393c2a9cf.mov\r\n\r\n\r\n#### Action items are moved to the left(Screenshot taken on a 4k display)\r\n<img width=\"2560\" alt=\"Screenshot 2022-06-06 at 16 49 56\" src=\"https://user-images.githubusercontent.com/39791369/172179738-0556c083-90e9-4193-8510-18f3d13bc06e.png\">\r\n\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n",
+      "body_length": 754,
+      "created_at": "2022-06-07T15:55:51Z",
+      "updated_at": "2022-06-28T19:13:39Z",
+      "closed_at": "2022-06-28T19:13:39Z",
+      "merged_at": "2022-06-28T19:13:39Z",
+      "merged": true,
+      "state": "MERGED",
+      "time_to_merge_hours": 507.2966666666667,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 7,
+      "review_count": 1,
+      "comment_count": 12,
+      "pr_size": 2,
+      "avg_commit_msg_length": 62.42857142857143,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nThis change fixes a bug on the table view on displays with huge resolutions.\r\n\r\nFixes #4829 \r\n\r\nBug fix, feature, docs update, ...\r\n\r\n## What is the current behavior?\r\n\r\nOn large screens, the table view looks like this\r\n![image](https://user-images.githubusercontent.com/9058762/148381973-7733c6b9-9435-4a8f-a19c-1c8c1b4cc2ff.png)\r\n\r\nFrom a viewpoint of Accessibility and Usability not only are the icon buttons to edit small but they are also visually not grouped to the name. On top of that there is no visual marker telling me that I am currently hovering the correct table.\r\n\r\n## What is the new behavior?\r\n\r\n#### Table rows are now hoverable\r\n\r\nhttps://user-images.githubusercontent.com/39791369/172179561-fa1e2b8a-5d84-4417-8705-33a393c2a9cf.mov\r\n\r\n\r\n#### Action items are moved to the left(Screenshot taken on a 4k display)\r\n<img width=\"2560\" alt=\"Screenshot 2022-06-06 at 16 49 56\" src=\"https://user-images.githubusercontent.com/39791369/172179738-0556c083-90e9-4193-8510-18f3d13bc06e.png\">\r\n\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.",
+      "body_cleaned_length": 1116,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.17889087656529518,
+      "author_type": "User"
+    },
+    "username": "gitstart"
+  },
+  {
+    "pr_number": 10364,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 10334,
+        "labels": [
+          "bug",
+          "help wanted",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 10364,
+      "title": "fix: prevent filter operator change",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nFix for resetting operator after setting filter value\r\n \r\n## What is the current behavior?\r\n\r\nCurrent behavior is described in #10334 \r\n\r\n## What is the new behavior?\r\n\r\nFilter operator remains unchanged after setting filter value\r\n\r\n## Additional context\r\n\r\nCloses #10334 \r\n",
+      "body_length": 325,
+      "created_at": "2022-11-16T17:42:21Z",
+      "merged_at": "2022-11-16T18:45:16Z",
+      "merged": true,
+      "time_to_merge_hours": 1.0486111111111112,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: prevent filter operator change"
+      ],
+      "avg_commit_msg_length": 35.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nFix for resetting operator after setting filter value\r\n \r\n## What is the current behavior?\r\n\r\nCurrent behavior is described in #10334 \r\n\r\n## What is the new behavior?\r\n\r\nFilter operator remains unchanged after setting filter value\r\n\r\n## Additional context\r\n\r\nCloses #10334",
+      "body_cleaned_length": 322,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.9230769230769231,
+      "author_type": "User"
+    },
+    "username": "TMisiukiewicz"
+  },
+  {
+    "pr_number": 12709,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12461,
+        "labels": [
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 12709,
+      "title": "Partner pages changes + sitemap generation",
+      "body": "Resolves #12461\r\n\r\nChanges:\r\n- Sitemap generation of partners pages added to _**sitemap_www-partners.xml**_ because of API request\r\n- _**partners/[slug].tsx**_ splitted to two differents slugs (_partners/:slug -> partners/integrations/:slug_ and _/partners/experts/:slug_)",
+      "body_length": 272,
+      "created_at": "2023-02-27T22:59:41Z",
+      "merged_at": "2023-05-30T14:45:06Z",
+      "merged": true,
+      "time_to_merge_hours": 2199.7569444444443,
+      "state": "MERGED",
+      "additions": 928,
+      "deletions": 272,
+      "files_changed": 5,
+      "commits_count": 10,
+      "review_count": 1,
+      "comment_count": 10,
+      "commit_messages": [
+        "partners slug moved to integrations and experts pages",
+        "add redirect from partners slug to integrations and experts slug pages",
+        "partners sitemap added",
+        "extra spaces removed",
+        "remove custom sitemap for partners pages",
+        "fix generate sitemap",
+        "run prettier script",
+        "Update sitemap_www.xml",
+        "Update sitemap_www.xml",
+        "Prettier"
+      ],
+      "avg_commit_msg_length": 29.6,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "mjs": 1,
+        "tsx": 3,
+        "xml": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Resolves #12461\r\n\r\nChanges:\r\n- Sitemap generation of partners pages added to _**sitemap_www-partners.xml**_ because of API request\r\n- _**partners/[slug].tsx**_ splitted to two differents slugs (_partners/:slug -> partners/integrations/:slug_ and _/partners/experts/:slug_)",
+      "body_cleaned_length": 272,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "vozmi"
+  },
+  {
+    "pr_number": 12738,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 12461,
+        "labels": [
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 12738,
+      "title": "Chore: add missing partner pages to sitemap",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nResolves  #12461 \r\n\r\n## Additional context\r\n\r\n\r\nGet the missing partner pages(individual and index) by looking in the `.next` directory that is generated after `next build` is run. ",
+      "body_length": 231,
+      "created_at": "2023-03-01T10:05:09Z",
+      "merged_at": "2023-04-19T17:44:33Z",
+      "merged": true,
+      "time_to_merge_hours": 1183.6566666666668,
+      "state": "MERGED",
+      "additions": 5,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 3,
+      "review_count": 2,
+      "comment_count": 2,
+      "commit_messages": [
+        "add partner pages to sitemap",
+        "Update README.md",
+        "Update README.md"
+      ],
+      "avg_commit_msg_length": 20.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "mjs": 1
+      },
+      "review_states": {
+        "APPROVED": 2
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nResolves  #12461 \r\n\r\n## Additional context\r\n\r\n\r\nGet the missing partner pages(individual and index) by looking in the `.next` directory that is generated after `next build` is run.",
+      "body_cleaned_length": 230,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 0.4329004329004329,
+      "author_type": "User"
+    },
+    "username": "cutlope"
+  },
+  {
+    "pr_number": 15253,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 14990,
+        "labels": [
+          "bug",
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15253,
+      "title": "fix: extension links",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nBug fix.\r\n\r\n## What is the current behavior?\r\n(See #14990)\r\n\r\nOn [the Postgres Extensions Overview page](https://supabase.com/docs/guides/database/extensions#full-list-of-extensions), not all extensions have links, and some links are incorrect.\r\n \r\n\r\n## What is the new behavior?\r\n\r\nUnneeded extensions have been removed and all extensions now have the appropriate link (externally or to one of our guides).\r\n\r\n(closes #14990)\r\n \r\n## Additional context\r\n",
+      "body_length": 504,
+      "created_at": "2023-06-21T23:59:11Z",
+      "merged_at": "2023-07-06T15:34:20Z",
+      "merged": true,
+      "time_to_merge_hours": 351.5858333333333,
+      "state": "MERGED",
+      "additions": 174,
+      "deletions": 200,
+      "files_changed": 6,
+      "commits_count": 5,
+      "review_count": 4,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: extension links",
+        "fix: add relative links to internal extension docs",
+        "Merge remote-tracking branch 'origin/master' into fix/extension-links",
+        "fix: remove unused util",
+        "fix: prettier"
+      ],
+      "avg_commit_msg_length": 35.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.8,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/components/Extensions.tsx",
+        "apps/docs/data/extensions.json",
+        "apps/docs/pages/guides/database/extensions/pg_cron.mdx",
+        "apps/docs/pages/guides/database/extensions/pg_net.mdx",
+        "apps/docs/pages/guides/database/extensions/pg_repack.mdx"
+      ],
+      "file_types": {
+        "tsx": 1,
+        "json": 1,
+        "mdx": 3,
+        "js": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nBug fix.\r\n\r\n## What is the current behavior?\r\n(See #14990)\r\n\r\nOn [the Postgres Extensions Overview page](https://supabase.com/docs/guides/database/extensions#full-list-of-extensions), not all extensions have links, and some links are incorrect.\r\n \r\n\r\n## What is the new behavior?\r\n\r\nUnneeded extensions have been removed and all extensions now have the appropriate link (externally or to one of our guides).\r\n\r\n(closes #14990)\r\n \r\n## Additional context",
+      "body_cleaned_length": 502,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.3968253968253968,
+      "author_type": "User"
+    },
+    "username": "mdjohns"
+  },
+  {
+    "pr_number": 15458,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15416,
+        "labels": [
+          "bug",
+          "enhancement",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15458,
+      "title": "feat: Add new RLS Policy template for insert",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nThis adds an extra template for insert policy based on the `Add new RLS Policy template for insert ` issue\r\n\r\nfixes #15416 \r\n\r\n\r\n",
+      "body_length": 179,
+      "created_at": "2023-06-29T16:49:05Z",
+      "merged_at": "2023-09-01T18:00:36Z",
+      "merged": true,
+      "time_to_merge_hours": 1537.1919444444445,
+      "state": "MERGED",
+      "additions": 18,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 5,
+      "review_count": 3,
+      "comment_count": 6,
+      "commit_messages": [
+        "chore: enable insert",
+        "feat: add check",
+        "Merge branch 'master' into chore-enable-insert-policy",
+        "Merge branch 'master' into chore-enable-insert-policy",
+        "Merge branch 'master' into chore-enable-insert-policy"
+      ],
+      "avg_commit_msg_length": 38.8,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.4,
+      "commit_types": [
+        "feat",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "ts": 1
+      },
+      "review_states": {
+        "APPROVED": 2,
+        "DISMISSED": 1
+      },
+      "labels": [
+        {
+          "name": "frontend",
+          "color": "BF0597",
+          "description": "Related to supabase dashboard"
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nThis adds an extra template for insert policy based on the `Add new RLS Policy template for insert ` issue\r\n\r\nfixes #15416",
+      "body_cleaned_length": 172,
+      "template_removed_length": 7,
+      "template_reduction_percentage": 3.910614525139665,
+      "author_type": "User"
+    },
+    "username": "a0m0rajab"
+  },
+  {
+    "pr_number": 15606,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15540,
+        "labels": [
+          "bug",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15606,
+      "title": "Prefetch footer's pages",
+      "body": "## What kind of change does this PR introduce?\r\nFeature\r\n\r\n## What is the current behavior?\r\nThe internal pages in the footer are not prefetched.\r\n\r\nCloses: #15540\r\n\r\n## What is the new behavior?\r\nThe pages are prefetched through the use of [Next.js Link component](https://nextjs.org/docs/pages/api-reference/components/link#prefetch).\r\n\r\n## Additional context\r\n",
+      "body_length": 363,
+      "created_at": "2023-07-06T21:13:26Z",
+      "merged_at": "2023-07-11T16:04:20Z",
+      "merged": true,
+      "time_to_merge_hours": 114.84833333333333,
+      "state": "MERGED",
+      "additions": 271,
+      "deletions": 249,
+      "files_changed": 13,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Prefetch footer's pages"
+      ],
+      "avg_commit_msg_length": 23.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1,
+        "xml": 12
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\nFeature\r\n\r\n## What is the current behavior?\r\nThe internal pages in the footer are not prefetched.\r\n\r\nCloses: #15540\r\n\r\n## What is the new behavior?\r\nThe pages are prefetched through the use of [Next.js Link component](https://nextjs.org/docs/pages/api-reference/components/link#prefetch).\r\n\r\n## Additional context",
+      "body_cleaned_length": 361,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5509641873278237,
+      "author_type": "User"
+    },
+    "username": "Olaleye-Blessing"
+  },
+  {
+    "pr_number": 19732,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 18285,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 19732,
+      "title": "Include Next.js middleware matcher",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nModify docs to add a matcher to the Next.js middleware to avoid unnecessary renders.\r\n\r\n## What is the current behavior?\r\n\r\nFixes #18285 \r\n\r\n## What is the new behavior?\r\n\r\nN/A\r\n",
+      "body_length": 228,
+      "created_at": "2023-12-14T14:47:01Z",
+      "merged_at": "2023-12-14T16:23:37Z",
+      "merged": true,
+      "time_to_merge_hours": 1.61,
+      "state": "MERGED",
+      "additions": 38,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 11,
+      "review_count": 2,
+      "comment_count": 2,
+      "commit_messages": [
+        "Include Next.js middleware matcher",
+        "Consistent quotes",
+        "Semicolons",
+        "Missing type",
+        "Self-referential links",
+        "docs(nextjs-middleware) added ref to Next.js docs on matching paths",
+        "Merge branch 'master' into patch-1",
+        "Update apps/docs/pages/guides/auth/auth-helpers/nextjs.mdx",
+        "Merge branch 'master' into patch-1",
+        "chore: run prettier.",
+        "Merge branch 'master' into patch-1"
+      ],
+      "avg_commit_msg_length": 31.09090909090909,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.09090909090909091,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/pages/guides/auth/auth-helpers/nextjs.mdx"
+      ],
+      "file_types": {
+        "mdx": 1
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nModify docs to add a matcher to the Next.js middleware to avoid unnecessary renders.\r\n\r\n## What is the current behavior?\r\n\r\nFixes #18285 \r\n\r\n## What is the new behavior?\r\n\r\nN/A",
+      "body_cleaned_length": 226,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.8771929824561403,
+      "author_type": "User"
+    },
+    "username": "jleguina"
+  },
+  {
+    "pr_number": 19974,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 19825,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 19974,
+      "title": "[#19825] Update SIGNED_IN event documentation",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nFixes #19825 \r\n\r\n## Additional context\r\n\r\nThis PR provides an update to the documentation of the `SIGNED_IN` event within the `onAuthStateChange()` method, to resolve confusion among developers regarding the SIGNED_IN event, specifically its behavior when a user refocuses on a tab.\r\n",
+      "body_length": 334,
+      "created_at": "2023-12-22T14:43:09Z",
+      "merged_at": "2023-12-22T16:35:56Z",
+      "merged": true,
+      "time_to_merge_hours": 1.8797222222222223,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Update SIGNED_IN event description",
+        "Merge branch 'master' into 19825-auth-event-signed-in"
+      ],
+      "avg_commit_msg_length": 43.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "yml": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nFixes #19825 \r\n\r\n## Additional context\r\n\r\nThis PR provides an update to the documentation of the `SIGNED_IN` event within the `onAuthStateChange()` method, to resolve confusion among developers regarding the SIGNED_IN event, specifically its behavior when a user refocuses on a tab.",
+      "body_cleaned_length": 332,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5988023952095809,
+      "author_type": "User"
+    },
+    "username": "MarcusTXK"
+  },
+  {
+    "pr_number": 20569,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 19377,
+        "labels": [
+          "documentation",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20569,
+      "title": "docs: fixes supabaseUrl is undefined error by adding missing step in DEVELOPERS.md",
+      "body": "## What kind of change does this PR introduce?\r\n\r\n- Added missing step within DEVELOPERS.md of coping `.env.local.example` to `.env.local` under `www/` to avoid `supabaseUrl is undefined` error on setting up the project for contributors.\r\n\r\n## What is the current behavior?\r\n\r\n- Closes #19377\r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n- Currently when setting up without added step:  \r\n\r\n![text](https://private-user-images.githubusercontent.com/5421911/287608495-331b9295-73b4-485b-863e-47548349eb50.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NzIwMzMsIm5iZiI6MTcwNTY3MTczMywicGF0aCI6Ii81NDIxOTExLzI4NzYwODQ5NS0zMzFiOTI5NS03M2I0LTQ4NWItODYzZS00NzU0ODM0OWViNTAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTlUMTM0MjEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmJjZDcxZDI5Y2Y3Njc2NGVkMjdjNjQxMWUwYzAwMjUwNWZhODdlNGIxNWIyNGU0Mzk1ODY3NDU1ZjhiYWRkNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.TcQJLwxcRf0F3r90FtwvNK591hPHvNhnO1C2A9eBER8)\r\n\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n",
+      "body_length": 465,
+      "created_at": "2024-01-19T09:46:32Z",
+      "updated_at": "2024-01-22T09:57:32Z",
+      "closed_at": "2024-01-22T09:57:32Z",
+      "merged_at": "2024-01-22T09:57:32Z",
+      "merged": true,
+      "state": "MERGED",
+      "time_to_merge_hours": 72.18333333333334,
+      "additions": 9,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "pr_size": 10,
+      "avg_commit_msg_length": 57.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "DEVELOPERS.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": true,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\n- Added missing step within DEVELOPERS.md of coping `.env.local.example` to `.env.local` under `www/` to avoid `supabaseUrl is undefined` error on setting up the project for contributors.\r\n\r\n## What is the current behavior?\r\n\r\n- Closes #19377\r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n- Currently when setting up without added step:  \r\n\r\n![text](https://private-user-images.githubusercontent.com/5421911/287608495-331b9295-73b4-485b-863e-47548349eb50.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NzIwMzMsIm5iZiI6MTcwNTY3MTczMywicGF0aCI6Ii81NDIxOTExLzI4NzYwODQ5NS0zMzFiOTI5NS03M2I0LTQ4NWItODYzZS00NzU0ODM0OWViNTAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTlUMTM0MjEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmJjZDcxZDI5Y2Y3Njc2NGVkMjdjNjQxMWUwYzAwMjUwNWZhODdlNGIxNWIyNGU0Mzk1ODY3NDU1ZjhiYWRkNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.TcQJLwxcRf0F3r90FtwvNK591hPHvNhnO1C2A9eBER8)\r\n\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.",
+      "body_cleaned_length": 1339,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.14914243102162564,
+      "author_type": "User"
+    },
+    "username": "Nabhag8848"
+  },
+  {
+    "pr_number": 20975,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20852,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 20975,
+      "title": "[docs] fix code and response querying foreign table with inner join",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nFix query code and fix response in Querying foreign table with inner join section\r\n\r\n## What is the current behavior?\r\n\r\nCloses #20852\r\n\r\n## What is the new behavior?\r\n\r\nNew code refactor and new response:\r\n![CleanShot 2024-02-03 at 13 30 16@2x](https://github.com/supabase/supabase/assets/75758899/d187e2f0-0069-4112-adcc-289267ea9307)\r\n\r\n## Additional context\r\n\r\n\r\n\r\nSwift code recreate:\r\n![CleanShot 2024-02-03 at 13 29 08@2x](https://github.com/supabase/supabase/assets/75758899/54ed4676-339a-4099-ae35-503effd992b7)\r\n\r\nSwift result:\r\n![CleanShot 2024-02-03 at 13 28 34@2x](https://github.com/supabase/supabase/assets/75758899/59881e96-0862-4873-8cbd-a1f97bbc5b55)\r\n",
+      "body_length": 720,
+      "created_at": "2024-02-03T16:32:01Z",
+      "merged_at": "2024-02-06T01:42:20Z",
+      "merged": true,
+      "time_to_merge_hours": 57.17194444444444,
+      "state": "MERGED",
+      "additions": 20,
+      "deletions": 7,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: code and response querying foreign table with inner join",
+        "Merge branch 'master' into fix/querying-foreign-table-with-inner-join-swift"
+      ],
+      "avg_commit_msg_length": 68.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "apps/docs/spec/supabase_swift_v2.yml"
+      ],
+      "doc_files": [
+        "apps/docs/spec/supabase_swift_v2.yml"
+      ],
+      "file_types": {
+        "yml": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nFix query code and fix response in Querying foreign table with inner join section\r\n\r\n## What is the current behavior?\r\n\r\nCloses #20852\r\n\r\n## What is the new behavior?\r\n\r\nNew code refactor and new response:\r\n![CleanShot 2024-02-03 at 13 30 16@2x](https://github.com/supabase/supabase/assets/75758899/d187e2f0-0069-4112-adcc-289267ea9307)\r\n\r\n## Additional context\r\n\r\n\r\n\r\nSwift code recreate:\r\n![CleanShot 2024-02-03 at 13 29 08@2x](https://github.com/supabase/supabase/assets/75758899/54ed4676-339a-4099-ae35-503effd992b7)\r\n\r\nSwift result:\r\n![CleanShot 2024-02-03 at 13 28 34@2x](https://github.com/supabase/supabase/assets/75758899/59881e96-0862-4873-8cbd-a1f97bbc5b55)",
+      "body_cleaned_length": 718,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.2777777777777778,
+      "author_type": "User"
+    },
+    "username": "ga1az"
+  },
+  {
+    "pr_number": 21499,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 20693,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "auth"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 21499,
+      "title": "Guide to Setting Up TextLocal as Your Phone Login Provider",
+      "body": "Fixes #20693 ",
+      "body_length": 13,
+      "created_at": "2024-02-23T23:39:26Z",
+      "merged_at": "2024-03-05T01:11:57Z",
+      "merged": true,
+      "time_to_merge_hours": 241.54194444444445,
+      "state": "MERGED",
+      "additions": 91,
+      "deletions": 0,
+      "files_changed": 3,
+      "commits_count": 13,
+      "review_count": 4,
+      "comment_count": 4,
+      "commit_messages": [
+        "Add TextLocal SMS Login to NavigationMenu.constants.ts and create guide for Phone Auth with TextLocal",
+        "Fix typo in Textlocal SMS Login",
+        "Merge branch 'master' into docs/phone-auth-textlocal",
+        "Update Textlocal integration and documentation for DLT compliance.",
+        "Merge branch 'docs/phone-auth-textlocal' of github.com:madhav23bansal/supabase into docs/phone-auth-textlocal",
+        "Merge branch 'master' into docs/phone-auth-textlocal",
+        "Merge branch 'master' into docs/phone-auth-textlocal",
+        "Addressed comments",
+        "Merge branch 'docs/phone-auth-textlocal' of github.com:madhav23bansal/supabase into docs/phone-auth-textlocal",
+        "Merge branch 'master' into docs/phone-auth-textlocal",
+        "Update Textlocal SMS Login name",
+        "Update Textlocal SMS Login name to 'Textlocal SMS Login (Community Supported)'",
+        "Merge branch 'master' into docs/phone-auth-textlocal"
+      ],
+      "avg_commit_msg_length": 61.76923076923077,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/components/Navigation/NavigationMenu/NavigationMenu.constants.ts",
+        "apps/docs/content/guides/auth/phone-login/textlocal.mdx",
+        "apps/docs/public/img/icons/textlocal-icon.svg"
+      ],
+      "file_types": {
+        "ts": 1,
+        "mdx": 1,
+        "svg": 1
+      },
+      "review_states": {
+        "COMMENTED": 3,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #20693",
+      "body_cleaned_length": 12,
+      "template_removed_length": 1,
+      "template_reduction_percentage": 7.6923076923076925,
+      "author_type": "User"
+    },
+    "username": "madhav23bansal"
+  },
+  {
+    "pr_number": 22052,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 22027,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 22052,
+      "title": "docs: hybrid-search example for full_text subquery ordered correctly",
+      "body": "## What kind of change does this PR introduce?\r\n\r\ncloses #22027 \r\nDocs updated\r\n\r\n## What is the current behavior?\r\n\r\nPlease link any relevant issues here.\r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n",
+      "body_length": 322,
+      "created_at": "2024-03-15T20:12:05Z",
+      "merged_at": "2024-03-15T22:45:55Z",
+      "merged": true,
+      "time_to_merge_hours": 2.563888888888889,
+      "state": "MERGED",
+      "additions": 6,
+      "deletions": 8,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "docs: hybrid-search example for full_text subquery ordered correctly",
+        "docs(hybrid-search): fix semantic row_number() order by"
+      ],
+      "avg_commit_msg_length": 61.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/content/guides/ai/hybrid-search.mdx"
+      ],
+      "file_types": {
+        "mdx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\ncloses #22027 \r\nDocs updated\r\n\r\n## What is the current behavior?\r\n\r\nPlease link any relevant issues here.\r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.",
+      "body_cleaned_length": 320,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.6211180124223602,
+      "author_type": "User"
+    },
+    "username": "ikunal-04"
+  },
+  {
+    "pr_number": 26594,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26564,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "pr-opened"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 26594,
+      "title": "Docs Add Supabase project initialization step",
+      "body": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n\r\nBug fix, feature, docs update, ...\r\n\r\ndocs update\r\n\r\n## What is the current behavior?\r\n\r\nPlease link any relevant issues here.\r\n\r\n- close #26564 \r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n- Added a step to call the Supabase project using `npx supabase init`.\r\n- This content was added after installing and logging in to Supabase CLI, but before creating the type.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n",
+      "body_length": 660,
+      "created_at": "2024-05-21T01:32:52Z",
+      "merged_at": "2024-05-22T00:33:50Z",
+      "merged": true,
+      "time_to_merge_hours": 23.016111111111112,
+      "state": "MERGED",
+      "additions": 6,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "Docs Add Supabase project initialization step",
+        "Merge branch 'master' into docs/#26564"
+      ],
+      "avg_commit_msg_length": 41.5,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/content/guides/api/rest/generating-types.mdx"
+      ],
+      "file_types": {
+        "mdx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n\r\nBug fix, feature, docs update, ...\r\n\r\ndocs update\r\n\r\n## What is the current behavior?\r\n\r\nPlease link any relevant issues here.\r\n\r\n- close #26564 \r\n\r\n## What is the new behavior?\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n\r\n- Added a step to call the Supabase project using `npx supabase init`.\r\n- This content was added after installing and logging in to Supabase CLI, but before creating the type.\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.",
+      "body_cleaned_length": 658,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.30303030303030304,
+      "author_type": "User"
+    },
+    "username": "H0onnn"
+  },
+  {
+    "pr_number": 28691,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 28685,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "frontend",
+          "pr-opened",
+          "external-issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 28691,
+      "title": "Fixes docs search input cursor (#28685)",
+      "body": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\nBug fix,\r\n\r\n## What is the current behavior?\r\nWhen we try to delete or insert from the mid-part of the input in [docs](https://supabase.com/docs) search menu the cursor moves to end of the line/to the right which ruins UX.\r\nhttps://github.com/user-attachments/assets/763baef6-60ee-4c38-9eed-481b73e41a09\r\n\r\nPlease link any relevant issues here.\r\ncloses #28685 \r\n\r\n## What is the new behavior?\r\nWhen Fixed the cursor is not moving to the end of the line.\r\nhttps://github.com/user-attachments/assets/9b972e8d-dff4-4c7f-9fb5-3ff0888fd8fc\r\n\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n## Additional context\r\nN/A\r\n\r\nAdd any other context or screenshots.\r\nN/A",
+      "body_length": 842,
+      "created_at": "2024-08-16T10:52:11Z",
+      "merged_at": "2024-09-03T20:46:49Z",
+      "merged": true,
+      "time_to_merge_hours": 441.91055555555556,
+      "state": "MERGED",
+      "additions": 9,
+      "deletions": 3,
+      "files_changed": 1,
+      "commits_count": 8,
+      "review_count": 2,
+      "comment_count": 3,
+      "commit_messages": [
+        "fixed docs input cursor (#28685)",
+        "Merge branch 'master' into fix/search-input-cursor",
+        "Merge branch 'master' into fix/search-input-cursor",
+        "Merge branch 'master' into fix/search-input-cursor",
+        "Merge branch 'supabase:master' into fix/search-input-cursor",
+        "fixed losing query string",
+        "Merge branch 'supabase:master' into fix/search-input-cursor",
+        "Merge branch 'master' into fix/search-input-cursor"
+      ],
+      "avg_commit_msg_length": 46.875,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "DISMISSED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\nBug fix,\r\n\r\n## What is the current behavior?\r\nWhen we try to delete or insert from the mid-part of the input in [docs](https://supabase.com/docs) search menu the cursor moves to end of the line/to the right which ruins UX.\r\nhttps://github.com/user-attachments/assets/763baef6-60ee-4c38-9eed-481b73e41a09\r\n\r\nPlease link any relevant issues here.\r\ncloses #28685 \r\n\r\n## What is the new behavior?\r\nWhen Fixed the cursor is not moving to the end of the line.\r\nhttps://github.com/user-attachments/assets/9b972e8d-dff4-4c7f-9fb5-3ff0888fd8fc\r\n\r\n\r\nFeel free to include screenshots if it includes visual changes.\r\n## Additional context\r\nN/A\r\n\r\nAdd any other context or screenshots.\r\nN/A",
+      "body_cleaned_length": 842,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "preetDev004"
+  },
+  {
+    "pr_number": 29650,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 29576,
+        "labels": [
+          "good first issue",
+          "supabase.com"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 29650,
+      "title": "Chore: Replaced any with interface CSSProperties ",
+      "body": "This PR is to update the any with interface CSSProperties where CSS is accepted as a prop which is mentioned in issue #29576\r\nFixes #29576 \r\n\r\n## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\nChore\r\n\r\n## What is the current behavior?\r\n![image](https://github.com/user-attachments/assets/5c009c2d-8f73-4773-97be-a3d6b750cd25)\r\n\r\n## What is the new behavior?\r\n![image](https://github.com/user-attachments/assets/a2616a5d-41c7-4de4-849a-f1d6dbd0e7d6)\r\n\r\n",
+      "body_length": 567,
+      "created_at": "2024-10-02T16:56:31Z",
+      "merged_at": "2024-10-18T14:40:20Z",
+      "merged": true,
+      "time_to_merge_hours": 381.73027777777776,
+      "state": "MERGED",
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 4,
+      "commit_messages": [
+        "Chore: Replaced any with interface CSSProperties where css is used as a props",
+        "Merge branch 'master' into chore/CSSTypescriptFix"
+      ],
+      "avg_commit_msg_length": 63.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "This PR is to update the any with interface CSSProperties where CSS is accepted as a prop which is mentioned in issue #29576\r\nFixes #29576 \r\n\r\n## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\nChore\r\n\r\n## What is the current behavior?\r\n![image](https://github.com/user-attachments/assets/5c009c2d-8f73-4773-97be-a3d6b750cd25)\r\n\r\n## What is the new behavior?\r\n![image](https://github.com/user-attachments/assets/a2616a5d-41c7-4de4-849a-f1d6dbd0e7d6)",
+      "body_cleaned_length": 563,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 0.7054673721340388,
+      "author_type": "User"
+    },
+    "username": "0xkar4n"
+  },
+  {
+    "pr_number": 36578,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 26720,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "auth",
+          "awaiting-details"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 36578,
+      "title": "Wrote docs for JWT Field",
+      "body": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n- This PR adds the documentation for JWT Fields\r\n\r\n## What is the current behavior?\r\n- A documentation page is now accessible that provides the readers details about the JWT Fields.  \r\n\r\nPlease link any relevant issues here.\r\nFixes #26720\r\n",
+      "body_length": 407,
+      "created_at": "2025-06-21T15:34:14Z",
+      "merged_at": "2025-06-25T16:30:05Z",
+      "merged": true,
+      "time_to_merge_hours": 96.93083333333334,
+      "state": "MERGED",
+      "additions": 291,
+      "deletions": 1,
+      "files_changed": 4,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 4,
+      "commit_messages": [
+        "Wrote docs",
+        "Update apps/docs/content/guides/auth/jwt-fields.mdx",
+        "fix lint and formatting issues"
+      ],
+      "avg_commit_msg_length": 30.333333333333332,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "apps/docs/components/Navigation/NavigationMenu/NavigationMenu.constants.ts",
+        "apps/docs/content/guides/auth.mdx",
+        "apps/docs/content/guides/auth/jwt-fields.mdx",
+        "apps/docs/content/guides/auth/jwts.mdx"
+      ],
+      "file_types": {
+        "ts": 1,
+        "mdx": 3
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n- This PR adds the documentation for JWT Fields\r\n\r\n## What is the current behavior?\r\n- A documentation page is now accessible that provides the readers details about the JWT Fields.  \r\n\r\nPlease link any relevant issues here.\r\nFixes #26720",
+      "body_cleaned_length": 405,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.4914004914004914,
+      "author_type": "User"
+    },
+    "username": "Vangmay"
+  },
+  {
+    "pr_number": 15430,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15425,
+        "labels": [
+          "bug",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 15430,
+      "title": "refactor: update empty tables placeholder",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nThis PR introduces a new component called `ProductEmptyState` to the `TableList` component. This component is displayed when there are no tables to show. It provides a clear message and a call-to-action button to create a new table. Additionally, it includes some explanatory text about tables and their usage in Postgres. This change improves the user experience by providing helpful information and guiding the user to take appropriate actions.\r\n\r\n_Generated using [OpenSauced](https://opensauced.ai/)._\r\n\r\n## What is the current behavior?\r\n\r\nCurrently, it’s easy to miss the `+ New table` button in the top right, especially on large screens.\r\n\r\n## What is the new behavior?\r\n\r\nThe default placeholder is replaced with a placeholder like the one on the functions page.\r\n\r\nWill provide a screenshot shortly\r\n\r\n## Additional context\r\n\r\nCloses #15425 \r\n",
+      "body_length": 827,
+      "created_at": "2023-06-28T19:20:22Z",
+      "updated_at": "2025-08-27T08:45:09Z",
+      "closed_at": "2023-11-14T19:14:33Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 15,
+      "deletions": 2,
+      "files_changed": 1,
+      "commits_count": 4,
+      "review_count": 0,
+      "comment_count": 8,
+      "pr_size": 17,
+      "avg_commit_msg_length": 31.5,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "ci",
+        "refactor"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nThis PR introduces a new component called `ProductEmptyState` to the `TableList` component. This component is displayed when there are no tables to show. It provides a clear message and a call-to-action button to create a new table. Additionally, it includes some explanatory text about tables and their usage in Postgres. This change improves the user experience by providing helpful information and guiding the user to take appropriate actions.\r\n\r\n_Generated using [OpenSauced](https://opensauced.ai/)._\r\n\r\n## What is the current behavior?\r\n\r\nCurrently, it’s easy to miss the `+ New table` button in the top right, especially on large screens.\r\n\r\n## What is the new behavior?\r\n\r\nThe default placeholder is replaced with a placeholder like the one on the functions page.\r\n\r\nWill provide a screenshot shortly\r\n\r\n## Additional context\r\n\r\nCloses #15425",
+      "body_cleaned_length": 900,
+      "template_removed_length": 3,
+      "template_reduction_percentage": 0.33222591362126247,
+      "author_type": "User"
+    },
+    "username": "takanome-dev"
+  },
+  {
+    "pr_number": 16475,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 16454,
+        "labels": [
+          "bug",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 16475,
+      "title": "fix: table content overflow",
+      "body": "## What kind of change does this PR introduce?\r\n\r\nBug fix. Closes #16454 \r\n\r\n## What is the current behavior?\r\n\r\nLong function names overflow into other table cells.\r\n\r\n## What is the new behavior?\r\n\r\nLong function names are broken and wrap onto the next line. [See here](https://i.gyazo.com/6cedc0cf99626212dd2d34994acb095f.png).\r\n\r\n",
+      "body_length": 245,
+      "created_at": "2023-08-12T05:21:39Z",
+      "updated_at": "2023-08-13T01:26:27Z",
+      "closed_at": "2023-08-13T01:26:27Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 2,
+      "avg_commit_msg_length": 27.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\n\r\nBug fix. Closes #16454 \r\n\r\n## What is the current behavior?\r\n\r\nLong function names overflow into other table cells.\r\n\r\n## What is the new behavior?\r\n\r\nLong function names are broken and wrap onto the next line. [See here](https://i.gyazo.com/6cedc0cf99626212dd2d34994acb095f.png).",
+      "body_cleaned_length": 330,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 1.1976047904191618,
+      "author_type": "User"
+    },
+    "username": "xkeels"
+  },
+  {
+    "pr_number": 16477,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 16437,
+        "labels": [
+          "documentation",
+          "help wanted",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 16477,
+      "title": "documentation link for Google auth provider fix",
+      "body": "## What kind of change does this PR introduce?\r\nFixes #16437 \r\n\r\n## What is the current behavior?\r\n\r\nGoogle learn more link points towards Apple documentation\r\n\r\n## What is the new behavior?\r\n\r\nGoogle learn more link points towards Google documentation\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n\r\nLet me know if there is anything else I can do to improve this PR :) Thanks\r\n",
+      "body_length": 362,
+      "created_at": "2023-08-12T08:09:08Z",
+      "updated_at": "2023-08-12T08:57:54Z",
+      "closed_at": "2023-08-12T08:57:53Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 2,
+      "avg_commit_msg_length": 47.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## What kind of change does this PR introduce?\r\nFixes #16437 \r\n\r\n## What is the current behavior?\r\n\r\nGoogle learn more link points towards Apple documentation\r\n\r\n## What is the new behavior?\r\n\r\nGoogle learn more link points towards Google documentation\r\n\r\n## Additional context\r\n\r\nAdd any other context or screenshots.\r\n\r\nLet me know if there is anything else I can do to improve this PR :) Thanks",
+      "body_cleaned_length": 397,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.5012531328320802,
+      "author_type": "User"
+    },
+    "username": "JannisK89"
+  },
+  {
+    "pr_number": 30120,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 15119,
+        "labels": [
+          "bug",
+          "enhancement",
+          "help wanted",
+          "good first issue",
+          "frontend"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 30120,
+      "title": "allow filtering empty text columns in Table Editor",
+      "body": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n\r\nBug fix\r\n\r\n## What is the current behavior?\r\n\r\nCurrently, users are unable to filter rows with empty columns in the Table Editor. This issue has been discussed in issue #15119.\r\n\r\n## What is the new behavior?\r\n\r\nWith this update, users can now filter for rows that have empty columns in the Table Editor.\r\n\r\n## Additional context\r\n\r\n\r\nhttps://github.com/user-attachments/assets/65e35d85-2728-464d-97f1-bd14ba527ab4\r\n\r\n\r\n\r\nfixes #15119",
+      "body_length": 451,
+      "created_at": "2024-10-26T16:40:44Z",
+      "updated_at": "2025-01-16T14:30:05Z",
+      "closed_at": "2025-01-16T14:30:01Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 28,
+      "deletions": 4,
+      "files_changed": 3,
+      "commits_count": 3,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 32,
+      "avg_commit_msg_length": 45.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 2,
+        "ts": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## I have read the [CONTRIBUTING.md](https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md) file.\r\n\r\nYES\r\n\r\n## What kind of change does this PR introduce?\r\n\r\nBug fix\r\n\r\n## What is the current behavior?\r\n\r\nCurrently, users are unable to filter rows with empty columns in the Table Editor. This issue has been discussed in issue #15119.\r\n\r\n## What is the new behavior?\r\n\r\nWith this update, users can now filter for rows that have empty columns in the Table Editor.\r\n\r\n## Additional context\r\n\r\n\r\nhttps://github.com/user-attachments/assets/65e35d85-2728-464d-97f1-bd14ba527ab4\r\n\r\n\r\n\r\nfixes #15119",
+      "body_cleaned_length": 603,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "ratnaraj7"
+  },
+  {
+    "pr_number": 30199,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 18304,
+        "labels": [
+          "enhancement",
+          "good first issue",
+          "hacktoberfest",
+          "frontend",
+          "pr-opened"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 30199,
+      "title": "Add close and cancel buttons to RLS Policies modal",
+      "body": "Fixes #18304\r\n\r\nAdd close button, move \"View Templates\" button, and add cancel button to RLS Policies modal.\r\n\r\n* Add a close button at the top of the modal using `Button` and `IconX` components.\r\n* Move the \"View Templates\" button left near the Documentation button.\r\n* Add a cancel button next to the Review button on the right.\r\n\r\n",
+      "body_length": 313,
+      "created_at": "2024-10-30T19:30:32Z",
+      "updated_at": "2024-10-30T19:31:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 9,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 10,
+      "avg_commit_msg_length": 539.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fixes #18304\r\n\r\nAdd close button, move \"View Templates\" button, and add cancel button to RLS Policies modal.\r\n\r\n* Add a close button at the top of the modal using `Button` and `IconX` components.\r\n* Move the \"View Templates\" button left near the Documentation button.\r\n* Add a cancel button next to the Review button on the right.",
+      "body_cleaned_length": 330,
+      "template_removed_length": 4,
+      "template_reduction_percentage": 1.1976047904191618,
+      "author_type": "User"
+    },
+    "username": "rohitg00"
+  },
+  {
+    "pr_number": 34406,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 27538,
+        "labels": [
+          "good first issue",
+          "frontend",
+          "pr-opened",
+          "external-issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 34406,
+      "title": "feat: add copy table definition functionality in EntityListItem",
+      "body": "### PR Title: Allow copying the table definition from the dropdown menu\r\n\r\n### Description:\r\nThis PR adds an option to copy the table definition from the dropdown menu. Users can now quickly copy the SQL CREATE TABLE statement for any table, improving usability and accessibility.\r\n\r\n### Screenshots\r\n![Screenshot from 2025-03-25 19-22-43](https://github.com/user-attachments/assets/8a882f2c-7b85-4454-84eb-ea7d754b5188)\r\n\r\n\r\n### Closes:\r\nFixes #27538",
+      "body_length": 302,
+      "created_at": "2025-03-25T13:56:47Z",
+      "updated_at": "2025-06-01T11:51:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 42,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 5,
+      "pr_size": 43,
+      "avg_commit_msg_length": 60.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 1
+      },
+      "review_states": {
+        "CHANGES_REQUESTED": 1
+      },
+      "has_changes_requested": true,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "### PR Title: Allow copying the table definition from the dropdown menu\r\n\r\n### Description:\r\nThis PR adds an option to copy the table definition from the dropdown menu. Users can now quickly copy the SQL CREATE TABLE statement for any table, improving usability and accessibility.\r\n\r\n### Screenshots\r\n![Screenshot from 2025-03-25 19-22-43](https://github.com/user-attachments/assets/8a882f2c-7b85-4454-84eb-ea7d754b5188)\r\n\r\n\r\n### Closes:\r\nFixes #27538",
+      "body_cleaned_length": 451,
+      "template_removed_length": 0,
+      "template_reduction_percentage": 0.0,
+      "author_type": "User"
+    },
+    "username": "Naresh-official"
+  }
+]

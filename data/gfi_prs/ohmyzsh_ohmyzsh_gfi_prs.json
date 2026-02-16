@@ -1,0 +1,173 @@
+[
+  {
+    "pr_number": 11948,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11613,
+        "labels": [
+          "Feature",
+          "Good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11948,
+      "title": "feat(git): delete squash-merged branches in `gbda`",
+      "body": "## Standards checklist:\r\n\r\n<!-- Fill with an x the ones that apply. Example: [x] -->\r\n\r\n- [x] The PR title is descriptive.\r\n- [x] The PR doesn't replicate another PR which is already open.\r\n- [x] I have read the contribution guide and followed all the instructions.\r\n- [x] The code follows the code style guide detailed in the wiki.\r\n- [x] The code is mine or it's from somewhere with an MIT-compatible license.\r\n- [x] The code is efficient, to the best of my ability, and does not waste computer resources.\r\n- [x] The code is stable and I have tested it myself, to the best of my abilities.\r\n- [x] If the code introduces new aliases, I provide a valid use case for all plugin users down below.\r\n\r\n## Changes:\r\n\r\n- change `gbda` in git plugin to delete squash-merged branches\r\n\r\n## Other comments:\r\n\r\nFixes #11613",
+      "body_length": 813,
+      "created_at": "2023-10-08T18:24:10Z",
+      "merged_at": "2023-10-09T16:07:52Z",
+      "merged": true,
+      "time_to_merge_hours": 21.72833333333333,
+      "state": "MERGED",
+      "additions": 17,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 2,
+      "review_count": 0,
+      "comment_count": 3,
+      "commit_messages": [
+        "refactor(git): change gbda to delete squash-merged branches (#11613)",
+        "docs(git): document `gbda` feature improvement"
+      ],
+      "avg_commit_msg_length": 57.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs",
+        "refactor"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "plugins/git/README.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "zsh": 1
+      },
+      "review_states": {},
+      "labels": [
+        {
+          "name": "Area: plugin",
+          "color": "0d5b96",
+          "description": "Issue or PR related to a plugin"
+        },
+        {
+          "name": "Topic: alias",
+          "color": "efaa32",
+          "description": "Pull Request or issue regarding aliases"
+        },
+        {
+          "name": "Type: documentation",
+          "color": "0e8a16",
+          "description": "Documentation issue or Pull Request"
+        }
+      ],
+      "label_categories": [
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## Standards checklist:\r\n\r\n\r\n\r\n- [x] The PR title is descriptive.\r\n- [x] The PR doesn't replicate another PR which is already open.\r\n- [x] I have read the contribution guide and followed all the instructions.\r\n- [x] The code follows the code style guide detailed in the wiki.\r\n- [x] The code is mine or it's from somewhere with an MIT-compatible license.\r\n- [x] The code is efficient, to the best of my ability, and does not waste computer resources.\r\n- [x] The code is stable and I have tested it myself, to the best of my abilities.\r\n- [x] If the code introduces new aliases, I provide a valid use case for all plugin users down below.\r\n\r\n## Changes:\r\n\r\n- change `gbda` in git plugin to delete squash-merged branches\r\n\r\n## Other comments:\r\n\r\nFixes #11613",
+      "body_cleaned_length": 756,
+      "template_removed_length": 57,
+      "template_reduction_percentage": 7.011070110701106,
+      "author_type": "User"
+    },
+    "username": "tkr3"
+  },
+  {
+    "pr_number": 11979,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11816,
+        "labels": [
+          "Feature",
+          "Hacktoberfest",
+          "New: plugin",
+          "Good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11979,
+      "title": "cdk command completion suggestions plugin ",
+      "body": "fixes:#11816\r\n## Standards checklist:\r\n\r\n<!-- Fill with an x the ones that apply. Example: [x] -->\r\n\r\n- [ x] The PR title is descriptive.\r\n- [ x] The PR doesn't replicate another PR which is already open.\r\n- [ x] I have read the contribution guide and followed all the instructions.\r\n- [ x] The code follows the code style guide detailed in the wiki.\r\n- [ x] The code is mine or it's from somewhere with an MIT-compatible license.\r\n- [ x] The code is efficient, to the best of my ability, and does not waste computer resources.\r\n- [ x] The code is stable and I have tested it myself, to the best of my abilities.\r\n- [x ] If the code introduces new aliases, I provide a valid use case for all plugin users down below.\r\n\r\n## Changes:\r\n\r\n- Creates new plugin for aws cdk cli tool, for getting command completion suggestions.\r\n\r\n## Other comments:\r\n\r\n...\r\n",
+      "body_length": 744,
+      "created_at": "2023-10-14T21:16:27Z",
+      "updated_at": "2024-10-21T17:00:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged": false,
+      "state": "OPEN",
+      "time_to_merge_hours": null,
+      "additions": 162,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 3,
+      "review_count": 1,
+      "comment_count": 1,
+      "pr_size": 162,
+      "avg_commit_msg_length": 46.666666666666664,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "plugins/cdk/README.md"
+      ],
+      "file_types": {
+        "md": 1,
+        "zsh": 1
+      },
+      "review_states": {
+        "COMMENTED": 1
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [
+        {
+          "name": "Area: plugin",
+          "color": "0d5b96",
+          "description": "Issue or PR related to a plugin"
+        },
+        {
+          "name": "Type: documentation",
+          "color": "0e8a16",
+          "description": "Documentation issue or Pull Request"
+        },
+        {
+          "name": "New: plugin",
+          "color": "1d7691",
+          "description": "Request for a plugin or Pull Request that adds one"
+        }
+      ],
+      "label_categories": [
+        "feature",
+        "documentation"
+      ],
+      "is_bug_fix": false,
+      "is_feature": true,
+      "is_documentation": true,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "fixes:#11816\r\n## Standards checklist:\r\n\r\n\r\n\r\n- [ x] The PR title is descriptive.\r\n- [ x] The PR doesn't replicate another PR which is already open.\r\n- [ x] I have read the contribution guide and followed all the instructions.\r\n- [ x] The code follows the code style guide detailed in the wiki.\r\n- [ x] The code is mine or it's from somewhere with an MIT-compatible license.\r\n- [ x] The code is efficient, to the best of my ability, and does not waste computer resources.\r\n- [ x] The code is stable and I have tested it myself, to the best of my abilities.\r\n- [x ] If the code introduces new aliases, I provide a valid use case for all plugin users down below.\r\n\r\n## Changes:\r\n\r\n- Creates new plugin for aws cdk cli tool, for getting command completion suggestions.\r\n\r\n## Other comments:\r\n\r\n...",
+      "body_cleaned_length": 793,
+      "template_removed_length": 59,
+      "template_reduction_percentage": 6.924882629107981,
+      "author_type": "User"
+    },
+    "username": "donalshijan"
+  }
+]

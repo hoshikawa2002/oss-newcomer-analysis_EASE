@@ -1,0 +1,136 @@
+[
+  {
+    "pr_number": 27302,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 27066,
+        "labels": [
+          "Help Wanted",
+          "Good first issue",
+          "Issue-Docs",
+          "Resolution-Fix Committed",
+          "Cost-Small"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 27302,
+      "title": "Update Resources.resw",
+      "body": "Fix: #27066\r\n\r\n<!-- Enter a brief description/summary of your PR here. What does it fix/what does it change/how was it tested (even manually, if necessary)? -->\r\n## Fix: #27066\r\n\r\n<!-- Please review the items on the PR checklist before submitting-->\r\n## PR Checklist\r\n\r\n- [x] **Closes:** #27066\r\n- [ ] **Communication:** I've discussed this with core contributors already. If work hasn't been agreed, this work might be rejected\r\n- [ ] **Tests:** Added/updated and all pass\r\n- [ ] **Localization:** All end user facing strings can be localized\r\n- [ ] **Dev docs:** Added/updated\r\n- [ ] **New binaries:** Added on the required places\r\n   - [ ] [JSON for signing](https://github.com/microsoft/PowerToys/blob/main/.pipelines/ESRPSigning_core.json) for new binaries\r\n   - [ ] [WXS for installer](https://github.com/microsoft/PowerToys/blob/main/installer/PowerToysSetup/Product.wxs) for new binaries and localization folder\r\n   - [ ] [YML for CI pipeline](https://github.com/microsoft/PowerToys/blob/main/.pipelines/ci/templates/build-powertoys-steps.yml) for new test projects\r\n   - [ ] [YML for signed pipeline](https://github.com/microsoft/PowerToys/blob/main/.pipelines/release.yml)\r\n- [ ] **Documentation updated:** If checked, please file a pull request on [our docs repo](https://github.com/MicrosoftDocs/windows-uwp/tree/docs/hub/powertoys) and link it here: #xxx\r\n\r\n<!-- Provide a more detailed description of the PR, other things fixed or any additional comments/features here -->\r\n## Detailed Description of the Pull Request / Additional comments\r\n\r\n<!-- Describe how you validated the behavior. Add automated tests wherever possible, but list manual validation steps taken as well -->\r\n## Validation Steps Performed\r\n\r\n",
+      "body_length": 1727,
+      "created_at": "2023-07-09T09:45:32Z",
+      "merged_at": "2023-07-12T11:07:42Z",
+      "merged": true,
+      "time_to_merge_hours": 73.36944444444444,
+      "state": "MERGED",
+      "additions": 3,
+      "deletions": 3,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 1,
+      "commit_messages": [
+        "Update Resources.resw\n\nFix: #27066"
+      ],
+      "avg_commit_msg_length": 34.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "resw": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Fix: #27066\r\n\r\n\r\n## Fix: #27066\r\n\r\n\r\n## PR Checklist\r\n\r\n- [x] **Closes:** #27066\r\n- [ ] **Communication:** I've discussed this with core contributors already. If work hasn't been agreed, this work might be rejected\r\n- [ ] **Tests:** Added/updated and all pass\r\n- [ ] **Localization:** All end user facing strings can be localized\r\n- [ ] **Dev docs:** Added/updated\r\n- [ ] **New binaries:** Added on the required places\r\n   - [ ] [JSON for signing](https://github.com/microsoft/PowerToys/blob/main/.pipelines/ESRPSigning_core.json) for new binaries\r\n   - [ ] [WXS for installer](https://github.com/microsoft/PowerToys/blob/main/installer/PowerToysSetup/Product.wxs) for new binaries and localization folder\r\n   - [ ] [YML for CI pipeline](https://github.com/microsoft/PowerToys/blob/main/.pipelines/ci/templates/build-powertoys-steps.yml) for new test projects\r\n   - [ ] [YML for signed pipeline](https://github.com/microsoft/PowerToys/blob/main/.pipelines/release.yml)\r\n- [ ] **Documentation updated:** If checked, please file a pull request on [our docs repo](https://github.com/MicrosoftDocs/windows-uwp/tree/docs/hub/powertoys) and link it here: #xxx\r\n\r\n\r\n## Detailed Description of the Pull Request / Additional comments\r\n\r\n\r\n## Validation Steps Performed",
+      "body_cleaned_length": 1259,
+      "template_removed_length": 468,
+      "template_reduction_percentage": 27.09901563404748,
+      "author_type": "User"
+    },
+    "username": "KhurramJalil"
+  },
+  {
+    "pr_number": 33384,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 33288,
+        "labels": [
+          "Issue-Bug",
+          "Good first issue",
+          "Resolution-Fix Committed",
+          "Product-File Explorer",
+          "Cost-Small"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 33384,
+      "title": "[Preview Pane] Sticky scroll setting is handled twice #33288",
+      "body": "<!-- Enter a brief description/summary of your PR here. What does it fix/what does it change/how was it tested (even manually, if necessary)? -->\r\n## Summary of the Pull Request\r\n\r\nRemoved duplicate application of sticky scroll in preview pane.\r\n\r\nCloses #33288\r\n\r\n\r\n",
+      "body_length": 267,
+      "created_at": "2024-06-14T17:56:27Z",
+      "merged_at": "2024-06-17T20:44:06Z",
+      "merged": true,
+      "time_to_merge_hours": 74.79416666666667,
+      "state": "MERGED",
+      "additions": 0,
+      "deletions": 1,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 1,
+      "comment_count": 0,
+      "commit_messages": [
+        "[Preview Pane] Sticky scroll setting is handled twice #33288"
+      ],
+      "avg_commit_msg_length": 60.0,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": false,
+      "test_files": [],
+      "doc_files": [],
+      "file_types": {
+        "cs": 1
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [
+        {
+          "name": "Needs-Review",
+          "color": "FFA500",
+          "description": "This Pull Request awaits the review of a maintainer."
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "## Summary of the Pull Request\r\n\r\nRemoved duplicate application of sticky scroll in preview pane.\r\n\r\nCloses #33288",
+      "body_cleaned_length": 114,
+      "template_removed_length": 153,
+      "template_reduction_percentage": 57.30337078651685,
+      "author_type": "User"
+    },
+    "username": "downarowiczd"
+  }
+]

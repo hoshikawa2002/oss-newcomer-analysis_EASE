@@ -1,0 +1,298 @@
+[
+  {
+    "pr_number": 39704,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 39690,
+        "labels": [
+          "help wanted",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 39704,
+      "title": "fix(grid): fix justify and align properties are not reactive for Row",
+      "body": "<!--\r\nFirst of all, thank you for your contribution! 😄\r\nFor requesting to pull a new feature or bugfix, please send it from a feature/bugfix branch based on the `master` branch.\r\nBefore submitting your pull request, please make sure the checklist below is confirmed.\r\nYour pull requests will be merged after one of the collaborators approve.\r\nThank you!\r\n-->\r\n\r\n[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [x] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [ ] Refactoring\r\n- [ ] Code style optimization\r\n- [x] Test Case\r\n- [ ] Branch merge\r\n- [ ] Workflow\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\nclose #39690\r\n\r\n<!--\r\n1. Put the related issue or discussion links here.\r\n2. close #xxxx or fix #xxxx for instance.\r\n-->\r\n\r\n### 💡 Background and solution\r\n\r\n<!--\r\n1. Describe the problem and the scenario.\r\n2. GIF or snapshot should be provided if includes UI/interactive modification.\r\n3. How to fix the problem, and list the final API implementation and usage sample if that is a new feature.\r\n-->\r\n\r\n### 📝 Changelog\r\n\r\n<!--\r\nDescribe changes from the user side, and list all potential break changes or other risks.\r\n--->\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |      fix justify and align properties are not reactive for Row     |\r\n| 🇨🇳 Chinese |     修复Row组件justify和align属性，动态改变不生效的问题      |\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [x] Doc is updated/provided or not needed\r\n- [x] Demo is updated/provided or not needed\r\n- [x] TypeScript definition is updated/provided or not needed\r\n- [x] Changelog is provided or not needed\r\n",
+      "body_length": 1971,
+      "created_at": "2022-12-21T04:46:56Z",
+      "merged_at": "2022-12-21T06:16:42Z",
+      "merged": true,
+      "time_to_merge_hours": 1.4961111111111112,
+      "state": "MERGED",
+      "additions": 28,
+      "deletions": 2,
+      "files_changed": 2,
+      "commits_count": 1,
+      "review_count": 2,
+      "comment_count": 3,
+      "commit_messages": [
+        "fix(grid): justify and align properties are not reactive for Row"
+      ],
+      "avg_commit_msg_length": 64.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": false,
+      "test_files": [
+        "components/grid/__tests__/index.test.tsx"
+      ],
+      "doc_files": [],
+      "file_types": {
+        "tsx": 2
+      },
+      "review_states": {
+        "COMMENTED": 1,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [x] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [ ] Refactoring\r\n- [ ] Code style optimization\r\n- [x] Test Case\r\n- [ ] Branch merge\r\n- [ ] Workflow\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\nclose #39690\r\n\r\n\r\n\r\n### 💡 Background and solution\r\n\r\n\r\n\r\n### 📝 Changelog\r\n\r\n\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |      fix justify and align properties are not reactive for Row     |\r\n| 🇨🇳 Chinese |     修复Row组件justify和align属性，动态改变不生效的问题      |\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [x] Doc is updated/provided or not needed\r\n- [x] Demo is updated/provided or not needed\r\n- [x] TypeScript definition is updated/provided or not needed\r\n- [x] Changelog is provided or not needed",
+      "body_cleaned_length": 1161,
+      "template_removed_length": 810,
+      "template_reduction_percentage": 41.0958904109589,
+      "author_type": "User"
+    },
+    "username": "candy4290"
+  },
+  {
+    "pr_number": 41900,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 35115,
+        "labels": [
+          "help wanted",
+          "Inactive",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 41900,
+      "title": "refactor: remove React.FC",
+      "body": "<!--\r\nFirst of all, thank you for your contribution! 😄\r\nFor requesting to pull a new feature or bugfix, please send it from a feature/bugfix branch based on the `master` branch.\r\nBefore submitting your pull request, please make sure the checklist below is confirmed.\r\nYour pull requests will be merged after one of the collaborators approve.\r\nThank you!\r\n-->\r\n\r\n[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md?plain=1)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [ ] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [x] Refactoring\r\n- [ ] Code style optimization\r\n- [ ] Test Case\r\n- [ ] Branch merge\r\n- [ ] Workflow\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\n\r\n<!--\r\n1. Put the related issue or discussion links here.\r\n2. close #xxxx or fix #xxxx for instance.\r\n-->\r\n\r\n### 💡 Background and solution\r\nclose #35115\r\n<!--\r\n1. Describe the problem and the scenario.\r\n2. GIF or snapshot should be provided if includes UI/interactive modification.\r\n3. How to fix the problem, and list the final API implementation and usage sample if that is a new feature.\r\n-->\r\n\r\n### 📝 Changelog\r\n\r\n<!--\r\nDescribe changes from the user side, and list all potential break changes or other risks.\r\n--->\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |    remove React.FC (#35115 )       |\r\n| 🇨🇳 Chinese |     移除 React.FC (#35115 )     |\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [x] Doc is updated/provided or not needed\r\n- [x] Demo is updated/provided or not needed\r\n- [x] TypeScript definition is updated/provided or not needed\r\n- [x] Changelog is provided or not needed\r\n\r\n---\r\n\r\n<!--\r\nBelow are template for copilot to generate CR message.\r\nPlease DO NOT modify it.\r\n-->\r\n\r\n### 🚀 Summary\r\n\r\n<!--\r\ncopilot:summary\r\n-->\r\n### <samp>🤖 Generated by Copilot at 640f67e</samp>\r\n\r\nRefactored all components in the `.dumi` theme and pages to use regular function types instead of `React.FC` types, to simplify the code and avoid potential issues with implicit children props. Moved the `BackgroundImage` component to the 404 page, as it is only used there.\r\n\r\n### 🔍 Walkthrough\r\n\r\n<!--\r\ncopilot:walkthrough\r\n-->\r\n### <samp>🤖 Generated by Copilot at 640f67e</samp>\r\n\r\n*  Refactor all components to use regular function types with explicit props instead of `React.FC` types, as the latter are considered unnecessary and potentially misleading by some React developers ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-8131ea4f1508e43c8e04d3a7a29e5d7fdbebf7c4792d734d4f4d891301f19ae2L19-R19), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-334e4791bcfe5714cefed473096aba70368d2cea07143640f8396e570b5e61f7L27-R27), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-bb71d3e7437a45c3978afff7a00abefa4e0c15a401677f1a732c773f7027d36eL41-R40), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-30afbf329ccd8dcb6bf69a0c2b4464e6ef851c61ed0d4c133113aa6afd4b8f28L38-R38), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-b2ed7bd8914c183806fa3f3f1f1dd82e63067fc0083a3e10249a24555d498cc4L5-R5), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-138391ef541c50bce3fccf1fcaea8bb386d44d00b821f9a4d9000b8e0c5764b5L3-R3), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-51d36d0662438e162135ad6713e967a78491b32e953192265b2ecc71c9800e26L33-R33), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-f1df5cf9560d26c9862a4824e7d1a13f6a8bec1ec7338e9327f3e7a6a74c1585L81-R81), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-a8655a9d98be8464dc030b48766ada804b1a4542cf5e50fcd8c1e3f9c8ffc7acL15-R15), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-cfd6f597c784ca5d28af27e596e853bda8ed1e3101281f58583dc7d352035a15L20-R20), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0257ee7455cf658a30e3d6ef9a4e98d4aeb93d6ec5d9d1421e0305718eac4dbfL55-R55), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-576e04d8d7f5e687f3875af53510c365618e40a6cfa15049e6b4aa08dd45f2f2L30-R30), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-54c90701ed595205ea2cd4286b1cd0ee8b2f01f77a23088e0108feda7af2d65fL91-R91), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-6cde915d5c0b04ad09169e4b5c2a35a68622af857002fe066582fd0f68913467L55-R54), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-d4c2b096e898ee55c192cd1d13952ec5c5be4c1ff563d0ccaba74d8555e19adaL12-R11), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-fa3c6ee46e636904af27493b0063d0972a6701406710d1fb076425e904184d19L69-R69), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0de3095ff9d91bd3050fba072e888da03bb3a28f8d488a8b824d89cb8b532f00L90-R90), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0de3095ff9d91bd3050fba072e888da03bb3a28f8d488a8b824d89cb8b532f00L135-R135), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-16fa19cd7384aaec1f2aa2733ad3a35affb9541febf0bd5aaa779eb0c7d9890aL95-R94), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-240c064dd25fd67ca117d32e8f38e8f9a898575b28b6932d711e54a9f4109e48L272-R272), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-3bb66880942ca129db42a1a6c20126916fc7b9be5daf9723506df03fa96f0995L7-R7))\r\n* Remove unused `import type { FC } from 'react';` statements from files where the `React.FC` type was removed ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-bb71d3e7437a45c3978afff7a00abefa4e0c15a401677f1a732c773f7027d36eL2), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-6cde915d5c0b04ad09169e4b5c2a35a68622af857002fe066582fd0f68913467L1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-d4c2b096e898ee55c192cd1d13952ec5c5be4c1ff563d0ccaba74d8555e19adaL1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-16fa19cd7384aaec1f2aa2733ad3a35affb9541febf0bd5aaa779eb0c7d9890aL1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-3bb66880942ca129db42a1a6c20126916fc7b9be5daf9723506df03fa96f0995L1-R1))\r\n* Move the `BackgroundImage` component from `.dumi/pages/index/components/Theme/BackgroundImage.tsx` to `.dumi/pages/404/index.tsx`, as it is only used by the `NotFoundPage` component ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-334e4791bcfe5714cefed473096aba70368d2cea07143640f8396e570b5e61f7L27-R27))\r\n",
+      "body_length": 1799,
+      "created_at": "2023-04-19T14:36:13Z",
+      "updated_at": "2023-04-20T02:44:51Z",
+      "closed_at": "2023-04-20T02:44:47Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1193,
+      "deletions": 1243,
+      "files_changed": 955,
+      "commits_count": 4,
+      "review_count": 3,
+      "comment_count": 8,
+      "pr_size": 2436,
+      "avg_commit_msg_length": 46.25,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.5,
+      "commit_types": [
+        "refactor"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "components/affix/__tests__/Affix.test.tsx",
+        "components/anchor/__tests__/Anchor.test.tsx",
+        "components/anchor/__tests__/cached-context.test.tsx",
+        "components/app/__tests__/index.test.tsx",
+        "components/avatar/__tests__/Avatar.test.tsx"
+      ],
+      "doc_files": [
+        "components/app/index.en-US.md",
+        "components/app/index.zh-CN.md"
+      ],
+      "file_types": {
+        "tsx": 97,
+        "ts": 1,
+        "md": 2
+      },
+      "review_states": {
+        "COMMENTED": 3
+      },
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md?plain=1)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [ ] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [x] Refactoring\r\n- [ ] Code style optimization\r\n- [ ] Test Case\r\n- [ ] Branch merge\r\n- [ ] Workflow\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\n\r\n\r\n\r\n### 💡 Background and solution\r\nclose #35115\r\n\r\n\r\n### 📝 Changelog\r\n\r\n\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |    remove React.FC (#35115 )       |\r\n| 🇨🇳 Chinese |     移除 React.FC (#35115 )     |\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [x] Doc is updated/provided or not needed\r\n- [x] Demo is updated/provided or not needed\r\n- [x] TypeScript definition is updated/provided or not needed\r\n- [x] Changelog is provided or not needed\r\n\r\n---\r\n\r\n\r\n\r\n### 🚀 Summary\r\n\r\n\r\n### <samp>🤖 Generated by Copilot at 640f67e</samp>\r\n\r\nRefactored all components in the `.dumi` theme and pages to use regular function types instead of `React.FC` types, to simplify the code and avoid potential issues with implicit children props. Moved the `BackgroundImage` component to the 404 page, as it is only used there.\r\n\r\n### 🔍 Walkthrough\r\n\r\n\r\n### <samp>🤖 Generated by Copilot at 640f67e</samp>\r\n\r\n*  Refactor all components to use regular function types with explicit props instead of `React.FC` types, as the latter are considered unnecessary and potentially misleading by some React developers ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-8131ea4f1508e43c8e04d3a7a29e5d7fdbebf7c4792d734d4f4d891301f19ae2L19-R19), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-334e4791bcfe5714cefed473096aba70368d2cea07143640f8396e570b5e61f7L27-R27), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-bb71d3e7437a45c3978afff7a00abefa4e0c15a401677f1a732c773f7027d36eL41-R40), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-30afbf329ccd8dcb6bf69a0c2b4464e6ef851c61ed0d4c133113aa6afd4b8f28L38-R38), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-b2ed7bd8914c183806fa3f3f1f1dd82e63067fc0083a3e10249a24555d498cc4L5-R5), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-138391ef541c50bce3fccf1fcaea8bb386d44d00b821f9a4d9000b8e0c5764b5L3-R3), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-51d36d0662438e162135ad6713e967a78491b32e953192265b2ecc71c9800e26L33-R33), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-f1df5cf9560d26c9862a4824e7d1a13f6a8bec1ec7338e9327f3e7a6a74c1585L81-R81), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-a8655a9d98be8464dc030b48766ada804b1a4542cf5e50fcd8c1e3f9c8ffc7acL15-R15), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-cfd6f597c784ca5d28af27e596e853bda8ed1e3101281f58583dc7d352035a15L20-R20), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0257ee7455cf658a30e3d6ef9a4e98d4aeb93d6ec5d9d1421e0305718eac4dbfL55-R55), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-576e04d8d7f5e687f3875af53510c365618e40a6cfa15049e6b4aa08dd45f2f2L30-R30), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-54c90701ed595205ea2cd4286b1cd0ee8b2f01f77a23088e0108feda7af2d65fL91-R91), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-6cde915d5c0b04ad09169e4b5c2a35a68622af857002fe066582fd0f68913467L55-R54), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-d4c2b096e898ee55c192cd1d13952ec5c5be4c1ff563d0ccaba74d8555e19adaL12-R11), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-fa3c6ee46e636904af27493b0063d0972a6701406710d1fb076425e904184d19L69-R69), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0de3095ff9d91bd3050fba072e888da03bb3a28f8d488a8b824d89cb8b532f00L90-R90), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-0de3095ff9d91bd3050fba072e888da03bb3a28f8d488a8b824d89cb8b532f00L135-R135), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-16fa19cd7384aaec1f2aa2733ad3a35affb9541febf0bd5aaa779eb0c7d9890aL95-R94), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-240c064dd25fd67ca117d32e8f38e8f9a898575b28b6932d711e54a9f4109e48L272-R272), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-3bb66880942ca129db42a1a6c20126916fc7b9be5daf9723506df03fa96f0995L7-R7))\r\n* Remove unused `import type { FC } from 'react';` statements from files where the `React.FC` type was removed ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-bb71d3e7437a45c3978afff7a00abefa4e0c15a401677f1a732c773f7027d36eL2), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-6cde915d5c0b04ad09169e4b5c2a35a68622af857002fe066582fd0f68913467L1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-d4c2b096e898ee55c192cd1d13952ec5c5be4c1ff563d0ccaba74d8555e19adaL1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-16fa19cd7384aaec1f2aa2733ad3a35affb9541febf0bd5aaa779eb0c7d9890aL1), [link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-3bb66880942ca129db42a1a6c20126916fc7b9be5daf9723506df03fa96f0995L1-R1))\r\n* Move the `BackgroundImage` component from `.dumi/pages/index/components/Theme/BackgroundImage.tsx` to `.dumi/pages/404/index.tsx`, as it is only used by the `NotFoundPage` component ([link](https://github.com/ant-design/ant-design/pull/41900/files?diff=unified&w=0#diff-334e4791bcfe5714cefed473096aba70368d2cea07143640f8396e570b5e61f7L27-R27))",
+      "body_cleaned_length": 6386,
+      "template_removed_length": 957,
+      "template_reduction_percentage": 13.03282037314449,
+      "author_type": "User"
+    },
+    "username": "guan404ming"
+  },
+  {
+    "pr_number": 38032,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 35115,
+        "labels": [
+          "help wanted",
+          "Inactive",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 38032,
+      "title": "refactor: remove React.FC from components (resolves #35115)",
+      "body": "<!--\r\nFirst of all, thank you for your contribution! 😄\r\n\r\nFor requesting to pull a new feature or bugfix, please send it from a feature/bugfix branch based on the `master` branch.\r\n\r\nBefore submitting your pull request, please make sure the checklist below is confirmed.\r\n\r\nYour pull requests will be merged after one of the collaborators approve.\r\n\r\nThank you!\r\n\r\n-->\r\n\r\n[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [ ] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [X] Refactoring\r\n- [ ] Code style optimization\r\n- [ ] Test Case\r\n- [ ] Branch merge\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\n\r\nhttps://github.com/ant-design/ant-design/issues/35115\r\n\r\n### 💡 Background and solution\r\n\r\n<!--\r\n1. Describe the problem and the scenario.\r\n2. GIF or snapshot should be provided if includes UI/interactive modification.\r\n3. How to fix the problem, and list the final API implementation and usage sample if that is a new feature.\r\n-->\r\n\r\n### 📝 Changelog\r\n\r\n<!--\r\nDescribe changes from the user side, and list all potential break changes or other risks.\r\n--->\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |Remove React.FC from components (resolves #35115)|\r\n| 🇨🇳 Chinese |-|\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [X] Doc is updated/provided or not needed\r\n- [X] Demo is updated/provided or not needed\r\n- [X] TypeScript definition is updated/provided or not needed\r\n- [X] Changelog is provided or not needed\r\n",
+      "body_length": 781,
+      "created_at": "2022-10-14T11:00:07Z",
+      "updated_at": "2022-11-04T10:42:22Z",
+      "closed_at": "2022-11-04T10:42:21Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 867,
+      "deletions": 966,
+      "files_changed": 745,
+      "commits_count": 5,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 1833,
+      "avg_commit_msg_length": 51.2,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.8,
+      "commit_types": [
+        "refactor",
+        "fix"
+      ],
+      "has_tests": true,
+      "has_docs": true,
+      "test_files": [
+        "components/_util/__tests__/useSyncState.test.tsx",
+        "components/anchor/__tests__/Anchor.test.tsx",
+        "components/avatar/__tests__/Avatar.test.tsx",
+        "components/breadcrumb/__tests__/Breadcrumb.test.tsx",
+        "components/breadcrumb/__tests__/router.test.tsx"
+      ],
+      "doc_files": [
+        "components/affix/demo/basic.md",
+        "components/affix/demo/debug.md",
+        "components/affix/demo/on-change.md",
+        "components/affix/demo/target.md",
+        "components/alert/demo/action.md",
+        "components/alert/demo/banner.md",
+        "components/alert/demo/basic.md",
+        "components/alert/demo/closable.md",
+        "components/alert/demo/close-text.md",
+        "components/alert/demo/custom-icon.md",
+        "components/alert/demo/description.md",
+        "components/alert/demo/error-boundary.md",
+        "components/alert/demo/icon.md",
+        "components/alert/demo/loop-banner.md",
+        "components/alert/demo/smooth-closed.md",
+        "components/alert/demo/style.md",
+        "components/anchor/demo/basic.md",
+        "components/anchor/demo/customizeHighlight.md",
+        "components/anchor/demo/onChange.md",
+        "components/anchor/demo/onClick.md",
+        "components/anchor/demo/static.md",
+        "components/anchor/demo/targetOffset.md",
+        "components/auto-complete/demo/basic.md",
+        "components/auto-complete/demo/certain-category.md",
+        "components/auto-complete/demo/custom.md",
+        "components/auto-complete/demo/form-debug.md",
+        "components/auto-complete/demo/non-case-sensitive.md",
+        "components/auto-complete/demo/options.md",
+        "components/auto-complete/demo/status.md",
+        "components/auto-complete/demo/uncertain-category.md",
+        "components/avatar/demo/badge.md",
+        "components/avatar/demo/basic.md",
+        "components/avatar/demo/dynamic.md",
+        "components/avatar/demo/fallback.md",
+        "components/avatar/demo/group.md",
+        "components/avatar/demo/responsive.md",
+        "components/avatar/demo/toggle-debug.md",
+        "components/avatar/demo/type.md",
+        "components/back-top/demo/basic.md",
+        "components/back-top/demo/custom.md",
+        "components/badge/demo/basic.md",
+        "components/badge/demo/change.md",
+        "components/badge/demo/colorful.md",
+        "components/badge/demo/dot.md",
+        "components/badge/demo/link.md",
+        "components/badge/demo/mix.md",
+        "components/badge/demo/no-wrapper.md",
+        "components/badge/demo/offset.md",
+        "components/badge/demo/overflow.md",
+        "components/badge/demo/ribbbon.md",
+        "components/badge/demo/ribbon-debug.md",
+        "components/badge/demo/size.md",
+        "components/badge/demo/status.md",
+        "components/badge/demo/title.md",
+        "components/breadcrumb/demo/basic.md",
+        "components/breadcrumb/demo/overlay.md",
+        "components/breadcrumb/demo/react-router.md",
+        "components/breadcrumb/demo/separator-component.md",
+        "components/breadcrumb/demo/separator.md",
+        "components/breadcrumb/demo/withIcon.md",
+        "components/button/demo/basic.md",
+        "components/button/demo/block.md",
+        "components/button/demo/danger.md",
+        "components/button/demo/disabled.md",
+        "components/button/demo/ghost.md",
+        "components/button/demo/icon.md",
+        "components/button/demo/legacy-group.md",
+        "components/button/demo/loading.md",
+        "components/button/demo/multiple.md",
+        "components/button/demo/size.md",
+        "components/calendar/demo/basic.md",
+        "components/calendar/demo/card.md",
+        "components/calendar/demo/customize-header.md",
+        "components/calendar/demo/notice-calendar.md",
+        "components/calendar/demo/select.md",
+        "components/card/demo/basic.md",
+        "components/card/demo/border-less.md",
+        "components/card/demo/flexible-content.md",
+        "components/card/demo/grid-card.md",
+        "components/card/demo/in-column.md"
+      ],
+      "file_types": {
+        "tsx": 20,
+        "md": 80
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "[[中文版模板 / Chinese template](https://github.com/ant-design/ant-design/blob/master/.github/PULL_REQUEST_TEMPLATE/pr_cn.md)]\r\n\r\n### 🤔 This is a ...\r\n\r\n- [ ] New feature\r\n- [ ] Bug fix\r\n- [ ] Site / documentation update\r\n- [ ] Demo update\r\n- [ ] Component style update\r\n- [ ] TypeScript definition update\r\n- [ ] Bundle size optimization\r\n- [ ] Performance optimization\r\n- [ ] Enhancement feature\r\n- [ ] Internationalization\r\n- [X] Refactoring\r\n- [ ] Code style optimization\r\n- [ ] Test Case\r\n- [ ] Branch merge\r\n- [ ] Other (about what?)\r\n\r\n### 🔗 Related issue link\r\n\r\nhttps://github.com/ant-design/ant-design/issues/35115\r\n\r\n### 💡 Background and solution\r\n\r\n\r\n\r\n### 📝 Changelog\r\n\r\n\r\n\r\n| Language   | Changelog |\r\n| ---------- | --------- |\r\n| 🇺🇸 English |Remove React.FC from components (resolves #35115)|\r\n| 🇨🇳 Chinese |-|\r\n\r\n### ☑️ Self-Check before Merge\r\n\r\n⚠️ Please check all items below before requesting a reviewing. ⚠️\r\n\r\n- [X] Doc is updated/provided or not needed\r\n- [X] Demo is updated/provided or not needed\r\n- [X] TypeScript definition is updated/provided or not needed\r\n- [X] Changelog is provided or not needed",
+      "body_cleaned_length": 1122,
+      "template_removed_length": 716,
+      "template_reduction_percentage": 38.95538628944505,
+      "author_type": "User"
+    },
+    "username": "PawelBalcerek"
+  }
+]

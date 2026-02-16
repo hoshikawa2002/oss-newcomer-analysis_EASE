@@ -1,0 +1,154 @@
+[
+  {
+    "number": 35115,
+    "created_at": "2022-04-20T04:34:34Z",
+    "labels": [
+      "help wanted",
+      "Inactive",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 35130,
+    "created_at": "2022-04-20T10:38:38Z",
+    "labels": [
+      "help wanted",
+      "Inactive",
+      "good first issue",
+      "👷🏻‍♂️ Someone working on it"
+    ]
+  },
+  {
+    "number": 36065,
+    "created_at": "2022-06-15T13:23:56Z",
+    "labels": [
+      "help wanted",
+      "Inactive",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 36282,
+    "created_at": "2022-06-28T15:18:42Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 36293,
+    "created_at": "2022-06-29T04:17:58Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 37329,
+    "created_at": "2022-08-31T09:34:54Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39147,
+    "created_at": "2022-12-01T06:52:35Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39432,
+    "created_at": "2022-12-09T07:40:21Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39688,
+    "created_at": "2022-12-20T15:04:36Z",
+    "labels": [
+      "help wanted",
+      "Inactive",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39690,
+    "created_at": "2022-12-20T17:57:58Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 39985,
+    "created_at": "2023-01-03T12:59:43Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 40041,
+    "created_at": "2023-01-05T10:19:32Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 43816,
+    "created_at": "2023-07-26T06:17:03Z",
+    "labels": [
+      "🐛 Bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 46943,
+    "created_at": "2024-01-12T07:13:16Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 51497,
+    "created_at": "2024-11-05T10:16:35Z",
+    "labels": [
+      "🐛 Bug",
+      "help wanted",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 52137,
+    "created_at": "2024-12-26T02:29:06Z",
+    "labels": [
+      "help wanted",
+      "📝 Documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 53485,
+    "created_at": "2025-04-13T14:22:17Z",
+    "labels": [
+      "help wanted",
+      "📝 Documentation",
+      "good first issue"
+    ]
+  },
+  {
+    "number": 53986,
+    "created_at": "2025-06-03T07:33:55Z",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ]
+  }
+]

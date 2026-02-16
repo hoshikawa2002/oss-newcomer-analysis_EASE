@@ -1,0 +1,544 @@
+[
+  {
+    "pr_number": 11434,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11337,
+        "labels": [
+          "feature",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11434,
+      "title": "feat(11337): Upgrading to Docusaurus V3",
+      "body": "**What kind of change does this PR introduce?**\r\n\r\nFeature: Upgrading documentation website to Docusaurus V3 - Closes #11337 \r\n\r\n**Did you add tests for your changes?**\r\n\r\nDid not add tests, just verified that the documentation website was not presenting any kind of regression and everything was working smoothly.\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\n**Summary**\r\n\r\n<!-- Explain the **motivation** for making this change. What existing problem does the pull request solve? -->\r\n<!-- Try to link to an open issue for more information. -->\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nDocusaurus V3 is running only in Node >= v18\r\n\r\n",
+      "body_length": 659,
+      "created_at": "2023-11-23T22:07:59Z",
+      "merged_at": "2023-11-29T12:06:06Z",
+      "merged": true,
+      "time_to_merge_hours": 133.9686111111111,
+      "state": "MERGED",
+      "additions": 8110,
+      "deletions": 14868,
+      "files_changed": 56,
+      "commits_count": 9,
+      "review_count": 12,
+      "comment_count": 2,
+      "commit_messages": [
+        "migration: formatting with npx docusaurus-mdx-checker",
+        "chore: upgrading to docusaurus V3 deps",
+        "feat: docusaurus v3 - add escapes",
+        "feat: update markdown-documenter to V3 docusaurus",
+        "docs: reformat",
+        "chore: pin dependencies",
+        "docs: reformat",
+        "docs: reformat",
+        "docs: reformat just the props & methods area"
+      ],
+      "avg_commit_msg_length": 31.333333333333332,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.8888888888888888,
+      "commit_types": [
+        "feat",
+        "chore",
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/puppeteer.autofilldata.md",
+        "docs/api/puppeteer.browserconnectoptions.md",
+        "docs/api/puppeteer.coverageentry.md",
+        "docs/api/puppeteer.csscoverage.start.md",
+        "docs/api/puppeteer.elementhandle.draganddrop.md",
+        "docs/api/puppeteer.elementhandle.isintersectingviewport.md",
+        "docs/api/puppeteer.elementhandle.screenshot.md",
+        "docs/api/puppeteer.elementhandle.waitforxpath.md",
+        "docs/api/puppeteer.frame.goto.md",
+        "docs/api/puppeteer.frame.setcontent.md",
+        "docs/api/puppeteer.httprequest.failure.md",
+        "docs/api/puppeteer.jscoverage.start.md",
+        "docs/api/puppeteer.mouse.draganddrop.md",
+        "docs/api/puppeteer.page.close.md",
+        "docs/api/puppeteer.page.emulateidlestate.md",
+        "docs/api/puppeteer.page.exposefunction.md",
+        "docs/api/puppeteer.page.screenshot.md",
+        "docs/api/puppeteer.page.waitfornetworkidle.md",
+        "docs/api/puppeteer.page.waitforrequest.md",
+        "docs/api/puppeteer.page.waitforresponse.md",
+        "docs/api/puppeteer.pageevents.md",
+        "docs/api/puppeteer.screencastoptions.md",
+        "docs/browsers-api/browsers.cli._constructor_.md",
+        "docs/browsers-api/browsers.install.md",
+        "docs/browsers-api/browsers.install_1.md",
+        "docs/contributing.md",
+        "website/README.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.autofilldata.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.browser.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.coverageentry.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.csscoverage.start.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.elementhandle.draganddrop.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.elementhandle.isintersectingviewport.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.elementhandle.screenshot.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.elementhandle.waitforxpath.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.frame.goto.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.frame.setcontent.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.httprequest.failure.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.jscoverage.start.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.mouse.draganddrop.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.close.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.emulateidlestate.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.exposefunction.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.screenshot.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.waitfornetworkidle.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.waitforrequest.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.page.waitforresponse.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.pageevents.md",
+        "website/versioned_docs/version-21.5.2/api/puppeteer.screencastoptions.md",
+        "website/versioned_docs/version-21.5.2/browsers-api/browsers.install.md",
+        "website/versioned_docs/version-21.5.2/browsers-api/browsers.install_1.md",
+        "website/versioned_docs/version-21.5.2/contributing.md"
+      ],
+      "file_types": {
+        "md": 52,
+        "ts": 1,
+        "js": 1,
+        "json": 2
+      },
+      "review_states": {
+        "COMMENTED": 11,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**What kind of change does this PR introduce?**\r\n\r\nFeature: Upgrading documentation website to Docusaurus V3 - Closes #11337 \r\n\r\n**Did you add tests for your changes?**\r\n\r\nDid not add tests, just verified that the documentation website was not presenting any kind of regression and everything was working smoothly.\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\n**Summary**\r\n\r\n\r\n\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nDocusaurus V3 is running only in Node >= v18",
+      "body_cleaned_length": 486,
+      "template_removed_length": 173,
+      "template_reduction_percentage": 26.251896813353564,
+      "author_type": "User"
+    },
+    "username": "TheJoin95"
+  },
+  {
+    "pr_number": 11716,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 11701,
+        "labels": [
+          "feature",
+          "good first issue"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 11716,
+      "title": "build: ESLint rule to check/add license headers",
+      "body": "**What kind of change does this PR introduce?**\n\nAn EsLint rule to check/add Licence headers\n\n**Did you add tests for your changes?**\n\nI wrote the test for this rule, but I was unable to locate the tests for the other rules (extension.js and prettier-comments.js).\n\n<!-- Explain the **motivation** for making this change. What existing problem does the pull request solve? -->\n\nResolves #11701\n\nThis rule checks if a license header exists and fixes the 2 cases:\n1. No license.\nFIX: Adds license header.\n2. Header comment that is not the license. \nFIX: Adds licensing as header.\n\n**Other information**\nThere is another case where the license comment may already exist in the file, but not as a header. \nShall I cover this case as well, and implement a fix to move that comment so it is a header?\n\nPlease let me know if anything else is needed! :)",
+      "body_length": 845,
+      "created_at": "2024-01-23T00:05:12Z",
+      "merged_at": "2024-01-27T05:25:39Z",
+      "merged": true,
+      "time_to_merge_hours": 101.34083333333334,
+      "state": "MERGED",
+      "additions": 84,
+      "deletions": 0,
+      "files_changed": 2,
+      "commits_count": 6,
+      "review_count": 6,
+      "comment_count": 4,
+      "commit_messages": [
+        "feat: EsLint rule to check/add license header",
+        "Revert \"feat: EsLint rule to check/add license header\"\n\nThis reverts commit 50ef690aedcfcb6bbf583c795552dfbeee7a50e0.",
+        "feat: EsLint rule to check/add Licence headers",
+        "implemented suggestions from PR",
+        "Remove redundant file and implement PR suggestions",
+        "implement fixer and updated .eslintrc.js"
+      ],
+      "avg_commit_msg_length": 54.833333333333336,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 0.3333333333333333,
+      "commit_types": [
+        "feat"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "tools/eslint/src/check-license.ts"
+      ],
+      "file_types": {
+        "js": 1,
+        "ts": 1
+      },
+      "review_states": {
+        "COMMENTED": 5,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**What kind of change does this PR introduce?**\n\nAn EsLint rule to check/add Licence headers\n\n**Did you add tests for your changes?**\n\nI wrote the test for this rule, but I was unable to locate the tests for the other rules (extension.js and prettier-comments.js).\n\n\n\nResolves #11701\n\nThis rule checks if a license header exists and fixes the 2 cases:\n1. No license.\nFIX: Adds license header.\n2. Header comment that is not the license. \nFIX: Adds licensing as header.\n\n**Other information**\nThere is another case where the license comment may already exist in the file, but not as a header. \nShall I cover this case as well, and implement a fix to move that comment so it is a header?\n\nPlease let me know if anything else is needed! :)",
+      "body_cleaned_length": 735,
+      "template_removed_length": 110,
+      "template_reduction_percentage": 13.017751479289942,
+      "author_type": "User"
+    },
+    "username": "richestrinh"
+  },
+  {
+    "pr_number": 13231,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13084,
+        "labels": [
+          "feature",
+          "good first issue",
+          "P3"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13231,
+      "title": "feat: distinguish different Touches",
+      "body": "<!-- Thanks for submitting a pull request! Please provide enough information so that others can review your pull request. -->\r\n\r\n**What kind of change does this PR introduce?**\r\n\r\nThis PR adds the option of controlling a Touch, and only that Touch, after it has been created by a call to [`TouchScreen.touchStart`](https://github.com/puppeteer/puppeteer/blob/6174eb0453ee022370ce5178dc71aa83e7a30435/packages/puppeteer-core/src/api/Input.ts#L498).\r\n\r\nCloses #13084 .\r\n\r\n**Did you add tests for your changes?**\r\n\r\nYes.\r\n\r\n**Summary**\r\n\r\nIn this PR, `TouchScreen.touchStart` returns a (promise of) a [`Touch`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L476). This way, touches can be manipulated individually by calling [`Touch.move`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L482) or [`Touch.end`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L486).\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nWell... [This test](https://github.com/emilefokkema/puppeteer/commit/45469a703ae3bee7788c33e534b57ce6b2e734d3) documents an aspect of the current behavior of `TouchScreen.touchStart`: two consecutive calls to it will not result in two `touchstart` events. This PR proceeds from the assumption that that behavior was in fact a bug: two consecutive calls to `TouchScreen.touchStart` _should_ result in two `touchstart` events. Seen in this way, this PR fixes a bug (in addition to adding new functionality). But if the current behavior of `TouchScreen.touchStart` was _not_ a bug, then this PR introduces a breaking change.\r\n\r\n**Other information**\r\n",
+      "body_length": 1808,
+      "created_at": "2024-10-23T19:55:54Z",
+      "merged_at": "2024-10-28T17:05:58Z",
+      "merged": true,
+      "time_to_merge_hours": 117.16777777777777,
+      "state": "MERGED",
+      "additions": 1380,
+      "deletions": 86,
+      "files_changed": 23,
+      "commits_count": 50,
+      "review_count": 50,
+      "comment_count": 11,
+      "commit_messages": [
+        "add logic to create ids for touch points",
+        "begin to use the new logic",
+        "extend asssertions about touch events to include identifiers",
+        "Merge branch 'feat/13084/temp' into feat/13084/dev",
+        "change the way it works with two touches",
+        "also change bidi implementation",
+        "don't assert about touch identifiers after all",
+        "make touchStart return a Touch",
+        "no async when not necessary",
+        "add test that moves touches separately",
+        "add documentation",
+        "Merge branch 'main' into feat/13084/dev",
+        "add test for ElementHandle.touchStart",
+        "add test for ElementHandle.touchMove",
+        "add test for ElementHandle.touchEnd",
+        "Merge branch 'feat/13084/elementhandle' into feat/13084/dev",
+        "Merge branch 'main' into feat/13084/dev",
+        "fix formatting",
+        "make sure tapping still works correctly",
+        "extend functionality of ElementHandle to accommodate separate Touches",
+        "addd test expectation about touch tests for ElementHandle",
+        "Merge branch 'feat/13084/elementhandle' into feat/13084/dev",
+        "add test expectation about touch tests for ElementHandle",
+        "add test expectations about touch tests for ElementHandle",
+        "Merge branch 'feat/13084/elementhandle' into feat/13084/dev",
+        "add test expectations about touch tests for ElementHandle",
+        "format expectations",
+        "add test expectations about touchscreen tests",
+        "Merge branch 'main' into feat/13084/dev",
+        "- use async in instead of Promise.resolve\n- use correct access modifiers\n- don't refer to other expectations",
+        "Merge branch 'main' into feat/13084/dev",
+        "- calculate id for bidi touch better\n- use async instead of Promise.resolve",
+        "test that touchMove throws if no touch was started",
+        "Merge branch 'feat/13084/touchmoveerror' into feat/13084/dev",
+        "restore current behavior by throwing when moving non-existent touch",
+        "remove expectation of failing test",
+        "add expectation about passing test",
+        "change Touch to TouchHandle",
+        "make touchscreen aware of touches that are ended through the TouchHandle interface",
+        "remove TouchPointIdRepository",
+        "improve on TouchError",
+        "extract common Touchscreen functionality",
+        "improve docs",
+        "throw when touch has already started",
+        "revert extraction of common Touchscreen functionality",
+        "put unused options back",
+        "add failure expectations",
+        "Merge remote-tracking branch 'upstream/main' into feat/13084/dev",
+        "fix headers and remove unnecessary fields",
+        "Merge remote-tracking branch 'upstream/main' into feat/13084/dev"
+      ],
+      "avg_commit_msg_length": 44.06,
+      "has_conventional_commits": false,
+      "conventional_commit_ratio": 0.0,
+      "commit_types": [],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/index.md",
+        "docs/api/puppeteer.elementhandle.md",
+        "docs/api/puppeteer.elementhandle.touchmove.md",
+        "docs/api/puppeteer.elementhandle.touchstart.md",
+        "docs/api/puppeteer.toucherror.md",
+        "docs/api/puppeteer.touchhandle.end.md",
+        "docs/api/puppeteer.touchhandle.md",
+        "docs/api/puppeteer.touchhandle.move.md",
+        "docs/api/puppeteer.touchscreen.md",
+        "docs/api/puppeteer.touchscreen.touchend.md",
+        "docs/api/puppeteer.touchscreen.touchmove.md",
+        "docs/api/puppeteer.touchscreen.touchstart.md"
+      ],
+      "file_types": {
+        "md": 12,
+        "ts": 10,
+        "json": 1
+      },
+      "review_states": {
+        "COMMENTED": 49,
+        "CHANGES_REQUESTED": 1
+      },
+      "labels": [
+        {
+          "name": "full-ci",
+          "color": "534506",
+          "description": ""
+        }
+      ],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**What kind of change does this PR introduce?**\r\n\r\nThis PR adds the option of controlling a Touch, and only that Touch, after it has been created by a call to [`TouchScreen.touchStart`](https://github.com/puppeteer/puppeteer/blob/6174eb0453ee022370ce5178dc71aa83e7a30435/packages/puppeteer-core/src/api/Input.ts#L498).\r\n\r\nCloses #13084 .\r\n\r\n**Did you add tests for your changes?**\r\n\r\nYes.\r\n\r\n**Summary**\r\n\r\nIn this PR, `TouchScreen.touchStart` returns a (promise of) a [`Touch`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L476). This way, touches can be manipulated individually by calling [`Touch.move`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L482) or [`Touch.end`](https://github.com/emilefokkema/puppeteer/blob/4e4af5d7efc78ce46ddca78ad5f7502797008c99/packages/puppeteer-core/src/api/Input.ts#L486).\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nWell... [This test](https://github.com/emilefokkema/puppeteer/commit/45469a703ae3bee7788c33e534b57ce6b2e734d3) documents an aspect of the current behavior of `TouchScreen.touchStart`: two consecutive calls to it will not result in two `touchstart` events. This PR proceeds from the assumption that that behavior was in fact a bug: two consecutive calls to `TouchScreen.touchStart` _should_ result in two `touchstart` events. Seen in this way, this PR fixes a bug (in addition to adding new functionality). But if the current behavior of `TouchScreen.touchStart` was _not_ a bug, then this PR introduces a breaking change.\r\n\r\n**Other information**",
+      "body_cleaned_length": 1677,
+      "template_removed_length": 131,
+      "template_reduction_percentage": 7.245575221238938,
+      "author_type": "User"
+    },
+    "username": "emilefokkema"
+  },
+  {
+    "pr_number": 13277,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13238,
+        "labels": [
+          "feature",
+          "good first issue",
+          "P3"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13277,
+      "title": "fix: add getDefaultNavigationTimeout to Page",
+      "body": "<!-- Thanks for submitting a pull request! Please provide enough information so that others can review your pull request. -->\r\n\r\n**What kind of change does this PR introduce?**\r\n\r\nfixed the  accessibility of getDefaultNavigationTimeout\r\n\r\n**Did you add tests for your changes?**\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\n**Summary**\r\n\r\n<!-- Explain the **motivation** for making this change. What existing problem does the pull request solve? -->\r\n<!-- Try to link to an open issue for more information. -->\r\n\r\n**Does this PR introduce a breaking change?**\r\nNo\r\n\r\n<!-- If this PR introduces a breaking change, please describe the impact and a migration path for existing applications. -->\r\n\r\n**Other information**\r\n\r\nCloses #13238\r\n",
+      "body_length": 747,
+      "created_at": "2024-11-08T06:47:37Z",
+      "merged_at": "2024-11-08T12:26:09Z",
+      "merged": true,
+      "time_to_merge_hours": 5.642222222222222,
+      "state": "MERGED",
+      "additions": 43,
+      "deletions": 0,
+      "files_changed": 5,
+      "commits_count": 2,
+      "review_count": 1,
+      "comment_count": 2,
+      "commit_messages": [
+        "fix: getDefaultNavigationTimeout accessiblity",
+        "chore: docs generated"
+      ],
+      "avg_commit_msg_length": 33.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix",
+        "chore"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/puppeteer.page.getdefaultnavigationtimeout.md",
+        "docs/api/puppeteer.page.md"
+      ],
+      "file_types": {
+        "md": 2,
+        "ts": 3
+      },
+      "review_states": {
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "**What kind of change does this PR introduce?**\r\n\r\nfixed the  accessibility of getDefaultNavigationTimeout\r\n\r\n**Did you add tests for your changes?**\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\n**Summary**\r\n\r\n\r\n\r\n\r\n**Does this PR introduce a breaking change?**\r\nNo\r\n\r\n\r\n\r\n**Other information**\r\n\r\nCloses #13238",
+      "body_cleaned_length": 323,
+      "template_removed_length": 424,
+      "template_reduction_percentage": 56.760374832663985,
+      "author_type": "User"
+    },
+    "username": "satyamkale27"
+  },
+  {
+    "pr_number": 13516,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13515,
+        "labels": [
+          "bug",
+          "good first issue",
+          "confirmed",
+          "bidi",
+          "P2"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13516,
+      "title": "fix: use correct paper format units",
+      "body": "When format is set, we didn't convert the internal values (in inches) to the expected measuring system, for Firefox and WebDriver BiDi the expected unit is centimeters, but we were providing the value in inches.\r\n\r\nNow, all supported paper format have defined sizes in both centimeters and inches and when PDF options are parsed, we will returned size of the selected format in provided unit.\r\n\r\nFix #13515\r\n",
+      "body_length": 408,
+      "created_at": "2025-01-16T15:27:24Z",
+      "merged_at": "2025-01-16T17:55:03Z",
+      "merged": true,
+      "time_to_merge_hours": 2.4608333333333334,
+      "state": "MERGED",
+      "additions": 88,
+      "deletions": 48,
+      "files_changed": 4,
+      "commits_count": 1,
+      "review_count": 5,
+      "comment_count": 4,
+      "commit_messages": [
+        "fix: use correct paper format units\n\nWhen format is set, we didn't convert the internal values (in inches) to the expected measuring system, for Firefox and WebDriver BiDi the expected unit is centimeters, but we were providing the value in inches.\n\nNow, all supported paper format have defined sizes in both centimeters and inches and when PDF options are parsed, we will returned size of the selected format in provided unit.\n\nFix #13515"
+      ],
+      "avg_commit_msg_length": 439.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "fix"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "docs/api/index.md",
+        "docs/api/puppeteer.paperformat.md"
+      ],
+      "file_types": {
+        "md": 2,
+        "ts": 2
+      },
+      "review_states": {
+        "COMMENTED": 4,
+        "APPROVED": 1
+      },
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "When format is set, we didn't convert the internal values (in inches) to the expected measuring system, for Firefox and WebDriver BiDi the expected unit is centimeters, but we were providing the value in inches.\r\n\r\nNow, all supported paper format have defined sizes in both centimeters and inches and when PDF options are parsed, we will returned size of the selected format in provided unit.\r\n\r\nFix #13515",
+      "body_cleaned_length": 406,
+      "template_removed_length": 2,
+      "template_reduction_percentage": 0.49019607843137253,
+      "author_type": "User"
+    },
+    "username": "tukusejssirs"
+  },
+  {
+    "pr_number": 13940,
+    "pr_type": "newcomer",
+    "referenced_gfi_issues": [
+      {
+        "issue_number": 13937,
+        "labels": [
+          "feature",
+          "good first issue",
+          "documentation"
+        ]
+      }
+    ],
+    "pr_data": {
+      "number": 13940,
+      "title": "Updated website/versioned_docs/version-24.10.1/webdriver-bidi.md",
+      "body": "Closes: #13937\r\n\r\n<!-- Thanks for submitting a pull request! Please provide enough information so that others can review your pull request. -->\r\n\r\n**What kind of change does this PR introduce?**\r\n\r\nLists 'request.resourceType()' as not supported over WebDriver BiDi.\r\n\r\n**Did you add tests for your changes?**\r\n\r\nNo\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\nYes\r\n\r\n**Summary**\r\n\r\nAdded `HTTPRequest.resourceType()` to the list of Puppeteer features not supported over WebDriver BiDi for Firefox 139.0.4, as this was previously undocumented in https://pptr.dev/webdriver-bidi#puppeteer-features-not-supported-over-webdriver-bidi.\r\n\r\n<!-- Try to link to an open issue for more information. -->\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nNo\r\n\r\n**Other information**\r\n",
+      "body_length": 537,
+      "created_at": "2025-06-14T14:28:34Z",
+      "updated_at": "2025-06-16T09:11:01Z",
+      "closed_at": "2025-06-16T09:11:01Z",
+      "merged_at": null,
+      "merged": false,
+      "state": "CLOSED",
+      "time_to_merge_hours": null,
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1,
+      "commits_count": 1,
+      "review_count": 0,
+      "comment_count": 2,
+      "pr_size": 1,
+      "avg_commit_msg_length": 342.0,
+      "has_conventional_commits": true,
+      "conventional_commit_ratio": 1.0,
+      "commit_types": [
+        "docs"
+      ],
+      "has_tests": false,
+      "has_docs": true,
+      "test_files": [],
+      "doc_files": [
+        "website/versioned_docs/version-24.10.1/webdriver-bidi.md"
+      ],
+      "file_types": {
+        "md": 1
+      },
+      "review_states": {},
+      "has_changes_requested": false,
+      "has_approved": false,
+      "labels": [],
+      "label_categories": [],
+      "is_bug_fix": false,
+      "is_feature": false,
+      "is_documentation": false,
+      "is_refactor": false,
+      "priority_level": null,
+      "difficulty_level": null,
+      "body_cleaned": "Closes: #13937\r\n\r\n\r\n\r\n**What kind of change does this PR introduce?**\r\n\r\nLists 'request.resourceType()' as not supported over WebDriver BiDi.\r\n\r\n**Did you add tests for your changes?**\r\n\r\nNo\r\n\r\n**If relevant, did you update the documentation?**\r\n\r\nYes\r\n\r\n**Summary**\r\n\r\nAdded `HTTPRequest.resourceType()` to the list of Puppeteer features not supported over WebDriver BiDi for Firefox 139.0.4, as this was previously undocumented in https://pptr.dev/webdriver-bidi#puppeteer-features-not-supported-over-webdriver-bidi.\r\n\r\n\r\n\r\n**Does this PR introduce a breaking change?**\r\n\r\nNo\r\n\r\n**Other information**",
+      "body_cleaned_length": 602,
+      "template_removed_length": 186,
+      "template_reduction_percentage": 23.604060913705585,
+      "author_type": "User"
+    },
+    "username": "soumyakantamitra"
+  }
+]

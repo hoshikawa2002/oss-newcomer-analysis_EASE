@@ -1,0 +1,35 @@
+[
+  {
+    "number": 10236,
+    "created_at": "2023-09-12T12:47:37Z",
+    "labels": [
+      "bug",
+      "good first issue",
+      "confirmed",
+      "easy close"
+    ]
+  },
+  {
+    "number": 10945,
+    "created_at": "2024-01-12T09:35:15Z",
+    "labels": [
+      "good first issue",
+      "docs"
+    ]
+  },
+  {
+    "number": 12554,
+    "created_at": "2024-10-26T13:06:48Z",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "number": 12965,
+    "created_at": "2024-11-20T19:17:57Z",
+    "labels": [
+      "feature",
+      "good first issue"
+    ]
+  }
+]

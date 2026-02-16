@@ -1,0 +1,162 @@
+\documentclass[a4paper,10pt,twocolumn]{article}
+\usepackage[margin=20mm]{geometry}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{fontspec}
+\usepackage{zxjatype}
+\usepackage[ipaex]{zxjafont}
+
+\title{OSSプロジェクトにおけるGood First Issue PRの\\マージ予測とリポジトリクラスタリング}
+\author{S266264}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{背景}
+
+オープンソースソフトウェア（OSS）プロジェクトにおいて、新規貢献者のオンボーディングはコミュニティの持続可能性を左右する重要な課題である。多くのプロジェクトは「Good First Issue」（GFI）ラベルを用いて初心者に適したタスクを明示する慣行を採用しており、先行研究ではGFIラベルの利用実態や推奨手法が検討されてきた~\cite{tan2020gfi,turzo2025onboarding}。
+
+筆者の研究では、37のGitHubリポジトリにおける4年間（2021年7月〜2025年6月）のGFI慣行を時系列分析しており、GFI比率の減少傾向やタスクタイプ別マージ率の差異を統計的手法（Mann-Kendall検定、Mann-Whitney U検定）で分析している。しかし、これらの統計検定は変数間の\textbf{単変量の関連}を個別に評価するものであり、複数の要因が同時にマージ成功に与える影響を捉えることが困難である。
+
+本レポートでは、同じデータセットに対してデータサイエンス的アプローチを適用し、以下の2つの分析を行う。
+\begin{enumerate}
+\item \textbf{機械学習によるマージ予測}: PR特性を特徴量として多変量のマージ予測モデルを構築し、単変量検定では見えない非線形関係や交互作用を評価する。
+\item \textbf{リポジトリクラスタリング}: GFI慣行の類似性に基づいてリポジトリをクラスタリングし、プロジェクト間の異質性を構造的に分析する。
+\end{enumerate}
+
+\section{データと方法}
+
+\subsection{データ概要}
+
+データは2025年11月にGitHub GraphQL APIを通じて収集した。分析対象は37のGitHubリポジトリ（スター数上位50から非ソフトウェアを除外）における4年間のデータである。
+
+\begin{itemize}
+\item \textbf{GFI PR}: 1,117件（30リポジトリ、全てBot除外済み）
+\item \textbf{特徴量}: 追加行数、削除行数、変更ファイル数、説明文長、コミット数、レビューコメント数、タスクタイプ（Bug/Feature/Docs/Other）、分析年度
+\item \textbf{目的変数}: マージ成否（二値分類、マージ率53.0\%）
+\item \textbf{クラスタリング用}: 28リポジトリのGFI総数、GFI比率変化、マージ率、平均レビュー数、PR数
+\end{itemize}
+
+\subsection{解析手法}
+
+\subsubsection{マージ予測（分類問題）}
+
+10個の特徴量を用いて3つの分類モデルを構築した。追加行数・削除行数は対数変換を適用し、全特徴量を標準化した。
+
+\begin{itemize}
+\item ロジスティック回帰（線形ベースライン）
+\item ランダムフォレスト（決定木アンサンブル）
+\item 勾配ブースティング（逐次的アンサンブル）
+\end{itemize}
+
+評価は5分割層化交差検証で行い、精度（Accuracy）、F1スコア、AUC-ROCを算出した。最良モデルの特徴量重要度を分析し、マージ成功に寄与する要因を特定した。
+
+\subsubsection{リポジトリクラスタリング}
+
+28のGFI使用リポジトリについて、5つの特徴量（GFI総数、GFI比率変化率、マージ率、平均レビュー数、PR数）をWard法による階層的クラスタリングで3群に分類した。結果をPCA（主成分分析）で2次元に射影し可視化した。
+
+\begin{table}[t]
+\centering
+\caption{マージ予測モデルの比較（5分割交差検証）}
+\label{tab:models}
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{F1} & \textbf{AUC-ROC} \\
+\midrule
+Logistic Regression & 0.627 & 0.656 & 0.657 \\
+Random Forest       & 0.643 & 0.674 & \textbf{0.712} \\
+Gradient Boosting   & 0.650 & 0.673 & 0.702 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{結果}
+
+\subsection{マージ予測}
+
+表~\ref{tab:models}に3モデルの性能比較を示す。最良モデルはランダムフォレスト（AUC-ROC=0.712）であり、ロジスティック回帰（AUC=0.657）を上回った。ただし、いずれのモデルもAUC-ROCは0.66〜0.71の範囲であり、予測性能は\textbf{中程度}にとどまった。図~\ref{fig:roc}にROC曲線を示す。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../results/ds_report/roc_curves.pdf}
+\caption{3モデルのROC曲線。ランダムフォレストが最良のAUC-ROC（0.712）を達成。}
+\label{fig:roc}
+\end{figure}
+
+勾配ブースティングの特徴量重要度分析（図~\ref{fig:importance}）では、\textbf{レビューコメント数}（0.31）が最も高い重要度を示し、次いで\textbf{説明文長}（0.14）、\textbf{分析年度}（0.12）であった。コード量に関する特徴量（追加行数、削除行数、変更ファイル数）は相対的に低い重要度であった。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../results/ds_report/feature_importance.pdf}
+\caption{勾配ブースティングの特徴量重要度。レビューコメント数が突出して高い。}
+\label{fig:importance}
+\end{figure}
+
+\subsection{リポジトリクラスタリング}
+
+Ward法による階層的クラスタリングの結果、28リポジトリが3つのクラスタに分類された（図~\ref{fig:cluster}）。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../results/ds_report/repo_clustering.pdf}
+\caption{PCA射影によるリポジトリクラスタリング結果。}
+\label{fig:cluster}
+\end{figure}
+
+\begin{itemize}
+\item \textbf{Cluster~1}（3リポジトリ: pytorch, rust, supabase）: GFI総数が突出して多い（平均334件）大規模プロジェクト。GFI比率は大幅に減少し、マージ率は中程度（53.3\%）。
+\item \textbf{Cluster~2}（5リポジトリ: angular, ant-design, excalidraw等）: GFI比率が増加傾向にあるが、マージ率が低い（20.7\%）。GFIラベルの積極的な付与にもかかわらず、PRのマージには至っていない。
+\item \textbf{Cluster~3}（20リポジトリ）: 最も多数を占め、中程度のGFI使用量で、マージ率が高い（69.2\%）。GFI慣行が安定的に機能している群である。
+\end{itemize}
+
+\subsection{タスクタイプ別マージ率の時系列変化}
+
+図~\ref{fig:heatmap}にタスクタイプ別・年度別のマージ率ヒートマップを示す。Bug-fixタスクはY2で83.5\%のピークを示した後、Y4で45.9\%に低下した。Featureタスクは4年間を通じて51〜57\%で安定していた。Otherカテゴリは57.1\%（Y1）から28.6\%（Y4）まで一貫して減少した。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../results/ds_report/merge_heatmap.pdf}
+\caption{タスクタイプ別・年度別マージ率（\%）のヒートマップ。}
+\label{fig:heatmap}
+\end{figure}
+
+\section{考察}
+
+\subsection{マージ予測の限界と示唆}
+
+機械学習モデルの予測性能がAUC-ROC=0.71にとどまったことは、PR提出時点で利用可能な特徴量だけではマージ成否を十分に予測できないことを示す。これは本研究の統計検定（Mann-Whitney U検定で初期PR特性に有意差なし）と整合的であり、\textbf{多変量の非線形モデルでも同様の結論}が得られたことで、この知見の頑健性が確認された。
+
+一方、特徴量重要度でレビューコメント数が突出していた点は注目に値する。ただし、レビューコメント数はマージプロセスの\textbf{結果}として蓄積される指標であり（branch protectionルールによる機械的相関を含む）、因果的な予測因子とは解釈できない。この交絡を考慮すると、マージ成否は提出時の特性よりも\textbf{レビュープロセスにおけるメンタリングの質}に依存する可能性が高く、Cao et al.~\cite{cao2023mentoring}の知見と一致する。
+
+分析年度が3番目に高い重要度を示したことは、マージ率の時系列的減少トレンド（$\tau=-0.35$, $p<0.001$）がモデルに反映されていることを示す。これは外部環境の変化（品質基準の厳格化等）がマージ成否に影響している可能性を示唆する。
+
+\subsection{クラスタリングの示唆}
+
+3つのクラスタの発見は、GFI慣行が一様でないことを構造的に裏付けている。特にCluster~2（GFI増加・低マージ率）は、GFIラベルを積極的に付与しているにもかかわらずPRがマージされにくい群であり、ラベリングだけでは新規貢献者の成功に不十分であることを示す。Cluster~3（安定・高マージ率）の多数派としての存在は、適度なGFI使用と高いマージ率を両立できるプロジェクト運営が可能であることを示唆する。
+
+\subsection{データの限界}
+
+本分析にはいくつかの限界がある。第一に、GFIラベルデータは2025年11月時点のスナップショットであり、ラベル付与・除去の時系列は追跡できていない。第二に、特徴量はPRのメタデータに限定されており、コードの品質やissueの難易度といった質的情報は含まれていない。第三に、クラスタリングの結果は特徴量の選択やクラスタ数に依存しており、異なる設定では異なる結果が得られる可能性がある。
+
+\begin{thebibliography}{9}
+\bibitem{tan2020gfi}
+H. Tan, et al., ``First-timers' issues: Characterizing and detecting good first issues on GitHub,'' \textit{Proc.~FSE}, 2020.
+
+\bibitem{turzo2025onboarding}
+T. Turzo, et al., ``Evaluating Onboarding Recommendations for Newcomers to Open Source Software Projects,'' \textit{IEEE TSE}, 2025.
+
+\bibitem{cao2023mentoring}
+Y. Cao, et al., ``Mentoring Newcomers in Open Source: Insights from a Process Analysis,'' \textit{Proc.~ICSE}, 2023.
+
+\bibitem{steinmacher2015barriers}
+I. Steinmacher, et al., ``Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects,'' \textit{Proc.~CSCW}, 2015.
+\end{thebibliography}
+
+\end{document}

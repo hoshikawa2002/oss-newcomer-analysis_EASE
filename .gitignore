@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Large raw data (236MB) - available via replication package
+data/all_issue_labels/
+data/newcomer_prs/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
