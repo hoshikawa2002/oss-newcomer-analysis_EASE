@@ -1,0 +1,5 @@
+strategy,task_type,pr_count,merged,merge_rate
+C,bug,358,245,68.4
+C,documentation,126,68,54.0
+C,feature,151,83,55.0
+C,other,482,196,40.7

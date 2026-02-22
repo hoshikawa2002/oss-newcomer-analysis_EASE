@@ -1,0 +1,4 @@
+strategy,description,n_months,kendall_tau,p_value,trend
+A,Manual classification (baseline),48,-0.3544,0.0004,decreasing
+B,Exclude overlapping PRs,48,-0.3185,0.0015,decreasing
+C,File-change-based classification,48,-0.3544,0.0004,decreasing

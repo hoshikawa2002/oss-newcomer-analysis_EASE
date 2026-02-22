@@ -1,0 +1,17 @@
+year,task_type,pr_count,merged,merge_rate
+Y1,bug,98,61,62.2
+Y1,documentation,29,22,75.9
+Y1,feature,40,21,52.5
+Y1,other,98,56,57.1
+Y2,bug,100,83,83.0
+Y2,documentation,26,18,69.2
+Y2,feature,42,23,54.8
+Y2,other,138,64,46.4
+Y3,bug,92,66,71.7
+Y3,documentation,38,17,44.7
+Y3,feature,29,16,55.2
+Y3,other,120,40,33.3
+Y4,bug,56,26,46.4
+Y4,documentation,48,23,47.9
+Y4,feature,37,20,54.1
+Y4,other,126,36,28.6

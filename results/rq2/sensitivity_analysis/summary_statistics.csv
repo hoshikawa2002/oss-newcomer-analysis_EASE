@@ -1,0 +1,4 @@
+strategy,description,n_prs,n_overlapping_included,overall_merge_rate,Y1_merge_rate,Y4_merge_rate
+A,Manual classification (baseline),1117,47,53.0,60.4,39.3
+B,Exclude overlapping PRs,1070,0,52.2,59.1,39.0
+C,File-change-based classification,1117,47,53.0,60.4,39.3
